@@ -1,0 +1,43 @@
+name: Automated MLOps Pipeline
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs automatically every midnight UTC
+  workflow_dispatch:      # Enables manual trigger from the GitHub Actions UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Repository Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Step 1 - Ingest Incoming Market Data
+        run: python fetch_news.py
+
+      - name: Step 2 - Append & Deduplicate Historical Ledger
+        run: python History_retrieval.py
+
+      - name: Step 3 - Retrain Employability Deep Scorer
+        env:
+          MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
+        run: python train_model_mlflow.py --epochs 100 --lr 0.005
+
+      - name: Step 4 - Commit Updated Ledgers Back to GitHub
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add todays_market_drift.xml historical_market_intelligence.xml
+          git commit -m "auto: commit dynamic data updates [skip ci]" || exit 0
+          git push
