@@ -4,7 +4,7 @@ run is tracked (params, per-epoch loss, final model) and the resulting
 model is registered in the MLflow Model Registry.
 
 Run the tracking UI in a separate terminal to browse past runs:
-    mlflow ui --backend-store-uri ./mlruns
+    mlflow ui --backend-store-uri sqlite:///mlflow.db
 Then open http://127.0.0.1:5000
 
 Run a training job:
@@ -15,9 +15,11 @@ Optional overrides:
 
 import os
 
-# Set Hugging Face cache location BEFORE importing transformers or sentence_transformers
-os.environ["HF_HOME"] = "D:/PBL_MLOPS/hf_cache"
+# Allow MLflow file-based logging fallback & set relative Hugging Face cache
+os.environ["MLFLOW_ALLOW_FILE_STORE"] = "true"
+os.environ["HF_HOME"] = os.getenv("HF_HOME", "./hf_cache")
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
+
 import argparse
 import xml.etree.ElementTree as ET
 
@@ -27,13 +29,20 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from sentence_transformers import SentenceTransformer
-import mlflow
 from mlflow.tracking import MlflowClient
+from sentence_transformers import SentenceTransformer
+
+EXPERIMENT_NAME = "employability-deep-scorer"
+REGISTERED_MODEL_NAME = "employability-deep-scorer"
+
+# SQLite tracking backend for structured metrics tracking
+tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db")
+mlflow.set_tracking_uri(tracking_uri)
+
 
 def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
     client = MlflowClient()
-    model_name = "employability-deep-scorer"
+    model_name = REGISTERED_MODEL_NAME
     
     if current_loss <= threshold:
         print(f"[+] Loss benchmark met ({current_loss:.4f}). Registering model...")
@@ -48,14 +57,6 @@ def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
             archive_existing_versions=True
         )
         print(f"[SUCCESS] Model v{mv.version} promoted to PRODUCTION stage.")
-
-EXPERIMENT_NAME = "employability-deep-scorer"
-REGISTERED_MODEL_NAME = "employability-deep-scorer"
-
-# Use SQLite tracking backend for file-based deployments
-tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db")
-mlflow.set_tracking_uri(tracking_uri)
-
 
 
 # ==========================================
@@ -91,23 +92,6 @@ class EmployabilityDeepScorer(nn.Module):
         score = self.fusion_network(fused_context)
         return score
 
-def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
-    client = MlflowClient()
-    model_name = "employability-deep-scorer"
-    
-    if current_loss <= threshold:
-        print(f"[+] Loss benchmark met ({current_loss:.4f}). Registering model...")
-        model_uri = f"runs:/{run_id}/model"
-        mv = mlflow.register_model(model_uri, model_name)
-        
-        # Promote newly registered version to Production
-        client.transition_model_version_stage(
-            name=model_name,
-            version=mv.version,
-            stage="Production",
-            archive_existing_versions=True
-        )
-        print(f"[SUCCESS] Model v{mv.version} promoted to PRODUCTION stage.")
 
 # ==========================================
 # 2. DATA UTILITY FUNCTIONS FOR LOG FILES
@@ -136,12 +120,22 @@ def load_xml_text_payload(xml_path):
 def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=20):
     print("[*] Launching MLOps Deep Learning Training Matrix...")
 
+    # Explicitly define a relative artifact location for local and CI environments
+    artifact_location = "file:./mlruns_artifacts"
+    
+    experiment = mlflow.get_experiment_by_name(EXPERIMENT_NAME)
+    if experiment is None:
+        mlflow.create_experiment(
+            name=EXPERIMENT_NAME,
+            artifact_location=artifact_location
+        )
+
     mlflow.set_experiment(EXPERIMENT_NAME)
 
     with mlflow.start_run() as run:
         print(f"[*] MLflow run id: {run.info.run_id}")
 
-        # --- Log the hyperparameters for this run up front ---
+        # --- Log parameters for this run ---
         mlflow.log_params(
             {
                 "input_dim": 384,
@@ -156,7 +150,7 @@ def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=2
         drift_text = load_xml_text_payload("todays_market_drift.xml")
         history_text = load_xml_text_payload("historical_market_intelligence.xml")
 
-        # Log which data snapshot this run trained on (traceability)
+        # Log training data snapshot for traceability
         mlflow.log_text(drift_text, "inputs/drift_text.txt")
         mlflow.log_text(history_text, "inputs/history_text.txt")
 
@@ -168,9 +162,9 @@ def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=2
         ground_truth_targets = torch.tensor([[0.88], [0.35], [0.72]], dtype=torch.float32)
 
         print("[*] Initializing local base text embedding matrix layer...")
-        base_model = SentenceTransformer("all-MiniLM-L6-v2", cache_folder=r"D:\PBL_MLOPS\hf_cache")
+        base_model = SentenceTransformer("all-MiniLM-L6-v2", cache_folder=os.environ["HF_HOME"])
 
-        # Optimized NumPy to PyTorch conversion to bypass slow conversion warnings
+        # Optimized NumPy to PyTorch conversion
         drift_emb = torch.from_numpy(base_model.encode(drift_text)).unsqueeze(0).float()
         history_emb = torch.from_numpy(base_model.encode(history_text)).unsqueeze(0).float()
 
@@ -195,7 +189,7 @@ def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=2
             optimizer.step()
 
             final_loss = loss.item()
-            # Log every epoch so the MLflow UI can chart the full curve
+            # Log metric per epoch for UI loss curves
             mlflow.log_metric("train_loss", final_loss, step=epoch)
 
             if epoch % log_every == 0:
@@ -208,19 +202,20 @@ def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=2
         torch.save(model.state_dict(), weights_path)
         print(f"[SUCCESS] Model file weights saved cleanly as: {weights_path}")
 
-        # Log the raw .pth artifact for downstream evaluation scripts
+        # Log state dict artifact
         mlflow.log_artifact(weights_path, artifact_path="weights")
 
-        # Log & register the PyTorch model using pickle serialization format
+        # Log & register PyTorch model
         mlflow.pytorch.log_model(
             pytorch_model=model,
-            name="model",
+            artifact_path="model",
             registered_model_name=REGISTERED_MODEL_NAME,
-            serialization_format="pickle",
         )
 
+        # Optional promotion check based on threshold
+        promote_model_if_qualified(run.info.run_id, final_loss, threshold=0.05)
+
         print(f"[+] Run '{run.info.run_id}' logged under experiment '{EXPERIMENT_NAME}'.")
-        print("[+] Launch `mlflow ui` to compare this run against previous ones.")
 
 
 if __name__ == "__main__":
