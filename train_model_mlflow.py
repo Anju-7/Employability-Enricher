@@ -52,7 +52,8 @@ def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
 EXPERIMENT_NAME = "employability-deep-scorer"
 REGISTERED_MODEL_NAME = "employability-deep-scorer"
 
-mlflow.set_tracking_uri("http://localhost:5000")
+tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "file:./mlruns")
+mlflow.set_tracking_uri(tracking_uri)
 
 
 
