@@ -205,11 +205,22 @@ def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=2
         # Log state dict artifact
         mlflow.log_artifact(weights_path, artifact_path="weights")
 
-        # Log & register PyTorch model
+      
+        
+        # Define sample input tensors matching your forward() signature
+        example_inputs = (
+            resume_batch[:1],
+            drift_batch[:1],
+            history_batch[:1]
+        )
+
+        # Log model using standard pickle serialization
         mlflow.pytorch.log_model(
             pytorch_model=model,
             artifact_path="model",
             registered_model_name=REGISTERED_MODEL_NAME,
+            serialization_format="pickle",
+            input_example=example_inputs
         )
 
         # Optional promotion check based on threshold
