@@ -1,0 +1,9 @@
+feedparser
+mlflow
+torch
+sentence-transformers
+numpy
+requests
+PyPDF2
+fastapi
+uvicorn
