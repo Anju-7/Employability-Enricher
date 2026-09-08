@@ -28,7 +28,26 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from sentence_transformers import SentenceTransformer
+import mlflow
+from mlflow.tracking import MlflowClient
 
+def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
+    client = MlflowClient()
+    model_name = "employability-deep-scorer"
+    
+    if current_loss <= threshold:
+        print(f"[+] Loss benchmark met ({current_loss:.4f}). Registering model...")
+        model_uri = f"runs:/{run_id}/model"
+        mv = mlflow.register_model(model_uri, model_name)
+        
+        # Promote newly registered version to Production
+        client.transition_model_version_stage(
+            name=model_name,
+            version=mv.version,
+            stage="Production",
+            archive_existing_versions=True
+        )
+        print(f"[SUCCESS] Model v{mv.version} promoted to PRODUCTION stage.")
 
 EXPERIMENT_NAME = "employability-deep-scorer"
 REGISTERED_MODEL_NAME = "employability-deep-scorer"
@@ -70,6 +89,23 @@ class EmployabilityDeepScorer(nn.Module):
         score = self.fusion_network(fused_context)
         return score
 
+def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
+    client = MlflowClient()
+    model_name = "employability-deep-scorer"
+    
+    if current_loss <= threshold:
+        print(f"[+] Loss benchmark met ({current_loss:.4f}). Registering model...")
+        model_uri = f"runs:/{run_id}/model"
+        mv = mlflow.register_model(model_uri, model_name)
+        
+        # Promote newly registered version to Production
+        client.transition_model_version_stage(
+            name=model_name,
+            version=mv.version,
+            stage="Production",
+            archive_existing_versions=True
+        )
+        print(f"[SUCCESS] Model v{mv.version} promoted to PRODUCTION stage.")
 
 # ==========================================
 # 2. DATA UTILITY FUNCTIONS FOR LOG FILES

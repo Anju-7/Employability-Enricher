@@ -1,6 +1,15 @@
+# Environment & Dependencies
 venv/
-*.pth
-*.npy
 __pycache__/
+*.pyc
+
+# Local Caches & Artifacts
+hf_cache/
+mlruns/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# Local Environment Keys
 .env
-.DS_Store
