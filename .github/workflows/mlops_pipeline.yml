@@ -3,9 +3,8 @@ name: Automated MLOps Pipeline
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs automatically every midnight UTC
-  workflow_dispatch:      # Enables manual execution via the GitHub Actions UI
+  workflow_dispatch:      # Allows manual execution via GitHub UI
 
-# REQUIRED: Enables GITHUB_TOKEN to push updated XML ledgers back to main
 permissions:
   contents: write
 
@@ -22,6 +21,18 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Cache Hugging Face Transformers Model
+        uses: actions/cache@v4
+        with:
+          path: ./hf_cache
+          key: ${{ runner.os }}-hf-${{ hashFiles('requirements.txt') }}
+
+      - name: Cache Pip Packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
       - name: Install All Python Dependencies
         run: |
           python -m pip install --upgrade pip
@@ -36,12 +47,12 @@ jobs:
       - name: Step 3 - Retrain Employability Deep Scorer
         run: python train_model_mlflow.py --epochs 100 --lr 0.005
 
-      - name: Step 4 - Commit Updated Ledgers Back to GitHub
+      - name: Step 4 - Commit Updated Ledgers & Model Registry Back to GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add todays_market_drift.xml historical_market_intelligence.xml
-          git commit -m "auto: commit dynamic data updates [skip ci]" || exit 0
+          git add todays_market_drift.xml historical_market_intelligence.xml mlflow.db mlruns_artifacts deep_scorer_weights.pth
+          git commit -m "auto: publish dynamic data updates and retrained model weights [skip ci]" || exit 0
           git push origin main

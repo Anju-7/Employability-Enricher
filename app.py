@@ -1,25 +1,24 @@
 """
 FastAPI backend for the Employability Enricher.
-- Loads model from MLflow Registry or local weights
+- Loads latest 'Production' model stage from MLflow Registry or local weights
 - Caches static XML market embeddings for low latency
 - Logs predictions to SQLite monitoring database
 """
 
 import io
 import os
-
-# MUST BE SET BEFORE IMPORTING SENTENCE_TRANSFORMERS
-os.environ["HF_HOME"] = "D:/PBL_MLOPS/hf_cache"
-os.environ["SENTENCE_TRANSFORMERS_HOME"] = "D:/PBL_MLOPS/hf_cache"
 import sqlite3
 import time
 import xml.etree.ElementTree as ET
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 
+# MUST BE SET BEFORE IMPORTING SENTENCE_TRANSFORMERS
+os.environ["HF_HOME"] = os.getenv("HF_HOME", "./hf_cache")
+os.environ["SENTENCE_TRANSFORMERS_HOME"] = os.getenv("SENTENCE_TRANSFORMERS_HOME", "./hf_cache")
+
 import mlflow
 import mlflow.pytorch
-import numpy as np
 import torch
 import torch.nn as nn
 from fastapi import FastAPI, File, HTTPException, UploadFile
@@ -28,9 +27,6 @@ from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
-
-# Force HF cache to D: drive
-os.environ["HF_HOME"] = "D:/PBL_MLOPS/hf_cache"
 
 MLFLOW_DB_URI = os.environ.get("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db")
 WEIGHTS_PATH = os.environ.get("SCORER_WEIGHTS_PATH", "deep_scorer_weights.pth")
@@ -126,8 +122,8 @@ async def lifespan(app: FastAPI):
     print("[*] Initializing MLOps FastAPI Inference Engine...")
     init_monitoring_db()
 
-    # Load SentenceTransformer
-    state.embedder = SentenceTransformer("all-MiniLM-L6-v2")
+    # Load SentenceTransformer with relative fallback caching
+    state.embedder = SentenceTransformer("all-MiniLM-L6-v2", cache_folder=os.environ["HF_HOME"])
 
     # Cache static XML market embeddings at startup
     drift_text = load_xml_text_payload(DRIFT_XML_PATH)
@@ -135,15 +131,15 @@ async def lifespan(app: FastAPI):
     state.drift_emb = torch.from_numpy(state.embedder.encode(drift_text)).unsqueeze(0).float()
     state.history_emb = torch.from_numpy(state.embedder.encode(history_text)).unsqueeze(0).float()
 
-    # Attempt to load model from MLflow Registry first, fallback to .pth file
+    # Attempt to load model from MLflow Registry 'Production' stage, fallback to local file
     try:
         mlflow.set_tracking_uri(MLFLOW_DB_URI)
-        model_uri = "models:/employability-deep-scorer/1"
-        print(f"[*] Fetching model from MLflow Registry: {model_uri}")
+        model_uri = "models:/employability-deep-scorer/Production"
+        print(f"[*] Fetching Production model from MLflow Registry: {model_uri}")
         state.scorer = mlflow.pytorch.load_model(model_uri)
-        print("[+] Model successfully loaded from MLflow Registry!")
+        print("[+] Model successfully loaded from MLflow Production Registry!")
     except Exception as e:
-        print(f"[!] Could not load from MLflow Registry ({e}). Falling back to local file.")
+        print(f"[!] Could not load from MLflow Production stage ({e}). Falling back to local file.")
         scorer = EmployabilityDeepScorer(input_dim=384, hidden_dim=128)
         if os.path.exists(WEIGHTS_PATH):
             scorer.load_state_dict(torch.load(WEIGHTS_PATH, map_location="cpu"))
