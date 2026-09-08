@@ -52,7 +52,8 @@ def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
 EXPERIMENT_NAME = "employability-deep-scorer"
 REGISTERED_MODEL_NAME = "employability-deep-scorer"
 
-tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "file:./mlruns")
+# Use SQLite tracking backend for file-based deployments
+tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db")
 mlflow.set_tracking_uri(tracking_uri)
 
 
