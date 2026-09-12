@@ -6,10 +6,18 @@ __pycache__/
 # Local Caches & Artifacts
 hf_cache/
 mlruns/
+
+# Database files
 *.db
 *.db-shm
 *.db-wal
 *.sqlite3
 
+# Explicitly track MLflow SQLite database for CI/CD tracking
+!mlflow.db
+
 # Local Environment Keys
 .env
+echo "mlflow.db" >> .gitignore
+echo "mlruns/" >> .gitignore
+echo "*.pth" >> .gitignore

@@ -47,12 +47,37 @@ jobs:
       - name: Step 3 - Retrain Employability Deep Scorer
         run: python train_model_mlflow.py --epochs 100 --lr 0.005
 
-      - name: Step 4 - Commit Updated Ledgers & Model Registry Back to GitHub
+      - name: Step 4 - Commit Data Updates to GitHub (Data Files Only)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add todays_market_drift.xml historical_market_intelligence.xml mlflow.db mlruns_artifacts deep_scorer_weights.pth
-          git commit -m "auto: publish dynamic data updates and retrained model weights [skip ci]" || exit 0
-          git push origin main
+          git add todays_market_drift.xml historical_market_intelligence.xml 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: publish dynamic market data updates [skip ci]"
+            git push origin main
+          fi
+        continue-on-error: true
+
+      - name: Upload MLflow Artifacts & Model Weights
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mlops-artifacts-run-${{ github.run_id }}
+          path: |
+            mlruns/
+            deep_scorer_weights.pth
+          retention-days: 30
+
+      - name: Upload Generated Data Files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-data-${{ github.run_id }}
+          path: |
+            todays_market_drift.xml
+            historical_market_intelligence.xml
+          retention-days: 30
