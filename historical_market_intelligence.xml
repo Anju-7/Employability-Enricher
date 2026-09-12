@@ -152,4 +152,13 @@
     <ReferenceURL>https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-data-sharing-fundamentals/</ReferenceURL>
     <SummaryPayload>This three-part blog series guides you through implementing Eclipse Dataspace Components (EDC) on AWS, from foundational concept to production deployment. Part 1 establishes the theoretical foundation with IDSA standards, the Dataspace Protocol (DSP), and core EDC architecture. Part 2 provides production-ready AWS deployment patterns using services like Amazon Elastic Container Service (Amazon ECS), Amazon Aurora, […]</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees</Title>
+    <ExtractedTags>Security &amp; Privacy, WhatsApp</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we&amp;#8217;re always evolving as well, so that our protections stay ahead of scammers while protecting people’s personal messages with end-to-end encryption. Today, we&amp;#8217;re sharing an early [...]&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-secondary understrap-read-more-link&quot; href=&quot;https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/&quot;&gt;Read More...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/&quot;&gt;How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees&lt;/a&gt; appeared first on &lt;a href=&quot;https://engineering.fb.com&quot;&gt;Engineering at Meta&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
