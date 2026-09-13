@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-09-12" record_count="348" status="SUCCESS">
+<MarketIngestion date="2026-09-13" record_count="346" status="SUCCESS">
   <TrendItem>
     <Source>AWS Architecture</Source>
     <Title>From zero-shot forecast to purchase order with Amazon Bedrock AgentCore</Title>
@@ -167,13 +167,6 @@
     <ExtractedTags>Amazon SageMaker AI, Announcements, Intermediate (200)</ExtractedTags>
     <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/</ReferenceURL>
     <SummaryPayload>Governing models across accounts is the next step after automatic model registration. This post extends managed MLflow and Amazon SageMaker AI Model Registry sync to two cross-account governance topologies: a hub-and-spoke pattern that centralizes governance with AWS RAM, and a hybrid pattern that k</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Azure Blog</Source>
-    <Title>Beyond the benchmark: How an adaptive approach drives scientific discovery</Title>
-    <ExtractedTags>AI + machine learning</ExtractedTags>
-    <ReferenceURL>https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;For research and development (R&amp;#38;D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting t</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Kubernetes Blog</Source>
@@ -2717,14 +2710,6 @@ Abstract: We present the PACE, a framework for retrieval-augmented dialogue serv
     <ReferenceURL>https://towardsdatascience.com/context-windows-dont-know-whats-still-true-i-built-a-validity-layer-that-does/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;A context window can be technically complete and still describe a world that no longer exists. I built a deterministic benchmark to measure the cost of acting on stale context.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/context-windows-dont-know-whats-still-true-i-built-a-validity-la</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day)</Title>
-    <ExtractedTags>Agentic AI, Gemini, AI Agents, Vibe coding, App Development, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/i-vibe-coded-an-app-in-just-two-hours-and-regretted-it-the-next-day/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;I saved my day with a mere $52 bill. But you don't have to repeat my mistake.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-vibe-coded-an-app-in-just-two-hours-and-regretted-it-the-next-day/&quot;&gt;I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day)&lt;/a&gt; appeared first on &lt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>New Relic Blog</Source>
