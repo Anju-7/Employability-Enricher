@@ -25746,4 +25746,41 @@ Abstract: Predicting how deformable objects evolve under robotic manipulation is
     <SummaryPayload>&lt;p&gt;Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-laye</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP</Title>
+    <ExtractedTags>LinkedIn, Agents, QCon AI Boston 2026, Model Context Protocol (MCP), Productivity, AI Architecture, Transcripts, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/linkedin-context-engineering/en/mediumimage/ajay-prakash-medium-1789021803159.jpg&quot; /&gt;&lt;p&gt;Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Proto</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>AWS Lambda Pushes Serverless Toward Long-Running Workloads</Title>
+    <ExtractedTags>Serverless, AWS Lambda, Cloud, AWS, Event Driven Architecture, Cloud Computing, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/lambda-90-minute-timeout/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/lambda-90-minute-timeout/en/headerimage/generatedHeaderImage-1789110995851.jpg&quot; /&gt;&lt;p&gt;AWS Lambda now allows functions running on Lambda Managed Instances to run for up to 90 minutes, six times longer than the previous 15-minute limit, further blurring the </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>SolidStart 2: Replaces Vinxi with a Vite 8 and Enters Maintenance as Its Role Winds Down</Title>
+    <ExtractedTags>Web Development, Server-side rendering, JavaScript, TypeScript, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/solid-start-v2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/solid-start-v2/en/headerimage/generatedHeaderImage-1789748711669.jpg&quot; /&gt;&lt;p&gt;SolidStart, a full-stack meta-framework based on SolidJS, has transitioned to version 2.0, improving compatibility with Vite's Environment API. This release modernizes the framewor</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores</Title>
+    <ExtractedTags>Data Engineering, Entity Resolution, Data Cleaning, Record Linkage, Python, Data Quality</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Deduplicating a 10,000-row supplier list in Python, where the hard part is deciding what a similarity score of 91 means&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/&quot;&gt;One Vendor, Four Spellings: How Deterministic</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.</Title>
+    <ExtractedTags>Generative AI, AI Agents, AI Adoption, Progamming, Productivity, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/&quot;&gt;AI Made Me 5x Faster. It Also Made Me</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
