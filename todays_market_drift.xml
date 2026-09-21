@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-09-20" record_count="77" status="SUCCESS">
+<MarketIngestion date="2026-09-21" record_count="65" status="SUCCESS">
   <TrendItem>
     <Source>AWS Architecture</Source>
     <Title>ReadyOn’s Four Walls of tenant isolation on Amazon EKS</Title>
@@ -155,50 +155,11 @@
     <SummaryPayload>Learn how to automate end-to-end PII detection and redaction from scanned documents at scale using Amazon Bedrock Data Automation with a custom blueprint, AWS Step Functions, and AWS Lambda. A custom blueprint redacts sensitive fields with field-level precision, and a token matching quality check ra</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Optimizing cost and latency with Amazon Bedrock prompt caching</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/</ReferenceURL>
-    <SummaryPayload>Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt caching scenarios using the Converse API: message content, system prompt, tool definition, mixed TTL, tenant isolation,</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Build an AI-powered product tagging system with Amazon SageMaker serverless model customization</Title>
-    <ExtractedTags>Amazon SageMaker, Expert (400), Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/</ReferenceURL>
-    <SummaryPayload>Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR) on Amazon SageMaker serverless model customization, then deploy it for asynchronous in</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Announcing instance preference lists for Amazon SageMaker AI training jobs</Title>
-    <ExtractedTags>Amazon SageMaker AI, Announcements, Intermediate (200)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/</ReferenceURL>
-    <SummaryPayload>Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching scripts.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Azure Blog</Source>
-    <Title>Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure</Title>
-    <ExtractedTags>Uncategorized, Gartner® Magic Quadrant™</ExtractedTags>
-    <ReferenceURL>https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hyb</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>Kubernetes Blog</Source>
     <Title>Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions</Title>
     <ExtractedTags>General Tech</ExtractedTags>
     <ReferenceURL>https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;Kubernetes v1.37 brings important storage security features: &lt;code&gt;emptyDir&lt;/code&gt; permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;With the release of Kubernetes v1.37, the &lt;strong&gt;Pod-Level Resource Managers&lt;/strong&gt;
-feature has graduated to &lt;strong&gt;Beta&lt;/strong&gt; status (disabled by default)!&lt;/p&gt;
-&lt;p&gt;First introduced as an Alpha feature in
-&lt;a href=&quot;https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-reso</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Istio Blog</Source>
@@ -224,123 +185,109 @@ feature has graduated to &lt;strong&gt;Beta&lt;/strong&gt; status (disabled by d
     <SummaryPayload>Ryan sits down with Tim O&amp;#x27;Reilly, founder and CEO at O&amp;#x27;Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &amp;quot;magic words&amp;quot; to extract better outputs from AI, and why human taste is becoming highly valuable as knowledge becomes a commodity.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</Title>
-    <ExtractedTags>ai, agentic-ai, community, se-tech, se-stackoverflow</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/</ReferenceURL>
-    <SummaryPayload>We&amp;#x27;ve learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here&amp;#x27;s a few of our findings, what&amp;#x27;s new on the platform (including our new ChatGPT plugin), and how we&amp;#x27;re continuing to build Stack Overflow.</SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>Kubernetes 1.37 Released: Stable Metrics API  and Rootless Kubelet in Beta</Title>
+    <ExtractedTags>Containers, Kubernetes, Cloud Computing, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;The Cloud Native Computing Foundation (CNCF) announced the release of Kubernetes 1.37, named &quot;Garhwal&quot;, emphasizing its focus on stability, security,   and AI/ML workload optimization.&lt;/p&gt; &lt;i&gt;By Mostafa Radwan&lt;/i&gt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>AI, JD, and other letters of the law</Title>
-    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, big-data, agentic-ai</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/09/15/ai-jd-and-other-letters-of-the-law/</ReferenceURL>
-    <SummaryPayload>Ryan chats with Kevin Frazier, director of the AI Innovation and Law program at the University of Texas School of Law, about the legal and social impacts of data centers, the realities of workforce disruption, and regulating AI for child safety using existing consumer protection laws.</SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks</Title>
+    <ExtractedTags>Web Development, System Programming, AI Assisted Coding, Bundlers, Rust, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/en/headerimage/generatedHeaderImage-1789932023289.jpg&quot; /&gt;&lt;p&gt;Bun creator Jarred Sumner recently announced that Bun, the JavaScript/TypeScript runtime, bundler and package manager has been rewritten from Zig to Rust. The rew</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review</Title>
+    <ExtractedTags>Large language models, Static Analysis, Agents, Agentic AI Architecture, Code Reviews, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/alibaba-opencodereview/en/headerimage/generatedHeaderImage-1789473748016.jpg&quot; /&gt;&lt;p&gt;Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LL</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI</Title>
+    <ExtractedTags>Large language models, Open Source, Mobile, Google ADK for Kotlin, Agents, Google, Android, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/google-adk-1-0-released/en/headerimage/kotlin-2-1-released-1789894962554.jpeg&quot; /&gt;&lt;p&gt;Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7%</Title>
+    <ExtractedTags>Cloudflare, Networking, Cloud, Performance, Cryptography, Infrastructure, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/en/headerimage/generatedHeaderImage-1789633148686.jpg&quot; /&gt;&lt;p&gt;Cloudflare has replaced its static X25519 guess for origin TLS handshakes with per-origin measurement. HelloRetryRequests on scanned origins fell from roughly 52%</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP</Title>
-    <ExtractedTags>LinkedIn, Agents, QCon AI Boston 2026, Model Context Protocol (MCP), Productivity, AI Architecture, Transcripts, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ExtractedTags>Agents, LinkedIn, Transcripts, Productivity, QCon AI Boston 2026, AI Architecture, Model Context Protocol (MCP), AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/linkedin-context-engineering/en/mediumimage/ajay-prakash-medium-1789021803159.jpg&quot; /&gt;&lt;p&gt;Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Proto</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
-    <Title>AWS Lambda Pushes Serverless Toward Long-Running Workloads</Title>
-    <ExtractedTags>Serverless, AWS Lambda, Cloud, AWS, Event Driven Architecture, Cloud Computing, Development, Architecture &amp; Design, news</ExtractedTags>
+    <Title>AWS Lambda Pushes Serverless toward Long-Running Workloads</Title>
+    <ExtractedTags>Cloud, AWS Lambda, AWS, Serverless, Event Driven Architecture, Cloud Computing, Development, Architecture &amp; Design, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/09/lambda-90-minute-timeout/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/lambda-90-minute-timeout/en/headerimage/generatedHeaderImage-1789110995851.jpg&quot; /&gt;&lt;p&gt;AWS Lambda now allows functions running on Lambda Managed Instances to run for up to 90 minutes, six times longer than the previous 15-minute limit, further blurring the </SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>SolidStart 2: Replaces Vinxi with a Vite 8 and Enters Maintenance as Its Role Winds Down</Title>
-    <ExtractedTags>Web Development, Server-side rendering, JavaScript, TypeScript, Development, news</ExtractedTags>
+    <ExtractedTags>Web Development, JavaScript, Server-side rendering, TypeScript, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/09/solid-start-v2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/solid-start-v2/en/headerimage/generatedHeaderImage-1789748711669.jpg&quot; /&gt;&lt;p&gt;SolidStart, a full-stack meta-framework based on SolidJS, has transitioned to version 2.0, improving compatibility with Vite's Environment API. This release modernizes the framewor</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>MariaDB 13 Expands Oracle Compatibility and Improves Developer Experience and Observability</Title>
-    <ExtractedTags>SQL, MariaDB, Columnar Databases, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ExtractedTags>MariaDB, SQL, Columnar Databases, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/09/mariadb-13-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/mariadb-13-released/en/headerimage/mediapipe-image-generator-1789754681972.jpeg&quot; /&gt;&lt;p&gt;MariaDB Community Server 13.0 has reached General Availability (GA) and is now officially stable. This release introduces a range of new features, deprecations, and perf</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags</Title>
-    <ExtractedTags>Feature Injection, A/B Testing, Developer Experience, Experiment Driven Development, Static Analysis, AI Assisted Coding, Automation, Model Context Protocol (MCP), Productivity, AI Architecture, git, AI Coding, Large language models, github, Agents, Feature Toggle, DevOps, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ExtractedTags>Static Analysis, Developer Experience, A/B Testing, Agents, Feature Injection, Experiment Driven Development, github, Feature Toggle, Large language models, git, AI Coding, AI Assisted Coding, Productivity, Automation, AI Architecture, Model Context Protocol (MCP), AI, ML &amp; Data Engineering, DevOps, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/09/doordash-feature-flag-cleanup/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/doordash-feature-flag-cleanup/en/headerimage/generatedHeaderImage-1788418529526.jpg&quot; /&gt;&lt;p&gt;DoorDash built a multi-agent LLM system to automate stale feature flag cleanup across more than 60,000 flags and 623 repositories. The workflow combines live experim</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>WSO2 Releases Agent Manager as Enterprises Look to Control Growing AI Agent Sprawl</Title>
-    <ExtractedTags>Agentic AI Architecture, AIOps, WS02 Stratos, AI Development, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ExtractedTags>AIOps, WS02 Stratos, AI Development, Agentic AI Architecture, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/09/ws02-agent-manager/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/ws02-agent-manager/en/headerimage/generatedHeaderImage-1789125513190.jpg&quot; /&gt;&lt;p&gt;WSO2 has announced the general availability of WSO2 Agent Manager, an open-source platform designed to provide centralized governance, identity management, security controls, a</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Presentation: Complexity and Creativity in Software Engineering</Title>
-    <ExtractedTags>QCon London 2026, Testing, AI Assisted Coding, Management, Code Quality, Leadership, Productivity, Architecture, Transcripts, Culture &amp; Methods, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ExtractedTags>Testing, QCon London 2026, Management, AI Assisted Coding, Transcripts, Code Quality, Productivity, Leadership, Architecture, Culture &amp; Methods, Development, Architecture &amp; Design, presentation</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/presentations/ai-software-engineering-complexity/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/ai-software-engineering-complexity/en/mediumimage/philip-mortimer-medium-1789021228203.jpeg&quot; /&gt;&lt;p&gt;Phillip Mortimer discusses the shift toward write-only software driven by AI code generation. He explains why traditional pull requests are broken and share</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance</Title>
-    <ExtractedTags>Web Development, Server-side rendering, HTML5, JavaScript, Node.js, HTML, Development, news</ExtractedTags>
+    <ExtractedTags>Web Development, HTML5, JavaScript, Server-side rendering, Node.js, HTML, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/09/htmx-4-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/htmx-4-released/en/headerimage/generatedHeaderImage-1789720463705.jpg&quot; /&gt;&lt;p&gt;htmx 4 has been released, featuring a transition from XMLHttpRequest to the fetch() API, enhancing streaming capabilities. Key updates include built-in morphing swaps for DOM stat</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Podcast: Signals and Levers: Building Thriving Engineering Organizations</Title>
-    <ExtractedTags>Technical Debt, Engineering Culture Podcast, Teamwork, Psychological Safety, Leadership, Culture &amp; Methods, podcast</ExtractedTags>
+    <ExtractedTags>Technical Debt, Engineering Culture Podcast, Psychological Safety, Teamwork, Leadership, Culture &amp; Methods, podcast</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/podcasts/building-thriving-engineering-organizations/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/building-thriving-engineering-organizations/en/smallimage/engineering-culture-500-1788872636488.jpg&quot; /&gt;&lt;p&gt;In this podcast Shane Hastie, Lead Editor for Culture &amp; Methods spoke to Elisabeth Hendrickson and Joel Tosi about systems thinking as a lens for softwar</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Article: Architecting Secure and Scalable Facial Verification Systems</Title>
-    <ExtractedTags>Cloud, Architecture, Security, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, article</ExtractedTags>
+    <ExtractedTags>Cloud, Security, Architecture, AI, ML &amp; Data Engineering, DevOps, Development, Architecture &amp; Design, article</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/articles/secure-scalable-facial-verification/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/secure-scalable-facial-verification/en/headerimage/secure-scalable-facial-verification-header-1789468796366.jpg&quot; /&gt;&lt;p&gt;When three thousand employees verify at once, synchronous API calls collapse. This article presents a four-layer architecture for high-volume</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment</Title>
-    <ExtractedTags>AI Misalignment, Frontier Model, OpenAI, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/openai-misalignment-framework/en/headerimage/generatedHeaderImage-1789701944081.jpg&quot; /&gt;&lt;p&gt;OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incid</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Building an Internal Developer Platform with Artificial Intelligence</Title>
-    <ExtractedTags>Developer Experience, Platform Engineering, Agents, Distributed Tracing, Metrics, Artificial Intelligence, Logging, Culture &amp; Methods, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/09/platform-artificial-intelligence/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/platform-artificial-intelligence/en/headerimage/platform-artificial-intellgience-header-1789459416087.jpg&quot; /&gt;&lt;p&gt;Agents are becoming the new developer platform, using semantic search with data from tools like Git, Slack, and Jira for context. Things to con</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Kubernetes Multi-Cluster Project Karmada Reaches CNCF Graduation</Title>
-    <ExtractedTags>Orchestration, Kubernetes, AI Architecture, Clusters, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/09/karmada-kubernetes-cncf/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/karmada-kubernetes-cncf/en/headerimage/generatedHeaderImage-1789562925561.jpg&quot; /&gt;&lt;p&gt;The Cloud Native Computing Foundation (CNCF) announced on September 2026 that Karmada, a multi-cluster and multi-cloud Kubernetes orchestration project, has graduated. Thi</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Presentation: When Incidents Refuse to End</Title>
-    <ExtractedTags>QCon San Francisco 2026, Incident Response, Transcripts, DevOps, presentation</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/presentations/stream-incidents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/stream-incidents/en/mediumimage/vanessa-huerta-medium-1789021024982.jpeg&quot; /&gt;&lt;p&gt;Vanessa Huerta Granda explains how marathon incidents expose the gap between work as imagined and work as done. Drawing from real-world scenarios, she shares how complex outag</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Repeated VM Escapes By GPT-5.6-Cyber Based Agents Prove  VMs and OS' Require Better Maintenance</Title>
-    <ExtractedTags>Virtualization, AI Security, VM, Security Breach, Security, DevOps, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/09/agent-escape-vm/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/agent-escape-vm/en/headerimage/headerRobotEscape-1789626255584.jpg&quot; /&gt;&lt;p&gt;Traditional virtual machines are inadequate for isolating cyber-capable autonomous agents. Tests using GPT-5.6-Cyber indicated multiple escape attempts due to kernel flaws. While Fir</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Martin Fowler</Source>
@@ -365,14 +312,20 @@ virt</SummaryPayload>
     &lt;li&gt;After the Huggin</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Martin Fowler</Source>
-    <Title>Nail the Narrative</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html</ReferenceURL>
-    <SummaryPayload>&lt;div class=&quot;img-link&quot;&gt;&lt;a href=&quot;https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html&quot;&gt;&lt;img src=&quot;https://martinfowler.com/articles/never-send-slides/index/card.png&quot; width=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;b class=&quot;author&quot;&gt;Sumeet Gayathri Moghe&lt;/b&gt; finds many folks building
-      presentatio</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Large Language Models, Graphrag, LLM Engineering, Rag Architecture, Rag, Llm Applications</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;GraphRAG: A Practitioner's Guide to</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>CBAM Paper Walkthrough: The Double-Attention Mechanism</Title>
+    <ExtractedTags>Deep Learning, Neural Network, Computer Vision, Pytorch, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Understanding and implementing CBAM (Convolutional Block Attention Module) from scratch with PyTorch&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/&quot;&gt;CBAM Paper Walkthrough: The Double-Attention Mechanism&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -487,38 +440,6 @@ virt</SummaryPayload>
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-n-squared-pizza-problem/&quot;&gt;The N Squared Pizza Problem&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Reparameterization Tricks: Variance Reduction by Smarter Gradients</Title>
-    <ExtractedTags>Machine Learning, Deep Learning, Gradient Descent, Variational Autoencoder, Statistics, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/reparameterization-tricks-variance-reduction-by-smarter-gradients/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;How moving randomness outside the computation graph turns noisy gradient estimators into low-variance, differentiable ones&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/reparameterization-tricks-variance-reduction-by-smarter-gradients/&quot;&gt;Reparameterization Tricks: Variance Reduction by S</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>How to Build Consistent Designs with Claude Code</Title>
-    <ExtractedTags>LLM Applications, LLM Agents, Design, Claude Code, Codex, OpenAI</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Keep your apps looking professional with Claude Code design skills&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/&quot;&gt;How to Build Consistent Designs with Claude Code&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Dat</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Seizing the Moment: The Hidden Silhouette of Data</Title>
-    <ExtractedTags>Data analysis, Statisitcs, Math, Deep Dives, Data Science, Probability Distributions</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/seizing-the-moment-the-hidden-silhouette-of-data/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;How statistical moments connect the mean, the variance, and higher powers of a distribution&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/seizing-the-moment-the-hidden-silhouette-of-data/&quot;&gt;Seizing the Moment: The Hidden Silhouette of Data&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsda</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It.</Title>
-    <ExtractedTags>NLP, Llm, Tfidf Vectorizer, Data Science, Machine Learning, Text Classification</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/how-many-labeled-examples-does-a-text-classifier-actually-need-i-measured-it/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Before reaching for an LLM API on every classification problem, it's worth knowing what a decades-old baseline can already do with the labeled data you have — and exactly how much more data buys you.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-many-labeled-examples-does-a-text-cla</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>New Relic Blog</Source>
     <Title>LLM Observability: The 8 Best Tools for Production AI Systems</Title>
     <ExtractedTags>AIOps, AI Monitoring</ExtractedTags>
@@ -559,19 +480,5 @@ virt</SummaryPayload>
     <ExtractedTags>General Tech</ExtractedTags>
     <ReferenceURL>https://newrelic.com/blog/log/how-to-manage-an-application-log</ReferenceURL>
     <SummaryPayload>Application logging is the foundation of observability — but only if logs are structured, centralized, and connected to the rest of your telemetry. Learn best practices, lifecycle management, and how to choose the right log management tool.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>New Relic Lens is now Generally Available</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/observability/general-availability-new-relic-lens</ReferenceURL>
-    <SummaryPayload>Bridge the gap between telemetry and business data. Query external databases directly and perform cross-database JOINs without paying double ingestion costs.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>The Next Competitive Advantage in Enterprise AI</Title>
-    <ExtractedTags>Consolidate Observability Platform, AIOps</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/ai/new-relic-ground-truth-enterprise-ai</ReferenceURL>
-    <SummaryPayload>Learn why trusted operational intelligence is becoming the foundation for enterprise AI and how New Relic Ground Truth enables reliable autonomous operations.</SummaryPayload>
   </TrendItem>
 </MarketIngestion>

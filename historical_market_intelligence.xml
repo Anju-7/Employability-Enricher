@@ -25783,4 +25783,55 @@ Abstract: Predicting how deformable objects evolve under robotic manipulation is
     <SummaryPayload>&lt;p&gt;One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code?&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/&quot;&gt;AI Made Me 5x Faster. It Also Made Me</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Kubernetes 1.37 Released: Stable Metrics API  and Rootless Kubelet in Beta</Title>
+    <ExtractedTags>Containers, Kubernetes, Cloud Computing, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;The Cloud Native Computing Foundation (CNCF) announced the release of Kubernetes 1.37, named &quot;Garhwal&quot;, emphasizing its focus on stability, security,   and AI/ML workload optimization.&lt;/p&gt; &lt;i&gt;By Mostafa Radwan&lt;/i&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks</Title>
+    <ExtractedTags>Web Development, System Programming, AI Assisted Coding, Bundlers, Rust, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/en/headerimage/generatedHeaderImage-1789932023289.jpg&quot; /&gt;&lt;p&gt;Bun creator Jarred Sumner recently announced that Bun, the JavaScript/TypeScript runtime, bundler and package manager has been rewritten from Zig to Rust. The rew</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review</Title>
+    <ExtractedTags>Large language models, Static Analysis, Agents, Agentic AI Architecture, Code Reviews, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/alibaba-opencodereview/en/headerimage/generatedHeaderImage-1789473748016.jpg&quot; /&gt;&lt;p&gt;Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LL</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI</Title>
+    <ExtractedTags>Large language models, Open Source, Mobile, Google ADK for Kotlin, Agents, Google, Android, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/google-adk-1-0-released/en/headerimage/kotlin-2-1-released-1789894962554.jpeg&quot; /&gt;&lt;p&gt;Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7%</Title>
+    <ExtractedTags>Cloudflare, Networking, Cloud, Performance, Cryptography, Infrastructure, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/en/headerimage/generatedHeaderImage-1789633148686.jpg&quot; /&gt;&lt;p&gt;Cloudflare has replaced its static X25519 guess for origin TLS handshakes with per-origin measurement. HelloRetryRequests on scanned origins fell from roughly 52%</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Large Language Models, Graphrag, LLM Engineering, Rag Architecture, Rag, Llm Applications</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;GraphRAG: A Practitioner's Guide to</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>CBAM Paper Walkthrough: The Double-Attention Mechanism</Title>
+    <ExtractedTags>Deep Learning, Neural Network, Computer Vision, Pytorch, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Understanding and implementing CBAM (Convolutional Block Attention Module) from scratch with PyTorch&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/&quot;&gt;CBAM Paper Walkthrough: The Double-Attention Mechanism&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
