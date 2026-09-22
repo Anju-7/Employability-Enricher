@@ -2,8 +2,8 @@ name: Automated MLOps Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs automatically every midnight UTC
-  workflow_dispatch:      # Allows manual execution via GitHub UI
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -37,6 +37,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
 
       - name: Step 1 - Ingest Incoming Market Data
         run: python fetch_news.py
@@ -44,50 +45,40 @@ jobs:
       - name: Step 2 - Append & Deduplicate Historical Ledger
         run: python history_retrieval.py
 
-      - name: Step 3 - Consolidate & Generate Analytics Summaries & Vector Ledger
+      - name: Step 2.5 - Build NLTK Keyword Vectors & Store in DB
+        run: python build_keyword_vector_db.py
+
+      - name: Step 3 - Consolidate & Generate Analytics Summaries
         run: python consolidate_market.py
 
-      - name: Step 3.5 - Data Integrity & Validation Gate (Pytest)
+      - name: Step 3.5 - Data Integrity Gate
         run: pytest tests/test_data_integrity.py -v
 
       - name: Step 4 - Retrain Employability Deep Scorer
         run: python train_model_mlflow.py --epochs 100 --lr 0.005
 
-      - name: Step 5 - Commit Data Updates, Analytics Summaries & Vectors to GitHub
+      - name: Step 5 - Commit Data Updates & Vector Artifacts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add todays_market_drift.xml historical_market_intelligence.xml market_summary_analytics.json market_summary_report.md historical_vectors.npy historical_text.json 2>/dev/null || true
+          git add todays_market_drift.xml historical_market_intelligence.xml market_summary_analytics.json market_summary_report.md keyword_vectors.npy keyword_metadata.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "auto: publish dynamic market data, vector embeddings & consolidation updates [skip ci]"
+            git commit -m "auto: publish updated market vector DB & NLTK keyword metadata [skip ci]"
             git push origin main
           fi
         continue-on-error: true
 
-      - name: Upload MLflow Artifacts & Model Weights
+      - name: Upload Artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: mlops-artifacts-run-${{ github.run_id }}
+          name: market-vector-db-${{ github.run_id }}
           path: |
-            mlruns/
-            deep_scorer_weights.pth
-          retention-days: 30
-
-      - name: Upload Generated Data Files & Reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: market-data-and-reports-${{ github.run_id }}
-          path: |
-            todays_market_drift.xml
-            historical_market_intelligence.xml
-            historical_vectors.npy
-            historical_text.json
+            keyword_vectors.npy
+            keyword_metadata.json
             market_summary_analytics.json
-            market_summary_report.md
           retention-days: 30
