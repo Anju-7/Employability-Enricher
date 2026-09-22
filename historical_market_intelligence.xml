@@ -33785,4 +33785,11 @@ Abstract: Generalized Nash Equilibrium Problems (GNEPs) often arise in multi-age
     <SummaryPayload>arXiv:2609.11689v2 Announce Type: replace-cross 
 Abstract: Area-based social risk indices summarize residents' socioeconomic conditions but incompletely capture physical features of place that may affect health. We evaluated whether numerical representations of physical place produced by four geospa</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Haters think AI agents can't write GPU code? This'll ROCm</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, agentic-ai, ai, hardware, chip</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/</ReferenceURL>
+    <SummaryPayload>Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm&amp;#x27;s open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level hardware programming, and the rapid convergence of software and hardware development timelines.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
