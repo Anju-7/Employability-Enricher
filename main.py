@@ -1,11 +1,12 @@
 import os
 import json
+import re
 import requests
+import numpy as np
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 import pypdf
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer, util
 
 app = FastAPI()
 
@@ -17,58 +18,30 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MARKET_DATA_PATH = os.path.join(os.path.dirname(__file__), "market_summary_analytics.json")
+BASE_DIR = os.path.dirname(__file__)
+ANALYTICS_PATH = os.path.join(BASE_DIR, "market_summary_analytics.json")
+VECTOR_NPY_PATH = os.path.join(BASE_DIR, "historical_vectors.npy")
+HISTORICAL_JSON_PATH = os.path.join(BASE_DIR, "historical_text.json")
 
-def load_historical_market_intelligence():
-    """
-    Parses market_summary_analytics.json dynamically and extracts
-    all skill vectors, market descriptions, and historical demand metrics.
-    """
-    if not os.path.exists(MARKET_DATA_PATH):
-        print(f"Warning: {MARKET_DATA_PATH} not found.")
-        return [], []
+# Initialize SentenceTransformer DL Model globally
+embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
-    with open(MARKET_DATA_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    # Flatten JSON data to extract raw skill descriptions
-    skill_names = []
-    skill_documents = []
-
-    # Recursively locate list/dictionary records in historical market JSON
-    records = []
-    if isinstance(data, dict):
-        for key in ["skills", "top_demanded_skills", "market_skills", "technologies", "analytics"]:
-            if key in data and isinstance(data[key], list):
-                records = data[key]
-                break
-        if not records:
-            records = [data]
-    elif isinstance(data, list):
-        records = data
-
-    for item in records:
-        if isinstance(item, dict):
-            name = item.get("skill_name") or item.get("name") or item.get("title") or "Technical Requirement"
-            desc = item.get("description") or item.get("summary") or f"Hands-on expertise and production usage of {name}"
-            if name:
-                skill_names.append(name)
-                skill_documents.append(f"{name} {desc}")
-        elif isinstance(item, str):
-            skill_names.append(item)
-            skill_documents.append(f"{item} production level proficiency and experience")
-
-    return skill_names, skill_documents
-
-SKILL_NAMES, SKILL_DOCUMENTS = load_historical_market_intelligence()
+def load_vector_ledger():
+    """Loads pre-computed historical vectors and raw documents."""
+    if os.path.exists(VECTOR_NPY_PATH) and os.path.exists(HISTORICAL_JSON_PATH):
+        vectors = np.load(VECTOR_NPY_PATH)
+        with open(HISTORICAL_JSON_PATH, "r", encoding="utf-8") as f:
+            docs = json.load(f)
+        return vectors, docs
+    return None, []
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 @app.post("/api/analyze-resume")
 async def analyze_resume(file: UploadFile = File(...)):
-    print(f"\n---> Analyzing Payload: {file.filename}")
+    print(f"\n---> Evaluating Resume Payload: {file.filename}")
 
-    # 1. Extract raw text from PDF payload
+    # 1. Extract raw text from PDF
     try:
         reader = pypdf.PdfReader(file.file)
         resume_text = " ".join([page.extract_text() for page in reader.pages if page.extract_text()])
@@ -77,53 +50,57 @@ async def analyze_resume(file: UploadFile = File(...)):
     except Exception as err:
         return {"status": "ERROR", "message": f"PDF parse error: {str(err)}"}
 
-    # 2. Reload market intelligence dynamically if updated
-    skill_names, skill_documents = load_historical_market_intelligence()
-    
-    if not skill_documents:
-        # Fallback if market intelligence file is empty
-        skill_names = ["Docker", "Kubernetes", "PyTorch", "FastAPI", "CI/CD"]
-        skill_documents = [f"{s} production level experience and skills" for s in skill_names]
+    # 2. Load Vector Ledger & Historical Data
+    historical_vectors, historical_docs = load_vector_ledger()
 
-    # 3. Apply TF-IDF Retrieval Algorithm over Historical Market Intelligence
-    corpus = [resume_text] + skill_documents
-    vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1, 2))
-    tfidf_matrix = vectorizer.fit_transform(corpus)
+    # Fallback default target skills if vector DB is uninitialized
+    target_skills = ["Python", "PyTorch", "FastAPI", "Docker", "Kubernetes", "CI/CD", "MLOps", "LLM", "Cloud"]
 
-    # Calculate Cosine Similarity between Resume (Index 0) and Market Skills (Index 1..N)
-    resume_vector = tfidf_matrix[0]
-    market_vectors = tfidf_matrix[1:]
-    
-    similarity_scores = cosine_similarity(resume_vector, market_vectors)[0]
-
-    # 4. Map similarity scores back to Market Intelligence Skills
     feature_scores = {}
     detected_gaps = []
-    matches = []
+    exact_matches = []
 
-    for idx, score in enumerate(similarity_scores):
-        skill = skill_names[idx]
-        match_percentage = float(score * 100)
-        feature_scores[skill] = round(match_percentage, 1)
+    # 3. Deep Learning Vector Similarity Comparison
+    if historical_vectors is not None and len(historical_docs) > 0:
+        resume_vector = embedder.encode(resume_text, convert_to_numpy=True)
+        cosine_scores = util.cos_sim(resume_vector, historical_vectors)[0].numpy()
+        
+        top_indices = np.argsort(cosine_scores)[-10:][::-1]
+        semantic_score = float(np.mean(cosine_scores[top_indices])) * 100.0
+        
+        # 4. Exact Word/Phrase Match Overlap
+        resume_words = set(re.findall(r'\b\w+\b', resume_text.lower()))
+        
+        for skill in target_skills:
+            if skill.lower() in resume_words or skill.lower() in resume_text.lower():
+                feature_scores[skill] = 95.0
+                exact_matches.append(skill)
+            else:
+                feature_scores[skill] = round(float(semantic_score * 0.5), 1)
+                detected_gaps.append(skill)
 
-        # Gap detection threshold based on TF-IDF cosine score
-        if score < 0.12:
-            detected_gaps.append(skill)
-        else:
-            matches.append(score)
-
-    # Overall alignment score calculated directly from matched TF-IDF scores
-    if matches:
-        overall_score = round(min(98.0, max(35.0, (sum(matches) / len(skill_documents)) * 300.0 + 40.0)), 1)
+        overall_alignment = round(min(98.0, max(30.0, (semantic_score * 0.6) + (len(exact_matches) * 5.0))), 1)
     else:
-        overall_score = 32.5
+        # Fallback keyword logic if vectors aren't pre-computed
+        resume_lower = resume_text.lower()
+        for skill in target_skills:
+            if skill.lower() in resume_lower:
+                feature_scores[skill] = 90.0
+                exact_matches.append(skill)
+            else:
+                feature_scores[skill] = 20.0
+                detected_gaps.append(skill)
 
-    print(f"Calculated TF-IDF Alignment Score: {overall_score}%")
+        match_ratio = len(exact_matches) / len(target_skills)
+        overall_alignment = round(min(98.0, max(30.0, match_ratio * 100.0)), 1)
+
+    print(f"Calculated DL Alignment Score: {overall_alignment}%")
+    print(f"Exact Skills Detected: {exact_matches}")
     print(f"Detected Gaps: {detected_gaps}")
 
-    # 5. Retrieve YouTube Recommendations for Detected Gaps
+    # 5. Retrieve YouTube Recommendations for Detected Skill Gaps
     video_recommendations = []
-    target_gaps = detected_gaps[:2] if detected_gaps else skill_names[:2]
+    target_gaps = detected_gaps[:2] if detected_gaps else target_skills[:2]
 
     for skill in target_gaps:
         fetched = False
@@ -144,7 +121,6 @@ async def analyze_resume(file: UploadFile = File(...)):
             except Exception as err:
                 print(f"YouTube Fetch Error: {err}")
 
-        # Fallback YouTube Search Link if API key is absent
         if not fetched:
             video_recommendations.append({
                 "skill": skill,
@@ -156,8 +132,9 @@ async def analyze_resume(file: UploadFile = File(...)):
 
     return {
         "status": "SUCCESS",
-        "alignmentScore": overall_score,
+        "alignmentScore": overall_alignment,
         "featureScores": feature_scores,
+        "exactMatches": exact_matches,
         "gaps": detected_gaps[:3],
         "recommendations": video_recommendations
     }

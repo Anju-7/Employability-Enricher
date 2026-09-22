@@ -3,7 +3,7 @@ import './Dashboard.css';
 
 const API_BASE_URL = "http://localhost:8000";
 
-// SVG Icon Helpers (Replacing textual emojis)
+// SVG Icon Helpers
 const DocumentIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--cyan-primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -97,6 +97,8 @@ const EmployabilityDashboard = () => {
         score: scoreVal,
         latency: latencySeconds,
         filename: selectedFile.name,
+        featureScores: data.featureScores || {},
+        exactMatches: data.exactMatches || [],
         gaps: data.gaps || [],
         recommendations: data.recommendations || []
       });
@@ -238,23 +240,65 @@ const EmployabilityDashboard = () => {
 
           <div className="awaiting-panel">
             {analysisResult ? (
-              <div style={{ width: '100%', textAlign: 'center' }}>
-                <div style={{ fontSize: 10, color: 'var(--text-muted)', letterSpacing: 1 }}>MATCH_ALIGNMENT_SCORE</div>
-                <div style={{ fontSize: 48, fontWeight: 'bold', color: 'var(--cyan-primary)', margin: '5px 0' }} className="title-glow">
-                  {analysisResult.score}%
-                </div>
-                <div style={{ fontSize: 10, color: 'var(--text-primary)', marginBottom: 10 }}>
-                  INFERENCE_LATENCY: <span style={{ color: 'var(--cyan-primary)' }}>{analysisResult.latency}</span>
+              <div style={{ width: '100%' }}>
+                <div style={{ textAlign: 'center' }}>
+                  <div style={{ fontSize: 10, color: 'var(--text-muted)', letterSpacing: 1 }}>MATCH_ALIGNMENT_SCORE</div>
+                  <div style={{ fontSize: 48, fontWeight: 'bold', color: 'var(--cyan-primary)', margin: '5px 0' }} className="title-glow">
+                    {analysisResult.score}%
+                  </div>
+                  <div style={{ fontSize: 10, color: 'var(--text-primary)', marginBottom: 15 }}>
+                    INFERENCE_LATENCY: <span style={{ color: 'var(--cyan-primary)' }}>{analysisResult.latency}</span>
+                  </div>
                 </div>
 
-                {analysisResult.gaps.length > 0 && (
+                {/* EXACT MATCHED SKILLS */}
+                {analysisResult.exactMatches.length > 0 && (
                   <div style={{ textAlign: 'left', marginTop: 10, borderTop: '1px solid var(--card-border)', paddingTop: 8 }}>
-                    <div style={{ fontSize: 10, color: 'var(--cyan-primary)', marginBottom: 4 }}>DETECTED_SKILL_GAPS:</div>
-                    <div style={{ fontSize: 10, color: 'var(--text-muted)' }}>
-                      {analysisResult.gaps.join(" | ")}
+                    <div style={{ fontSize: 10, color: 'var(--cyan-primary)', marginBottom: 6, fontWeight: 'bold' }}>VERIFIED_SKILLS:</div>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                      {analysisResult.exactMatches.map((skill, i) => (
+                        <span key={i} style={{ fontSize: 10, background: 'rgba(0, 240, 255, 0.1)', border: '1px solid var(--cyan-primary)', padding: '2px 6px', borderRadius: '2px', color: '#fff' }}>
+                          ✓ {skill}
+                        </span>
+                      ))}
                     </div>
                   </div>
                 )}
+
+                {/* DETECTED SKILL GAPS */}
+                {analysisResult.gaps.length > 0 && (
+                  <div style={{ textAlign: 'left', marginTop: 10, borderTop: '1px solid var(--card-border)', paddingTop: 8 }}>
+                    <div style={{ fontSize: 10, color: 'var(--danger-red, #ff4d4d)', marginBottom: 6, fontWeight: 'bold' }}>DETECTED_SKILL_GAPS:</div>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                      {analysisResult.gaps.map((gap, i) => (
+                        <span key={i} style={{ fontSize: 10, background: 'rgba(255, 77, 77, 0.1)', border: '1px solid var(--danger-red, #ff4d4d)', padding: '2px 6px', borderRadius: '2px', color: '#ff4d4d' }}>
+                          ! {gap}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* RECOMMENDATIONS & TUTORIALS */}
+                {analysisResult.recommendations.length > 0 && (
+                  <div style={{ textAlign: 'left', marginTop: 12, borderTop: '1px solid var(--card-border)', paddingTop: 10 }}>
+                    <div style={{ fontSize: 10, color: 'var(--cyan-primary)', marginBottom: 8, fontWeight: 'bold' }}>TARGETED_REMEDIATION_PATHS:</div>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                      {analysisResult.recommendations.map((rec, i) => (
+                        <a key={i} href={rec.searchUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                          <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid var(--card-border)', padding: '6px', borderRadius: '4px' }}>
+                            {rec.thumbnail && (
+                              <img src={rec.thumbnail} alt={rec.title} style={{ width: '100%', height: '50px', objectFit: 'cover', borderRadius: '2px', marginBottom: '4px' }} />
+                            )}
+                            <div style={{ fontSize: 9, fontWeight: 'bold', color: 'var(--cyan-primary)', truncate: 'ellipsis' }}>[{rec.skill}]</div>
+                            <div style={{ fontSize: 9, color: 'var(--text-muted)', height: '24px', overflow: 'hidden' }}>{rec.title}</div>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
               </div>
             ) : (
               <div style={{ textAlign: 'center' }}>
@@ -347,7 +391,7 @@ const EmployabilityDashboard = () => {
                 {telemetryData.map((row, idx) => (
                   <tr key={idx}>
                     <td>{row.timestamp}</td>
-                    <td style={{ color: row.isError ? 'var(--danger-red)' : 'inherit' }}>{row.filename}</td>
+                    <td style={{ color: row.isError ? 'var(--danger-red, #ff4d4d)' : 'inherit' }}>{row.filename}</td>
                     <td>
                       <span className={`score-badge ${row.isError ? 'error' : ''}`}>
                         {row.score}

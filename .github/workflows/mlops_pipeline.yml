@@ -24,7 +24,7 @@ jobs:
       - name: Cache Hugging Face Transformers Model
         uses: actions/cache@v4
         with:
-          path: ./hf_cache
+          path: ~/.cache/huggingface
           key: ${{ runner.os }}-hf-${{ hashFiles('requirements.txt') }}
 
       - name: Cache Pip Packages
@@ -44,7 +44,7 @@ jobs:
       - name: Step 2 - Append & Deduplicate Historical Ledger
         run: python history_retrieval.py
 
-      - name: Step 3 - Consolidate & Generate Analytics Summaries
+      - name: Step 3 - Consolidate & Generate Analytics Summaries & Vector Ledger
         run: python consolidate_market.py
 
       - name: Step 3.5 - Data Integrity & Validation Gate (Pytest)
@@ -53,17 +53,17 @@ jobs:
       - name: Step 4 - Retrain Employability Deep Scorer
         run: python train_model_mlflow.py --epochs 100 --lr 0.005
 
-      - name: Step 5 - Commit Data Updates & Analytics Summaries to GitHub
+      - name: Step 5 - Commit Data Updates, Analytics Summaries & Vectors to GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add todays_market_drift.xml historical_market_intelligence.xml market_summary_analytics.json market_summary_report.md 2>/dev/null || true
+          git add todays_market_drift.xml historical_market_intelligence.xml market_summary_analytics.json market_summary_report.md historical_vectors.npy historical_text.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "auto: publish dynamic market data & consolidation updates [skip ci]"
+            git commit -m "auto: publish dynamic market data, vector embeddings & consolidation updates [skip ci]"
             git push origin main
           fi
         continue-on-error: true
@@ -86,6 +86,8 @@ jobs:
           path: |
             todays_market_drift.xml
             historical_market_intelligence.xml
+            historical_vectors.npy
+            historical_text.json
             market_summary_analytics.json
             market_summary_report.md
           retention-days: 30
