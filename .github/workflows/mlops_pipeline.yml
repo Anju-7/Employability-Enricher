@@ -47,6 +47,9 @@ jobs:
       - name: Step 3 - Consolidate & Generate Analytics Summaries
         run: python consolidate_market.py
 
+      - name: Step 3.5 - Data Integrity & Validation Gate (Pytest)
+        run: pytest tests/test_data_integrity.py -v
+
       - name: Step 4 - Retrain Employability Deep Scorer
         run: python train_model_mlflow.py --epochs 100 --lr 0.005
 
