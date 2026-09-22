@@ -29,7 +29,7 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 @app.post("/api/analyze-resume")
 async def analyze_resume(file: UploadFile = File(...)):
     # 1. Parse PDF text payload
-    reader = PyPDF2.PdfReader(file.file)
+    reader = pypdf.PdfReader(file.file)
     extracted_text = " ".join([page.extract_text() for page in reader.pages if page.extract_text()])
 
     # 2. Run model inference & compute missing skill gaps
