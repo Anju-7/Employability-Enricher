@@ -9,33 +9,34 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sentence_transformers import SentenceTransformer
 
-# Download NLTK data dependencies
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
-nltk.download('wordnet', quiet=True)
+# Ensure required NLTK corpora are loaded
+for resource in ['punkt', 'stopwords', 'wordnet']:
+    try:
+        nltk.data.find(f'tokenizers/{resource}' if resource == 'punkt' else f'corpora/{resource}')
+    except LookupError:
+        nltk.download(resource, quiet=True)
 
 HISTORICAL_FILE = "historical_market_intelligence.xml"
 KEYWORD_VECTORS_NPY = "keyword_vectors.npy"
 KEYWORD_METADATA_JSON = "keyword_metadata.json"
 
 def extract_and_vectorize_keywords():
-    print("[+] Extracting NLTK keywords and generating weighted vectors...")
+    print("[+] Extracting NLTK market keywords and generating weighted vector database...")
     
     if not os.path.exists(HISTORICAL_FILE):
-        print(f"[!] Historical file {HISTORICAL_FILE} not found.")
+        print(f"[!] Historical ledger {HISTORICAL_FILE} not found.")
         return
 
     try:
         tree = ET.parse(HISTORICAL_FILE)
         root = tree.getroot()
-    except Exception as e:
-        print(f"[!] Error parsing XML: {e}")
+    except Exception as err:
+        print(f"[!] Error parsing historical XML ledger: {err}")
         return
 
     lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words('english'))
-    additional_stops = {'using', 'based', 'system', 'data', 'application', 'framework', 'solution', 'build'}
-    stop_words.update(additional_stops)
+    stop_words.update({'using', 'based', 'system', 'data', 'application', 'framework', 'solution', 'build', 'new'})
 
     raw_corpus = []
     for item in root.findall("TrendItem"):
@@ -46,48 +47,48 @@ def extract_and_vectorize_keywords():
 
     full_text = " ".join(raw_corpus).lower()
     
-    # NLTK Tokenization & Cleaning
+    # Tokenization & Lemmatization via NLTK
     tokens = word_tokenize(full_text)
     clean_tokens = [
         lemmatizer.lemmatize(word) for word in tokens 
         if word.isalnum() and word not in stop_words and len(word) > 2
     ]
 
-    # Generate Unigrams & Bigrams
+    # Combine Unigrams & Bigrams
     bigrams = [' '.join(clean_tokens[i:i+2]) for i in range(len(clean_tokens)-1)]
     all_terms = clean_tokens + bigrams
 
     term_counts = Counter(all_terms)
-    top_terms = term_counts.most_common(200)
+    top_terms = term_counts.most_common(150)
 
     if not top_terms:
-        print("[!] No valid terms extracted.")
+        print("[!] No extracted terms met frequency thresholds.")
         return
 
     keywords = [term for term, count in top_terms]
     counts = np.array([count for term, count in top_terms], dtype=np.float32)
     
-    # Calculate term importance weights (Normalized Frequency Density)
+    # Frequency Density Normalization for Importance Weights
     importance_weights = counts / np.max(counts)
 
-    # Embed keywords using SentenceTransformer
+    # Embed using Transformer
     print("[+] Encoding keywords with SentenceTransformer ('all-MiniLM-L6-v2')...")
     embedder = SentenceTransformer("all-MiniLM-L6-v2")
     keyword_vectors = embedder.encode(keywords, convert_to_numpy=True)
 
-    # Save outputs to DB files
+    # Store output database files
     np.save(KEYWORD_VECTORS_NPY, keyword_vectors)
     
     metadata = {
         "keywords": keywords,
         "importance_weights": importance_weights.tolist(),
-        "total_terms_indexed": len(keywords)
+        "total_indexed": len(keywords)
     }
     
     with open(KEYWORD_METADATA_JSON, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)
 
-    print(f"[+] Successfully stored {len(keywords)} keyword vectors & importance weights in database.")
+    print(f"[+] Stored {len(keywords)} vector embeddings and NLTK metadata weights into DB successfully.")
 
 if __name__ == "__main__":
     extract_and_vectorize_keywords()

@@ -21,11 +21,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Cache Hugging Face Transformers Model
+      - name: Cache Hugging Face Transformers & NLTK Models
         uses: actions/cache@v4
         with:
-          path: ~/.cache/huggingface
-          key: ${{ runner.os }}-hf-${{ hashFiles('requirements.txt') }}
+          path: |
+            ~/.cache/huggingface
+            ~/nltk_data
+          key: ${{ runner.os }}-models-${{ hashFiles('requirements.txt') }}
 
       - name: Cache Pip Packages
         uses: actions/cache@v4
@@ -33,10 +35,10 @@ jobs:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
 
-      - name: Install All Python Dependencies
+      - name: Install Dependencies (CPU Lightweight)
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
           python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
 
       - name: Step 1 - Ingest Incoming Market Data
@@ -55,9 +57,9 @@ jobs:
         run: pytest tests/test_data_integrity.py -v
 
       - name: Step 4 - Retrain Employability Deep Scorer
-        run: python train_model_mlflow.py --epochs 100 --lr 0.005
+        run: python train_model_mlflow.py --epochs 50 --lr 0.005
 
-      - name: Step 5 - Commit Data Updates & Vector Artifacts
+      - name: Step 5 - Commit Vector Artifacts & Analytics Metadata
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -65,14 +67,14 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add todays_market_drift.xml historical_market_intelligence.xml market_summary_analytics.json market_summary_report.md keyword_vectors.npy keyword_metadata.json 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes detected to commit."
           else
-            git commit -m "auto: publish updated market vector DB & NLTK keyword metadata [skip ci]"
+            git commit -m "auto: update market vector database & NLTK metadata [skip ci]"
             git push origin main
           fi
         continue-on-error: true
 
-      - name: Upload Artifacts
+      - name: Upload Pipeline Artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -81,4 +83,4 @@ jobs:
             keyword_vectors.npy
             keyword_metadata.json
             market_summary_analytics.json
-          retention-days: 30
+          retention-days: 14

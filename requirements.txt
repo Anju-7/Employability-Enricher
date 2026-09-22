@@ -1,10 +1,12 @@
 feedparser
-mlflow
+mlflow-skinny
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
 sentence-transformers
 numpy
 requests
-PyPDF2
+pypdf
 fastapi
 uvicorn
 pytest
+nltk
