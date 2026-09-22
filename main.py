@@ -1,14 +1,28 @@
 import os
 import requests
 from fastapi import FastAPI, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
 import PyPDF2
 import mlflow.pytorch
 
 app = FastAPI()
 
+# Enable CORS for React frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Load latest production model dynamically
 MODEL_URI = "models:/employability-deep-scorer/Production"
-model = mlflow.pytorch.load_model(MODEL_URI)
+try:
+    model = mlflow.pytorch.load_model(MODEL_URI)
+except Exception as e:
+    model = None
+    print(f"MLflow model load warning: {e}")
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
@@ -16,25 +30,29 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 async def analyze_resume(file: UploadFile = File(...)):
     # 1. Parse PDF text payload
     reader = PyPDF2.PdfReader(file.file)
-    extracted_text = " ".join([page.extract_text() for page in reader.pages])
+    extracted_text = " ".join([page.extract_text() for page in reader.pages if page.extract_text()])
 
     # 2. Run model inference & compute missing skill gaps
-    # (Placeholder logic for gap detection)
+    # (Placeholder logic for gap detection - integrate PyTorch model output here)
     detected_gaps = ["Docker Containerization", "Kubernetes Scaling"]
 
     # 3. Dynamic YouTube Video Fetching
     video_recommendations = []
-    for skill in detected_gaps:
-        yt_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q={skill}+tutorial&type=video&maxResults=1&key={YOUTUBE_API_KEY}"
-        res = requests.get(yt_url).json()
-        if "items" in res and len(res["items"]) > 0:
-            item = res["items"][0]
-            video_recommendations.append({
-                "skill": skill,
-                "title": item["snippet"]["title"],
-                "videoId": item["id"]["videoId"],
-                "thumbnail": item["snippet"]["thumbnails"]["medium"]["url"]
-            })
+    if YOUTUBE_API_KEY:
+        for skill in detected_gaps:
+            yt_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q={skill}+tutorial&type=video&maxResults=1&key={YOUTUBE_API_KEY}"
+            try:
+                res = requests.get(yt_url).json()
+                if "items" in res and len(res["items"]) > 0:
+                    item = res["items"][0]
+                    video_recommendations.append({
+                        "skill": skill,
+                        "title": item["snippet"]["title"],
+                        "videoId": item["id"]["videoId"],
+                        "thumbnail": item["snippet"]["thumbnails"]["medium"]["url"]
+                    })
+            except Exception as err:
+                print(f"YouTube API Error: {err}")
 
     return {
         "status": "SUCCESS",
