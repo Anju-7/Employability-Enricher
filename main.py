@@ -4,131 +4,130 @@ import requests
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 import pypdf
-import torch
-import numpy as np
-from sentence_transformers import SentenceTransformer, util
-import mlflow.pytorch
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# 1. Load Local Transformer Model for Semantic Embeddings
-print("Loading Transformer embedding model...")
-embedder = SentenceTransformer('all-MiniLM-L6-v2')
-
-# 2. Dynamic Retrieval from Historical Market Intelligence Database/JSON
 MARKET_DATA_PATH = os.path.join(os.path.dirname(__file__), "market_summary_analytics.json")
 
-def load_market_intelligence():
-    """Dynamically parses historical market intelligence records."""
+def load_historical_market_intelligence():
+    """
+    Parses market_summary_analytics.json dynamically and extracts
+    all skill vectors, market descriptions, and historical demand metrics.
+    """
     if not os.path.exists(MARKET_DATA_PATH):
-        print(f"Warning: {MARKET_DATA_PATH} not found. Using empty market profile.")
-        return {}, {}
+        print(f"Warning: {MARKET_DATA_PATH} not found.")
+        return [], []
 
     with open(MARKET_DATA_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Extract dynamic skill descriptions and market weightings from your json stream
-    market_skills = {}
-    market_weights = {}
+    # Flatten JSON data to extract raw skill descriptions
+    skill_names = []
+    skill_documents = []
 
-    # Extract skills directly from parsed historical market data structure
-    skills_list = data.get("top_demanded_skills", []) or data.get("skills_benchmark", [])
-    
-    if isinstance(skills_list, list):
-        for item in skills_list:
-            if isinstance(item, dict):
-                name = item.get("skill_name") or item.get("name")
-                desc = item.get("description", f"Proficiency in {name} as required by current market demand.")
-                weight = item.get("importance_weight", 1.0)
-            else:
-                name = str(item)
-                desc = f"Demonstrated expertise and hands-on production experience in {name}."
-                weight = 1.0
-            
+    # Recursively locate list/dictionary records in historical market JSON
+    records = []
+    if isinstance(data, dict):
+        for key in ["skills", "top_demanded_skills", "market_skills", "technologies", "analytics"]:
+            if key in data and isinstance(data[key], list):
+                records = data[key]
+                break
+        if not records:
+            records = [data]
+    elif isinstance(data, list):
+        records = data
+
+    for item in records:
+        if isinstance(item, dict):
+            name = item.get("skill_name") or item.get("name") or item.get("title") or "Technical Requirement"
+            desc = item.get("description") or item.get("summary") or f"Hands-on expertise and production usage of {name}"
             if name:
-                market_skills[name] = desc
-                market_weights[name] = weight
-    
-    return market_skills, market_weights
+                skill_names.append(name)
+                skill_documents.append(f"{name} {desc}")
+        elif isinstance(item, str):
+            skill_names.append(item)
+            skill_documents.append(f"{item} production level proficiency and experience")
 
-DYNAMIC_MARKET_SKILLS, MARKET_WEIGHTS = load_market_intelligence()
+    return skill_names, skill_documents
 
-# Pre-compute dynamic market embeddings once on server start
-MARKET_EMBEDDINGS = {
-    skill: embedder.encode(desc, convert_to_tensor=True)
-    for skill, desc in DYNAMIC_MARKET_SKILLS.items()
-}
-
-# 3. Load MLflow PyTorch Deep Scorer Model
-MODEL_URI = "models:/employability-deep-scorer/Production"
-mlflow_model = None
-try:
-    mlflow_model = mlflow.pytorch.load_model(MODEL_URI)
-    mlflow_model.eval()
-    print("MLflow PyTorch model loaded successfully.")
-except Exception as e:
-    print(f"MLflow model load warning: {e}")
+SKILL_NAMES, SKILL_DOCUMENTS = load_historical_market_intelligence()
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 @app.post("/api/analyze-resume")
 async def analyze_resume(file: UploadFile = File(...)):
-    # 1. Parse PDF payload
+    print(f"\n---> Analyzing Payload: {file.filename}")
+
+    # 1. Extract raw text from PDF payload
     try:
         reader = pypdf.PdfReader(file.file)
-        extracted_text = " ".join([page.extract_text() for page in reader.pages if page.extract_text()])
-        if not extracted_text.strip():
-            return {"status": "ERROR", "message": "Could not extract readable text from PDF."}
+        resume_text = " ".join([page.extract_text() for page in reader.pages if page.extract_text()])
+        if not resume_text.strip():
+            return {"status": "ERROR", "message": "Failed to extract text from uploaded PDF."}
     except Exception as err:
-        return {"status": "ERROR", "message": f"PDF parsing error: {str(err)}"}
+        return {"status": "ERROR", "message": f"PDF parse error: {str(err)}"}
 
-    # 2. Extract Dense Vector Embedding from PDF
-    resume_embedding = embedder.encode(extracted_text, convert_to_tensor=True)
+    # 2. Reload market intelligence dynamically if updated
+    skill_names, skill_documents = load_historical_market_intelligence()
+    
+    if not skill_documents:
+        # Fallback if market intelligence file is empty
+        skill_names = ["Docker", "Kubernetes", "PyTorch", "FastAPI", "CI/CD"]
+        skill_documents = [f"{s} production level experience and skills" for s in skill_names]
 
-    # 3. Cross-reference dynamically retrieved market skills against PDF vector
-    similarity_scores = {}
+    # 3. Apply TF-IDF Retrieval Algorithm over Historical Market Intelligence
+    corpus = [resume_text] + skill_documents
+    vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1, 2))
+    tfidf_matrix = vectorizer.fit_transform(corpus)
+
+    # Calculate Cosine Similarity between Resume (Index 0) and Market Skills (Index 1..N)
+    resume_vector = tfidf_matrix[0]
+    market_vectors = tfidf_matrix[1:]
+    
+    similarity_scores = cosine_similarity(resume_vector, market_vectors)[0]
+
+    # 4. Map similarity scores back to Market Intelligence Skills
+    feature_scores = {}
     detected_gaps = []
-    weighted_scores = []
+    matches = []
 
-    for skill_name, market_emb in MARKET_EMBEDDINGS.items():
-        # Cosine distance computation
-        cos_sim = util.cos_sim(resume_embedding, market_emb).item()
-        bounded_score = max(0.0, float(cos_sim))
-        
-        weight = MARKET_WEIGHTS.get(skill_name, 1.0)
-        similarity_scores[skill_name] = round(bounded_score * 100, 1)
-        weighted_scores.append(bounded_score * weight)
+    for idx, score in enumerate(similarity_scores):
+        skill = skill_names[idx]
+        match_percentage = float(score * 100)
+        feature_scores[skill] = round(match_percentage, 1)
 
-        # Flag skill gaps dynamically if match falls below historical threshold
-        if bounded_score < 0.38:
-            detected_gaps.append(skill_name)
-
-    # 4. Neural Model Inference / Historical Weighted Scoring
-    if mlflow_model:
-        with torch.no_grad():
-            input_tensor = torch.tensor([[s for s in similarity_scores.values()]], dtype=torch.float32)
-            model_output = mlflow_model(input_tensor)
-            calculated_score = round(float(model_output.item()), 1)
-    else:
-        # Dynamic weighted average against historical intelligence baseline
-        if weighted_scores:
-            mean_val = float(np.mean(weighted_scores))
-            calculated_score = round(min(100.0, max(15.0, mean_val * 130.0)), 1)
+        # Gap detection threshold based on TF-IDF cosine score
+        if score < 0.12:
+            detected_gaps.append(skill)
         else:
-            calculated_score = 75.0
+            matches.append(score)
 
-    # 5. Fetch YouTube recommendations for dynamic gaps
+    # Overall alignment score calculated directly from matched TF-IDF scores
+    if matches:
+        overall_score = round(min(98.0, max(35.0, (sum(matches) / len(skill_documents)) * 300.0 + 40.0)), 1)
+    else:
+        overall_score = 32.5
+
+    print(f"Calculated TF-IDF Alignment Score: {overall_score}%")
+    print(f"Detected Gaps: {detected_gaps}")
+
+    # 5. Retrieve YouTube Recommendations for Detected Gaps
     video_recommendations = []
-    if YOUTUBE_API_KEY and detected_gaps:
-        for skill in detected_gaps[:2]:
+    target_gaps = detected_gaps[:2] if detected_gaps else skill_names[:2]
+
+    for skill in target_gaps:
+        fetched = False
+        if YOUTUBE_API_KEY:
             yt_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q={skill}+tutorial&type=video&maxResults=1&key={YOUTUBE_API_KEY}"
             try:
                 res = requests.get(yt_url).json()
@@ -138,15 +137,27 @@ async def analyze_resume(file: UploadFile = File(...)):
                         "skill": skill,
                         "title": item["snippet"]["title"],
                         "videoId": item["id"]["videoId"],
-                        "thumbnail": item["snippet"]["thumbnails"]["medium"]["url"]
+                        "thumbnail": item["snippet"]["thumbnails"]["medium"]["url"],
+                        "searchUrl": f"https://www.youtube.com/watch?v={item['id']['videoId']}"
                     })
+                    fetched = True
             except Exception as err:
                 print(f"YouTube Fetch Error: {err}")
 
+        # Fallback YouTube Search Link if API key is absent
+        if not fetched:
+            video_recommendations.append({
+                "skill": skill,
+                "title": f"Master {skill} - Production Guide",
+                "videoId": "",
+                "searchUrl": f"https://www.youtube.com/results?search_query={skill.replace(' ', '+')}+tutorial",
+                "thumbnail": "https://img.youtube.com/vi/s3JldKoA0zw/hqdefault.jpg"
+            })
+
     return {
         "status": "SUCCESS",
-        "alignmentScore": calculated_score,
-        "featureScores": similarity_scores,
+        "alignmentScore": overall_score,
+        "featureScores": feature_scores,
         "gaps": detected_gaps[:3],
         "recommendations": video_recommendations
     }
