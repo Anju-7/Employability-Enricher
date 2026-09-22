@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-09-22" record_count="995" status="SUCCESS">
+<MarketIngestion date="2026-09-22" record_count="996" status="SUCCESS">
   <TrendItem>
     <Source>AWS Architecture</Source>
     <Title>ReadyOn’s Four Walls of tenant isolation on Amazon EKS</Title>
@@ -162,256 +162,6 @@
     <SummaryPayload>Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto-labeled training images for industrial safety AI. This approach improved person detection by up to 160% without manual annotation or hazardous data collection </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Kubernetes v1.37 promotes the &lt;code&gt;PersistentVolumeClaimUnusedSinceTime&lt;/code&gt; feature gate to Beta (enabled by
-default). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an &lt;code&gt;Unused&lt;/code&gt;
-condition to each PVC, telling you whether any running pod currently refe</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Istio Blog</Source>
-    <Title>Announcing Istio 1.31.1</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://istio.io/latest/news/releases/1.31.x/announcing-1.31.1/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;This release contains bug fixes to improve robustness. This release note describes what&amp;rsquo;s different between Istio 1.31.0 and 1.31.1.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-   </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Istio Blog</Source>
-    <Title>Announcing Istio 1.30.5</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://istio.io/latest/news/releases/1.30.x/announcing-1.30.5/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;This release contains bug fixes to improve robustness. This release note describes what&amp;rsquo;s different between Istio 1.30.4 and 1.30.5.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-   </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Istio Blog</Source>
-    <Title>Announcing Istio 1.29.8</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://istio.io/latest/news/releases/1.29.x/announcing-1.29.8/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;This release contains bug fixes to improve robustness. This release note describes what&amp;rsquo;s different between Istio 1.29.7 and 1.29.8.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-   </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Netflix Tech Blog</Source>
-    <Title>Leave the Class Path in the Rearview Mirror</Title>
-    <ExtractedTags>software-engineering, jvm, software-development, java</ExtractedTags>
-    <ReferenceURL>https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;&lt;em&gt;Introducing composable, module system native and agent friendly command line tools for modern Java development&lt;/em&gt;&lt;/p&gt;&lt;p&gt;By Danny Thomas, JVM Ecosystem Team&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/848/1*AkQlaHO9bwLf_dNp-Z2HZQ.png&quot; /&gt;&lt;/figure&gt;&lt;p&gt;Recent work on the Java</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Meta Engineering</Source>
-    <Title>Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems</Title>
-    <ExtractedTags>Open Source</ExtractedTags>
-    <ReferenceURL>https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;We&amp;#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solv</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Meta Engineering</Source>
-    <Title>Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable</Title>
-    <ExtractedTags>Connectivity</ExtractedTags>
-    <ReferenceURL>https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to de</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>The AI magic words</Title>
-    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, knowledge-building, agentic-ai</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/09/17/the-ai-magic-words/</ReferenceURL>
-    <SummaryPayload>Ryan sits down with Tim O&amp;#x27;Reilly, founder and CEO at O&amp;#x27;Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &amp;quot;magic words&amp;quot; to extract better outputs from AI, and why human taste is becoming highly valuable as knowledge becomes a commodity.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>InfoQ</Source>
     <Title>Out-of-Order HTML Streaming Moves from JS Frameworks into the Browser</Title>
     <ExtractedTags>Web Development, React, User Experience, JavaScript, HTML, Development, news</ExtractedTags>
@@ -517,6 +267,27 @@ condition to each PVC, telling you whether any running pod currently refe</Summa
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/lambda-90-minute-timeout/en/headerimage/generatedHeaderImage-1789110995851.jpg&quot; /&gt;&lt;p&gt;AWS Lambda now allows functions running on Lambda Managed Instances to run for up to 90 minutes, six times longer than the previous 15-minute limit, further blurring the </SummaryPayload>
   </TrendItem>
   <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Haters think AI agents can't write GPU code? This'll ROCm</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, agentic-ai, ai, hardware, chip</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/</ReferenceURL>
+    <SummaryPayload>Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm&amp;#x27;s open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level hardware programming, and the rapid convergence of software and hardware development timelines.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>The AI magic words</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, knowledge-building, agentic-ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/09/17/the-ai-magic-words/</ReferenceURL>
+    <SummaryPayload>Ryan sits down with Tim O&amp;#x27;Reilly, founder and CEO at O&amp;#x27;Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &amp;quot;magic words&amp;quot; to extract better outputs from AI, and why human taste is becoming highly valuable as knowledge becomes a commodity.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Leave the Class Path in the Rearview Mirror</Title>
+    <ExtractedTags>software-engineering, jvm, software-development, java</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;Introducing composable, module system native and agent friendly command line tools for modern Java development&lt;/em&gt;&lt;/p&gt;&lt;p&gt;By Danny Thomas, JVM Ecosystem Team&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/848/1*AkQlaHO9bwLf_dNp-Z2HZQ.png&quot; /&gt;&lt;/figure&gt;&lt;p&gt;Recent work on the Java</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
     <Source>Martin Fowler</Source>
     <Title>I don't like LLMs</Title>
     <ExtractedTags>General Tech</ExtractedTags>
@@ -526,6 +297,789 @@ fascinated by its effect on our profession, excited by the potential gains
 in productivity - and thus the products we could rapidly build. On the other
 hand, I’m fearful of the damage AI might cause: agent swarms taking over our
 virt</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A New Kind of Model for AI Decision-Making?</Title>
+    <ExtractedTags>Artificial Intelligence, Llm, Generative Ai, Llm Applications, Text Classification, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-new-kind-of-model-for-ai-decision-making/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Exploring TypeSafe's Jev and comparing it with OpenAI on intent classification&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-new-kind-of-model-for-ai-decision-making/&quot;&gt;A New Kind of Model for AI Decision-Making?&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Da</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level</Title>
+    <ExtractedTags>Large Language Models, Llm, OpenAI, LLM Agents, Artificial Intelligence, Cybersecurity</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Why this matters less for what Astra can do and more for what every other model hasn't been tested for&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/&quot;&gt;GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level&lt;/a&gt; appeare</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?</Title>
+    <ExtractedTags>Data Governance, Reinfocement Learning, Data Science, Training Data, Generative Ai, Google</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How to put a dollar value on your organization's operational data&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/&quot;&gt;Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?&lt;/a&gt; appeared first on &lt;a href=&quot;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Your AI Assistant Wrote the Code. Who Checked the Defaults?</Title>
+    <ExtractedTags>Machine Learning, LLM Agents, Vibe coding, Data Sceince, Python, Production AI</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Five scikit-learn defaults that deserve a closer look before your next model reaches production&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/&quot;&gt;Your AI Assistant Wrote the Code. Who Checked the Defaults?&lt;/a&gt; appeared first on &lt;a </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Large Language Models, Graphrag, LLM Engineering, Rag Architecture, Rag, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;GraphRAG: A Practitioner's Guide to</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>CBAM Paper Walkthrough: The Double-Attention Mechanism</Title>
+    <ExtractedTags>Deep Learning, Neural Network, Computer Vision, Pytorch, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Understanding and implementing CBAM (Convolutional Block Attention Module) from scratch with PyTorch&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/&quot;&gt;CBAM Paper Walkthrough: The Double-Attention Mechanism&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores</Title>
+    <ExtractedTags>Data Engineering, Entity Resolution, Data Cleaning, Record Linkage, Python, Data Quality</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Deduplicating a 10,000-row supplier list in Python, where the hard part is deciding what a similarity score of 91 means&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/&quot;&gt;One Vendor, Four Spellings: How Deterministic</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.</Title>
+    <ExtractedTags>Generative AI, AI Agents, AI Adoption, Progamming, Productivity, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/&quot;&gt;AI Made Me 5x Faster. It Also Made Me</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them</Title>
+    <ExtractedTags>Agentic AI, coding agents, AI coding assistants, Llm Applications, Vibe coding, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How to verify your app aligns with your intent without ever reading a line of generated code.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/&quot;&gt;Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them&lt;/a&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.</Title>
+    <ExtractedTags>Machine Learning, Artificial Intelligence, Mlops, Llm, Llmops, Llm Applications</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The recurring cost of production AI is not inference. It is re-qualification: the eval reruns, prompt retuning, and regression testing you owe every time a model changes under you. Here is what that tax actually covers, and how to budget for it before it surprises you.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;ht</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Starting a Career in Data Science in the Age of AI</Title>
+    <ExtractedTags>Data Science, Career Advice, Editor's Picks, Artificial Intelligence, Career Growth</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How do you set yourself up for a career that will stand the test of time when things are changing so fast?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/&quot;&gt;Starting a Career in Data Science in the Age of AI&lt;/a&gt; appeared first on &lt;a href=</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Multi-Agent Systems, coding agents, Editor's Picks, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-laye</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Building a Data Lakehouse with DuckDB and DuckLake</Title>
+    <ExtractedTags>Data Engineering, Data Lake, Duckdb, Databases, Data Lakehouse</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Starting with a local Parquet file, then joining it to data stored in the cloud&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/&quot;&gt;Building a Data Lakehouse with DuckDB and DuckLake&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)</Title>
+    <ExtractedTags>Agentic AI, Causal Inference, Time Series Analysis, Editor's Picks, A B Testing, Multi Agent Systems</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;What it takes to turn counterfactual analysis into an AI product&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/&quot;&gt;How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)&lt;/a&gt; appeared first on </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Why You Think Like a Bayesian but Were Taught Like a Frequentist</Title>
+    <ExtractedTags>Data Science, Statistics, Markov Chain Monte Carlo, Bayesian Statistics, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;From a chocolate bar with no price tag to a marketing mix model in PyMC, and the 200-year-old integral that stood in between.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/&quot;&gt;Why You Think Like a Bayesian but Were Taught Li</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>When Does Graph RAG Actually Add Value? A Hands-On Experiment</Title>
+    <ExtractedTags>Large Language Models, Knowledge Graph, Context Engineering, Editor's Picks, Rag, Llm</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window.&lt;/p&gt;
+&lt;p&gt;The post &lt;a h</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems</Title>
+    <ExtractedTags>Open Source</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;We&amp;#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solv</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable</Title>
+    <ExtractedTags>Connectivity</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to de</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Kubernetes Blog</Source>
+    <Title>Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Kubernetes v1.37 promotes the &lt;code&gt;PersistentVolumeClaimUnusedSinceTime&lt;/code&gt; feature gate to Beta (enabled by
+default). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an &lt;code&gt;Unused&lt;/code&gt;
+condition to each PVC, telling you whether any running pod currently refe</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>When and Why Do Linear Bias Probes Fail? A Geometric and Statistical Theory of Bias Detectability in Large Language Model Representations</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22337</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22337v1 Announce Type: new 
+Abstract: Linear probing is the standard instrument for detecting social biases in the hidden representations of large language models. Yet reported probe accuracies come almost exclusively from \emph{counterfactual} evaluations in which every input carries an </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>RLVR is a Kernel, Not a Function: Statistical Inference for pass@$k$ Crossovers</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22547</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22547v1 Announce Type: new 
+Abstract: Reinforcement learning with verifiable rewards (RLVR) often improves pass@1 while falling behind its base model at larger sampling budgets $k$, a crossover read as evidence that RLVR only sharpens existing capability. We identify two limits to this re</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Locally Private Inference for Riemannian Stochastic Optimization</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.OC, math.ST, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22642</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22642v1 Announce Type: new 
+Abstract: We develop inference for manifold-valued population minimizers when each observation belongs to a different participant and only locally private messages reach the analyst. The method releases randomized tangent gradients and combines them through Rie</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>A Bayesian Vertical Federated Learning Framework for Multivariate Reduced-Rank High-Dimensional Regression</Title>
+    <ExtractedTags>stat.ML, cs.LG, stat.CO</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22654</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22654v1 Announce Type: new 
+Abstract: Federated learning (FL) has emerged as a leading privacy-preserving framework for collaborative machine learning across decentralized environments. While considerable progress has been made in horizontal federated learning (HFL), where data with commo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Toscani-Fourier Distance on Probability Measures: Wasserstein Control, Topological Equivalence on Model Classes, and Duality</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.FA, math.PR, math.ST, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23163</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23163v1 Announce Type: new 
+Abstract: Comparing probability measures in machine learning trades transport geometry against computational cost: Wasserstein distances encode the geometry of $\mathbb R^d$ but require solving a transport problem, while kernel discrepancies are cheap to evalua</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Conformal Robustness in Prediction-Driven Decision-Making</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23170</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23170v1 Announce Type: new 
+Abstract: Modern prediction-driven decision systems often rely on black-box predictors, but a point forecast alone does not provide the uncertainty scale required for robust downstream decision-making. We build a score-calibrated robustness framework that conve</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Bayesian Deck-of-cards-based Ordinal Regression with Sequential Preference Elicitation</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23212</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23212v1 Announce Type: new 
+Abstract: The Deck-of-cards-based Ordinal Regression (DOR) infers a value function from a ranking of reference alternatives in which the Decision Maker (DM) inserts blank cards between consecutive levels to express preference intensity. DOR, and its stochastic </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Stochastic Flow Map for Count Data</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23290</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23290v1 Announce Type: new 
+Abstract: High-dimensional count data are common in scientific applications, but most diffusion and flow models are designed for continuous or categorical data, and generation often requires many sequential model evaluations. We propose Count Flow Map, a genera</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Bayesian Filtering in Physical Systems via Test-time Trained Flow Matching</Title>
+    <ExtractedTags>stat.ML, cs.AI, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23383</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23383v1 Announce Type: new 
+Abstract: Bayesian filtering provides a principled framework for online state estimation under uncertainty, yet its application to systems with high-dimensional states and complicated posterior distributions remains challenging. Recent generative models, such a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>PACE: Plug-and-Play Contextual Embedding for Feature Screening with Pretrained Tabular Foundation Models</Title>
+    <ExtractedTags>stat.ML, cs.LG, stat.AP, stat.ME</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23574</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23574v1 Announce Type: new 
+Abstract: In high-dimensional tabular learning, feature screening provides a lightweight, model-agnostic way to remove irrelevant features before model fitting. However, scoring raw values directly can miss nonlinear or distributional structure. We introduce PA</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>TEMPER: Temporal Encoder-Masked Probabilistic Ensemble Regressor for Time-Series Forecasting</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23701</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23701v1 Announce Type: new 
+Abstract: Probabilistic forecasting requires accurate central predictions and calibrated uncertainty estimates. This paper presents TEMPER, the Temporal Encoder-Masked Probabilistic Ensemble Regressor, a univariate time-series forecasting algorithm that combine</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>On Generalized Naive Bayes with Continuous Features</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23819</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23819v1 Announce Type: new 
+Abstract: The Generalized Naive Bayes (GNB) model was introduced for discrete and categorical random variables as an extension of classic Naive Bayes. We now accommodate the GNB framework to continuous explanatory variables. A central result of the paper is tha</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Density-Ratio Rescoring for Imbalanced Classification</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23926</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23926v1 Announce Type: new 
+Abstract: Density-Ratio Rescoring (DRR) augments a classifier trained at the original class prior with a survey-raking dual score. Raking reweights the majority sample to match minority feature moments within a tolerance. DRR marginally standardizes the dual an</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Sparse Regression Distilled from a Single Robust Fit</Title>
+    <ExtractedTags>stat.ML, cs.LG, stat.ME</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23937</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23937v1 Announce Type: new 
+Abstract: Robust linear fits can resist response contamination yet remain too dense or unstable for useful global explanations. We propose penalized distillation, which fits a smoothly clipped absolute deviation (SCAD) estimator to a robust initial estimator's </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Exponential Family Synthetic Controls</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23970</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23970v1 Announce Type: new 
+Abstract: We develop exponential family synthetic controls (EFSC), a distributional version of synthetic controls for a panel of datasets. Each cell of the panel corresponds to a dataset drawn from an exponential family whose natural parameters factorize probab</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Causal Bayesian Optimization: Foundations, Methods, and Applications</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24112</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24112v1 Announce Type: new 
+Abstract: Causal Bayesian Optimization (CBO) combines causal inference with Bayesian optimization to enable sample-efficient intervention selection in systems with causal structure. This survey provides a systematic review of CBO through a unified BO-loop persp</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Model-Agnostic Feature Selection via LOCO-Guided Adaptive Minipatch Sampling</Title>
+    <ExtractedTags>stat.ML, cs.LG, stat.ME</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24126</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24126v1 Announce Type: new 
+Abstract: Black-box machine learning models increasingly deliver strong predictions, but extracting useful information from them, such as a set of important features, remains challenging. Existing model-agnostic methods primarily estimate feature importance or </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>OSCAR: Order-aware Scoring and Calibration for AI Rankings</Title>
+    <ExtractedTags>stat.ML, cs.LG, stat.AP</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24128</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24128v1 Announce Type: new 
+Abstract: Judge-specific sensitivity is useful for aggregating pairwise LLM evaluations, but its interpretation depends on which systematic presentation effects the ranking model includes. We introduce OSCAR, an order-aware framework for scoring and calibrating</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Adversarially Robust PAC Learning with Optimal VC Rates</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.ST, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24260</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24260v1 Announce Type: new 
+Abstract: We study the problem of \emph{adversarially robust} PAC learning. In this framework, the learner observes independent samples from an unknown distribution over $\mathcal{X} \times \{0,1\}$, as in classical PAC learning. However, given a perturbation m</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Beyond Point Prediction: Artificial Representative Trees with Uncertainty</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24528</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24528v1 Announce Type: new 
+Abstract: Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction mod</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24556</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24556v1 Announce Type: new 
+Abstract: Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but r</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24954</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24954v1 Announce Type: new 
+Abstract: Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufactu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>The Limits of Speculation: Bounding Speculative Decoding in Mixture-of-Experts</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22156</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22156v1 Announce Type: cross 
+Abstract: Speculative decoding in Mixture-of-Experts (MoE) models faces the problem of unstable verification cost caused by input-dependent expert loading. To study the physics of this process, we formulate speculation-budget selection as an offline Stochasti</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>UniGIO: Unified Generative Global In-situ Weather Modeling from Spatiotemporal Incomplete Observations</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22217</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22217v1 Announce Type: cross 
+Abstract: Global In-situ Observation (GIO) provides fine-scale, direct records of the global weather system from sparse point stations, making it an indispensable source for capturing localized and transient dynamics beyond the reach of satellite gridded data</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Swiss-Knife: A Framework for Reconfigurable Externalised Multi-Objective Alignment at Decode Time</Title>
+    <ExtractedTags>cs.CL, cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22226</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22226v1 Announce Type: cross 
+Abstract: Decode-time alignment methods steer a frozen language model by scoring candidate continuations with an external reward and selecting the maximiser. We argue that this shared design is a single degenerate point in a much larger space. We introduce Sw</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Assessing Adversarial Robustness of Latent Reasoning Models</Title>
+    <ExtractedTags>cs.CL, cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22228</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22228v1 Announce Type: cross 
+Abstract: Large language models increasingly rely on long chain-of-thought (CoT) trajectories for complex reasoning, but autoregressive generation brings substantial memory and inference costs. Latent reasoning models (LRMs) offer a more efficient alternative</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>CNA: An AI-Oriented Comprehensive Normalized Assessment for Healthy Status and Application to Optimize RRT Strategies by Reinforcement Learning</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22232</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22232v1 Announce Type: cross 
+Abstract: Millions worldwide require Renal Replacement Therapy (RRT) as a treatment essential for survival. However, optimizing RRT strategies via AI is challenging due to heterogeneous patient dynamics, missing data, and the absence of an AI-oriented health </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Statistical Inference for Adversarial Training: Central Limit Theorems via Optimal Transport</Title>
+    <ExtractedTags>cs.LG, math.PR, math.ST, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22240</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22240v1 Announce Type: cross 
+Abstract: The purpose of this paper is to rigorously quantify the statistical and learning-theoretic properties of adversarial training models for classification. Equivalently, we establish the statistical properties of empirical optimal partial transport. Pr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Learning and Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems</Title>
+    <ExtractedTags>eess.SY, cs.LG, cs.RO, cs.SY, math.OC, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22338</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22338v1 Announce Type: cross 
+Abstract: This tutorial provides a unified view of the emerging area of bilinear learning and control. Using linear systems as a benchmark, it explains what fundamentally changes in the bilinear settings, how recent theory addresses finite-sample learning and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Bridging Local and Population Causal Effects: A Proximal Instrumental Variable Approach</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22383</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22383v1 Announce Type: cross 
+Abstract: Instrumental variable (IV) methods address treatment endogeneity, but with non-compliance and heterogeneous treatment effects a binary instrument generally identifies the local average treatment effect (LATE) among compliers rather than the populati</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Classification with Abstention Under Class-Conditional Error Constraints</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22632</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22632v1 Announce Type: cross 
+Abstract: We study binary classification with abstention under separate class-conditional error constraints, with the objective of minimizing abstention while keeping both errors below prescribed thresholds. We characterize the distribution-free minimax rate </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Monotone-Constrained Diffusion Models for Long-Horizon Production Forecasting</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22643</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22643v1 Announce Type: cross 
+Abstract: Forecasting a long horizon from only the first observations of a sequence is ill-posed: many trajectories are consistent with the same short history. We study this problem in oil and gas production forecasting, where forecasts made after roughly the</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Subspace Learning with Interval-Censored Likelihoods for Dequantizing Percept PC LFP Snapshots</Title>
+    <ExtractedTags>eess.SP, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22658</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22658v1 Announce Type: cross 
+Abstract: Implanted neurostimulators that sense local field potentials now enable chronic electrophysiology based biomarker tracking in patients at home. The Medtronic Percept PC, the only commercially available sensing-enabled deep brain stimulation (DBS) de</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Multi-Armed Bernoulli Bandits via Minimax Single-Arm Stopping</Title>
+    <ExtractedTags>cs.LG, math.OC, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22690</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22690v1 Announce Type: cross 
+Abstract: We develop an index policy for finite-horizon Bernoulli multi-armed bandits from minimax solutions to single-arm bandit (SAB) problems. Each SAB problem involves choosing between an unknown Bernoulli arm and a known reward. We show that minimizing w</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>On attention heads and bilinear forms</Title>
+    <ExtractedTags>cs.LG, math.SP, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.22990</ReferenceURL>
+    <SummaryPayload>arXiv:2609.22990v1 Announce Type: cross 
+Abstract: We study the symmetric and antisymmetric parts of bilinear forms in the attention heads of trained large language models. We introduce an orthogonally invariant profile map from real bilinear forms to a three-dimensional simplex and observe that pro</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Distributional Balancing with Machine Learning for Clinical Trial Augmentation Using Real-World Data</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23524</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23524v1 Announce Type: cross 
+Abstract: In clinical trials, randomization of treatment and control groups is typically used to ensure the groups have similar covariate distributions on average, resulting in unbiased causal effect estimation. Such balanced covariate distributions are hard </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Decoupled Causal Discovery</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23535</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23535v1 Announce Type: cross 
+Abstract: Causal discovery from observational data is a fundamental yet challenging task in scientific research. While existing approaches are primarily based on conditional independence tests, structure scores, or restrictive functional assumptions, we propo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Optimal High-Order Methods for Solving Monotone Variational Inequalities</Title>
+    <ExtractedTags>math.OC, cs.GT, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23557</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23557v1 Announce Type: cross 
+Abstract: We study second- and higher-order methods for solving smooth monotone variational inequalities (MVI). Monteiro and Svaiter (SIAM J. Optim., 2012) showed that a second-order method, NPE, converges at a rate of $\mathcal{O}(T^{-1.5})$. For convex-conc</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Belted Engression: Sufficient Dimension Reduction for Generative Distributional Regression</Title>
+    <ExtractedTags>cs.LG, cs.AI, math.ST, stat.ME, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23789</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23789v1 Announce Type: cross 
+Abstract: Modern conditional generative models face significant challenges when learning complex covariate dependencies. While sufficient dimension reduction (SDR) provides a principled approach to compress these dependencies, traditional SDR frameworks were </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Iterative Atom Refinement: A Monotonicity Principle for Dictionary Learning</Title>
+    <ExtractedTags>cs.LG, math.PR, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.23812</ReferenceURL>
+    <SummaryPayload>arXiv:2609.23812v1 Announce Type: cross 
+Abstract: Dictionary learning seeks to recover an unknown dictionary $A$ from observations ${\bf y}_i = A{\bf x}_i$ with sparse coefficient vectors ${\bf x}_i$. We introduce the \emph{Iterative Atom Refinement} (IAR) algorithm, a simple procedure for recoveri</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Doubly robust target inference for generalized linear regression with completely missing covariates</Title>
+    <ExtractedTags>stat.ME, math.ST, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24086</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24086v1 Announce Type: cross 
+Abstract: Large-scale multipurpose cohort studies and biobanks often omit covariates needed for specific downstream analyses. We study target-population inference for generalized linear regression when key covariates are completely absent from the target data</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>A Distributional Optimisation Perspective on Combining Models in Deep Learning</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24328</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24328v1 Announce Type: cross 
+Abstract: Combining predictions from different models can improve performance at machine learning tasks, but the training of the individual models and the rule used to combine them are typically chosen separately, and by ad hoc means. Recent advances in distr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>A Three-Way Testing Framework for Quantifying Epistemic Calibration Uncertainty in SBI</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24419</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24419v1 Announce Type: cross 
+Abstract: Current experimental scientists increasingly rely on simulation-based inference (SBI) to invert complex models with intractable likelihoods. A primary goal in these settings is to obtain credible regions with valid coverage. While recent model-agnos</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Prior-Amortized In-Context Bayesian Inference for Generalized Linear Mixed-Effects Models</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24422</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24422v1 Announce Type: cross 
+Abstract: Hierarchical data is ubiquitous in the empirical sciences and is most commonly analyzed with generalized linear mixed-effects models (GLMMs). Bayesian inference for GLMMs yields calibrated uncertainty but requires MCMC; the No-U-Turn Sampler (NUTS) </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Tensor Completion using Subspace Information</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24501</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24501v1 Announce Type: cross 
+Abstract: Tensor completion has attracted significant attention in both applications and theoretical research. Under standard uniform sampling, existing polynomial-time guarantees generally require more observations than the number of degree of freedom, motiv</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift</Title>
+    <ExtractedTags>math.ST, cs.LG, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24929</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24929v1 Announce Type: cross 
+Abstract: In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantile</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Selective Inference for CART with Binary Outcomes</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.24949</ReferenceURL>
+    <SummaryPayload>arXiv:2609.24949v1 Announce Type: cross 
+Abstract: Binary classification trees select subgroups using the same outcomes later used to assess their differences. We develop finite-sample conditional tests of a common success probability within a parent selected by deterministic Gini CART. The construc</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Combinatorial Inference on the Optimal Assortment in Multinomial Logit Models</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2301.12254</ReferenceURL>
+    <SummaryPayload>arXiv:2301.12254v5 Announce Type: replace 
+Abstract: Assortment optimization has received active explorations in the past few decades due to its practical importance. Despite the extensive literature dealing with optimization algorithms and latent score estimation, uncertainty quantification for the</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Thompson Sampling for Infinite-Horizon Discounted Decision Processes</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2405.08253</ReferenceURL>
+    <SummaryPayload>arXiv:2405.08253v4 Announce Type: replace 
+Abstract: This paper develops a framework for learning in discounted infinite-horizon Markov decision processes (MDPs) with Borel state and action spaces, whose rewards and transitions depend on an unknown parameter.To analyze sampling-based adaptive learni</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>ALPCAHUS: Subspace Clustering for Heteroscedastic Data</Title>
+    <ExtractedTags>stat.ML, cs.LG, eess.SP</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2505.18918</ReferenceURL>
+    <SummaryPayload>arXiv:2505.18918v4 Announce Type: replace 
+Abstract: Principal component analysis (PCA) is a key tool in the field of data dimensionality reduction. Various methods have been proposed to extend PCA to the union of subspace (UoS) setting for clustering data that comes from multiple subspaces like K-S</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Transfer Learning for Matrix Completion</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2507.02248</ReferenceURL>
+    <SummaryPayload>arXiv:2507.02248v2 Announce Type: replace 
+Abstract: In this paper, we explore the knowledge transfer under the setting of matrix completion, which aims to enhance the estimation of a low-rank target matrix with auxiliary data available. We propose a transfer learning procedure given prior informati</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Small Gradient Norm Regret for Online Convex Optimization</Title>
+    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2601.13519</ReferenceURL>
+    <SummaryPayload>arXiv:2601.13519v4 Announce Type: replace 
+Abstract: This paper introduces a new problem-dependent regret measure for online convex optimization with smooth losses. The notion, which we call the $G^\star$ regret, depends on the cumulative squared gradient norm evaluated at the decision in hindsight.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Attack-Resistant Uniform Fairness for Linear and Smooth Contextual Bandits</Title>
+    <ExtractedTags>stat.ML, cs.LG, stat.ME</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2602.04125</ReferenceURL>
+    <SummaryPayload>arXiv:2602.04125v2 Announce Type: replace 
+Abstract: Modern digital platforms use contextual bandits to allocate valuable exposure and opportunities among competing participants. Fair treatment is therefore an important concern, yet reward maximization alone does not ensure that preferential allocat</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Trustworthy Predictive Distributions for Tail Events with Semiparametric Diagnostic Transport Maps</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2603.11229</ReferenceURL>
+    <SummaryPayload>arXiv:2603.11229v3 Announce Type: replace 
+Abstract: Machine learning forecast systems are moving beyond point predictions to full predictive distributions for future outcomes y conditional on complex inputs x. However, these distributions are often locally miscalibrated, especially for high-stakes </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>On Kernel Eigen-alignments of KRR: Reconstruction and Generalization</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2605.15240</ReferenceURL>
+    <SummaryPayload>arXiv:2605.15240v2 Announce Type: replace 
+Abstract: This paper investigates the critical role of eigenalignments between the kernel matrix and learning targets in achieving robust generalization in learning problems. We establish a direct connection between generalization performance in kernel meth</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models</Title>
+    <ExtractedTags>stat.ML, cs.AI, cs.LG, math.ST, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2605.22795</ReferenceURL>
+    <SummaryPayload>arXiv:2605.22795v3 Announce Type: replace 
+Abstract: We analyze finite-particle drifting models for one-step generative modeling. For a conservative velocity given by the difference of the kernel-smoothed data and model scores, a joint-entropy identity yields continuous-time bounds for the smoothed </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Hybrid Uncertainty Sensitivity Analysis Based on the HSIC for High-Dimensional Responses with Aleatory--Epistemic Separation</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2606.14053</ReferenceURL>
+    <SummaryPayload>arXiv:2606.14053v2 Announce Type: replace 
+Abstract: Quantifying the influence of hybrid aleatory and epistemic uncertainties on high-dimensional system responses remains a major challenge in global sensitivity analysis (GSA). Existing Hilbert--Schmidt Independence Criterion (HSIC)-based approaches </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Conformal risk control for model-form uncertainty in parametric non-intrusive reduced-order models</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2608.03360</ReferenceURL>
+    <SummaryPayload>arXiv:2608.03360v2 Announce Type: replace 
+Abstract: Non-intrusive reduced-order models (NIROMs) have become a standard tool for approximating parametric partial differential equations from computer design of experiments while significantly reducing computational costs. However, assessing the reliab</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Approximating Smooth Functionals with ReLU Networks</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.15355</ReferenceURL>
+    <SummaryPayload>arXiv:2609.15355v2 Announce Type: replace 
+Abstract: We study the uniform approximation of smooth scalar-valued functionals on an infinite-dimensional separable Hilbert space by ReLU neural networks. A key feature in deep learning for functional data is the varying importance of different coordinate</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Certified Inference and Training for Deep Equilibrium Networks: A Continuation Framework with Polynomial Complexity Guarantees</Title>
+    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2609.16485</ReferenceURL>
+    <SummaryPayload>arXiv:2609.16485v2 Announce Type: replace 
+Abstract: We develop a certified continuation framework for inference and training in deep equilibrium networks (DEQs), with training posed as interpolation to accuracy $2^{-b}$. For inference, input homotopy selects an equilibrium branch from a supplied st</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Distribution-Free Uncertainty Quantification for Kernel Methods by Gradient Perturbations</Title>
+    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/1812.09632</ReferenceURL>
+    <SummaryPayload>arXiv:1812.09632v3 Announce Type: replace-cross 
+Abstract: We propose a data-driven approach to quantify the uncertainty of models constructed by kernel methods. Our approach minimizes the needed distributional assumptions, hence, instead of working with, for example, Gaussian processes or exponenti</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Optimal Sample Complexity of Stable Discounted Markov Decision Processes</Title>
+    <ExtractedTags>cs.LG, math.OC, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2302.07477</ReferenceURL>
+    <SummaryPayload>arXiv:2302.07477v4 Announce Type: replace-cross 
+Abstract: We study the optimal sample complexity of tabular reinforcement learning for infinite-horizon discounted Markov decision processes. The unrestricted minimax sample complexity is known to scale as $\widetilde\Theta((1-\gamma)^{-3}\epsilon^{-2</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Reflective Policy Optimization</Title>
+    <ExtractedTags>cs.LG, cs.AI, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2406.03678</ReferenceURL>
+    <SummaryPayload>arXiv:2406.03678v2 Announce Type: replace-cross 
+Abstract: On-policy reinforcement learning methods, like Trust Region Policy Optimization (TRPO) and Proximal Policy Optimization (PPO), often demand extensive data per update, leading to sample inefficiency. This paper introduces Reflective Policy Op</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Optimal Symmetries in Binary Classification</Title>
+    <ExtractedTags>cs.LG, cs.AI, physics.data-an, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2408.08823</ReferenceURL>
+    <SummaryPayload>arXiv:2408.08823v2 Announce Type: replace-cross 
+Abstract: We develop a theoretical foundation for designing group-equivariant neural networks that align the choice of symmetries with the underlying probability distributions of the data. Utilising the general structure of fibre decompositions on the</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>RESIST: Resilient Decentralized Learning Using Consensus Gradient Descent</Title>
+    <ExtractedTags>cs.LG, math.OC, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2502.07977</ReferenceURL>
+    <SummaryPayload>arXiv:2502.07977v3 Announce Type: replace-cross 
+Abstract: Empirical risk minimization (ERM) is a cornerstone of modern machine learning. This paper focuses on the man-in-the-middle (MITM) attack, wherein adversaries exploit communication vulnerabilities between devices to inject malicious updates d</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Nonparametric spectral density estimation using interactive mechanisms under local differential privacy</Title>
+    <ExtractedTags>math.ST, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2504.00919</ReferenceURL>
+    <SummaryPayload>arXiv:2504.00919v3 Announce Type: replace-cross 
+Abstract: We study the problem of estimating the spectral density of a centered stationary Gaussian time series under local differential privacy constraints. Specifically, we propose new interactive privacy mechanisms for three tasks: recovering a sin</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Modeling nonstationary spatial processes with normalizing flows</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2509.12884</ReferenceURL>
+    <SummaryPayload>arXiv:2509.12884v3 Announce Type: replace-cross 
+Abstract: Nonstationary spatial processes can often be represented as stationary processes on a warped spatial domain. Selecting an appropriate spatial warping function for a given application is often difficult and, as a result of this, warping metho</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>SPID: Distilled Protein Backbone Generation</Title>
+    <ExtractedTags>cs.LG, cs.AI, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2510.03095</ReferenceURL>
+    <SummaryPayload>arXiv:2510.03095v4 Announce Type: replace-cross 
+Abstract: Diffusion- and flow-based generative models have recently demonstrated strong performance in protein backbone generation tasks, offering unprecedented capabilities for de novo protein design. However, despite their generation quality, these </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Accelerated stochastic first-order method for convex optimization under heavy-tailed noise</Title>
+    <ExtractedTags>math.OC, cs.AI, cs.LG, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2510.11676</ReferenceURL>
+    <SummaryPayload>arXiv:2510.11676v2 Announce Type: replace-cross 
+Abstract: We study convex composite optimization problems, where the objective function is given by the sum of a prox-friendly function and a convex function whose subgradients are estimated under heavy-tailed noise. Existing work often employs gradie</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Dropout Neural Network Training Viewed from a Percolation Perspective</Title>
+    <ExtractedTags>cs.LG, cond-mat.stat-mech, math.PR, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2512.13853</ReferenceURL>
+    <SummaryPayload>arXiv:2512.13853v3 Announce Type: replace-cross 
+Abstract: In this work, we investigate the existence and effect of percolation in training deep Neural Networks (NNs) with dropout. Dropout methods are regularisation techniques for training NNs, first introduced by G. Hinton et al. (2012). These meth</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Identification and Estimation under Multiple Versions of Treatment: Mixture-of-Experts Approach</Title>
+    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2601.00287</ReferenceURL>
+    <SummaryPayload>arXiv:2601.00287v2 Announce Type: replace-cross 
+Abstract: The Stable Unit Treatment Value Assumption (SUTVA) includes the condition that there are no multiple versions of treatment in causal inference. Though we could not control the implementation of treatment in observational studies, multiple ve</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Vector-Valued Distributional Reinforcement Learning Policy Evaluation: A Hilbert Space Embedding Approach</Title>
+    <ExtractedTags>cs.LG, stat.ME, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2601.18952</ReferenceURL>
+    <SummaryPayload>arXiv:2601.18952v3 Announce Type: replace-cross 
+Abstract: We propose Kernel Embedding Distributional Reinforcement Learning (KE-DRL) an offline method to estimate kernel mean embeddings of conditional multivariate return distributions from observed offline trajectories with continuous state-action </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Scaling Laws of SignSGD in Linear Regression: When Does It Outperform SGD?</Title>
+    <ExtractedTags>cs.LG, cs.AI, math.OC, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2603.02069</ReferenceURL>
+    <SummaryPayload>arXiv:2603.02069v2 Announce Type: replace-cross 
+Abstract: We study scaling laws of signSGD under a power-law random features (PLRF) model that accounts for both feature and target decay. We analyze the population risk of a linear model trained with one-pass signSGD on Gaussian-sketched features. We</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Kernel-based potential mean-field games with unbiased random Fourier $U$-statistics</Title>
+    <ExtractedTags>math.OC, cs.LG, cs.NA, math.NA, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2605.29371</ReferenceURL>
+    <SummaryPayload>arXiv:2605.29371v2 Announce Type: replace-cross 
+Abstract: We study the subclass of potential mean-field games in which the running interaction cost and the terminal target cost are both expressed through reproducing-kernel maximum mean discrepancy (MMD) penalties, and develop a computational framew</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Forecasting threshold exceedance of atmospheric variables at a specific location</Title>
+    <ExtractedTags>physics.ao-ph, physics.data-an, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2605.31079</ReferenceURL>
+    <SummaryPayload>arXiv:2605.31079v2 Announce Type: replace-cross 
+Abstract: Accurate short-term forecasting of extreme weather events is important for early warning and risk mitigation. We compare two approaches for predicting site-specific threshold exceedances of weather variables: direct binary probabilistic mode</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Stabilized Higher-Order Influence Functions: Statistical Theory of a Class of Bilinear Forms</Title>
+    <ExtractedTags>math.ST, econ.EM, stat.ME, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2607.04743</ReferenceURL>
+    <SummaryPayload>arXiv:2607.04743v3 Announce Type: replace-cross 
+Abstract: Higher-order influence functions, introduced in a series of articles (Robins et al., 2008, 2009a; van der Vaart, 2014; Robins et al., 2016, 2023; Liu et al., 2017), are a unified framework for constructing rate-optimal point estimates of a c</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>GNet: A scalable and flexible Gaussian process network with nonparametric neurons</Title>
+    <ExtractedTags>stat.ME, stat.CO, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2607.10735</ReferenceURL>
+    <SummaryPayload>arXiv:2607.10735v3 Announce Type: replace-cross 
+Abstract: We build GNet, a scalable and flexible Gaussian process network with nonparametric activation functions. The key computational contribution is to make estimation of GP activations computationally scalable without forming covariance matrices </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Active Inference as a Convex Markov Decision Process</Title>
+    <ExtractedTags>cs.LG, cs.AI, stat.ML</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2607.20152</ReferenceURL>
+    <SummaryPayload>arXiv:2607.20152v2 Announce Type: replace-cross 
+Abstract: Active Inference (AIF) frames adaptive behavior as the minimization of expected free energy (EFE), combining epistemic and pragmatic objectives within a single variational principle. We frame AIF as policy optimization and show that, for clo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>ArXiv ML</Source>
+    <Title>Online Learning of Scale Parameters in Score-Driven Filters</Title>
+    <ExtractedTags>cs.LG, math.ST, stat.ME, stat.ML, stat.TH</ExtractedTags>
+    <ReferenceURL>https://arxiv.org/abs/2608.09218</ReferenceURL>
+    <SummaryPayload>arXiv:2608.09218v4 Announce Type: replace-cross 
+Abstract: A score-driven filter multiplies its scaled log-likelihood score by a scale parameter. We call this coefficient the gain and learn it online. Given the current state and realised scaled score, each admissible gain selects a reachable next st</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>ArXiv AI</Source>
@@ -2241,636 +2795,25 @@ Abstract: Generalizing to unseen attacks remains challenging for audio deepfake 
 Abstract: Between a screenplay and a film sits a planning problem that is spatial first: who stands where, and what a camera sees from where it stands. An image diffusion model asked for a shot in free text settles that plan by its own defaults. We pr</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>When and Why Do Linear Bias Probes Fail? A Geometric and Statistical Theory of Bias Detectability in Large Language Model Representations</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22337</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22337v1 Announce Type: new 
-Abstract: Linear probing is the standard instrument for detecting social biases in the hidden representations of large language models. Yet reported probe accuracies come almost exclusively from \emph{counterfactual} evaluations in which every input carries an </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>RLVR is a Kernel, Not a Function: Statistical Inference for pass@$k$ Crossovers</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22547</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22547v1 Announce Type: new 
-Abstract: Reinforcement learning with verifiable rewards (RLVR) often improves pass@1 while falling behind its base model at larger sampling budgets $k$, a crossover read as evidence that RLVR only sharpens existing capability. We identify two limits to this re</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Locally Private Inference for Riemannian Stochastic Optimization</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.OC, math.ST, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22642</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22642v1 Announce Type: new 
-Abstract: We develop inference for manifold-valued population minimizers when each observation belongs to a different participant and only locally private messages reach the analyst. The method releases randomized tangent gradients and combines them through Rie</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>A Bayesian Vertical Federated Learning Framework for Multivariate Reduced-Rank High-Dimensional Regression</Title>
-    <ExtractedTags>stat.ML, cs.LG, stat.CO</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22654</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22654v1 Announce Type: new 
-Abstract: Federated learning (FL) has emerged as a leading privacy-preserving framework for collaborative machine learning across decentralized environments. While considerable progress has been made in horizontal federated learning (HFL), where data with commo</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Toscani-Fourier Distance on Probability Measures: Wasserstein Control, Topological Equivalence on Model Classes, and Duality</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.FA, math.PR, math.ST, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23163</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23163v1 Announce Type: new 
-Abstract: Comparing probability measures in machine learning trades transport geometry against computational cost: Wasserstein distances encode the geometry of $\mathbb R^d$ but require solving a transport problem, while kernel discrepancies are cheap to evalua</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Conformal Robustness in Prediction-Driven Decision-Making</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23170</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23170v1 Announce Type: new 
-Abstract: Modern prediction-driven decision systems often rely on black-box predictors, but a point forecast alone does not provide the uncertainty scale required for robust downstream decision-making. We build a score-calibrated robustness framework that conve</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Bayesian Deck-of-cards-based Ordinal Regression with Sequential Preference Elicitation</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23212</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23212v1 Announce Type: new 
-Abstract: The Deck-of-cards-based Ordinal Regression (DOR) infers a value function from a ranking of reference alternatives in which the Decision Maker (DM) inserts blank cards between consecutive levels to express preference intensity. DOR, and its stochastic </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Stochastic Flow Map for Count Data</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23290</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23290v1 Announce Type: new 
-Abstract: High-dimensional count data are common in scientific applications, but most diffusion and flow models are designed for continuous or categorical data, and generation often requires many sequential model evaluations. We propose Count Flow Map, a genera</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Bayesian Filtering in Physical Systems via Test-time Trained Flow Matching</Title>
-    <ExtractedTags>stat.ML, cs.AI, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23383</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23383v1 Announce Type: new 
-Abstract: Bayesian filtering provides a principled framework for online state estimation under uncertainty, yet its application to systems with high-dimensional states and complicated posterior distributions remains challenging. Recent generative models, such a</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>PACE: Plug-and-Play Contextual Embedding for Feature Screening with Pretrained Tabular Foundation Models</Title>
-    <ExtractedTags>stat.ML, cs.LG, stat.AP, stat.ME</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23574</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23574v1 Announce Type: new 
-Abstract: In high-dimensional tabular learning, feature screening provides a lightweight, model-agnostic way to remove irrelevant features before model fitting. However, scoring raw values directly can miss nonlinear or distributional structure. We introduce PA</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>TEMPER: Temporal Encoder-Masked Probabilistic Ensemble Regressor for Time-Series Forecasting</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23701</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23701v1 Announce Type: new 
-Abstract: Probabilistic forecasting requires accurate central predictions and calibrated uncertainty estimates. This paper presents TEMPER, the Temporal Encoder-Masked Probabilistic Ensemble Regressor, a univariate time-series forecasting algorithm that combine</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>On Generalized Naive Bayes with Continuous Features</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23819</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23819v1 Announce Type: new 
-Abstract: The Generalized Naive Bayes (GNB) model was introduced for discrete and categorical random variables as an extension of classic Naive Bayes. We now accommodate the GNB framework to continuous explanatory variables. A central result of the paper is tha</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Density-Ratio Rescoring for Imbalanced Classification</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23926</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23926v1 Announce Type: new 
-Abstract: Density-Ratio Rescoring (DRR) augments a classifier trained at the original class prior with a survey-raking dual score. Raking reweights the majority sample to match minority feature moments within a tolerance. DRR marginally standardizes the dual an</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Sparse Regression Distilled from a Single Robust Fit</Title>
-    <ExtractedTags>stat.ML, cs.LG, stat.ME</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23937</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23937v1 Announce Type: new 
-Abstract: Robust linear fits can resist response contamination yet remain too dense or unstable for useful global explanations. We propose penalized distillation, which fits a smoothly clipped absolute deviation (SCAD) estimator to a robust initial estimator's </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Exponential Family Synthetic Controls</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23970</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23970v1 Announce Type: new 
-Abstract: We develop exponential family synthetic controls (EFSC), a distributional version of synthetic controls for a panel of datasets. Each cell of the panel corresponds to a dataset drawn from an exponential family whose natural parameters factorize probab</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Causal Bayesian Optimization: Foundations, Methods, and Applications</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24112</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24112v1 Announce Type: new 
-Abstract: Causal Bayesian Optimization (CBO) combines causal inference with Bayesian optimization to enable sample-efficient intervention selection in systems with causal structure. This survey provides a systematic review of CBO through a unified BO-loop persp</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Model-Agnostic Feature Selection via LOCO-Guided Adaptive Minipatch Sampling</Title>
-    <ExtractedTags>stat.ML, cs.LG, stat.ME</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24126</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24126v1 Announce Type: new 
-Abstract: Black-box machine learning models increasingly deliver strong predictions, but extracting useful information from them, such as a set of important features, remains challenging. Existing model-agnostic methods primarily estimate feature importance or </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>OSCAR: Order-aware Scoring and Calibration for AI Rankings</Title>
-    <ExtractedTags>stat.ML, cs.LG, stat.AP</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24128</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24128v1 Announce Type: new 
-Abstract: Judge-specific sensitivity is useful for aggregating pairwise LLM evaluations, but its interpretation depends on which systematic presentation effects the ranking model includes. We introduce OSCAR, an order-aware framework for scoring and calibrating</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Adversarially Robust PAC Learning with Optimal VC Rates</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.ST, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24260</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24260v1 Announce Type: new 
-Abstract: We study the problem of \emph{adversarially robust} PAC learning. In this framework, the learner observes independent samples from an unknown distribution over $\mathcal{X} \times \{0,1\}$, as in classical PAC learning. However, given a perturbation m</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Beyond Point Prediction: Artificial Representative Trees with Uncertainty</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24528</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24528v1 Announce Type: new 
-Abstract: Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction mod</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24556</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24556v1 Announce Type: new 
-Abstract: Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but r</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24954</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24954v1 Announce Type: new 
-Abstract: Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufactu</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>The Limits of Speculation: Bounding Speculative Decoding in Mixture-of-Experts</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22156</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22156v1 Announce Type: cross 
-Abstract: Speculative decoding in Mixture-of-Experts (MoE) models faces the problem of unstable verification cost caused by input-dependent expert loading. To study the physics of this process, we formulate speculation-budget selection as an offline Stochasti</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>UniGIO: Unified Generative Global In-situ Weather Modeling from Spatiotemporal Incomplete Observations</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22217</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22217v1 Announce Type: cross 
-Abstract: Global In-situ Observation (GIO) provides fine-scale, direct records of the global weather system from sparse point stations, making it an indispensable source for capturing localized and transient dynamics beyond the reach of satellite gridded data</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Swiss-Knife: A Framework for Reconfigurable Externalised Multi-Objective Alignment at Decode Time</Title>
-    <ExtractedTags>cs.CL, cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22226</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22226v1 Announce Type: cross 
-Abstract: Decode-time alignment methods steer a frozen language model by scoring candidate continuations with an external reward and selecting the maximiser. We argue that this shared design is a single degenerate point in a much larger space. We introduce Sw</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Assessing Adversarial Robustness of Latent Reasoning Models</Title>
-    <ExtractedTags>cs.CL, cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22228</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22228v1 Announce Type: cross 
-Abstract: Large language models increasingly rely on long chain-of-thought (CoT) trajectories for complex reasoning, but autoregressive generation brings substantial memory and inference costs. Latent reasoning models (LRMs) offer a more efficient alternative</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>CNA: An AI-Oriented Comprehensive Normalized Assessment for Healthy Status and Application to Optimize RRT Strategies by Reinforcement Learning</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22232</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22232v1 Announce Type: cross 
-Abstract: Millions worldwide require Renal Replacement Therapy (RRT) as a treatment essential for survival. However, optimizing RRT strategies via AI is challenging due to heterogeneous patient dynamics, missing data, and the absence of an AI-oriented health </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Statistical Inference for Adversarial Training: Central Limit Theorems via Optimal Transport</Title>
-    <ExtractedTags>cs.LG, math.PR, math.ST, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22240</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22240v1 Announce Type: cross 
-Abstract: The purpose of this paper is to rigorously quantify the statistical and learning-theoretic properties of adversarial training models for classification. Equivalently, we establish the statistical properties of empirical optimal partial transport. Pr</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Learning and Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems</Title>
-    <ExtractedTags>eess.SY, cs.LG, cs.RO, cs.SY, math.OC, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22338</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22338v1 Announce Type: cross 
-Abstract: This tutorial provides a unified view of the emerging area of bilinear learning and control. Using linear systems as a benchmark, it explains what fundamentally changes in the bilinear settings, how recent theory addresses finite-sample learning and</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Bridging Local and Population Causal Effects: A Proximal Instrumental Variable Approach</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22383</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22383v1 Announce Type: cross 
-Abstract: Instrumental variable (IV) methods address treatment endogeneity, but with non-compliance and heterogeneous treatment effects a binary instrument generally identifies the local average treatment effect (LATE) among compliers rather than the populati</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Classification with Abstention Under Class-Conditional Error Constraints</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22632</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22632v1 Announce Type: cross 
-Abstract: We study binary classification with abstention under separate class-conditional error constraints, with the objective of minimizing abstention while keeping both errors below prescribed thresholds. We characterize the distribution-free minimax rate </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Monotone-Constrained Diffusion Models for Long-Horizon Production Forecasting</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22643</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22643v1 Announce Type: cross 
-Abstract: Forecasting a long horizon from only the first observations of a sequence is ill-posed: many trajectories are consistent with the same short history. We study this problem in oil and gas production forecasting, where forecasts made after roughly the</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Subspace Learning with Interval-Censored Likelihoods for Dequantizing Percept PC LFP Snapshots</Title>
-    <ExtractedTags>eess.SP, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22658</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22658v1 Announce Type: cross 
-Abstract: Implanted neurostimulators that sense local field potentials now enable chronic electrophysiology based biomarker tracking in patients at home. The Medtronic Percept PC, the only commercially available sensing-enabled deep brain stimulation (DBS) de</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Multi-Armed Bernoulli Bandits via Minimax Single-Arm Stopping</Title>
-    <ExtractedTags>cs.LG, math.OC, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22690</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22690v1 Announce Type: cross 
-Abstract: We develop an index policy for finite-horizon Bernoulli multi-armed bandits from minimax solutions to single-arm bandit (SAB) problems. Each SAB problem involves choosing between an unknown Bernoulli arm and a known reward. We show that minimizing w</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>On attention heads and bilinear forms</Title>
-    <ExtractedTags>cs.LG, math.SP, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.22990</ReferenceURL>
-    <SummaryPayload>arXiv:2609.22990v1 Announce Type: cross 
-Abstract: We study the symmetric and antisymmetric parts of bilinear forms in the attention heads of trained large language models. We introduce an orthogonally invariant profile map from real bilinear forms to a three-dimensional simplex and observe that pro</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Distributional Balancing with Machine Learning for Clinical Trial Augmentation Using Real-World Data</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23524</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23524v1 Announce Type: cross 
-Abstract: In clinical trials, randomization of treatment and control groups is typically used to ensure the groups have similar covariate distributions on average, resulting in unbiased causal effect estimation. Such balanced covariate distributions are hard </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Decoupled Causal Discovery</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23535</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23535v1 Announce Type: cross 
-Abstract: Causal discovery from observational data is a fundamental yet challenging task in scientific research. While existing approaches are primarily based on conditional independence tests, structure scores, or restrictive functional assumptions, we propo</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Optimal High-Order Methods for Solving Monotone Variational Inequalities</Title>
-    <ExtractedTags>math.OC, cs.GT, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23557</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23557v1 Announce Type: cross 
-Abstract: We study second- and higher-order methods for solving smooth monotone variational inequalities (MVI). Monteiro and Svaiter (SIAM J. Optim., 2012) showed that a second-order method, NPE, converges at a rate of $\mathcal{O}(T^{-1.5})$. For convex-conc</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Belted Engression: Sufficient Dimension Reduction for Generative Distributional Regression</Title>
-    <ExtractedTags>cs.LG, cs.AI, math.ST, stat.ME, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23789</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23789v1 Announce Type: cross 
-Abstract: Modern conditional generative models face significant challenges when learning complex covariate dependencies. While sufficient dimension reduction (SDR) provides a principled approach to compress these dependencies, traditional SDR frameworks were </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Iterative Atom Refinement: A Monotonicity Principle for Dictionary Learning</Title>
-    <ExtractedTags>cs.LG, math.PR, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.23812</ReferenceURL>
-    <SummaryPayload>arXiv:2609.23812v1 Announce Type: cross 
-Abstract: Dictionary learning seeks to recover an unknown dictionary $A$ from observations ${\bf y}_i = A{\bf x}_i$ with sparse coefficient vectors ${\bf x}_i$. We introduce the \emph{Iterative Atom Refinement} (IAR) algorithm, a simple procedure for recoveri</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Doubly robust target inference for generalized linear regression with completely missing covariates</Title>
-    <ExtractedTags>stat.ME, math.ST, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24086</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24086v1 Announce Type: cross 
-Abstract: Large-scale multipurpose cohort studies and biobanks often omit covariates needed for specific downstream analyses. We study target-population inference for generalized linear regression when key covariates are completely absent from the target data</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>A Distributional Optimisation Perspective on Combining Models in Deep Learning</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24328</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24328v1 Announce Type: cross 
-Abstract: Combining predictions from different models can improve performance at machine learning tasks, but the training of the individual models and the rule used to combine them are typically chosen separately, and by ad hoc means. Recent advances in distr</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>A Three-Way Testing Framework for Quantifying Epistemic Calibration Uncertainty in SBI</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24419</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24419v1 Announce Type: cross 
-Abstract: Current experimental scientists increasingly rely on simulation-based inference (SBI) to invert complex models with intractable likelihoods. A primary goal in these settings is to obtain credible regions with valid coverage. While recent model-agnos</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Prior-Amortized In-Context Bayesian Inference for Generalized Linear Mixed-Effects Models</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24422</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24422v1 Announce Type: cross 
-Abstract: Hierarchical data is ubiquitous in the empirical sciences and is most commonly analyzed with generalized linear mixed-effects models (GLMMs). Bayesian inference for GLMMs yields calibrated uncertainty but requires MCMC; the No-U-Turn Sampler (NUTS) </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Tensor Completion using Subspace Information</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24501</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24501v1 Announce Type: cross 
-Abstract: Tensor completion has attracted significant attention in both applications and theoretical research. Under standard uniform sampling, existing polynomial-time guarantees generally require more observations than the number of degree of freedom, motiv</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift</Title>
-    <ExtractedTags>math.ST, cs.LG, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24929</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24929v1 Announce Type: cross 
-Abstract: In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantile</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Selective Inference for CART with Binary Outcomes</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.24949</ReferenceURL>
-    <SummaryPayload>arXiv:2609.24949v1 Announce Type: cross 
-Abstract: Binary classification trees select subgroups using the same outcomes later used to assess their differences. We develop finite-sample conditional tests of a common success probability within a parent selected by deterministic Gini CART. The construc</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Combinatorial Inference on the Optimal Assortment in Multinomial Logit Models</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2301.12254</ReferenceURL>
-    <SummaryPayload>arXiv:2301.12254v5 Announce Type: replace 
-Abstract: Assortment optimization has received active explorations in the past few decades due to its practical importance. Despite the extensive literature dealing with optimization algorithms and latent score estimation, uncertainty quantification for the</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Thompson Sampling for Infinite-Horizon Discounted Decision Processes</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2405.08253</ReferenceURL>
-    <SummaryPayload>arXiv:2405.08253v4 Announce Type: replace 
-Abstract: This paper develops a framework for learning in discounted infinite-horizon Markov decision processes (MDPs) with Borel state and action spaces, whose rewards and transitions depend on an unknown parameter.To analyze sampling-based adaptive learni</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>ALPCAHUS: Subspace Clustering for Heteroscedastic Data</Title>
-    <ExtractedTags>stat.ML, cs.LG, eess.SP</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2505.18918</ReferenceURL>
-    <SummaryPayload>arXiv:2505.18918v4 Announce Type: replace 
-Abstract: Principal component analysis (PCA) is a key tool in the field of data dimensionality reduction. Various methods have been proposed to extend PCA to the union of subspace (UoS) setting for clustering data that comes from multiple subspaces like K-S</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Transfer Learning for Matrix Completion</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2507.02248</ReferenceURL>
-    <SummaryPayload>arXiv:2507.02248v2 Announce Type: replace 
-Abstract: In this paper, we explore the knowledge transfer under the setting of matrix completion, which aims to enhance the estimation of a low-rank target matrix with auxiliary data available. We propose a transfer learning procedure given prior informati</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Small Gradient Norm Regret for Online Convex Optimization</Title>
-    <ExtractedTags>stat.ML, cs.LG, math.OC</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2601.13519</ReferenceURL>
-    <SummaryPayload>arXiv:2601.13519v4 Announce Type: replace 
-Abstract: This paper introduces a new problem-dependent regret measure for online convex optimization with smooth losses. The notion, which we call the $G^\star$ regret, depends on the cumulative squared gradient norm evaluated at the decision in hindsight.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Attack-Resistant Uniform Fairness for Linear and Smooth Contextual Bandits</Title>
-    <ExtractedTags>stat.ML, cs.LG, stat.ME</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2602.04125</ReferenceURL>
-    <SummaryPayload>arXiv:2602.04125v2 Announce Type: replace 
-Abstract: Modern digital platforms use contextual bandits to allocate valuable exposure and opportunities among competing participants. Fair treatment is therefore an important concern, yet reward maximization alone does not ensure that preferential allocat</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Trustworthy Predictive Distributions for Tail Events with Semiparametric Diagnostic Transport Maps</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2603.11229</ReferenceURL>
-    <SummaryPayload>arXiv:2603.11229v3 Announce Type: replace 
-Abstract: Machine learning forecast systems are moving beyond point predictions to full predictive distributions for future outcomes y conditional on complex inputs x. However, these distributions are often locally miscalibrated, especially for high-stakes </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>On Kernel Eigen-alignments of KRR: Reconstruction and Generalization</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2605.15240</ReferenceURL>
-    <SummaryPayload>arXiv:2605.15240v2 Announce Type: replace 
-Abstract: This paper investigates the critical role of eigenalignments between the kernel matrix and learning targets in achieving robust generalization in learning problems. We establish a direct connection between generalization performance in kernel meth</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models</Title>
-    <ExtractedTags>stat.ML, cs.AI, cs.LG, math.ST, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2605.22795</ReferenceURL>
-    <SummaryPayload>arXiv:2605.22795v3 Announce Type: replace 
-Abstract: We analyze finite-particle drifting models for one-step generative modeling. For a conservative velocity given by the difference of the kernel-smoothed data and model scores, a joint-entropy identity yields continuous-time bounds for the smoothed </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Hybrid Uncertainty Sensitivity Analysis Based on the HSIC for High-Dimensional Responses with Aleatory--Epistemic Separation</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2606.14053</ReferenceURL>
-    <SummaryPayload>arXiv:2606.14053v2 Announce Type: replace 
-Abstract: Quantifying the influence of hybrid aleatory and epistemic uncertainties on high-dimensional system responses remains a major challenge in global sensitivity analysis (GSA). Existing Hilbert--Schmidt Independence Criterion (HSIC)-based approaches </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Conformal risk control for model-form uncertainty in parametric non-intrusive reduced-order models</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2608.03360</ReferenceURL>
-    <SummaryPayload>arXiv:2608.03360v2 Announce Type: replace 
-Abstract: Non-intrusive reduced-order models (NIROMs) have become a standard tool for approximating parametric partial differential equations from computer design of experiments while significantly reducing computational costs. However, assessing the reliab</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Approximating Smooth Functionals with ReLU Networks</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.15355</ReferenceURL>
-    <SummaryPayload>arXiv:2609.15355v2 Announce Type: replace 
-Abstract: We study the uniform approximation of smooth scalar-valued functionals on an infinite-dimensional separable Hilbert space by ReLU neural networks. A key feature in deep learning for functional data is the varying importance of different coordinate</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Certified Inference and Training for Deep Equilibrium Networks: A Continuation Framework with Polynomial Complexity Guarantees</Title>
-    <ExtractedTags>stat.ML, cs.LG</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2609.16485</ReferenceURL>
-    <SummaryPayload>arXiv:2609.16485v2 Announce Type: replace 
-Abstract: We develop a certified continuation framework for inference and training in deep equilibrium networks (DEQs), with training posed as interpolation to accuracy $2^{-b}$. For inference, input homotopy selects an equilibrium branch from a supplied st</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Distribution-Free Uncertainty Quantification for Kernel Methods by Gradient Perturbations</Title>
-    <ExtractedTags>cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/1812.09632</ReferenceURL>
-    <SummaryPayload>arXiv:1812.09632v3 Announce Type: replace-cross 
-Abstract: We propose a data-driven approach to quantify the uncertainty of models constructed by kernel methods. Our approach minimizes the needed distributional assumptions, hence, instead of working with, for example, Gaussian processes or exponenti</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Optimal Sample Complexity of Stable Discounted Markov Decision Processes</Title>
-    <ExtractedTags>cs.LG, math.OC, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2302.07477</ReferenceURL>
-    <SummaryPayload>arXiv:2302.07477v4 Announce Type: replace-cross 
-Abstract: We study the optimal sample complexity of tabular reinforcement learning for infinite-horizon discounted Markov decision processes. The unrestricted minimax sample complexity is known to scale as $\widetilde\Theta((1-\gamma)^{-3}\epsilon^{-2</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Reflective Policy Optimization</Title>
-    <ExtractedTags>cs.LG, cs.AI, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2406.03678</ReferenceURL>
-    <SummaryPayload>arXiv:2406.03678v2 Announce Type: replace-cross 
-Abstract: On-policy reinforcement learning methods, like Trust Region Policy Optimization (TRPO) and Proximal Policy Optimization (PPO), often demand extensive data per update, leading to sample inefficiency. This paper introduces Reflective Policy Op</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Optimal Symmetries in Binary Classification</Title>
-    <ExtractedTags>cs.LG, cs.AI, physics.data-an, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2408.08823</ReferenceURL>
-    <SummaryPayload>arXiv:2408.08823v2 Announce Type: replace-cross 
-Abstract: We develop a theoretical foundation for designing group-equivariant neural networks that align the choice of symmetries with the underlying probability distributions of the data. Utilising the general structure of fibre decompositions on the</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>RESIST: Resilient Decentralized Learning Using Consensus Gradient Descent</Title>
-    <ExtractedTags>cs.LG, math.OC, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2502.07977</ReferenceURL>
-    <SummaryPayload>arXiv:2502.07977v3 Announce Type: replace-cross 
-Abstract: Empirical risk minimization (ERM) is a cornerstone of modern machine learning. This paper focuses on the man-in-the-middle (MITM) attack, wherein adversaries exploit communication vulnerabilities between devices to inject malicious updates d</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Nonparametric spectral density estimation using interactive mechanisms under local differential privacy</Title>
-    <ExtractedTags>math.ST, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2504.00919</ReferenceURL>
-    <SummaryPayload>arXiv:2504.00919v3 Announce Type: replace-cross 
-Abstract: We study the problem of estimating the spectral density of a centered stationary Gaussian time series under local differential privacy constraints. Specifically, we propose new interactive privacy mechanisms for three tasks: recovering a sin</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Modeling nonstationary spatial processes with normalizing flows</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2509.12884</ReferenceURL>
-    <SummaryPayload>arXiv:2509.12884v3 Announce Type: replace-cross 
-Abstract: Nonstationary spatial processes can often be represented as stationary processes on a warped spatial domain. Selecting an appropriate spatial warping function for a given application is often difficult and, as a result of this, warping metho</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>SPID: Distilled Protein Backbone Generation</Title>
-    <ExtractedTags>cs.LG, cs.AI, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2510.03095</ReferenceURL>
-    <SummaryPayload>arXiv:2510.03095v4 Announce Type: replace-cross 
-Abstract: Diffusion- and flow-based generative models have recently demonstrated strong performance in protein backbone generation tasks, offering unprecedented capabilities for de novo protein design. However, despite their generation quality, these </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Accelerated stochastic first-order method for convex optimization under heavy-tailed noise</Title>
-    <ExtractedTags>math.OC, cs.AI, cs.LG, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2510.11676</ReferenceURL>
-    <SummaryPayload>arXiv:2510.11676v2 Announce Type: replace-cross 
-Abstract: We study convex composite optimization problems, where the objective function is given by the sum of a prox-friendly function and a convex function whose subgradients are estimated under heavy-tailed noise. Existing work often employs gradie</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Dropout Neural Network Training Viewed from a Percolation Perspective</Title>
-    <ExtractedTags>cs.LG, cond-mat.stat-mech, math.PR, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2512.13853</ReferenceURL>
-    <SummaryPayload>arXiv:2512.13853v3 Announce Type: replace-cross 
-Abstract: In this work, we investigate the existence and effect of percolation in training deep Neural Networks (NNs) with dropout. Dropout methods are regularisation techniques for training NNs, first introduced by G. Hinton et al. (2012). These meth</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Identification and Estimation under Multiple Versions of Treatment: Mixture-of-Experts Approach</Title>
-    <ExtractedTags>stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2601.00287</ReferenceURL>
-    <SummaryPayload>arXiv:2601.00287v2 Announce Type: replace-cross 
-Abstract: The Stable Unit Treatment Value Assumption (SUTVA) includes the condition that there are no multiple versions of treatment in causal inference. Though we could not control the implementation of treatment in observational studies, multiple ve</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Vector-Valued Distributional Reinforcement Learning Policy Evaluation: A Hilbert Space Embedding Approach</Title>
-    <ExtractedTags>cs.LG, stat.ME, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2601.18952</ReferenceURL>
-    <SummaryPayload>arXiv:2601.18952v3 Announce Type: replace-cross 
-Abstract: We propose Kernel Embedding Distributional Reinforcement Learning (KE-DRL) an offline method to estimate kernel mean embeddings of conditional multivariate return distributions from observed offline trajectories with continuous state-action </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Scaling Laws of SignSGD in Linear Regression: When Does It Outperform SGD?</Title>
-    <ExtractedTags>cs.LG, cs.AI, math.OC, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2603.02069</ReferenceURL>
-    <SummaryPayload>arXiv:2603.02069v2 Announce Type: replace-cross 
-Abstract: We study scaling laws of signSGD under a power-law random features (PLRF) model that accounts for both feature and target decay. We analyze the population risk of a linear model trained with one-pass signSGD on Gaussian-sketched features. We</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Kernel-based potential mean-field games with unbiased random Fourier $U$-statistics</Title>
-    <ExtractedTags>math.OC, cs.LG, cs.NA, math.NA, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2605.29371</ReferenceURL>
-    <SummaryPayload>arXiv:2605.29371v2 Announce Type: replace-cross 
-Abstract: We study the subclass of potential mean-field games in which the running interaction cost and the terminal target cost are both expressed through reproducing-kernel maximum mean discrepancy (MMD) penalties, and develop a computational framew</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Forecasting threshold exceedance of atmospheric variables at a specific location</Title>
-    <ExtractedTags>physics.ao-ph, physics.data-an, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2605.31079</ReferenceURL>
-    <SummaryPayload>arXiv:2605.31079v2 Announce Type: replace-cross 
-Abstract: Accurate short-term forecasting of extreme weather events is important for early warning and risk mitigation. We compare two approaches for predicting site-specific threshold exceedances of weather variables: direct binary probabilistic mode</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Stabilized Higher-Order Influence Functions: Statistical Theory of a Class of Bilinear Forms</Title>
-    <ExtractedTags>math.ST, econ.EM, stat.ME, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2607.04743</ReferenceURL>
-    <SummaryPayload>arXiv:2607.04743v3 Announce Type: replace-cross 
-Abstract: Higher-order influence functions, introduced in a series of articles (Robins et al., 2008, 2009a; van der Vaart, 2014; Robins et al., 2016, 2023; Liu et al., 2017), are a unified framework for constructing rate-optimal point estimates of a c</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>GNet: A scalable and flexible Gaussian process network with nonparametric neurons</Title>
-    <ExtractedTags>stat.ME, stat.CO, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2607.10735</ReferenceURL>
-    <SummaryPayload>arXiv:2607.10735v3 Announce Type: replace-cross 
-Abstract: We build GNet, a scalable and flexible Gaussian process network with nonparametric activation functions. The key computational contribution is to make estimation of GP activations computationally scalable without forming covariance matrices </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Active Inference as a Convex Markov Decision Process</Title>
-    <ExtractedTags>cs.LG, cs.AI, stat.ML</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2607.20152</ReferenceURL>
-    <SummaryPayload>arXiv:2607.20152v2 Announce Type: replace-cross 
-Abstract: Active Inference (AIF) frames adaptive behavior as the minimization of expected free energy (EFE), combining epistemic and pragmatic objectives within a single variational principle. We frame AIF as policy optimization and show that, for clo</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>ArXiv ML</Source>
-    <Title>Online Learning of Scale Parameters in Score-Driven Filters</Title>
-    <ExtractedTags>cs.LG, math.ST, stat.ME, stat.ML, stat.TH</ExtractedTags>
-    <ReferenceURL>https://arxiv.org/abs/2608.09218</ReferenceURL>
-    <SummaryPayload>arXiv:2608.09218v4 Announce Type: replace-cross 
-Abstract: A score-driven filter multiplies its scaled log-likelihood score by a scale parameter. We call this coefficient the gain and learn it online. Given the current state and realised scaled score, each admissible gain selects a reachable next st</SummaryPayload>
+    <Source>New Relic Blog</Source>
+    <Title>LLM Observability: The 8 Best Tools for Production AI Systems</Title>
+    <ExtractedTags>AIOps, AI Monitoring</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/ai/llm-observability</ReferenceURL>
+    <SummaryPayload>Compare the top LLM observability tools for production AI — tracing, cost tracking, and evaluation — and see what to weigh before you add another tool to your stack.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Centralized Log Management: A Comprehensive Guide for Engineers</Title>
+    <ExtractedTags>APM, Infrastructure Monitoring, DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/log/centralized-log-management</ReferenceURL>
+    <SummaryPayload>Learn how centralized log management helps developers and engineers improve incident response, reduce costs, and gain better control over log data.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>7 Best Synthetic Monitoring Tools for Engineering Teams</Title>
+    <ExtractedTags>Synthetic Monitoring, APM</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/dem/synthetic-monitoring-tools</ReferenceURL>
+    <SummaryPayload>Compare the top synthetic monitoring tools for engineering teams — uptime checks, browser tests, and how each correlates with the rest of your stack.</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>ArXiv LG</Source>
@@ -7964,152 +7907,216 @@ Abstract: Professional design requires any-color control: the ability to specify
 Abstract: FarmerChat is Digital Green's farm advisory service for smallholder farmers. When something looks wrong with a crop, the farmer takes a photograph and sends it, and that photograph is the whole question: no symptom described, no crop named, </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>A New Kind of Model for AI Decision-Making?</Title>
-    <ExtractedTags>Artificial Intelligence, Llm, Generative Ai, Llm Applications, Text Classification, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/a-new-kind-of-model-for-ai-decision-making/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Exploring TypeSafe's Jev and comparing it with OpenAI on intent classification&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-new-kind-of-model-for-ai-decision-making/&quot;&gt;A New Kind of Model for AI Decision-Making?&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Da</SummaryPayload>
+    <Source>Istio Blog</Source>
+    <Title>Announcing Istio 1.31.1</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://istio.io/latest/news/releases/1.31.x/announcing-1.31.1/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;This release contains bug fixes to improve robustness. This release note describes what&amp;rsquo;s different between Istio 1.31.0 and 1.31.1.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+   </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level</Title>
-    <ExtractedTags>Large Language Models, Llm, OpenAI, LLM Agents, Artificial Intelligence, Cybersecurity</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Why this matters less for what Astra can do and more for what every other model hasn't been tested for&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/&quot;&gt;GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level&lt;/a&gt; appeare</SummaryPayload>
+    <Source>Istio Blog</Source>
+    <Title>Announcing Istio 1.30.5</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://istio.io/latest/news/releases/1.30.x/announcing-1.30.5/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;This release contains bug fixes to improve robustness. This release note describes what&amp;rsquo;s different between Istio 1.30.4 and 1.30.5.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+   </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?</Title>
-    <ExtractedTags>Data Governance, Reinfocement Learning, Data Science, Training Data, Generative Ai, Google</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;How to put a dollar value on your organization's operational data&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/&quot;&gt;Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?&lt;/a&gt; appeared first on &lt;a href=&quot;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Your AI Assistant Wrote the Code. Who Checked the Defaults?</Title>
-    <ExtractedTags>Machine Learning, LLM Agents, Vibe coding, Data Sceince, Python, Production AI</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Five scikit-learn defaults that deserve a closer look before your next model reaches production&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/&quot;&gt;Your AI Assistant Wrote the Code. Who Checked the Defaults?&lt;/a&gt; appeared first on &lt;a </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
-    <ExtractedTags>Large Language Models, Graphrag, LLM Engineering, Rag Architecture, Rag, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;GraphRAG: A Practitioner's Guide to</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>CBAM Paper Walkthrough: The Double-Attention Mechanism</Title>
-    <ExtractedTags>Deep Learning, Neural Network, Computer Vision, Pytorch, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Understanding and implementing CBAM (Convolutional Block Attention Module) from scratch with PyTorch&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/&quot;&gt;CBAM Paper Walkthrough: The Double-Attention Mechanism&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores</Title>
-    <ExtractedTags>Data Engineering, Entity Resolution, Data Cleaning, Record Linkage, Python, Data Quality</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Deduplicating a 10,000-row supplier list in Python, where the hard part is deciding what a similarity score of 91 means&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/&quot;&gt;One Vendor, Four Spellings: How Deterministic</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.</Title>
-    <ExtractedTags>Generative AI, AI Agents, AI Adoption, Progamming, Productivity, Agentic Ai</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code?&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/&quot;&gt;AI Made Me 5x Faster. It Also Made Me</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them</Title>
-    <ExtractedTags>Agentic AI, coding agents, AI coding assistants, Llm Applications, Vibe coding, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;How to verify your app aligns with your intent without ever reading a line of generated code.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/&quot;&gt;Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them&lt;/a&gt;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.</Title>
-    <ExtractedTags>Machine Learning, Artificial Intelligence, Mlops, Llm, Llmops, Llm Applications</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;The recurring cost of production AI is not inference. It is re-qualification: the eval reruns, prompt retuning, and regression testing you owe every time a model changes under you. Here is what that tax actually covers, and how to budget for it before it surprises you.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;ht</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Starting a Career in Data Science in the Age of AI</Title>
-    <ExtractedTags>Data Science, Career Advice, Editor's Picks, Artificial Intelligence, Career Growth</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;How do you set yourself up for a career that will stand the test of time when things are changing so fast?&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/&quot;&gt;Starting a Career in Data Science in the Age of AI&lt;/a&gt; appeared first on &lt;a href=</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer</Title>
-    <ExtractedTags>Agentic AI, AI Agents, Multi-Agent Systems, coding agents, Editor's Picks, AI coding assistants</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-laye</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Building a Data Lakehouse with DuckDB and DuckLake</Title>
-    <ExtractedTags>Data Engineering, Data Lake, Duckdb, Databases, Data Lakehouse</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Starting with a local Parquet file, then joining it to data stored in the cloud&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/&quot;&gt;Building a Data Lakehouse with DuckDB and DuckLake&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)</Title>
-    <ExtractedTags>Agentic AI, Causal Inference, Time Series Analysis, Editor's Picks, A B Testing, Multi Agent Systems</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;What it takes to turn counterfactual analysis into an AI product&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/&quot;&gt;How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)&lt;/a&gt; appeared first on </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Why You Think Like a Bayesian but Were Taught Like a Frequentist</Title>
-    <ExtractedTags>Data Science, Statistics, Markov Chain Monte Carlo, Bayesian Statistics, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;From a chocolate bar with no price tag to a marketing mix model in PyMC, and the 200-year-old integral that stood in between.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/&quot;&gt;Why You Think Like a Bayesian but Were Taught Li</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>When Does Graph RAG Actually Add Value? A Hands-On Experiment</Title>
-    <ExtractedTags>Large Language Models, Knowledge Graph, Context Engineering, Editor's Picks, Rag, Llm</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window.&lt;/p&gt;
-&lt;p&gt;The post &lt;a h</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>LLM Observability: The 8 Best Tools for Production AI Systems</Title>
-    <ExtractedTags>AIOps, AI Monitoring</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/ai/llm-observability</ReferenceURL>
-    <SummaryPayload>Compare the top LLM observability tools for production AI — tracing, cost tracking, and evaluation — and see what to weigh before you add another tool to your stack.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>Centralized Log Management: A Comprehensive Guide for Engineers</Title>
-    <ExtractedTags>APM, Infrastructure Monitoring, DevOps</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/log/centralized-log-management</ReferenceURL>
-    <SummaryPayload>Learn how centralized log management helps developers and engineers improve incident response, reduce costs, and gain better control over log data.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>7 Best Synthetic Monitoring Tools for Engineering Teams</Title>
-    <ExtractedTags>Synthetic Monitoring, APM</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/dem/synthetic-monitoring-tools</ReferenceURL>
-    <SummaryPayload>Compare the top synthetic monitoring tools for engineering teams — uptime checks, browser tests, and how each correlates with the rest of your stack.</SummaryPayload>
+    <Source>Istio Blog</Source>
+    <Title>Announcing Istio 1.29.8</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://istio.io/latest/news/releases/1.29.x/announcing-1.29.8/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;This release contains bug fixes to improve robustness. This release note describes what&amp;rsquo;s different between Istio 1.29.7 and 1.29.8.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+   </SummaryPayload>
   </TrendItem>
 </MarketIngestion>
