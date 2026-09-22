@@ -9,12 +9,13 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sentence_transformers import SentenceTransformer
 
-# Ensure required NLTK corpora are loaded
-for resource in ['punkt', 'stopwords', 'wordnet']:
+# Ensure required NLTK corpora & tokenizers are downloaded
+NLTK_RESOURCES = ['punkt', 'punkt_tab', 'stopwords', 'wordnet']
+for resource in NLTK_RESOURCES:
     try:
-        nltk.data.find(f'tokenizers/{resource}' if resource == 'punkt' else f'corpora/{resource}')
-    except LookupError:
         nltk.download(resource, quiet=True)
+    except Exception as err:
+        print(f"[!] NLTK download failed for {resource}: {err}")
 
 HISTORICAL_FILE = "historical_market_intelligence.xml"
 KEYWORD_VECTORS_NPY = "keyword_vectors.npy"
