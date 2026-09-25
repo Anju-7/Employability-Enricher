@@ -1,10 +1,9 @@
 """
 Same training pipeline as train_model.py, instrumented with MLflow so every
-run is tracked (params, per-epoch loss, final model) and the resulting
-model is registered in the MLflow Model Registry.
+run is tracked (params, per-epoch loss, final model).
 
 Run the tracking UI in a separate terminal to browse past runs:
-    mlflow ui --backend-store-uri sqlite:///mlflow.db
+    mlflow ui --backend-store-uri file:./mlruns
 Then open http://127.0.0.1:5000
 
 Run a training job:
@@ -29,34 +28,13 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from mlflow.tracking import MlflowClient
 from sentence_transformers import SentenceTransformer
 
 EXPERIMENT_NAME = "employability-deep-scorer"
-REGISTERED_MODEL_NAME = "employability-deep-scorer"
 
-# SQLite tracking backend for structured metrics tracking
-tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db")
+# File-based tracking backend for fast, lightweight local and CI/CD tracking
+tracking_uri = os.getenv("MLFLOW_TRACKING_URI", "file:./mlruns")
 mlflow.set_tracking_uri(tracking_uri)
-
-
-def promote_model_if_qualified(run_id, current_loss, threshold=0.05):
-    client = MlflowClient()
-    model_name = REGISTERED_MODEL_NAME
-    
-    if current_loss <= threshold:
-        print(f"[+] Loss benchmark met ({current_loss:.4f}). Registering model...")
-        model_uri = f"runs:/{run_id}/model"
-        mv = mlflow.register_model(model_uri, model_name)
-        
-        # Promote newly registered version to Production
-        client.transition_model_version_stage(
-            name=model_name,
-            version=mv.version,
-            stage="Production",
-            archive_existing_versions=True
-        )
-        print(f"[SUCCESS] Model v{mv.version} promoted to PRODUCTION stage.")
 
 
 # ==========================================
@@ -120,14 +98,11 @@ def load_xml_text_payload(xml_path):
 def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=20):
     print("[*] Launching MLOps Deep Learning Training Matrix...")
 
-    # Explicitly define a relative artifact location for local and CI environments
-    artifact_location = "file:./mlruns_artifacts"
-    
     experiment = mlflow.get_experiment_by_name(EXPERIMENT_NAME)
     if experiment is None:
         mlflow.create_experiment(
             name=EXPERIMENT_NAME,
-            artifact_location=artifact_location
+            artifact_location="file:./mlruns_artifacts"
         )
 
     mlflow.set_experiment(EXPERIMENT_NAME)
@@ -205,26 +180,20 @@ def train_deep_alignment_model(hidden_dim=128, epochs=100, lr=0.005, log_every=2
         # Log state dict artifact
         mlflow.log_artifact(weights_path, artifact_path="weights")
 
-      
-        
-        # Define sample input tensors matching your forward() signature
+        # Example inputs for model schema logging
         example_inputs = (
             resume_batch[:1],
             drift_batch[:1],
             history_batch[:1]
         )
 
-        # Log model using standard pickle serialization
+        # Log PyTorch Model to MLflow Artifacts
         mlflow.pytorch.log_model(
             pytorch_model=model,
             artifact_path="model",
-            registered_model_name=REGISTERED_MODEL_NAME,
             serialization_format="pickle",
             input_example=example_inputs
         )
-
-        # Optional promotion check based on threshold
-        promote_model_if_qualified(run.info.run_id, final_loss, threshold=0.05)
 
         print(f"[+] Run '{run.info.run_id}' logged under experiment '{EXPERIMENT_NAME}'.")
 
