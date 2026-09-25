@@ -4,6 +4,7 @@ import os
 import re
 import nltk
 import numpy as np
+import ssl
 import pypdf
 import requests
 import torch
@@ -11,6 +12,22 @@ import torch.nn as nn
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer, util
+
+from dotenv import load_dotenv
+
+# Load environment variables from .env file securely
+load_dotenv()
+
+HF_TOKEN = os.getenv("HF_TOKEN")
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+nltk.download("punkt", quiet=True)
+nltk.download("stopwords", quiet=True)
 
 # Ensure NLTK resources
 nltk.download("punkt", quiet=True)
