@@ -2,23 +2,21 @@ import io
 import json
 import os
 import re
+import ssl
 import nltk
 import numpy as np
-import ssl
 import pypdf
-import requests
 import torch
 import torch.nn as nn
+from dotenv import load_dotenv
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer, util
 
-from dotenv import load_dotenv
-
-# Load environment variables from .env file securely
+# Secure environment variables
 load_dotenv()
 
-HF_TOKEN = os.getenv("HF_TOKEN")
+# Bypass SSL issues for NLTK
 try:
     _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
@@ -26,10 +24,6 @@ except AttributeError:
 else:
     ssl._create_default_https_context = _create_unverified_https_context
 
-nltk.download("punkt", quiet=True)
-nltk.download("stopwords", quiet=True)
-
-# Ensure NLTK resources
 nltk.download("punkt", quiet=True)
 nltk.download("stopwords", quiet=True)
 
@@ -49,9 +43,7 @@ KEYWORD_METADATA_PATH = os.path.join(BASE_DIR, "keyword_metadata.json")
 WEIGHTS_PATH = os.path.join(BASE_DIR, "deep_scorer_weights.pth")
 
 
-# ==========================================
-# 1. DEEP LEARNING MODEL CLASS
-# ==========================================
+# Deep Scorer Definition
 class EmployabilityDeepScorer(nn.Module):
     def __init__(self, input_dim=384, hidden_dim=128):
         super(EmployabilityDeepScorer, self).__init__()
@@ -79,7 +71,6 @@ class EmployabilityDeepScorer(nn.Module):
         return self.fusion_network(fused_context)
 
 
-# Initialize Transformer & PyTorch Deep Model
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 deep_model = EmployabilityDeepScorer(input_dim=384, hidden_dim=128)
 
@@ -89,9 +80,9 @@ if os.path.exists(WEIGHTS_PATH):
             torch.load(WEIGHTS_PATH, map_location=torch.device("cpu"))
         )
         deep_model.eval()
-        print(f"[+] Successfully loaded PyTorch weights from {WEIGHTS_PATH}")
+        print(f"[+] Loaded weights from {WEIGHTS_PATH}")
     except Exception as e:
-        print(f"[!] Warning: Could not load weights: {e}")
+        print(f"[!] Warning loading PyTorch weights: {e}")
 
 
 def load_keyword_db():
@@ -105,23 +96,19 @@ def load_keyword_db():
     return None, [], None
 
 
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
-
-
 @app.post("/api/analyze-resume")
 async def analyze_resume(file: UploadFile = File(...)):
-    print(f"\n---> Analyzing Resume Stream: {file.filename}")
+    print(f"\n---> Text Processing Resume Stream: {file.filename}")
 
-    # Extract text from PDF
     try:
         contents = await file.read()
         reader = pypdf.PdfReader(io.BytesIO(contents))
         extracted_pages = [
             page.extract_text() for page in reader.pages if page.extract_text()
         ]
-        resume_text = " ".join(extracted_pages)
+        raw_text = " ".join(extracted_pages)
 
-        if not resume_text.strip():
+        if not raw_text.strip():
             return {
                 "status": "ERROR",
                 "score": 0,
@@ -134,90 +121,101 @@ async def analyze_resume(file: UploadFile = File(...)):
             "message": f"PDF parse error: {str(err)}",
         }
 
+    # Clean text
+    clean_text = re.sub(r"\s+", " ", raw_text).strip()
+    sentences = nltk.sent_tokenize(clean_text)
+
     keyword_vectors, keywords, importance_weights = load_keyword_db()
 
-    feature_scores = {}
     verified_skills = []
     detected_gaps = []
-
-    # 1. Encode Resume via SentenceTransformers
-    resume_vector_np = embedder.encode(resume_text, convert_to_numpy=True)
+    feature_scores = {}
 
     if keyword_vectors is not None and len(keywords) > 0:
-        # Calculate Cosine Similarities against NLTK Keyword Vectors
-        cos_sims = util.cos_sim(resume_vector_np, keyword_vectors)[0].numpy()
-
-        # Weight similarities by market importance
-        weighted_sims = cos_sims * importance_weights
-
-        # Dynamic Calibration: Sigmoidal / Softmax Scaling (30% to 98%)
-        raw_weighted_avg = np.sum(weighted_sims) / np.sum(importance_weights)
-        calibrated_score = 100.0 / (1.0 + np.exp(-10 * (raw_weighted_avg - 0.25)))
-        overall_score = round(
-            float(min(98.0, max(30.0, calibrated_score))), 1
+        # Encode individual sentences rather than entire document blob
+        sentence_embeddings = embedder.encode(
+            sentences, convert_to_numpy=True
         )
 
-        # Categorize matches vs gaps
-        for idx, kw in enumerate(keywords[:20]):
-            match_score = float(cos_sims[idx] * 100)
-            feature_scores[kw] = round(match_score, 1)
+        match_scores = []
+        total_weight = np.sum(importance_weights)
 
-            if match_score >= 35.0 or kw.lower() in resume_text.lower():
+        for idx, kw in enumerate(keywords):
+            kw_vec = keyword_vectors[idx]
+            weight = importance_weights[idx]
+
+            # 1. Exact string search
+            pattern = re.compile(rf"\b{re.escape(kw)}\b", re.IGNORECASE)
+            has_exact = bool(pattern.search(clean_text))
+
+            # 2. Maximum sentence semantic match score
+            sentence_sims = util.cos_sim(kw_vec, sentence_embeddings)[
+                0
+            ].numpy()
+            max_semantic_score = (
+                float(np.max(sentence_sims)) if len(sentence_sims) > 0 else 0.0
+            )
+
+            # Combined match score (100% if exact word found, else max sentence similarity)
+            if has_exact:
+                effective_score = 1.0
+            else:
+                effective_score = max_semantic_score
+
+            match_scores.append(effective_score * weight)
+            feature_scores[kw] = round(effective_score * 100, 1)
+
+            if effective_score >= 0.40:
                 verified_skills.append(kw)
             else:
                 detected_gaps.append(kw)
-    else:
-        overall_score = 78.5
-        detected_gaps = ["Python", "Kubernetes", "MLOps"]
-        verified_skills = ["Data Analysis", "API Design"]
 
-    # 2. PyTorch Deep Model Evaluation (If weights available)
-    if os.path.exists(WEIGHTS_PATH):
+        # Calibrated Score Calculation based on keyword density & alignment
+        raw_ratio = sum(match_scores) / total_weight if total_weight > 0 else 0
+        overall_score = round(min(98.0, max(25.0, raw_ratio * 100)), 1)
+    else:
+        overall_score = 75.0
+        verified_skills = ["Python", "FastAPI"]
+        detected_gaps = ["Kubernetes", "Docker"]
+
+    # Deep Model Blend
+    if os.path.exists(WEIGHTS_PATH) and keyword_vectors is not None:
         try:
             with torch.no_grad():
+                res_vec = embedder.encode(clean_text, convert_to_numpy=True)
                 res_tensor = (
-                    torch.from_numpy(resume_vector_np).unsqueeze(0).float()
+                    torch.from_numpy(res_vec).unsqueeze(0).float()
                 )
                 dummy_drift = (
                     torch.from_numpy(keyword_vectors.mean(axis=0))
                     .unsqueeze(0)
                     .float()
-                    if keyword_vectors is not None
-                    else torch.zeros(1, 384)
                 )
                 deep_out = deep_model(res_tensor, dummy_drift, dummy_drift)
                 deep_score = round(float(deep_out.item() * 100), 1)
-                # Blend 50% PyTorch Deep Neural Model + 50% NLTK Vector Cosine Score
-                overall_score = round((overall_score + deep_score) / 2.0, 1)
+                overall_score = round((overall_score * 0.6) + (deep_score * 0.4), 1)
         except Exception as e:
-            print(f"[!] Deep Scorer evaluation skipped: {e}")
+            print(f"[!] Deep scoring error: {e}")
 
-    # 3. YouTube Recommendations for top 2 gaps
-    video_recommendations = []
-    target_gaps = (
-        detected_gaps[:2] if detected_gaps else ["MLOps", "Cloud Native"]
-    )
+    recommendations = [
+        {
+            "skill": gap,
+            "title": f"Mastering {gap} for MLOps & Production",
+            "searchUrl": f"https://www.youtube.com/results?search_query={gap.replace(' ', '+')}+tutorial",
+            "thumbnail": "https://img.youtube.com/vi/s3JldKoA0zw/hqdefault.jpg",
+        }
+        for gap in detected_gaps[:3]
+    ]
 
-    for skill in target_gaps:
-        video_recommendations.append(
-            {
-                "skill": skill,
-                "title": f"Master {skill} - Production Essentials",
-                "videoId": "",
-                "searchUrl": f"https://www.youtube.com/results?search_query={skill.replace(' ', '+')}+tutorial",
-                "thumbnail": "https://img.youtube.com/vi/s3JldKoA0zw/hqdefault.jpg",
-            }
-        )
-
-    # Multi-Key Output to guarantee React dashboard compatibility
     return {
         "status": "SUCCESS",
         "score": overall_score,
         "overall_score": overall_score,
         "alignmentScore": overall_score,
         "overallAlignment": overall_score,
+        "sentences_parsed": len(sentences),
+        "exactMatches": verified_skills,
+        "gaps": detected_gaps,
         "featureScores": feature_scores,
-        "exactMatches": verified_skills[:8],
-        "gaps": detected_gaps[:4],
-        "recommendations": video_recommendations,
+        "recommendations": recommendations,
     }
