@@ -38735,4 +38735,134 @@ Abstract: Metasurfaces have revolutionized the development of photonic devices b
     <SummaryPayload>arXiv:2609.08101v2 Announce Type: replace-cross 
 Abstract: Protein-conditioned 3D molecule generation is a central challenge in structure-based drug design, requiring a balance between pocket compatibility, molecular properties, and physical geometry. We propose \textbf{PocketVE}, a protein-pocket-c</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput</Title>
+    <ExtractedTags>Amazon Elastic Kubernetes Service, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/</ReferenceURL>
+    <SummaryPayload>Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post presents an architecture that combines Amazon EKS, EFA, and Amazon S3 and increased aggregate reinforcement learning rollout throughput by 40% for large-scale RLH</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker HyperPod, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/</ReferenceURL>
+    <SummaryPayload>Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>NarrateAI: production-ready LLM quality assurance on Amazon Bedrock</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/</ReferenceURL>
+    <SummaryPayload>Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip. Cross-lingual cloning preserves the speaker's identity across languages.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Datacor built self-service rental analytics with Amazon Quick Sight</Title>
+    <ExtractedTags>Amazon Quick Sight, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/</ReferenceURL>
+    <SummaryPayload>Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Multi-Region training with Amazon SageMaker HyperPod and Qumulo</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker HyperPod, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/</ReferenceURL>
+    <SummaryPayload>Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. This post shares the architecture and validation results from a cross-Region training run, where a remote cluster matched a co-located cluster's throughput after</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute</Title>
+    <ExtractedTags>identity, aws-emr, apache-spark, cloud, security</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/dhruvpratap/&quot;&gt;&lt;em&gt;Dhruv Pratap&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Introduction&lt;/h3&gt;&lt;p&gt;Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Home Made CobbleDB Replaces DynamoDB at Perplexity to Cut Query Latency 5x and Reduce Cloud Storage</Title>
+    <ExtractedTags>Infrastructure Optimisation, Key-Value Store, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cobbledb-perplexity/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/cobbledb-perplexity/en/headerimage/headerCobble-1790251452770.jpg&quot; /&gt;&lt;p&gt;Perplexity has migrated its search infrastructure from Amazon DynamoDB to CobbleDB, an internally developed key-value store in Rust. This change reduced latency and costs associated w</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments</Title>
+    <ExtractedTags>Scaling, Load Balancing, Deployment, OpenTelemetry, Microservices, Observability, Model Context Protocol (MCP), AI Architecture, W3C, Frameworks, Serverless, AWS Lambda, AWS, Distributed Systems, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/aws-stateless-mcp/en/headerimage/generatedHeaderImage-1788807776891.jpg&quot; /&gt;&lt;p&gt;AWS details how the latest Model Context Protocol specification removes protocol-level sessions, sticky-session requirements, and session storage for remote MCP servers. The cha</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Grafana Turns Cypress Test Results Into Persistent Observability Data</Title>
+    <ExtractedTags>Automated testing, Grafana, Observability, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/grafana-cypress-observability/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/grafana-cypress-observability/en/headerimage/generatedHeaderImage-1789545205777.jpg&quot; /&gt;&lt;p&gt;Grafana Labs has published a practical approach for monitoring Cypress test suites by converting test results into Prometheus metrics and sending them to Grafana Clo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>From Agent Authorization to AI Production Evaluation: QCon AI New York 2026</Title>
+    <ExtractedTags>QCon AI New York 2026, QCon Software Development Conference, Architecture, Artificial Intelligence, AI Architecture, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/en/headerimage/qcon-ai-new-york-2026-1790249334674.jpg&quot; /&gt;&lt;p&gt;QCon AI New York has confirmed 23 sessions covering agent authorization, production guardrails, shared inference infrastructure, and the evaluation of AI systems af</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Podcast: The Future of AI: From Enterprise Adoption to Open Source Sovereignty</Title>
+    <ExtractedTags>Open Source, The InfoQ Podcast, Generative AI, Large language models, Responsibility, Artificial Intelligence, AI, ML &amp; Data Engineering, podcast</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/en/smallimage/infoq-podcast-500-1787827393574.jpg&quot; /&gt;&lt;p&gt;In this episode, Meryem Arik, Clara Higuera Cabañes, and Jeff Smith, demystify the current state of AI in the enterprise. The discussion navigates the &quot;industr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Spritely: Infrastructure for the Future of the Internet</Title>
+    <ExtractedTags>WebAssembly, P2P, CRDT, QCon London 2026, Local First, Actor Model, Security, Transcripts, DevOps, Architecture &amp; Design, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/spritely-decentralized-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/spritely-decentralized-architecture/en/mediumimage/cd-medium-1789633126216.jpg&quot; /&gt;&lt;p&gt;Christine Lemmer-Webber and David Thompson explain how Spritely's architecture solves core decentralization challenges. They share insights on capability-based access co</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: The Agent Harness: What It Is and Two Ways to Build One</Title>
+    <ExtractedTags>AI Harness, AI, ML &amp; Data Engineering, Development, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/agent-harness-build-one/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/agent-harness-build-one/en/smallimage/The-Agent-Harness-What-It-Is-and-Two-Ways-to-Build-One-thumb-1789997776393.jpg&quot; /&gt;&lt;p&gt;This article explains the development and operational layers of an agent harness through two implementations of a finance assistant: AWS</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>10 Things I’m Learning Beyond AI to Become More Technologically Fluent</Title>
+    <ExtractedTags>Technology, Data Science Career, Artificial Intelligence, Analytics Career, AI Careers, Career Growth</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Part 1: Understanding the technologies shaping our future&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/&quot;&gt;10 Things I’m Learning Beyond AI to Become More Technologically Fluent&lt;/a&gt; appeared first on &lt;a href=&quot;https://t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Your Model's MSE Is Lying to You: Part II</Title>
+    <ExtractedTags>Deep Learning, Time Series Forecasting, Transformer Model, Uncertainty Quantification, Autoregressive Model, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-models-mse-is-lying-to-you-part-ii/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Autoregressive rollout and uncertainty propagation. Second in a series on probabilistic forecasting for physical signals.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-models-mse-is-lying-to-you-part-ii/&quot;&gt;Your Model's MSE Is Lying to You: Part II&lt;/a&gt; appeared first on &lt;a href=&quot;http</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>RAG Isn't an Agent — I Built the Layer Between Retrieval and Action</Title>
+    <ExtractedTags>LLM Applications, AI Agents, Generative Ai, Artificial Intelligence, Editor's Picks, Rag</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;RAG retrieves. Agents act. I built both separately, connected them explicitly, and ran the same nine tasks through all three systems.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/&quot;&gt;RAG Isn't an Agent — I Built the Layer B</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Jev vs. LLMs: When AI Moves from Generation to Decision-Making</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Artificial Intelligence, Large Language Models, Jev, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-generation-to-decision-making/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;I tested TypeSafe AI’s Jev on 3,080 classification tasks to see how its accuracy, latency, calibration, and confidence compare with LLMs — and whether it works as a practical decision layer for AI systems.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-gene</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
