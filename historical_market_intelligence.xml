@@ -38865,4 +38865,41 @@ Abstract: Protein-conditioned 3D molecule generation is a central challenge in s
     <SummaryPayload>&lt;p&gt;I tested TypeSafe AI’s Jev on 3,080 classification tasks to see how its accuracy, latency, calibration, and confidence compare with LLMs — and whether it works as a practical decision layer for AI systems.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-gene</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud</Title>
+    <ExtractedTags>Containers, Cloud, Agents, AI Security, Docker, AI, ML &amp; Data Engineering, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/docker-cloud-sandboxes/en/headerimage/dreamer-4-mincraft-agent-1790438799314.jpeg&quot; /&gt;&lt;p&gt;Docker Cloud Sandboxes provide secure, hosted execution environments for running AI coding agents on Docker-managed infrastructure. Built on hardware-enforced microVM</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Adaptive Recommenders in the Real World: Inference, Evals, and System Design</Title>
+    <ExtractedTags>Data, Scaling, Performance, Transcripts, Observability, QCon AI Boston 2026, Machine Learning, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/adaptive-recommendation-systems-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/adaptive-recommendation-systems-architecture/en/mediumimage/mallika-medium-1789632229433.jpeg&quot; /&gt;&lt;p&gt;Mallika Rao explains that the true complexity of adaptive recommendation systems lies outside model architecture. She discusses how real-time feedback loo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Details Its Migration from WordPress to EmDash</Title>
+    <ExtractedTags>Cloudflare, WordPress, Caching, migration, Portal/CMS, DevOps, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cloudflare-emdash-migration/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/cloudflare-emdash-migration/en/headerimage/generatedHeaderImage-1788551109664.jpg&quot; /&gt;&lt;p&gt;Cloudflare recently documented the migration of its main blog from WordPress to EmDash, the open source content management system developed internally. The new platfor</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>AI Slop Is Already in Your Training Dataset. I Tested Three Ways to Spot It.</Title>
+    <ExtractedTags>Machine Learning, Synthetic Data, Editor's Picks, Training Data, Ai Detection</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;My AI detectors flagged many genuine reviews, and filtering them made the sentiment model less accurate.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/&quot;&gt;AI Slop Is Already in Your Training Dataset. I Tested Three Way</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Your LLM Has a Curved Space of Paragraphs</Title>
+    <ExtractedTags>Large Language Models, Llm, Attention, Transformer Architecture, Transformer Model, Positional Encoding</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/&quot;&gt;Your LLM Has a Curved Space of Paragraphs&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatasc</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
