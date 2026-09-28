@@ -38902,4 +38902,48 @@ Abstract: Protein-conditioned 3D molecule generation is a central challenge in s
     <SummaryPayload>&lt;p&gt;Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/&quot;&gt;Your LLM Has a Curved Space of Paragraphs&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatasc</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven</Title>
+    <ExtractedTags>Open JDK, TornadoVM, Java, Quarkus-Test, JDK 28, Groovy, Gradle, Open Liberty, GraalVM, Hibernate ORM, Micrometer, Jakarta EE, Maven, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/java-news-roundup-sep21-2026/en/headerimage/java-news-roundup-image-1790515735386.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; m</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing</Title>
+    <ExtractedTags>AI Harness, Large language models, Rust, Memory Safety, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/c-rust-rewrite/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/c-rust-rewrite/en/headerimage/generatedHeaderImage-1790493245314.jpg&quot; /&gt;&lt;p&gt;Google's security team developed a method to replace legacy C code in the giflib image-processing library with Rust, targeting inherent memory vulnerabilities. They utilised an aut</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Swift 6.4 Brings Subprocess 1.0, Improved Interoperability, Faster Wasm, and More</Title>
+    <ExtractedTags>Programming Languages, Open Source, WebAssembly, Apple, Mobile, C++20, Swift, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/swift-6-4-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/swift-6-4-released/en/headerimage/swift-5-9-macros-1790514732520.jpeg&quot; /&gt;&lt;p&gt;The latest release of Swift, Swift 6.4, introduces a range of language and tooling improvements, including better performance through expanded support for non-copyable values, up</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management</Title>
+    <ExtractedTags>Cloud, Containers, Performance, Kubernetes, Architecture, Google Cloud, Machine Learning, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/en/headerimage/generatedHeaderImage-1790233005037.jpg&quot; /&gt;&lt;p&gt;Google has published benchmarks for GKE Pod snapshots, reporting up to 89% lower startup latency and a 70B model loading in 37 seconds. The feature checkpoints CPU an</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs</Title>
+    <ExtractedTags>Large Language Models, Graphrag, Llm, Ai Application, Editor's Picks, Jev</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How calibrated decision models can handle high-frequency graph decisions while LLMs remain focused on reasoning, synthesis, and open-ended generation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/&quot;&gt;GraphRAG w</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Good Architecture Deletes the Signals Your Agent Depends On</Title>
+    <ExtractedTags>Software Engineering, AI Assistant, Developer Tools, Llm, Context Engineering, coding agents, Agentic Ai, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Every boundary you draw removes a signal your tooling was relying on. That is a structure problem, not a search problem.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/&quot;&gt;Good Architecture Deletes the Signals Your Agent Depends O</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
