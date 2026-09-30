@@ -43385,4 +43385,198 @@ Abstract: Geographic measurements are often sparse, leaving large areas without 
     <SummaryPayload>arXiv:2609.25576v2 Announce Type: replace-cross 
 Abstract: We study the estimation of a $K$-dimensional simplex from $N$ i.i.d.\ points sampled uniformly from its interior; the observations are convex combinations of $K+1$ unknown prototypes. Existing polynomial-time estimators need cubic per-sample</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Nova, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/</ReferenceURL>
+    <SummaryPayload>Learn how to build AI interfaces that automatically adapt to your agents' variable outputs, using the AG-UI protocol for dynamic UI generation, the Strands Agents SDK swarm pattern for explainable multi-agent collaboration, and Amazon Nova Act to integrate legacy systems that lack APIs.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Amazon Bedrock expands Claude model availability to in-country inferencing in India</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/</ReferenceURL>
+    <SummaryPayload>Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, Invo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/</ReferenceURL>
+    <SummaryPayload>Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirel</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Prompt engineering fundamentals for Amazon Quick</Title>
+    <ExtractedTags>Amazon Quick Suite, Best Practices, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/</ReferenceURL>
+    <SummaryPayload>Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality r</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Prompt engineering by Quick component: Patterns and pitfalls</Title>
+    <ExtractedTags>Amazon Quick Suite, Best Practices, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/</ReferenceURL>
+    <SummaryPayload>Part 2 of our Amazon Quick prompt engineering series goes component by component. Learn the prompt patterns that get the best results from Amazon Quick Research, Quick Flows, Quick Sight, chat agents, and action integrations, plus the common pitfalls to avoid.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Amazon Quick Suite, Best Practices</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract question</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Condé Nast built multimodal video discovery with Amazon Bedrock</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Ser</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Your phone is AI’s newest hardware</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, mobile-development, agentic-ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/09/29/your-phone-is-ai-s-newest-hardware/</ReferenceURL>
+    <SummaryPayload>Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into autonomous app interactions.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Bliki: Sensible Default</Title>
+    <ExtractedTags>bliki</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/bliki/SensibleDefault.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A Sensible Default is a practice that, absent some overriding context,
+  should be used when carrying out a certain kind of task. In software
+  development such sensible defaults might include things like “use version
+  control”, “separate UI logic from domain logic”, “automate deployment
+  pipel</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Fragments: September 29</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/fragments/2026-09-29.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/harder/&quot;&gt;Simon Willison:&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder&lt;/p&gt;
+  &lt;p&gt;We can do amazing things with them, but unlocking their full poten</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Amazon CloudWatch Omni Extends CloudWatch into the Agent Era</Title>
+    <ExtractedTags>Cloud, AWS, Agents, Observability, Performance Evaluation, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/aws-cloudwatchomni-observability/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/aws-cloudwatchomni-observability/en/headerimage/aws-reliability-dns-1790708319178.jpg&quot; /&gt;&lt;p&gt;Recently launched, Amazon CloudWatch Omni is an AI-first observability platform designed to monitor, evaluate, and troubleshoot applications and autonomous AI agen</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Adds Configurable HTTP Vary Header Support to Prevent Cache Thrashing</Title>
+    <ExtractedTags>HTTP, Cloudflare, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cloudflare-http-vary/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Cloudflare has implemented native support for the HTTP Vary header across its edge network, enhancing cache management for all customer plans. This feature allows for better negotiation of content representations while m</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Kubernetes Teams Get a Safer Way to See Their Own GPU Metrics</Title>
+    <ExtractedTags>GPU, Adobe, Kubernetes, Metrics, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/kubernetes-gpu-metrics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/kubernetes-gpu-metrics/en/headerimage/generatedHeaderImage-1790149809545.jpg&quot; /&gt;&lt;p&gt;Adobe engineers have described an open-source approach for giving teams self-service access to their own Prometheus metrics in multi-tenant Kubernetes environments, without</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration</Title>
+    <ExtractedTags>Spring Web Services, Spring AI, Java, Spring Batch, Spring Framework, Spring Security, Spring Data, Spring Integration, Spring Boot, Spring Cloud, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/en/headerimage/spring-news-roundup-image-1790682740499.jpg&quot; /&gt;&lt;p&gt;There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: From Staff Platform Engineer to a 16z Founder: What I Wish I'd Known</Title>
+    <ExtractedTags>Best Practices, QCon San Francisco 2025, Transcripts, Staff Plus, Culture &amp; Methods, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/staff-founder-lessons/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/staff-founder-lessons/en/mediumimage/GonzaloGloMaldonado-medium-1790247060435.jpg&quot; /&gt;&lt;p&gt;Gonzalo Maldonado explains how technical leaders can translate engineering skills into startup success using his &quot;VC Abstraction Layer Knowledge&quot; (VALK).  He shares h</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Atlassian Rebuilds Metrics Pipeline Around OpenTelemetry at Massive Scale</Title>
+    <ExtractedTags>OpenTelemetry, Observability, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/atlassian-opentelemetry/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/atlassian-opentelemetry/en/headerimage/generatedHeaderImage-1790363465015.jpg&quot; /&gt;&lt;p&gt;Software company Atlassian has published an account of its migration from gostatsd to OpenTelemetry, replacing the internal workings of a metrics platform that receives da</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Worker Previews: Per-Branch Environments for Workers</Title>
+    <ExtractedTags>AI Coding, AI coding agents, Cloudflare, Agents, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cloudflare-worker-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/09/cloudflare-worker-agent/en/headerimage/generatedHeaderImage-1790586440950.jpg&quot; /&gt;&lt;p&gt;Cloudflare has introduced Worker Previews. This feature allows each Git branch to have its own isolated, production-like environment for a Worker. Each environment has a s</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance</Title>
+    <ExtractedTags>WebAssembly, Developer Experience, Serverless, Cloud, Cloudflare, Python, Architecture, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned w</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>I Compacted 1,000 Apache Iceberg Files Into 6. Here’s What Happened to Query Performance.</Title>
+    <ExtractedTags>Data Engineering, Apache Iceberg, Performance Evaluation, Python, Programming, Data Analyitcs</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Benchmarking the impact of fewer, larger files across three SQL workloads&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/&quot;&gt;I Compacted 1,000 Apache Iceberg Files Into 6. Here’s What Happened to Query Pe</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>AI Made Data Scientists Faster. Now It’s Expanding the Job.</Title>
+    <ExtractedTags>Data Science, Career Advice, Productivity, Agent Skills, Editor's Picks, Data Science Careers</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The real shift is bigger than productivity: AI is reshaping ownership, judgment, and the career path of data scientists.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/&quot;&gt;AI Made Data Scientists Faster. Now It’s Expanding the Job.&lt;/</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>When All You Have Are Decoders, Every Decision Looks Like Generation</Title>
+    <ExtractedTags>Agentic AI, Classifcation Models, Jev, Large Language Models, Decoder, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/when-all-you-have-are-decoders-every-decision-looks-like-generation/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Not every decision needs a decoder, generation Is not always a decision&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/when-all-you-have-are-decoders-every-decision-looks-like-generation/&quot;&gt;When All You Have Are Decoders, Every Decision Looks Like Generation&lt;/a&gt; appeared first on &lt;a href=</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Design Architectural Guardrails Around AI Agents</Title>
+    <ExtractedTags>Agentic AI, Agent Architecture, AI Agents, Prompt Injection, LLM Agents, Cybersecurity</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Agent design patterns every data engineer must know&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/&quot;&gt;How to Design Architectural Guardrails Around AI Agents&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Building Fair Evaluation Sets Is a Combinatorial Problem</Title>
+    <ExtractedTags>Data Science, Imbalanced Dataset, Editor's Picks, Llm Evaluation, Data Analysis, Model Evaluation</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/building-fair-evaluation-sets-is-a-combinatorial-problem/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Here’s how to solve it exactly.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/building-fair-evaluation-sets-is-a-combinatorial-problem/&quot;&gt;Building Fair Evaluation Sets Is a Combinatorial Problem&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Cut Carbon, Cut Costs: Achieve ESG Compliance with New Relic Cloud Cost Intelligence.</Title>
+    <ExtractedTags>Cloud Monitoring</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/cut-carbon-cut-costs-achieve-esg-compliance-with-new-relic-cloud-cost-intelligence</ReferenceURL>
+    <SummaryPayload>Align cloud cost and sustainability. Discover how New Relic uses Cloud Cost Intelligence to cut emissions by 37% and meet global ESG compliance.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>New Relic Compound Alerts: Operational Context for Autonomous Operations</Title>
+    <ExtractedTags>Operational Efficiency, Drive Developer Productivity, Alerts</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/operational-understanding-autonomous-operations</ReferenceURL>
+    <SummaryPayload>Learn why operational understanding is the missing layer between telemetry and AI, and how New Relic Compound Alerts helps enable Autonomous Operations.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
