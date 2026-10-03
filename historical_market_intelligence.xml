@@ -61883,4 +61883,132 @@ Abstract: Future prediction is increasingly used to improve vision-language-acti
     <SummaryPayload>arXiv:2609.37243v2 Announce Type: replace-cross 
 Abstract: Cross-modal knowledge distillation transfers knowledge from a teacher modality to a student modality. Existing feature-level alignment methods typically assume that teacher and student features reside in structurally alignable representation</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP</Title>
+    <ExtractedTags>Advanced (300), Amazon Elastic VMware Service (Amazon EVS), Amazon FSx for NetApp ONTAP, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/</ReferenceURL>
+    <SummaryPayload>This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure SnapMirror replication for cross-region dis</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP</Title>
+    <ExtractedTags>Advanced (300), Amazon Elastic VMware Service (Amazon EVS), Best Practices</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/</ReferenceURL>
+    <SummaryPayload>Learn how to architect a highly available Oracle Database environment on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP. This post covers EC2 bare metal instance selection, vSAN and FSx storage tiering, NSX networking, and SnapMirror cross-region disaster recovery for en</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Deploy open source Regional availability tools in your VPC</Title>
+    <ExtractedTags>Amazon Simple Storage Service (S3), AWS CloudFormation, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/</ReferenceURL>
+    <SummaryPayload>Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your Regional expansion gap analysis focuses only</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern</Title>
+    <ExtractedTags>Advanced (300), Amazon Quick Suite, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/</ReferenceURL>
+    <SummaryPayload>The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the r</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/</ReferenceURL>
+    <SummaryPayload>Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinforcement learning (MTRL) on Amazon SageMaker AI and share the gains we measured in</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Uber Eats Rebuilds Search Pipeline to Cut End-to-End Latency by 50%</Title>
+    <ExtractedTags>Apache, Search Engine, Go Language, Design Systems, Lucene, Rankings, Caching, Agentic AI Architecture, Low Latency, Optimization, Apache Kafka, Performance &amp; Scalability, Search, Uber, microbatching, Architecture &amp; Design, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/uber-eats-search-latency/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/uber-eats-search-latency/en/headerimage/generatedHeaderImage-1789856971928.jpg&quot; /&gt;&lt;p&gt;Uber has rebuilt major parts of the Uber Eats search pipeline, reporting a 50% reduction in end-to-end latency. Changes include Above-the-Fold measurement, reduced retrie</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Envoy Gateway 1.9.1 Tightens Security and Addresses a Difficult Upgrade Path</Title>
+    <ExtractedTags>Cloud Security, Envoy, Application Security, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/envoy-gateway-1-9-1/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/envoy-gateway-1-9-1/en/headerimage/generatedHeaderImage-1790172096430.jpg&quot; /&gt;&lt;p&gt;Envoy Gateway has released v1.9.1, a maintenance release that focuses heavily on security, upgrade reliability, and operational correctness following the broader v1.9 release.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Managing Asynchronous APIs at Scale</Title>
+    <ExtractedTags>Infrastructure as Code, Transcripts, AsyncAPI, Event Driven Architecture, Governance, API, QCon London 2026, Architecture &amp; Design, Development, DevOps, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/managing-async-apis/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/managing-async-apis/en/mediumimage/ian-cooper-medium-1790242149604.jpeg&quot; /&gt;&lt;p&gt;Ian Cooper discusses managing asynchronous APIs in event-driven architectures at scale. He explains the &quot;ABCs&quot; of messaging (Address, Binding, Contract) and shares how to tackl</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>OpenAI DevDay 2026 Recap for Developers</Title>
+    <ExtractedTags>Large language models, OpenAI, Agents, ChatGPT, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/openai-devday-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/openai-devday-2026/en/headerimage/generatedHeaderImage-1790873120154.jpg&quot; /&gt;&lt;p&gt;OpenAI announced a series of product and developer updates at DevDay 2026, including GPT-6.1 Sol, computer use for the Agents API, cloud-based Codex environments, a Decisions A</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Engineering Production Systems for an Agentic Era: QCon San Francisco 2026</Title>
+    <ExtractedTags>OpenAI, Agents, QCon San Francisco 2026, Artificial Intelligence, QCon Software Development Conference, Development, Architecture &amp; Design, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/qconsf-2026-sessions/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/qconsf-2026-sessions/en/headerimage/qcon-sf-2026-session-focus-1790849488514.jpg&quot; /&gt;&lt;p&gt;QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, o</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: From Reusable to Regeneratable: Rethinking the Shared UI Component Library</Title>
+    <ExtractedTags>Web Development, Web Components, User Interface, JavaScript, Development, Architecture &amp; Design, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/regeneratable-ui-component-library/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/regeneratable-ui-component-library/en/headerimage/regeneratable-ui-component-library-header-1790758478325.jpg&quot; /&gt;&lt;p&gt;Regeneration has changed reuse economics. A model pointed at a solid design system can produce most standard UI on demand, so paying to keep a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images</Title>
+    <ExtractedTags>Agents, AI Architecture, Docker, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/docker-sandbox-ai-agent/en/headerimage/generatedHeaderImage-1790838829021.jpg&quot; /&gt;&lt;p&gt;Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself.&lt;/p&gt; &lt;i&gt;By C</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents</Title>
+    <ExtractedTags>Orchestration, Large language models, Digital Ocean, Agents, Virtual Machines, Development, Architecture &amp; Design, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/digitalocean-managed-agents/en/headerimage/digitalocean-managed-agents-1790930999544.jpeg&quot; /&gt;&lt;p&gt;DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Where the Agent Development Lifecycle Fits</Title>
+    <ExtractedTags>Agentic AI, Agentic Ai, AI Agents, Systems Engineering, Editor's Picks, Agent Architecture</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Coordinating agent capability development with the application it powers&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/&quot;&gt;Where the Agent Development Lifecycle Fits&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Scie</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Build a Control Plane for AI Agents</Title>
+    <ExtractedTags>Agentic AI, Large Language Models, AI Agents, Agent Architecture, LLM Agents, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Giving an LLM permission to act, in 9 steps&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/&quot;&gt;How to Build a Control Plane for AI Agents&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>7 Best FinOps Tools for Cloud Cost Management in 2026</Title>
+    <ExtractedTags>DevOps, Incident Management</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/finops-tools</ReferenceURL>
+    <SummaryPayload>Compare the top FinOps tools for cloud cost management — commitment automation vs. tools that connect cost to the system behavior behind it.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>7 PagerDuty Alternatives for Modern Incident Response Teams</Title>
+    <ExtractedTags>DevOps, Incident Management</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/pagerduty-alternatives</ReferenceURL>
+    <SummaryPayload>Comparing PagerDuty alternatives for on-call and incident coordination? See the top contenders, what to evaluate, and why alert quality matters as much as the tool.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
