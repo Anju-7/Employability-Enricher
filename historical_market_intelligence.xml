@@ -62011,4 +62011,55 @@ Abstract: Cross-modal knowledge distillation transfers knowledge from a teacher 
     <ReferenceURL>https://newrelic.com/blog/observability/pagerduty-alternatives</ReferenceURL>
     <SummaryPayload>Comparing PagerDuty alternatives for on-call and incident coordination? See the top contenders, what to evaluate, and why alert quality matters as much as the tool.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate</Title>
+    <ExtractedTags>Enterprise Architecture, AI Security, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/open-APPA-zero-security-breach/en/headerimage/generatedHeaderImage-1791068760274.jpg&quot; /&gt;&lt;p&gt;Archestra released OpenAPPA, an open-source security engine designed to stop data exfiltration caused by prompt injection or model hallucination. The team reports z</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitLab Vulnerability Under Active Exploitation Enables Unauthenticated Data Exfiltration</Title>
+    <ExtractedTags>Security Vulnerabilities, Continuous Deployment, GitLab, Software Supply Chain, Continuous Integration, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/gitlab-critical-vulnerabilities/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/gitlab-critical-vulnerabilities/en/headerimage/gitlab-cloud-seed-preview-1791042234130.jpeg&quot; /&gt;&lt;p&gt;CVE-2026-85706 is a critical GitLab path-traversal vulnerability that has moved beyond theoretical risk into confirmed exploitation. It affects self-managed</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Building GenAI Platform at DoorDash</Title>
+    <ExtractedTags>Developer Experience, Machine Learning, QCon AI Boston 2026, Large language models, Generative AI, Infrastructure, Transcripts, Architecture, Platform Engineering, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/doordash-genai-platform-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/doordash-genai-platform-architecture/en/mediumimage/SiddharthKodwaniSwaroopChitlur-medium-1790246592519.jpg&quot; /&gt;&lt;p&gt;Swaroop Chitlur and Sidd Kodwani share DoorDash’s journey building an internal GenAI platform. They discuss core architectural bets, transit</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud</Title>
+    <ExtractedTags>Service Mesh, Istio, Kubernetes, Cloud Native Computing Foundation, DevOps, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/istio-1-31-agentgateway/en/headerimage/header-1790887193946.jpeg&quot; /&gt;&lt;p&gt;Istio 1.31 adds agentgateway waypoints in ambient mode, with a canary configuration fix included in 1.31.1. It also ends the publication of images and Helm charts to Google Cloud, requ</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>AI Agents Are Disrupting Open Source Security Disclosure</Title>
+    <ExtractedTags>Common Vulnerabilities and Exposures, Application Security, AI Security, AI coding agents, Open Source, Agents, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/open-source-ai-security/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;A recent article by Anil Madhavapeddy argues that AI agents can turn publicly available clues about software vulnerabilities into working exploits, reducing the effectiveness of traditional disclosure embargoes in open s</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Measuring the Creativity Potential of LLM Agents</Title>
+    <ExtractedTags>Agentic AI, LLM Agents, ML Engineering, Creativity, Editor's Picks, AI Agents</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Trying to answer the question of &amp;quot;Can LLM agents discover?&amp;quot; through the lens of creativity&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/&quot;&gt;Measuring the Creativity Potential of LLM Agents&lt;/a&gt; appeared first on &lt;a href=&quot;https://t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Use a PINN for a Navier-Stokes Inverse Problem</Title>
+    <ExtractedTags>Deep Learning, physics-informed machine learning, Physics, Machine Learning, Fluid Dynamics</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-use-a-pinn-for-a-navier-stokes-inverse-problem/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A from-scratch PyTorch build that recovers blood flow, viscosity, and wall shear stress in a narrowed artery from 40 noisy velocity readings&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-use-a-pinn-for-a-navier-stokes-inverse-problem/&quot;&gt;How to Use a PINN for a Navier-Stokes Invers</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>

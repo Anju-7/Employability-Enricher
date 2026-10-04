@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-03T03:49:14.320431",
-  "total_historical_records": 7784,
+  "generated_at": "2026-10-04T04:20:21.055231",
+  "total_historical_records": 7791,
   "top_sources": {
     "ArXiv AI": 3680,
     "ArXiv LG": 3144,
     "ArXiv ML": 525,
-    "InfoQ": 138,
+    "InfoQ": 143,
     "AWS Machine Learning": 96,
-    "Towards Data Science": 89,
+    "Towards Data Science": 91,
     "AWS Architecture": 22,
     "Stack Overflow Blog": 20,
     "New Relic Blog": 19,
@@ -31,10 +31,10 @@
     "cs.SY": 140
   },
   "keyword_occurrences": {
-    "ai": 4024,
-    "llm": 1093,
-    "security": 103,
-    "cloud": 87,
+    "ai": 4026,
+    "llm": 1094,
+    "security": 104,
+    "cloud": 89,
     "database": 39,
     "kubernetes": 26,
     "python": 17
