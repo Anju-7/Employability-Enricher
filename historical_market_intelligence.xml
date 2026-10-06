@@ -67468,4 +67468,162 @@ Abstract: Despite many studies about causes and remedies of plasticity loss in R
     <SummaryPayload>arXiv:2610.01984v2 Announce Type: replace-cross 
 Abstract: Byte-level byte-pair encoding (BBPE) tokenizers are attractive for multilingual large language models (LLMs) because they cover all Unicode text. In UTF-8-based BBPE, however, many scripts start from a higher fallback cost than English: when</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Introducing GLM 5.3 on Amazon Bedrock</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Announcements</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Supercharge regulated workloads with Claude Code and Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Announcements</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/</ReferenceURL>
+    <SummaryPayload>Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion</Title>
+    <ExtractedTags>Advanced (300), Amazon Quick Suite, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/</ReferenceURL>
+    <SummaryPayload>Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock Age</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock Knowledge Bases, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/</ReferenceURL>
+    <SummaryPayload>Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. Run the same query through both paths, read the trace events, and compare what e</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Downgrading user roles in Amazon Quick</Title>
+    <ExtractedTags>Amazon Quick Sight, Amazon Quick Suite, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/</ReferenceURL>
+    <SummaryPayload>Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate approach and an AWS CLI step-down sequence that downgrades roles safely while preserving asset ownership.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-i</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Announcing the AWS Digital Sovereignty Lens for the Well-Architected Framework</Title>
+    <ExtractedTags>Announcements, Architecture, AWS Well-Architected</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/announcing-the-aws-digital-sovereignty-well-architected-lens/</ReferenceURL>
+    <SummaryPayload>October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens, a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS. Customers tell us that digital sovereignty</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Fragments: October  4</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/fragments/2026-10-04.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;In response to my &lt;a href=&quot;https://martinfowler.com/fragments/2026-09-29.html&quot;&gt;last fragments&lt;/a&gt; (probably the bit about us worrying if LLMs have consciousness when we when we should be wondering why they don’t have a conscience) &lt;a href=&quot;https://x.com/metalanguage_os/status/2104934457333707058&quot;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Java News Roundup: JobRunr 9, OpenXava 8, Quarkus, LangChain4j, JNoSQL, Introducing Lathe</Title>
+    <ExtractedTags>Lathe, Micronaut, Quarkus, Google ADK for Kotlin, LangChain4j, JobRunr, Jakarta EE, JDK 28, Google ADK for Java, Java, Eclipse JNoSQL, OpenXava, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/java-news-roundup-sep28-2026/en/headerimage/java-news-roundup-image-1791219262766.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for September 28th, 2026, features news highlighting: the GA releases of JobRunr 9.0 and OpenXava 8.0; point releases for Quarkus, Microna</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Akka Tests Spec-Driven AI Delivery Across 65 Open Source Projects</Title>
+    <ExtractedTags>Developer Experience, AI Architecture, Benchmark, AI coding agents, Claude, Automated testing, Architecture &amp; Design, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/ai-spec-driven-delivery/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/ai-spec-driven-delivery/en/headerimage/generatedHeaderImage-1789859037002.jpg&quot; /&gt;&lt;p&gt;Akka used 65 open-source projects to examine how specification structure, context, model selection, automated validation, and delivery guardrails affect AI assisted softwa</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Building Reusable Evaluation Frameworks for Agentic AI Products</Title>
+    <ExtractedTags>Performance Evaluation, Large language models, QCon AI Boston 2026, ElasticSearch, Retrieval-Augmented Generation, Transcripts, Agents, Observability, MLOps, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/elastic-ai-agent-evaluations/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/elastic-ai-agent-evaluations/en/mediumimage/susan-chang-medium-1790846586191.jpeg&quot; /&gt;&lt;p&gt;Susan Chang explains how Elastic transitioned from siloed, ad-hoc AI agent evaluations to a unified, production-grade framework. She discusses balancing LLM-as-a-judg</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: The Platform Engineering Playbook for Production LLMs</Title>
+    <ExtractedTags>Agentic AI Architecture, Artificial Intelligence, Large language models, Agents, AI, ML &amp; Data Engineering, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/platform-engineering-playbook-production-llms/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/platform-engineering-playbook-production-llms/en/headerimage/platform-engineering-playbook-production-llms-header-1790763235683.jpg&quot; /&gt;&lt;p&gt;In this article, author discusses his experience with AI agent hallucinations in an inventory recommendation system and h</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Podcast: Future Cybersecurity: Hardware Memory Safety, Automated Governance and Post-Quantum Cryptography</Title>
+    <ExtractedTags>The InfoQ Podcast, Hardware, Large language models, Security, DevOps, podcast</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/podcasts/future-cybersecurity-hardware-memory-safety/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/future-cybersecurity-hardware-memory-safety/en/smallimage/infoq-podcast-500-1790672981256.jpg&quot; /&gt;&lt;p&gt;In this episode, Chris Swan, engineer at Atsign and security track host at QCon London, reflects on the ideas shared during QCon London 2026 and teases topics</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Aspire 13.6 Adds Persistent Dashboard Telemetry and First-Party Java and Rust Hosting</Title>
+    <ExtractedTags>.NET 11, .NET Core, Cloud Native Architecture, .NET 10, .NET Aspire, .NET, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/dotnet-aspire-13-6-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Microsoft has released Aspire 13.6. The dashboard now stores telemetry in SQLite and keeps up to ten completed runs per application. The release adds prerelease hosting packages for Java and Rust, portable volume paths,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Fixes Cross-Tenant Data Exposure in Containers</Title>
+    <ExtractedTags>Cloud, Cloudflare, Containers, Security, Architecture, Storage, Multi-tenancy, DevOps, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/en/headerimage/generatedHeaderImage-1790844732167.jpg&quot; /&gt;&lt;p&gt;Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Plans Public Certificate Authority to Issue Quantum-Safe TLS Certificates</Title>
+    <ExtractedTags>Encryption, Internet, Cryptography, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/postquatam-certificates/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/postquatam-certificates/en/headerimage/generatedHeaderImage-1791007674738.jpg&quot; /&gt;&lt;p&gt;Cloudflare will operate a free public Certificate Authority to issue quantum-safe Transport Layer Security certificates. This initiative addresses challenges in migrating</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Computer Vision: SIFT algorithm (Scale Invariant Feature Transform)</Title>
+    <ExtractedTags>Artificial Intelligence, Data Science, Machine Learning, Computer Vision, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/computer-vision-sift-algorithm-scale-invariant-feature-transform/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Elegant object matching from several viewpoints&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/computer-vision-sift-algorithm-scale-invariant-feature-transform/&quot;&gt;Computer Vision: SIFT algorithm (Scale Invariant Feature Transform)&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Build a Cheap, Yet Reliable Model Router With Jev</Title>
+    <ExtractedTags>LLM Applications, Llm, Jev, claude, Classification, Ai Engineering</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-build-a-cheap-yet-reliable-model-router-with-jev/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Model routing can finally be a design choice rather than a system enhancement&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-build-a-cheap-yet-reliable-model-router-with-jev/&quot;&gt;How to Build a Cheap, Yet Reliable Model Router With Jev&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsda</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>AI Agent Observability: The 8 Best Tools for Production Agents</Title>
+    <ExtractedTags>DevOps, Incident Management</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/ai-agent-observability</ReferenceURL>
+    <SummaryPayload>Compare the top AI agent observability tools for production — tracing, evaluation, and cost — and see which type of platform actually fits the gap you have.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>9 Incident Management Tools Behind Faster MTTR</Title>
+    <ExtractedTags>DevOps, Incident Management</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/incident-management-tools</ReferenceURL>
+    <SummaryPayload>Compare the top incident management tools for engineering and DevOps teams — coordination, escalation, and the detection layer that determines how fast they work.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Kubernetes Blog</Source>
+    <Title>Scaling Kubernetes Workloads with Node Swap</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Memory is often the first hard limit a Kubernetes cluster hits.
+Nodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse.
+These workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next pr</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
