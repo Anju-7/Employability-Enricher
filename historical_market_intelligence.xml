@@ -84696,4 +84696,141 @@ Abstract: Large-scale vision--language--action (VLA) policies have advanced gene
     <SummaryPayload>arXiv:2609.00482v2 Announce Type: replace-cross 
 Abstract: Small leaderboard gaps are often interpreted as evidence that one language model is better than another, but their sign may depend on which benchmark items are included. We test this using item-level responses from five benchmarks and a fami</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>ICYMI: What landed for AI builders in September 2026</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Bedrock AgentCore, Foundational (100), Thought Leadership</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/</ReferenceURL>
+    <SummaryPayload>A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Postman runs Agent Mode for 40 million developers on Amazon Bedrock</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amaz</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>A Treatise on Model Oriented Programming Languages</Title>
+    <ExtractedTags>programming-language, building-software, contributed, cc-by-sa</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/09/a-treatise-on-model-oriented-programming-languages/</ReferenceURL>
+    <SummaryPayload/>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Taking a look under your agent’s hood</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, observability, ai, agentic-ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/</ReferenceURL>
+    <SummaryPayload>Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and production workflows, and navigating emerging challenges in AI security and tokenomics.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Production-grade LLMs and agents: a field guide</Title>
+    <ExtractedTags>ai, contributed, building-software, cc-by-sa</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/</ReferenceURL>
+    <SummaryPayload>A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring</Title>
+    <ExtractedTags>AI coding agents, Large language models, Mobile, Android, Benchmark, Google, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/android-bench-2/en/headerimage/cloudflare-computer-agents-1791561634896.jpeg&quot; /&gt;&lt;p&gt;Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces lon</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Shopify Upgrades Checkout Blocks to Polaris Web Components, Cutting Bundle Sizes up to 85%</Title>
+    <ExtractedTags>React, Optimization, Web Development, Web Components, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/shopify-web-components/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Shopify has updated its Checkout Blocks app, transitioning five high-traffic checkout UI extensions to remote-dom using Preact and Polaris web components. The rewrite, which involved moving to TypeScript and a new API ve</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite</Title>
+    <ExtractedTags>Node.js, SDK, Performance, Automated testing, copilot, Rewrite, github, CLI, AI coding agents, Rust, migration, TypeScript, AI Assisted Coding, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated test</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>CircleCI Makes Machine Runner Orchestrator Generally Available</Title>
+    <ExtractedTags>Kubernetes Operator, Cloud, Orchestration, Continuous Integration, Kubernetes, Continuous Delivery, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/circleci-machine-runner/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/circleci-machine-runner/en/headerimage/generatedHeaderImage-1790836191409.jpg&quot; /&gt;&lt;p&gt;CircleCI has made its Machine Runner Orchestrator 1.0.0 generally available, providing automated scaling of self-hosted machine runner virtual machines according to CI wor</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale</Title>
+    <ExtractedTags>Scaling, Site Reliability Engineering, QCon London 2026, Transcripts, Architecture, Ontology, Observability, Telemetry, AIOps, DevOps, AI, ML &amp; Data Engineering, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/netflix-observability-aiops-ontology-scale/en/mediumimage/medium-1790845339712.jpg&quot; /&gt;&lt;p&gt;Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-dr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Olson and Söderqvist Discuss Valkey’s Evolution and Future Past Caching Use Cases at OSS EU</Title>
+    <ExtractedTags>Distributed Cache, Redis, Valkey, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/valkey-evolution/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Valkey is a growing project, launched as a fork of Redis over two years ago, supported by twelve maintainers and nine committee members from various companies. Recent developments include enhanced throughput, improved cl</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Podcast: The Minimum Viable Manager: Building Trust, Feedback, and Alignment</Title>
+    <ExtractedTags>Psychological Safety, Engineering Culture Podcast, Trust, Careers, Culture, Teamwork, Management, Leadership, Culture &amp; Methods, podcast</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/podcasts/building-trust-feedback-alignment/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/building-trust-feedback-alignment/en/smallimage/engineering-culture-500-1790863262988.jpg&quot; /&gt;&lt;p&gt;In this podcast, Shane Hastie, Lead Editor for Culture &amp; Methods, spoke to Matt Gjertsen, founder of Built and author of Minimum Viable Manager, about the three fo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>HashiCorp Relased Terraform Google Cloud Provider 8.0 in General Availability</Title>
+    <ExtractedTags>Terraform, Google Cloud, Hashicorp, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/terraform-google-cloud-provider/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/terraform-google-cloud-provider/en/headerimage/generatedHeaderImage-1791470649216.jpg&quot; /&gt;&lt;p&gt;HashiCorp has announced the general availability of version 8.0 of the Terraform provider for Google Cloud. The major release updates the default load balancing fo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency</Title>
+    <ExtractedTags>Cloudflare, Cloud, Serverless, Architecture, Storage, Event Driven Architecture, Streaming, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/en/headerimage/generatedHeaderImage-1791040228747.jpg&quot; /&gt;&lt;p&gt;Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage. Cloudflare states produce latency</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?</Title>
+    <ExtractedTags>Agentic AI, Llm, Agentic Ai, Artificial Intelligence, Machine Learning, Jev</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How a decision-first model can catch risky tool calls before they turn into real-world actions&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/&quot;&gt;Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?&lt;/a&gt; appeared first on &lt;a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Where Does the Money Go Across Long-Running Coding Agents?</Title>
+    <ExtractedTags>AI applications, Coding agent, Claude Code, AI Context Efficiency, Agentic Ai, Cost Optimization</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The cost of control&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/&quot;&gt;Where Does the Money Go Across Long-Running Coding Agents?&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Build Your First AI Agent with One Tool Call</Title>
+    <ExtractedTags>Agentic AI, AI Agents, LLM Agents, Agentic Ai, Llm, Programming</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;AI Agents for Beginners, Part 1&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/&quot;&gt;Build Your First AI Agent with One Tool Call&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Stop Using AI. Start Hiring It.</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Artifical Intelligence, Editor's Picks, Llm, Product Management</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/stop-using-ai-start-hiring-it/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;AI agents can now write more code than any of us can read. That changed how I think about AI.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/stop-using-ai-start-hiring-it/&quot;&gt;Stop Using AI. Start Hiring It.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>How New Relic engineers reliability at scale</Title>
+    <ExtractedTags>Expert Observability, Improve Reliability, Improve real-user experience</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/engineer-reliability-at-scale</ReferenceURL>
+    <SummaryPayload>Learn how New Relicengineers reliability at scale with telemetry, resilient architecture, and automation to detect, contain and respond to failure.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
