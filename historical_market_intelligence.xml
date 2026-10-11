@@ -84833,4 +84833,28 @@ Abstract: Small leaderboard gaps are often interpreted as evidence that one lang
     <ReferenceURL>https://newrelic.com/blog/observability/engineer-reliability-at-scale</ReferenceURL>
     <SummaryPayload>Learn how New Relicengineers reliability at scale with telemetry, resilient architecture, and automation to detect, contain and respond to failure.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Traces Turns the Proxy Layer into OpenTelemetry Spans, with New Volume-Based Pricing</Title>
+    <ExtractedTags>Cloudflare, Cloud, OpenTelemetry, Architecture, Observability, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-traces-open-beta/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-traces-open-beta/en/headerimage/generatedHeaderImage-1791443919168.jpg&quot; /&gt;&lt;p&gt;Cloudflare has put Traces into open beta, extending automatic tracing from Workers to security rules, transformations, cache, routing and origin handling as OpenTeleme</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How Can AI Agents Read Untrusted Sources Safely?</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Ai Engineering, Prompt Injection, Security, Cybersecurity</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Add architectural guardrails around how agents read untrusted sources and use them in the workflow.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/&quot;&gt;How Can AI Agents Read Untrusted Sources Safely?&lt;/a&gt; appeared first on &lt;a href=&quot;https://tow</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Why Temperature 0 Isn't Deterministic</Title>
+    <ExtractedTags>Large Data Models, Large Language Models, Deep Learning, Temperature, Token, Noise</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/why-temperature-0-isnt-deterministic/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A one-line formula for how often an LLM's top token flips, and why identical
+completions fall apart after about a hundred tokens&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/why-temperature-0-isnt-deterministic/&quot;&gt;Why Temperature 0 Isn't Deterministic&lt;/a&gt; appeared first on &lt;a href=&quot;http</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
