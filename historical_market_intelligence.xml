@@ -89327,4 +89327,132 @@ Abstract: Edge language-model agents must hold a persona and reason correctly at
     <SummaryPayload>arXiv:2610.10455v2 Announce Type: replace-cross 
 Abstract: Hallucinated information can propagate through multi-stage LLM systems and become part of the context for subsequent reasoning. Existing studies of post-hallucination reasoning (PHR) mainly characterize changes in final outcomes and aggregat</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/</ReferenceURL>
+    <SummaryPayload>Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your sour</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Deploy decision models with llama.cpp on Amazon SageMaker AI</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/</ReferenceURL>
+    <SummaryPayload>Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Run multi-node inference workloads using Ray LLM Deep Learning Containers</Title>
+    <ExtractedTags>Amazon Elastic Kubernetes Service, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/</ReferenceURL>
+    <SummaryPayload>Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Agentic antimicrobial resistance surveillance with AWS HealthOmics and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, AWS HealthOmics, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>This post presents a reference architecture that turns public sequencing data into plain-language answers about antimicrobial resistance (AMR) genes. It pairs AWS HealthOmics for managed genomics processing with a grounded Amazon Bedrock AgentCore agent, so researchers can ask questions without writ</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks</Title>
+    <ExtractedTags>Data Center Engineering, Data Infrastructure, DevInfra, ML Applications, Networking &amp; Traffic, Open Source</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:  Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundam</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest</Title>
+    <ExtractedTags>Android, Data Infrastructure, iOS, Networking &amp; Traffic, Video Engineering, Web, Instagram</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and w</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations</Title>
+    <ExtractedTags>ML Applications</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we desi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Beyond the AI noise: How Stack Overflow is rethinking tech hiring</Title>
+    <ExtractedTags>community, developer-story, se-tech, se-stackoverflow</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/</ReferenceURL>
+    <SummaryPayload>It’s gotten exponentially harder to identify talent that we feel is a good fit for our teams at the top of the application funnel.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development</Title>
+    <ExtractedTags>Claude, Continuous Integration, Automated testing, AI Coding, Software Development, AI Development, Developer Experience, Incident Response, Automation, Observability, AI Assisted Coding, Code Quality, Productivity, Continuous Deployment, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes changes to testing,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies</Title>
+    <ExtractedTags>Performance Evaluation, Query, Data Storage, Clustering &amp; Caching, Benchmark, Data Lake, AI, ML &amp; Data Engineering, Architecture &amp; Design, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/liquid-clustering-lakehouse-layout/en/headerimage/liquid-clustering-lakehouse-layout-header-1791465984987.jpg&quot; /&gt;&lt;p&gt;Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Podcast: What Does It Really Mean To Program With AI: A Conversation with Joy Ebertz</Title>
+    <ExtractedTags>Modular Monolith, Microservices, Architecture, Requirements, Artificial Intelligence, The InfoQ Podcast, AI, ML &amp; Data Engineering, Architecture &amp; Design, podcast</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/what-really-mean-program-ai/en/smallimage/infoq-podcast-500-1791359941231.jpg&quot; /&gt;&lt;p&gt;In this podcast, Michael Stiefel spoke to Joy Ebertz about how the use of artificial intelligence is changing the way architects and developers do their jobs. Focusing on the</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: You Can't Trust Your AI Bill. And Neither Can I</Title>
+    <ExtractedTags>Cost Optimization, Generative AI, Transcripts, Architecture, FinOps, Productivity, QCon AI Boston 2026, Cloud Computing, DevOps, AI, ML &amp; Data Engineering, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/ai-cloud-cost-economics/en/mediumimage/erik-peterson-medium-1791451373591.jpg&quot; /&gt;&lt;p&gt;Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced devel</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>React 19.3: Adds a browser() API, Giving Client-Only Rendering a First-Class Name</Title>
+    <ExtractedTags>React, JavaScript, Web Development, Server-side rendering, Next.js, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/react-19-3-browser-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/react-19-3-browser-api/en/headerimage/generatedHeaderImage-1791791785119.jpg&quot; /&gt;&lt;p&gt;React 19.3 was released on September 9, introducing several features including the react-dom browser() API. This API allows components to opt out of server-side rendering,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Java News Roundup: Grails 8, Open Liberty, GlassFish, Infinispan, LangChain4j, Spock</Title>
+    <ExtractedTags>LangChain4j, Infinispan, Open Liberty, Grails, Java, Micronaut, Spock, Glassfish, Open JDK, TornadoVM, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/java-news-roundup-oct05-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/java-news-roundup-oct05-2026/en/headerimage/java-news-roundup-image-1791799719812.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for October 5th, 2026, features news highlighting: OpenJDK JEPs Proposed to Target for JDK 28; Lazy Constants elevated to Candidate status</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls</Title>
+    <ExtractedTags>GitLab, Agentic Development Lifecycle, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/en/headerimage/generatedHeaderImage-1791743492913.jpg&quot; /&gt;&lt;p&gt;GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Cont</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration</Title>
+    <ExtractedTags>Apple, Git, Mobile, Agents, Xcode, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/xcode-json-project-format/en/headerimage/llms-sleeper-agents-1791792362889.jpeg&quot; /&gt;&lt;p&gt;Apple is introducing a new JSON-based format for Xcode project configuration files, replacing the traditional property-list-based format. Available in Xcode 27.2, the ne</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>We Specified an AI Agent in 2016. We Called It Analytics.</Title>
+    <ExtractedTags>Artificial Intelligence, Agentic Ai, Editor's Picks, AI Agents, Data Engineering, Multimodality</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/we-specified-an-ai-agent-in-2016-we-called-it-analytics/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Re-reading my own IBM patent on real-time concert feedback as what it actually was: an agentic loop with multimodal perception, memory-grounded inference, and a human in the loop. What it got right, and what a decade of hindsight teaches agent builders today.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towa</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>I Built a Trap for AI Image Judges. They Walked Into a Different One.</Title>
+    <ExtractedTags>Machine Learning, Computer Vision, Llm Evaluation, Python, Multimodal, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Three vision AI models ignored the pretty image, yet GPT-4o invented answers and Claude kept answering B.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/&quot;&gt;I Built a Trap for AI Image Judges. They Walked Into a Different</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
