@@ -1,5 +1,47 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-10-13" record_count="360" status="SUCCESS">
+<MarketIngestion date="2026-10-14" record_count="373" status="SUCCESS">
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building agents that transact with Anchor Browser and AgentCore payments</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Customer Solutions, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/</ReferenceURL>
+    <SummaryPayload>Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet credentials t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Manage private pricing offers for Amazon Bedrock with managed entitlements</Title>
+    <ExtractedTags>Amazon Bedrock, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/</ReferenceURL>
+    <SummaryPayload>Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post shows two ways to activate MPPO entitlements in AWS License Manager: a lightweight script for a one-time fix, and CDK autom</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Natural language security queries at Orca Security using Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage architecture and the results: 90% lower query cost, 93% fewer input tokens, and 75% lower latency than the initial baseline.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base, reads error-message screenshots, and files Jira tickets. In its first three months it resolved 97.5% of channel queries</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build long-horizon agents with Grok 4.7 on Amazon Bedrock</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Amazon Machine Learning, Artificial Intelligence, Foundation models, Generative AI, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measuring correctness and token cost per completed task. We show how to tune the trade-off per request and monitor it in prod</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Mixture-of-Experts kernel engineering on Amazon SageMaker AI</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Announcements</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/</ReferenceURL>
+    <SummaryPayload>AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantization, and eliminating Triton JIT recompilation. Together they deliver up to 10% higher throughput and up to 9% faster Time </SummaryPayload>
+  </TrendItem>
   <TrendItem>
     <Source>AWS Machine Learning</Source>
     <Title>Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan</Title>
@@ -36,18 +78,25 @@
     <SummaryPayload>Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amaz</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments</Title>
-    <ExtractedTags>Amazon Bedrock AgentCore, Customer Solutions, Foundational (100)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/</ReferenceURL>
-    <SummaryPayload>Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months t</SummaryPayload>
+    <Source>AWS Architecture</Source>
+    <Title>Scope workloads and share resilience policies with AWS Resilience Hub</Title>
+    <ExtractedTags>Announcements, AWS Resilience Hub (ARH), Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub/</ReferenceURL>
+    <SummaryPayload>The next generation of AWS Resilience Hub adds three capabilities to keep workload scope and resilience requirements aligned with your running environment: Amazon EKS label support for service input sources, generative AI-powered Dependency Insights, and resilience policy sharing through AWS Organiz</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod</Title>
-    <ExtractedTags>Amazon SageMaker HyperPod, Best Practices, Expert (400)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/</ReferenceURL>
-    <SummaryPayload>A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocat</SummaryPayload>
+    <Source>AWS Architecture</Source>
+    <Title>Stopping business email compromise with AI-driven email security: How VIPRE protects modern enterprises on AWS</Title>
+    <ExtractedTags>Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/stopping-business-email-compromise-with-ai-driven-email-security-how-vipre-protects-modern-enterprises-on-aws/</ReferenceURL>
+    <SummaryPayload>Learn how VIPRE Security built an AI-powered email security solution on AWS to stop business email compromise. VIPRE Integrated Email Security uses machine learning and a serverless architecture on Amazon ECS, Amazon SQS, and Amazon S3 to detect and block sophisticated email impersonation in real ti</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Bulk Executor for Amazon DynamoDB, Part 2: Lessons we learned the hard way</Title>
+    <ExtractedTags>Advanced (300), Amazon DynamoDB, Best Practices</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way/</ReferenceURL>
+    <SummaryPayload>In Part 2 of our Bulk Executor for Amazon DynamoDB series, we share how we built the tool: the design tradeoffs, surprises, and workarounds we hit while working with DynamoDB and AWS Glue. Consider it a travel guide for anyone building their own bulk tooling on AWS Glue.</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>AWS Architecture</Source>
@@ -55,6 +104,13 @@
     <ExtractedTags>Amazon Bedrock AgentCore, AWS HealthOmics, Intermediate (200), Technical How-to</ExtractedTags>
     <ReferenceURL>https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore/</ReferenceURL>
     <SummaryPayload>This post presents a reference architecture that turns public sequencing data into plain-language answers about antimicrobial resistance (AMR) genes. It pairs AWS HealthOmics for managed genomics processing with a grounded Amazon Bedrock AgentCore agent, so researchers can ask questions without writ</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI</Title>
+    <ExtractedTags>ML Applications</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta&amp;#8217;s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both compute and i</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Meta Engineering</Source>
@@ -79,6 +135,20 @@
   </TrendItem>
   <TrendItem>
     <Source>Stack Overflow Blog</Source>
+    <Title>Why Your Sandbox Never Quite Matches Production (And Why That's Fine)</Title>
+    <ExtractedTags>running-software, contributed, cc-by-sa</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/13/why-your-sandbox-never-quite-matches-production-and-why-that-s-fine/</ReferenceURL>
+    <SummaryPayload>Sandbox testing works best when you stop chasing production parity. Learn what environment drift actually costs and which parts are worth fixing.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Keep calm and call clone with Rust</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, rust, programming-language, ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/13/keep-calm-and-call-clone-with-rust/</ReferenceURL>
+    <SummaryPayload>Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rust Project, to chat about how the borrow checker delivers compile-time memory safety without garbage collection overhead, why Rust consistently ranks as developers&amp;#x27; most loved language by providing psychological safe</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
     <Title>Beyond the AI noise: How Stack Overflow is rethinking tech hiring</Title>
     <ExtractedTags>community, developer-story, se-tech, se-stackoverflow</ExtractedTags>
     <ReferenceURL>https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/</ReferenceURL>
@@ -99,130 +169,161 @@
     <SummaryPayload>Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and production workflows, and navigating emerging challenges in AI security and tokenomics.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>Production-grade LLMs and agents: a field guide</Title>
-    <ExtractedTags>ai, contributed, building-software, cc-by-sa</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/</ReferenceURL>
-    <SummaryPayload>A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.</SummaryPayload>
+    <Source>Martin Fowler</Source>
+    <Title>The Craft of Practitioner Voice</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A couple of months ago &lt;b class=&quot;author&quot;&gt;Jim Highsmith&lt;/b&gt; explained how
+      practitioners writing for each other forms a distinct style of writing. He
+      now adds a section to the article with more detail on the craft of how we
+      write in this style. How the writer shows up in the prose</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath</Title>
-    <ExtractedTags>ai, building-software, contributed, cc-by-sa</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/</ReferenceURL>
-    <SummaryPayload>Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your decisions, bound your spend, route and fail over between models, kill bad behavior in seconds — and the platform t</SummaryPayload>
+    <Source>Martin Fowler</Source>
+    <Title>Are Harnesses Worth the Cost?</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/articles/are-harnesses-worth-the-cost.html</ReferenceURL>
+    <SummaryPayload>&lt;div class=&quot;img-link&quot;&gt;&lt;a href=&quot;https://martinfowler.com/articles/are-harnesses-worth-the-cost.html&quot;&gt;&lt;img src=&quot;https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png&quot; width=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;b class=&quot;author&quot;&gt;Naresh Jain&lt;/b&gt; compares coding agents building the same
+      API service wit</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>A green exit code is not evidence that the work happened</Title>
-    <ExtractedTags>ai, building-software, se-tech, se-stackoverflow</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/</ReferenceURL>
-    <SummaryPayload>Agents don&amp;#x27;t build trust for another reason, structurally worse than the first. It isn&amp;#x27;t only that the tool keeps changing shape. It&amp;#x27;s that the feedback loop you would need in order to learn the tool is broken at the point of measurement.</SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>Backstage 1.55 Adds Scaffolder Task Recovery and Removes Deprecated Catalog APIs</Title>
+    <ExtractedTags>Internal Developer Portal, Platform Engineering, Developer Experience, Culture &amp; Methods, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/backstage-1-55-task-recovery/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/backstage-1-55-task-recovery/en/headerimage/header-1791490255579.jpeg&quot; /&gt;&lt;p&gt;Backstage 1.55 adds opt-in recovery for Software Template tasks, resuming crashed or timed-out runs from the last completed step. The release also carries breaking changes to the </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>ZCS Command Injection via SNMP Handlers Enables Unauthenticated Remote Code Execution</Title>
+    <ExtractedTags>Common Vulnerabilities and Exposures, Security Vulnerabilities, Security Breach, Security, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/zimbra-command-injection/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/zimbra-command-injection/en/headerimage/headerZimbra-1791879318550.jpg&quot; /&gt;&lt;p&gt;A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026</Title>
+    <ExtractedTags>QCon AI New York 2026, Large language models, Agents, AI Architecture, Artificial Intelligence, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/en/headerimage/qcon-ai-new-york-2026-1791875885339.jpg&quot; /&gt;&lt;p&gt;Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and g</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures</Title>
+    <ExtractedTags>Event Driven Architecture, AWS, Scaling, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/aws-eventbridge-scaling/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/aws-eventbridge-scaling/en/headerimage/generatedHeaderImage-1791474735792.jpg&quot; /&gt;&lt;p&gt;AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: How Eve Online Leverages Head Based Sampling to Observe &quot;Fun&quot;</Title>
+    <ExtractedTags>Observability, Real Time, Transcripts, Distributed Systems, QCon London 2026, Distributed Tracing, Telemetry, Architecture &amp; Design, Development, DevOps, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/eve-observability-head-sampling/en/mediumimage/nicholas-herring-medium-1791444748399.jpg&quot; /&gt;&lt;p&gt;Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive through Cloudflare</Title>
+    <ExtractedTags>Cloud, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-ohttp-gateway/en/headerimage/generatedHeaderImage-1791773464365.jpg&quot; /&gt;&lt;p&gt;Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development</Title>
-    <ExtractedTags>Claude, Continuous Integration, Automated testing, AI Coding, Software Development, AI Development, Developer Experience, Incident Response, Automation, Observability, AI Assisted Coding, Code Quality, Productivity, Continuous Deployment, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Incident Response, Observability, Automation, AI Assisted Coding, Code Quality, Productivity, Continuous Deployment, Developer Experience, Continuous Integration, Automated testing, AI Coding, Claude, Software Development, AI Development, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes changes to testing,</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies</Title>
-    <ExtractedTags>Performance Evaluation, Query, Data Storage, Clustering &amp; Caching, Benchmark, Data Lake, AI, ML &amp; Data Engineering, Architecture &amp; Design, article</ExtractedTags>
+    <ExtractedTags>Performance Evaluation, Query, Data Storage, Benchmark, Clustering &amp; Caching, Data Lake, AI, ML &amp; Data Engineering, Architecture &amp; Design, article</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/liquid-clustering-lakehouse-layout/en/headerimage/liquid-clustering-lakehouse-layout-header-1791465984987.jpg&quot; /&gt;&lt;p&gt;Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Podcast: What Does It Really Mean To Program With AI: A Conversation with Joy Ebertz</Title>
-    <ExtractedTags>Modular Monolith, Microservices, Architecture, Requirements, Artificial Intelligence, The InfoQ Podcast, AI, ML &amp; Data Engineering, Architecture &amp; Design, podcast</ExtractedTags>
+    <ExtractedTags>The InfoQ Podcast, Modular Monolith, Microservices, Architecture, Requirements, Artificial Intelligence, AI, ML &amp; Data Engineering, Architecture &amp; Design, podcast</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/what-really-mean-program-ai/en/smallimage/infoq-podcast-500-1791359941231.jpg&quot; /&gt;&lt;p&gt;In this podcast, Michael Stiefel spoke to Joy Ebertz about how the use of artificial intelligence is changing the way architects and developers do their jobs. Focusing on the </SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Presentation: You Can't Trust Your AI Bill. And Neither Can I</Title>
-    <ExtractedTags>Cost Optimization, Generative AI, Transcripts, Architecture, FinOps, Productivity, QCon AI Boston 2026, Cloud Computing, DevOps, AI, ML &amp; Data Engineering, Architecture &amp; Design, presentation</ExtractedTags>
+    <ExtractedTags>FinOps, Cost Optimization, Architecture, Transcripts, Productivity, Cloud Computing, Generative AI, QCon AI Boston 2026, AI, ML &amp; Data Engineering, Architecture &amp; Design, DevOps, presentation</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/ai-cloud-cost-economics/en/mediumimage/erik-peterson-medium-1791451373591.jpg&quot; /&gt;&lt;p&gt;Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced devel</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>React 19.3: Adds a browser() API, Giving Client-Only Rendering a First-Class Name</Title>
-    <ExtractedTags>React, JavaScript, Web Development, Server-side rendering, Next.js, Development, news</ExtractedTags>
+    <ExtractedTags>Web Development, React, Server-side rendering, JavaScript, Next.js, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/react-19-3-browser-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/react-19-3-browser-api/en/headerimage/generatedHeaderImage-1791791785119.jpg&quot; /&gt;&lt;p&gt;React 19.3 was released on September 9, introducing several features including the react-dom browser() API. This API allows components to opt out of server-side rendering, </SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Java News Roundup: Grails 8, Open Liberty, GlassFish, Infinispan, LangChain4j, Spock</Title>
-    <ExtractedTags>LangChain4j, Infinispan, Open Liberty, Grails, Java, Micronaut, Spock, Glassfish, Open JDK, TornadoVM, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Infinispan, Open Liberty, Open JDK, Java, Micronaut, Spock, Grails, Glassfish, LangChain4j, TornadoVM, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/java-news-roundup-oct05-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/java-news-roundup-oct05-2026/en/headerimage/java-news-roundup-image-1791799719812.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for October 5th, 2026, features news highlighting: OpenJDK JEPs Proposed to Target for JDK 28; Lazy Constants elevated to Candidate status</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls</Title>
-    <ExtractedTags>GitLab, Agentic Development Lifecycle, DevOps, news</ExtractedTags>
+    <ExtractedTags>Agentic Development Lifecycle, GitLab, DevOps, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/en/headerimage/generatedHeaderImage-1791743492913.jpg&quot; /&gt;&lt;p&gt;GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Cont</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration</Title>
-    <ExtractedTags>Apple, Git, Mobile, Agents, Xcode, Development, news</ExtractedTags>
+    <ExtractedTags>Mobile, Agents, Apple, Git, Xcode, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/xcode-json-project-format/en/headerimage/llms-sleeper-agents-1791792362889.jpeg&quot; /&gt;&lt;p&gt;Apple is introducing a new JSON-based format for Xcode project configuration files, replacing the traditional property-list-based format. Available in Xcode 27.2, the ne</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs</Title>
-    <ExtractedTags>Large language models, Context Engineering, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Large language models, Context Engineering, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/context-language-models/en/headerimage/gemini-agentic-vision-1791724239724.jpg&quot; /&gt;&lt;p&gt;Researchers from Meta, MIT, and the University of Washington introduce Context Language Models (CLMs), a new approach that enables language models to manage and edit thei</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Foresight AI Brings Gremlin Agents to Reliability Engineering</Title>
-    <ExtractedTags>Site Reliability Engineering, Chaos Engineering, Agentic AI Architecture, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/gremlin-foresight-ai/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/gremlin-foresight-ai/en/headerimage/generatedHeaderImage-1791653267864.jpg&quot; /&gt;&lt;p&gt;Reliability management company Gremlin has announced the general availability of Foresight AI, an agentic product that analyses services for potential failures, recommends ch</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Your Agent Doesn't Need More Freedom</Title>
+    <ExtractedTags>Agentic AI, Artifical Intellegence, AI, AI Agents, Progamming, loop engineering</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Agents got good. The hard part now is everything around them.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/&quot;&gt;Your Agent Doesn't Need More Freedom&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>AWS Introduces Enhanced Custom Event Buses for EventBridge</Title>
-    <ExtractedTags>AWS Lambda, Cloud, Serverless, Cloud Architecture, Event Driven Architecture, AWS, DevOps, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/en/headerimage/generatedHeaderImage-1790663976977.jpg&quot; /&gt;&lt;p&gt;AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, </SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling</Title>
+    <ExtractedTags>Statistics, Data Sciecne, Machine Learning, Sampling, Astrophysics, hamiltonian monte carlo</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/&quot;&gt;Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling&lt;/a&gt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Cloudflare Traces Turns the Proxy Layer into OpenTelemetry Spans, with New Volume-Based Pricing</Title>
-    <ExtractedTags>Cloudflare, Cloud, OpenTelemetry, Architecture, Observability, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-traces-open-beta/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-traces-open-beta/en/headerimage/generatedHeaderImage-1791443919168.jpg&quot; /&gt;&lt;p&gt;Cloudflare has put Traces into open beta, extending automatic tracing from Workers to security rules, transformations, cache, routing and origin handling as OpenTeleme</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Coding Agents Can Solve the Task — But How Much Work Did They Waste?</Title>
+    <ExtractedTags>Agentic AI, coding agents, Agentic Ai, Llm Evaluation, Benchmarking, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Real repositories, seeded agent decisions: what 50,400 runs show about wasted turns, patch churn, and which harness rules help&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/&quot;&gt;Coding Agents Can Solve the Task — But How Muc</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring</Title>
-    <ExtractedTags>AI coding agents, Large language models, Mobile, Android, Benchmark, Google, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/android-bench-2/en/headerimage/cloudflare-computer-agents-1791561634896.jpeg&quot; /&gt;&lt;p&gt;Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces lon</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Shopify Upgrades Checkout Blocks to Polaris Web Components, Cutting Bundle Sizes up to 85%</Title>
-    <ExtractedTags>React, Optimization, Web Development, Web Components, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/shopify-web-components/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Shopify has updated its Checkout Blocks app, transitioning five high-traffic checkout UI extensions to remote-dom using Preact and Polaris web components. The rewrite, which involved moving to TypeScript and a new API ve</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite</Title>
-    <ExtractedTags>Node.js, Automated testing, Performance, SDK, copilot, Rewrite, github, CLI, AI coding agents, Rust, migration, TypeScript, AI Assisted Coding, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated test</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>How to Leverage NLP for Product Data Science</Title>
+    <ExtractedTags>NLP, Data Science, Product Analytics, Natural Language Processing, Editor's Picks, Product Data</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A practical guide to strengthening churn, CLV, and other traditional models with text&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/&quot;&gt;How to Leverage NLP for Product Data Science&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -306,36 +407,39 @@ completions fall apart after about a hundred tokens&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/stop-using-ai-start-hiring-it/&quot;&gt;Stop Using AI. Start Hiring It.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Everyone Is Selling AI at You — Here’s How to Keep Your Judgement</Title>
-    <ExtractedTags>Product Management, Ai Strategy, Enterprise Ai, Editor's Picks, Agentic Ai, Marketing</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Three moves to decode the hype&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/&quot;&gt;Everyone Is Selling AI at You — Here’s How to Keep Your Judgement&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Sci</SummaryPayload>
+    <Source>New Relic Blog</Source>
+    <Title>Eliminate the Database War Room with New Relic Database 360</Title>
+    <ExtractedTags>Consolidate Observability Platform, Drive Developer Productivity, OpenTelemetry, MySQL, Improve Operational Efficiency</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/new-relic-database-360-ga</ReferenceURL>
+    <SummaryPayload>Unify apps, databases, and infrastructure with New Relic Database 360. Pinpoint query bottlenecks faster and eliminate war rooms.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>AI Agents Beat PyTorch: Writing Faster CUDA Kernels</Title>
-    <ExtractedTags>Agentic AI, Ai Agent, Gpu, Cuda, Pytorch, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/ai-agents-beat-pytorch-writing-faster-cuda-kernels/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;AI agents can now write CUDA kernels that outperform PyTorch—but proving those speedups are real is the harder problem. I put them to the test on an NVIDIA DGX Spark and found that benchmark design matters just as much as the code.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-agents</SummaryPayload>
+    <Source>New Relic Blog</Source>
+    <Title>Improving developer productivity with New Relic AI</Title>
+    <ExtractedTags>Product News, Integrations, AIOps, Partnerships</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/news/improving-developer-productivity-with-new-relic-ai</ReferenceURL>
+    <SummaryPayload>Context switching is one of the biggest hidden costs in a developer's day. New Relic Ground Truth closes that gap by providing AI systems with trusted operational context from your production environment.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Your Model's MSE Is Lying to You III: Time Series Diffusion</Title>
-    <ExtractedTags>Deep Learning, Time Series Forecast, Diffusion Models, Latent Diffusion Model, Uncertainty Quantification, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;A diffusion head for probabilistic time series forecasting: why a forecast can get the mean and the variance right and still describe a future that never happens, and how to fix it.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/&quot;</SummaryPayload>
+    <Source>New Relic Blog</Source>
+    <Title>Models commoditize. Context compounds.</Title>
+    <ExtractedTags>Operational Efficiency, Consolidate Observability Platform, AIOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/ai/models-commoditize-context-compounds</ReferenceURL>
+    <SummaryPayload>As AI models commoditize, trusted operational context becomes the advantage. Learn why closing the AI Trust Gap starts with better context.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack.</Title>
-    <ExtractedTags>Data Science, Ai Engineering, Artificial Intelligence, Data Science Careers, Career Advice</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;An exploration of the new data science roles emerging after the Large Language Model explosion.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/&quot;&gt;AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpa</SummaryPayload>
+    <Source>New Relic Blog</Source>
+    <Title>Autonomous Operations Starts with Knowing What Matters</Title>
+    <ExtractedTags>Drive Developer Productivity, Alerts</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/autonomous-operations-starts-with-knowing-what-matters</ReferenceURL>
+    <SummaryPayload>Learn why intelligent detection and meaningful alert coverage provide a stronger foundation for AI-assisted operations.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>How New Relic engineers reliability at scale</Title>
+    <ExtractedTags>Expert Observability, Improve Reliability, Improve real-user experience</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/engineer-reliability-at-scale</ReferenceURL>
+    <SummaryPayload>Learn how New Relicengineers reliability at scale with telemetry, resilient architecture, and automation to detect, contain and respond to failure.</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>ArXiv AI</Source>
@@ -2841,12 +2945,5 @@ Abstract: Battery state of health (SoH) forecasting is important for battery man
     <ReferenceURL>https://arxiv.org/abs/2610.12182</ReferenceURL>
     <SummaryPayload>arXiv:2610.12182v2 Announce Type: replace-cross 
 Abstract: Very-high-resolution Earth-observation satellites acquire more data than they can store and downlink, while in maritime surveillance the vessels cover a tiny fraction of each scene. We study onboard vessel detection as a way to select what i</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>How New Relic engineers reliability at scale</Title>
-    <ExtractedTags>Expert Observability, Improve Reliability, Improve real-user experience</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/observability/engineer-reliability-at-scale</ReferenceURL>
-    <SummaryPayload>Learn how New Relicengineers reliability at scale with telemetry, resilient architecture, and automation to detect, contain and respond to failure.</SummaryPayload>
   </TrendItem>
 </MarketIngestion>
