@@ -89660,4 +89660,216 @@ Abstract: Hallucinated information can propagate through multi-stage LLM systems
     <ReferenceURL>https://newrelic.com/blog/observability/autonomous-operations-starts-with-knowing-what-matters</ReferenceURL>
     <SummaryPayload>Learn why intelligent detection and meaningful alert coverage provide a stronger foundation for AI-assisted operations.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Multi-region disaster recovery for Amazon API Gateway WebSocket APIs</Title>
+    <ExtractedTags>Advanced (300), Amazon API Gateway, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/multi-region-disaster-recovery-for-amazon-api-gateway-websocket-apis/</ReferenceURL>
+    <SummaryPayload>Learn how to build multi-region disaster recovery for Amazon API Gateway WebSocket APIs. This design pattern combines Amazon Route 53 DNS failover, Amazon DynamoDB Global Tables, a canary health probe, and client-side reconnection logic to reconnect clients and restore session state automatically du</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How UTS established a modern curriculum data services foundation on AWS</Title>
+    <ExtractedTags>Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-uts-established-a-modern-curriculum-data-services-foundation-on-aws/</ReferenceURL>
+    <SummaryPayload>The University of Technology Sydney built a modern curriculum data services foundation on AWS that treats curriculum data as a governed, reusable product, available through APIs, graph traversal, semantic search, and event delivery, while leaving the source Curriculum Management System authoritative</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build self-improving document processing using Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validates, and learns from business documents with minimal human intervention, automatically handling new document formats without manual template configuration.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Generate presentations with Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoint presentation creation from enterprise documents. A supervisor agent, Retrieval Augmented Generation, and Amazon Bedrock Guardrails generate grounded presentations in under 90 seconds.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediates cloud security findings from CNAPP and cloud-native sources. The approach drove a 90%+ reduction in critical cloud exposure in 90 days with zero production i</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Deploy and evaluate models with Amazon SageMaker JumpStart</Title>
+    <ExtractedTags>Amazon SageMaker JumpStart, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/</ReferenceURL>
+    <SummaryPayload>Learn how to deploy an available model from Amazon SageMaker JumpStart, run a lightweight and repeatable performance test using the SageMaker Python SDK, and delete the endpoint when testing is complete.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Integrating Netflix’s Foundation Model into Personalization applications</Title>
+    <ExtractedTags>machine-learning, embedding, transformer-model, netflix, foundation-models</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Authors: &lt;a href=&quot;https://www.linkedin.com/in/divya-gadde-3ba01551/&quot;&gt;Divya Gadde&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/markhsiao/&quot;&gt;Ko-Jen Hsiao&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/dhaval-patel-1a23aa8/&quot;&gt;Dhaval Patel&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/moumitab/&quot;&gt;Moumita Bhattac</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>DataJunction as Netflix’s answer to the missing piece of the modern data stack</Title>
+    <ExtractedTags>analytics, modern-data-stack, open-source, data-engineering, semantic-layer</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;by &lt;a href=&quot;https://www.linkedin.com/in/agorajek/&quot;&gt;Olek Gorajek&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/sredai/&quot;&gt;Samuel Redai&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/shyiann/&quot;&gt;Yian Shang&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Intro&lt;/h3&gt;&lt;p&gt;Our Netflix journey from data to dashboards, particularly within the space of the</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Measuring the Impact of Personalized Recommendations</Title>
+    <ExtractedTags>economics, consumer-behavior, recommendation-system, recommender-systems, personalization</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus&lt;/em&gt;&lt;/p&gt;&lt;h3&gt;Introduction&lt;/h3&gt;&lt;p&gt;Personalization is everywhere on the internet. It shapes the products we discover, the stories we read, the music we hear, and the movies and TV shows we watch. At Netf</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;By &lt;a href=&quot;https://www.linkedin.com/in/oleksii-tkachuk-98b47375/&quot;&gt;Oleksii Tkachuk&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/rajiv-shringi/&quot;&gt;Rajiv Shringi&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/clohfink/&quot;&gt;Chris Lohfink&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/abe-ratnofsky/&quot;&gt;Abe Ratnofsky&lt;/a&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;By &lt;a href=&quot;https://www.linkedin.com/in/yogeshnagarur/&quot;&gt;Yogesh Nagarur&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Introduction&lt;/h3&gt;&lt;p&gt;In &lt;a href=&quot;https://netflixtechblog.com/behind-the-scenes-building-a-robust-ads-event-processing-pipeline-e4e86caf9249&quot;&gt;Part 1 of this series&lt;/a&gt;, we shared how Netflix built the Ads Event pipeli</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Netflix Conductor: The Next Chapter</Title>
+    <ExtractedTags>workflow, distributed-systems, orchestration, cassandra, netflix-conductor</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;h3&gt;Netflix Conductor : The Next Chapter&lt;/h3&gt;&lt;p&gt;&lt;em&gt;by &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/aravindanr&quot;&gt;&lt;em&gt;Aravindan Ramkumar&lt;/em&gt;&lt;/a&gt;&lt;em&gt; on behalf of the Conductor team&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://netflixtechblog.com/netflix-conductor-a-microservices-orchestrator-2e8d4771bf40&quot;&gt;Conductor&lt;/a&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Running Apache Spark experiments in my sleep (and on a plane)</Title>
+    <ExtractedTags>apache-spark, performance-optimization, generative-ai-tools, data-pipeline</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/prashanthgedde/&quot;&gt;&lt;em&gt;Prashanth Gedde Narayanaswamy&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;As one of Netflix’s largest and critical data pipelines, &lt;strong&gt;member-sessionizer&lt;/strong&gt; consolidates tens of billions of hourly client events, encompassing user taps, playbacks,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale</Title>
+    <ExtractedTags>human-in-the-loop, ai, llm, llm-as-a-judge, recommendation-system</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/emma-yanyang-kong-6904b457/&quot;&gt;&lt;em&gt;Emma Yanyang Kong&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/jj-tan-code/&quot;&gt;&lt;em&gt;JJ Tan&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/ishangupta1993/&quot;&gt;&lt;em&gt;Ishan Gupta&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, &lt;/em&gt;&lt;a href=</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Netflix Stratum Media Processing: Automated Container Right-Sizing</Title>
+    <ExtractedTags>software-engineering, cloud-computing, serverless, cost-optimization, resource-management</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/vpidvolotska&quot;&gt;&lt;em&gt;Violetta Pidvolotska&lt;/em&gt;&lt;/a&gt;&lt;em&gt; and &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/nmareddy/&quot;&gt;&lt;em&gt;Naveen Mareddy&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad&quot;&gt;Stratum&lt;/a&gt; is Netflix’s i</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Reliable GPU compute for large training &amp; inference jobs</Title>
+    <ExtractedTags>site-reliability, gpu, machine-learning, cost-efficiency, artificial-intelligence</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Authors: &lt;a href=&quot;https://www.linkedin.com/in/nick-rutigliano/&quot;&gt;Nick Rutigliano&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/argha-c/&quot;&gt;Argha C&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/samartha/&quot;&gt;Samartha Chandrashekar&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;How we detect failing GPUs and network fabric, remediate machines a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Your next job doesn’t have a title yet: Emerging role skills Q&amp;A with Corey Hymel of Andela</Title>
+    <ExtractedTags>developer-experience, career, skills, qa, se-tech, se-stackoverflow</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/14/your-next-job-doesn-t-have-a-title-yet-emerging-role-skills-q-and-a-with-corey-hymel-of-andela/</ReferenceURL>
+    <SummaryPayload>While the whispers say that everyone is becoming a generalist, that&amp;#x27;s not where headcount is going.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Kubernetes Blog</Source>
+    <Title>Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;You submit a &lt;a href=&quot;https://kubernetes.io/docs/concepts/workloads/controllers/job/&quot;&gt;Kubernetes Job&lt;/a&gt; and
+wait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no
+application logs, and there may not even be a Pod to inspect.&lt;/p&gt;
+&lt;p&gt;In a cluster manag</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Build your slide template</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html</ReferenceURL>
+    <SummaryPayload>&lt;div class=&quot;img-link&quot;&gt;&lt;a href=&quot;https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html&quot;&gt;&lt;img src=&quot;https://martinfowler.com/articles/never-send-slides/index/card.png&quot; width=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Building a slide template starts with three foundational choices &amp;#x2014;
+      c</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Meta Extends Confidential Computing to AI Glasses with Private Processing</Title>
+    <ExtractedTags>Agentic AI Architecture, Storage, Privacy, Data Privacy, Wearable Tech, VM, Trust, Facebook, AI Security, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/meta-private-process-ai-glasses/en/headerimage/generatedHeaderImage-1790823797609.jpg&quot; /&gt;&lt;p&gt;Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routin</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: How to Find Resilience Bugs in Systems that Don't Exist</Title>
+    <ExtractedTags>Concurrency, Distributed Systems, Transcripts, Reliability, QCon London 2026, Verification, Debugging, Resilience, Architecture &amp; Design, Culture &amp; Methods, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/formal-methods-principles/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/formal-methods-principles/en/mediumimage/hillel-wayne-medium-1790846078119.jpeg&quot; /&gt;&lt;p&gt;Hillel Wayne discusses how formal methods principles - such as property strength, state-space verification, and environment assumptions - help software engineers uncove</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Composable Commerce: Inside Shipt’s Kit Platform</Title>
+    <ExtractedTags>Domain Driven Design, Agile, E-Commerce, Architecture &amp; Design, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/shipt-composable-commerce-design-ddd/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/shipt-composable-commerce-design-ddd/en/headerimage/shipt-composable-commerce-design-ddd-header-1791812515573.jpg&quot; /&gt;&lt;p&gt;Shipt launched its Kits feature, enabling quick assembly of themed grocery bundles for events. The platform architecture lets merchandisers</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy</Title>
+    <ExtractedTags>Agentic AI Architecture, Large language models, Agents, Data Privacy, Google, Gemma, AI coding agents, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/antigravity-sdk-local-models/en/headerimage/agent-friendly-android-cli-1791967537412.jpeg&quot; /&gt;&lt;p&gt;Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machine</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration</Title>
+    <ExtractedTags>Web Development, JavaScript, Cloudflare, TypeScript, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-viteplus-stable/en/headerimage/generatedHeaderImage-1791892196672.jpg&quot; /&gt;&lt;p&gt;VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and fro</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Does Stacking Beat Your Best Model?</Title>
+    <ExtractedTags>Machine Learning, Data Science, Python, Machine Leaning, Model Stacking, Ensemble Learning</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/does-stacking-beat-your-best-model/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;It only helps when your models make different mistakes.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/does-stacking-beat-your-best-model/&quot;&gt;Does Stacking Beat Your Best Model?&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How Do Word Embeddings Capture Relationships Between Words?</Title>
+    <ExtractedTags>NLP, Machine Learning, Deep Learning, Large Language Models, Word Embeddings, Natural Language Processing</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-do-word-embeddings-capture-relationships-between-words/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Understanding how words become related in a learned vector space&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-do-word-embeddings-capture-relationships-between-words/&quot;&gt;How Do Word Embeddings Capture Relationships Between Words?&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascien</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Voting on Features: Federated Feature Selection Without Sharing Data</Title>
+    <ExtractedTags>Machine Learning, Federated Learning, Feature Selection, Python, Editor's Picks, Feature Engineering</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Hospitals, banks, and edge devices can agree on which features matter by sharing votes instead of rows, runnable in NVIDIA FLARE and Flower&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/&quot;&gt;Voting on Features: Federated F</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Scaffold at the Gate: Building AI Applications That Can Evolve</Title>
+    <ExtractedTags>Software Engineering, Data Science, AI Agents, Software Architecture, Editor's Picks, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-scaffold-at-the-gate-building-ai-applications-that-can-evolve/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A technical reflection on why data scientists need software engineering principles when AI agents write code.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-scaffold-at-the-gate-building-ai-applications-that-can-evolve/&quot;&gt;A Scaffold at the Gate: Building AI Applications That Can Evolve&lt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Introducing Claude Platform Tracing in New Relic AI Monitoring</Title>
+    <ExtractedTags>Product News, AI Monitoring, OpenTelemetry, DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/news/anthropic-otel-ai-observability</ReferenceURL>
+    <SummaryPayload>Claude Platform exports OpenTelemetry (OTel) traces natively from Claude Managed Agents, the Messages API and the Claude SDKs, in public beta.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>

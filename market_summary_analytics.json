@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-14T03:33:47.884922",
-  "total_historical_records": 11254,
+  "generated_at": "2026-10-15T03:13:06.332622",
+  "total_historical_records": 11283,
   "top_sources": {
     "ArXiv AI": 5119,
     "ArXiv LG": 4652,
     "ArXiv ML": 880,
-    "InfoQ": 196,
-    "AWS Machine Learning": 128,
-    "Towards Data Science": 121,
-    "Stack Overflow Blog": 36,
-    "New Relic Blog": 34,
-    "AWS Architecture": 27,
-    "Martin Fowler": 14
+    "InfoQ": 201,
+    "AWS Machine Learning": 132,
+    "Towards Data Science": 125,
+    "Stack Overflow Blog": 37,
+    "New Relic Blog": 35,
+    "AWS Architecture": 29,
+    "Netflix Tech Blog": 23
   },
   "top_tags": {
     "cs.LG": 6892,
@@ -31,12 +31,12 @@
     "cs.SD": 193
   },
   "keyword_occurrences": {
-    "ai": 5909,
+    "ai": 5919,
     "llm": 1545,
-    "security": 135,
-    "cloud": 111,
+    "security": 136,
+    "cloud": 113,
     "database": 51,
-    "kubernetes": 30,
-    "python": 22
+    "kubernetes": 31,
+    "python": 23
   }
 }
