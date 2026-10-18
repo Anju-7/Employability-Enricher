@@ -109478,4 +109478,34 @@ Abstract: Pixel-level annotation for chest X-ray (CXR) lesion segmentation is ex
 &lt;p&gt;At this point we will no longer back-port fixes for security issues and critical bugs to 1.29. We highly recommend that
 you upgrade to the latest version of Istio (1.3</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Reverse Engineer Anything Project Brings AI Agents to Binary Analysis</Title>
+    <ExtractedTags>Reverse Engineering, Open Source, Static Analysis, Agents, Licensing, Claude, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/reverse-engineer-anything/en/headerimage/generatedHeaderImage-1791736473714.jpg&quot; /&gt;&lt;p&gt;Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering to</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL</Title>
+    <ExtractedTags>Data Analytics, Cloud, S3, Apache Parquet, duckdb, Amazon RDS, Data Lake, Open Source, Amazon, Amazon Web Services, AWS, Acquisitions, Apache Iceberg, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/amazon-acquires-ducklabs/en/headerimage/generatedHeaderImage-1792158812926.jpg&quot; /&gt;&lt;p&gt;Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>The Number Your Quantization Gate Doesn't Have</Title>
+    <ExtractedTags>Machine Learning, Model Quantization, Model Evaluation, Mlops, Edge Computing, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/the-number-your-quantization-gate-doesnt-have/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Ten quantization guides, and not one threshold-dependent metric between them — what that gap hides, and the two numbers that close it.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-number-your-quantization-gate-doesnt-have/&quot;&gt;The Number Your Quantization Gate Doesn't Have&lt;/a&gt; appeare</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>When EEG Models See the Same People in Training and Testing</Title>
+    <ExtractedTags>Computer Vision, Neuroscience, Editor's Picks, Medical Ai, Machine Learning, Eeg</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How participant-aware evaluation changed performance across three machine-learning models&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/&quot;&gt;When EEG Models See the Same People in Training and Testing&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
