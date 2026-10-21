@@ -114214,4 +114214,155 @@ Abstract: Aspect Sentiment Quadruple Prediction (ASQP) is fundamentally a relati
     <SummaryPayload>arXiv:2610.15006v2 Announce Type: replace-cross 
 Abstract: We present DisCo algebra---a compositional framework for joint probability built from a symmetric cooperad (disintegration) and a non-unital partial symmetric operad (combination restricted to the image of disintegration) on the bare family</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch</Title>
+    <ExtractedTags>Advanced (300), AWS Trainium, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/</ReferenceURL>
+    <SummaryPayload>Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Work management context for AI agents with Smartsheet MCP on AWS</Title>
+    <ExtractedTags>Advanced (300), Amazon Quick Suite, Kiro, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/</ReferenceURL>
+    <SummaryPayload>The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live work management data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Amazon Quick Suite, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience f</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker HyperPod, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/</ReferenceURL>
+    <SummaryPayload>Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Octave built a secure multi-tenant AI foundation on Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/</ReferenceURL>
+    <SummaryPayload>Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the R</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Discover tools at runtime with AWS Agent Registry</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/</ReferenceURL>
+    <SummaryPayload>Hardcoded tool wiring breaks down as an agent's catalog grows from a handful of tools to hundreds. This post walks through a runtime Discover, Instantiate, Execute loop built on AWS Agent Registry, where an orchestrator discovers MCP servers and A2A agents through semantic search at runtime instead</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Securing AI agent identity with X.509 PKI on AWS</Title>
+    <ExtractedTags>Advanced (300), Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/</ReferenceURL>
+    <SummaryPayload>Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Learn how Eon replaced per-tool credentials and local MCP processes across AWS, GCP, and Azure with a single authenticated Amazon Bedrock AgentCore gateway, giving more than 100 developers and autonomous agents unified access to production investigation and cutting new-engineer onboarding from two d</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Build a governed semantic layer for agentic AI on AWS with the Denodo Platform and Amazon Bedrock AgentCore. It federates Amazon Aurora, Amazon Redshift, and an on-premises PostgreSQL database into a single customer 360 view an agent queries in VQL, with identity propagation and row- and column-leve</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>The third post in our semantic-layer series builds a customer 360 across Amazon Redshift and Amazon Aurora with Strategy Mosaic, exposes it to a Strands agent on Amazon Bedrock AgentCore through the Mosaic MCP server, and enforces per-user row and column security end-to-end.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Don't forget about the UI for AI</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/</ReferenceURL>
+    <SummaryPayload>Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI&amp;#x27;s strategy for merging ChatGPT and Codex into a unified experience, the advantages of localized computer access in their successful desktop application, a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>TornadoVM 7 Enables GPU-Native Workloads From Java Applications</Title>
+    <ExtractedTags>Java, Llama3, GPU, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/tornadovm-7-gpu/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;TornadoVM, an open-source heterogeneous programming framework for Java has reached version 7.0. It automatically accelerates Java programs on multi-core CPUs and GPUs and provides a rich GPU programming ecosystem in Java</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitHub Actions Runner Controller 0.15.0 Targets Reliability at Scale</Title>
+    <ExtractedTags>Scalability, GitHub Actions, github, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/github-runner-controller-0-15/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/github-runner-controller-0-15/en/headerimage/generatedHeaderImage-1791971221854.jpg&quot; /&gt;&lt;p&gt;GitHub has released Actions Runner Controller (ARC) 0.15.0, introducing reliability, scalability, and observability improvements for organisations running self-hoste</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray</Title>
+    <ExtractedTags>Scalability, Machine Learning, Large language models, Agents, Transcripts, QCon AI Boston 2026, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/scale-llm-agents-production-ray/en/mediumimage/medium-1792065446239.jpg&quot; /&gt;&lt;p&gt;The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluste</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Synthetic-to-Real Transfer with Frozen DINOv3 Features</Title>
+    <ExtractedTags>Computer Vision, Synthetic Data Generation, Dino, Editor's Picks, Machine Learning</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/synthetic-to-real-transfer-with-frozen-dinov3-features/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Training models on procedurally generated datasets for card detection and segmentation&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/synthetic-to-real-transfer-with-frozen-dinov3-features/&quot;&gt;Synthetic-to-Real Transfer with Frozen DINOv3 Features&lt;/a&gt; appeared first on &lt;a href=&quot;https://tow</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Skill or MCP Server? Ask What Stops the LLM From Disobeying</Title>
+    <ExtractedTags>Agentic AI, Ai Engineering, LLM Agents, Model Context Protocol, mcp, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Towards Spec-Driven Test Automation, Part 4&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/&quot;&gt;Skill or MCP Server? Ask What Stops the LLM From Disobeying&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>The Hidden Cost of LLM Routing: Why Switching Models Costs More</Title>
+    <ExtractedTags>Large Language Models, Mlops, LLM Inference, Routing, LLM Optimization, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/the-hidden-cost-of-llm-routing-why-switching-models-costs-more/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;I tested LLM routing to understand why switching models mid-session can erase the savings promised by cheaper inference&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-hidden-cost-of-llm-routing-why-switching-models-costs-more/&quot;&gt;The Hidden Cost of LLM Routing: Why Switching Models Cos</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Llm Evaluation, Ai Engineering, Optimization, Data Science</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Turn scattered requirements into deployable agents&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/&quot;&gt;What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones&lt;/a&gt; appeared first on &lt;a href=&quot;https://t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Unify agent management and telemetry pipelines with New Relic Control</Title>
+    <ExtractedTags>Consolidate Observability Platform, Drive Developer Productivity, Infrastructure Monitoring, OpenTelemetry, System Resilience, Integrations, Instrumentation, DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/new-relic-control-ga</ReferenceURL>
+    <SummaryPayload>Unify agent lifecycle management and telemetry pipeline optimization at scale with New Relic Control. Automate deployments and reduce cloud spend.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
