@@ -127452,4 +127452,41 @@ Abstract: Despite advancements in automatic speech recognition systems (ASR), cu
     <ReferenceURL>https://istio.io/latest/blog/2026/kubecon-na/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;Get ready for a packed agenda of &lt;strong&gt;&lt;a href=&quot;https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/&quot;&gt;Istio activities at KubeCon + CloudNativeCon North America 2026&lt;/a&gt;&lt;/strong&gt;, including Istio Day sessions in the Cloud Native Theater on AI-aware traffic management, multic</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon</Title>
+    <ExtractedTags>Open Source, Large language models, Google, Python, AI coding agents, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-argon-optimizes-adk/en/headerimage/functiongemma-1792855681633.jpeg&quot; /&gt;&lt;p&gt;Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-p</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM</Title>
+    <ExtractedTags>Cloud, Google Cloud, Database, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and p</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing</Title>
+    <ExtractedTags>Load Balancing, Rust, Cloudflare, Performance Tuning, Hashing, Infrastructure Optimisation, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-hashing-optimization/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-hashing-optimization/en/headerimage/generatedHeaderImage-1790410589563.jpg&quot; /&gt;&lt;p&gt;Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Add Guardrails to a Local LLM Agent</Title>
+    <ExtractedTags>LLM Applications, LLM Agents, Local Llm, Guardrail, Editor's Picks, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/&quot;&gt;How to Add Guardrails to a Local LLM Agent&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Python 3.15 Has a New Profiler</Title>
+    <ExtractedTags>Python, Programming, Testing, Testing Techniques</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/python-315-has-a-new-profiler/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Here's what it finds that cProfile misses&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/python-315-has-a-new-profiler/&quot;&gt;Python 3.15 Has a New Profiler&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
