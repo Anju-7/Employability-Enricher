@@ -127489,4 +127489,48 @@ Abstract: Despite advancements in automatic speech recognition systems (ASR), cu
     <SummaryPayload>&lt;p&gt;Here's what it finds that cProfile misses&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/python-315-has-a-new-profiler/&quot;&gt;Python 3.15 Has a New Profiler&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>PHP Patches Two Critical RCE Flaws That Were Already Under Attack</Title>
+    <ExtractedTags>PHP8, Web Development, Security, PHP, Culture &amp; Methods, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/php-critical-rce-patches/en/headerimage/generatedHeaderImage-1792866020447.jpg&quot; /&gt;&lt;p&gt;PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attemp</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs</Title>
+    <ExtractedTags>Cloud, Large language models, Machine Learning, Agents, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-meta-torchtpu/en/headerimage/torchtpu-header-1792934272172.jpg&quot; /&gt;&lt;p&gt;Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads on</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</Title>
+    <ExtractedTags>Open Source, Local Inference, Large language models, Mobile, Edge, Google, TensorFlow, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-ml-drift/en/headerimage/gemini-agentic-vision-1792946554031.jpg&quot; /&gt;&lt;p&gt;Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>PingCAP Breach Exposes Customer Records and Source Code</Title>
+    <ExtractedTags>Cloud Security, Security Breach, Distributed_Data, Cloud Data Management, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/pingcap-cloud-data-breach/en/headerimage/generatedHeaderImage-1792787545089.jpg&quot; /&gt;&lt;p&gt;PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group Fulcru</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail</Title>
+    <ExtractedTags>Agentic AI, Agentic Ai, Llm, Machine Learning, Mlops, Artificial Intelligence</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/&quot;&gt;Agentic AI in Production: Why Your Agent Ke</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Data Engineering, Data Architecture, Context Engineering, Ai Engineering, Event Driven Architecture, Semantic Layer</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;Data Enablement for AI: A Practition</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-10-25" record_count="74" status="SUCCESS">
+<MarketIngestion date="2026-10-26" record_count="67" status="SUCCESS">
   <TrendItem>
     <Source>AWS Architecture</Source>
     <Title>Automate medical coding with Step Functions and Amazon Bedrock AgentCore</Title>
@@ -127,41 +127,6 @@
     <SummaryPayload>U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch</Title>
-    <ExtractedTags>Advanced (300), AWS Trainium, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/</ReferenceURL>
-    <SummaryPayload>Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Workflow context for AI agents with Smartsheet MCP on AWS</Title>
-    <ExtractedTags>Advanced (300), Amazon Quick Suite, Kiro, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/</ReferenceURL>
-    <SummaryPayload>The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Amazon Quick Suite, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/</ReferenceURL>
-    <SummaryPayload>Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience f</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Netflix Tech Blog</Source>
-    <Title>Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes</Title>
-    <ExtractedTags>developer-tools, api-design, software-engineering, code-analysis, java</ExtractedTags>
-    <ReferenceURL>https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;By &lt;a href=&quot;https://www.linkedin.com/in/robertoperezalcolea/&quot;&gt;Roberto Perez Alcolea&lt;/a&gt;, Java Platform Team&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*K06WZmnRhhXBboIskWb8qg.png&quot; /&gt;&lt;figcaption&gt;Quasar connects a proposed API change with observed references in consumer r</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Netflix Tech Blog</Source>
-    <Title>Single-tenant Titus: VM-level isolation on a multi-tenant container platform</Title>
-    <ExtractedTags>containers, virtual-machine, kubernetes, isolation, compute-platform</ExtractedTags>
-    <ReferenceURL>https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/samartha/&quot;&gt;&lt;em&gt;Samartha Chandrashekar&lt;/em&gt;&lt;/a&gt;&lt;em&gt; &amp;amp; &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/nickbp/&quot;&gt;&lt;em&gt;Nick Parker&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>Stack Overflow Blog</Source>
     <Title>Rumors of the SaaS demise are greatly exaggerated</Title>
     <ExtractedTags>podcast, se-tech, se-stackoverflow, dev-tools, ai, agentic-ai</ExtractedTags>
@@ -190,11 +155,18 @@
     <SummaryPayload>Earlier this month, my team at Stacklok surveyed 520 technical leaders to understand whether they were concerned about being locked into frontier labs. The data says they’re already swapping models in and out, but the trap they’re concerned about is the layer on top of the model.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>Don't forget about the UI for AI</Title>
-    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/</ReferenceURL>
-    <SummaryPayload>Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI&amp;#x27;s strategy for merging ChatGPT and Codex into a unified experience, the advantages of localized computer access in their successful desktop application, a</SummaryPayload>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes</Title>
+    <ExtractedTags>developer-tools, api-design, software-engineering, code-analysis, java</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;By &lt;a href=&quot;https://www.linkedin.com/in/robertoperezalcolea/&quot;&gt;Roberto Perez Alcolea&lt;/a&gt;, Java Platform Team&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*K06WZmnRhhXBboIskWb8qg.png&quot; /&gt;&lt;figcaption&gt;Quasar connects a proposed API change with observed references in consumer r</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Single-tenant Titus: VM-level isolation on a multi-tenant container platform</Title>
+    <ExtractedTags>containers, virtual-machine, kubernetes, isolation, compute-platform</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/samartha/&quot;&gt;&lt;em&gt;Samartha Chandrashekar&lt;/em&gt;&lt;/a&gt;&lt;em&gt; &amp;amp; &lt;/em&gt;&lt;a href=&quot;https://www.linkedin.com/in/nickbp/&quot;&gt;&lt;em&gt;Nick Parker&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Martin Fowler</Source>
@@ -205,6 +177,34 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;When I start to suspect some part is AI about someone I don’t know: how can I tell </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>PHP Patches Two Critical RCE Flaws That Were Already Under Attack</Title>
+    <ExtractedTags>PHP8, Web Development, Security, PHP, Culture &amp; Methods, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/php-critical-rce-patches/en/headerimage/generatedHeaderImage-1792866020447.jpg&quot; /&gt;&lt;p&gt;PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attemp</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs</Title>
+    <ExtractedTags>Cloud, Large language models, Machine Learning, Agents, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-meta-torchtpu/en/headerimage/torchtpu-header-1792934272172.jpg&quot; /&gt;&lt;p&gt;Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads on</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</Title>
+    <ExtractedTags>Open Source, Local Inference, Large language models, Mobile, Edge, Google, TensorFlow, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-ml-drift/en/headerimage/gemini-agentic-vision-1792946554031.jpg&quot; /&gt;&lt;p&gt;Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>PingCAP Breach Exposes Customer Records and Source Code</Title>
+    <ExtractedTags>Cloud Security, Security Breach, Distributed_Data, Cloud Data Management, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/pingcap-cloud-data-breach/en/headerimage/generatedHeaderImage-1792787545089.jpg&quot; /&gt;&lt;p&gt;PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group Fulcru</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
@@ -223,7 +223,7 @@
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing</Title>
-    <ExtractedTags>Load Balancing, Rust, Cloudflare, Performance Tuning, Hashing, Infrastructure Optimisation, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ExtractedTags>Load Balancing, Rust, Performance Tuning, Cloudflare, Hashing, Infrastructure Optimisation, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-hashing-optimization/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-hashing-optimization/en/headerimage/generatedHeaderImage-1790410589563.jpg&quot; /&gt;&lt;p&gt;Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation</SummaryPayload>
   </TrendItem>
@@ -237,7 +237,7 @@
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>AWS Introduces Lambda Web Functions for Node.js Applications</Title>
-    <ExtractedTags>AWS Lambda, Cloud, Serverless, Node.js, Web Applications, AWS, Cloud Architecture, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ExtractedTags>Cloud, AWS Lambda, Serverless, Node.js, Web Applications, AWS, Cloud Architecture, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/aws-lambda-web-functions/en/headerimage/generatedHeaderImage-1792762388734.jpg&quot; /&gt;&lt;p&gt;AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with suppo</SummaryPayload>
   </TrendItem>
@@ -251,7 +251,7 @@
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Article: Multi-Cloud FinOps: An Engineering Framework for Cross-Cloud Cost Optimization</Title>
-    <ExtractedTags>Cloud, FinOps, Cost Optimization, Architecture, Cloud Computing, Architecture &amp; Design, Development, DevOps, article</ExtractedTags>
+    <ExtractedTags>Cloud, Cost Optimization, FinOps, Architecture, Cloud Computing, Architecture &amp; Design, Development, DevOps, article</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/articles/multi-cloud-finops-cost-optimization/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/multi-cloud-finops-cost-optimization/en/headerimage/multi-cloud-finops-cost-optimization-header-1792499448017.jpg&quot; /&gt;&lt;p&gt;Multi-cloud flexibility comes with hidden egress costs driven by service placement and communication patterns. This article applies Backend</SummaryPayload>
   </TrendItem>
@@ -279,37 +279,25 @@
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks</Title>
-    <ExtractedTags>Large language models, copilot, Claude, Productivity, AI coding agents, github, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ExtractedTags>Large language models, Claude, copilot, Productivity, AI coding agents, github, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/jellyfish-ai-productivity/en/headerimage/claude-built-c-compiler-1792676797236.jpeg&quot; /&gt;&lt;p&gt;A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Presentation: Actors for Agents: Patterns for Production AI</Title>
-    <ExtractedTags>Fault Tolerance, Agents, Architecture, Distributed Systems, Transcripts, Actor Model, QCon AI Boston 2026, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, presentation</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/actors-for-production-ai-agents/en/mediumimage/medium-1792065780503.jpeg&quot; /&gt;&lt;p&gt;Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state own</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail</Title>
+    <ExtractedTags>Agentic AI, Agentic Ai, Llm, Machine Learning, Mlops, Artificial Intelligence</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/&quot;&gt;Agentic AI in Production: Why Your Agent Ke</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Vercel Labs Open-Sources fx: a Zig Coding Agent Designed to Be Embedded</Title>
-    <ExtractedTags>Web Development, Agents, AI Coding, OpenAI, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/vercel-zig-fx-agent/en/headerimage/generatedHeaderImage-1792649903570.jpg&quot; /&gt;&lt;p&gt;Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly bui</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Article: AI Changes the Data Interface, Not the Query Engine</Title>
-    <ExtractedTags>Agentic AI Architecture, duckdb, Data Lake, Disaster Recovery, AI, ML &amp; Data Engineering, Architecture &amp; Design, article</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/ai-changes-data-interface/en/headerimage/header-1792487239242.jpg&quot; /&gt;&lt;p&gt;This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent inter</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs</Title>
-    <ExtractedTags>Agentic AI Architecture, Docker, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/ai-agents-harbor-docker/en/headerimage/generatedHeaderImage-1792589629439.jpg&quot; /&gt;&lt;p&gt;Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microV</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Data Engineering, Data Architecture, Context Engineering, Ai Engineering, Event Driven Architecture, Semantic Layer</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;Data Enablement for AI: A Practition</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -424,38 +412,6 @@
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-built-a-pipeline-to-track-the-job-market-im-trying-to-break-into/&quot;&gt;I Built a Pipeline to Track the Job Market I'm Trying to Break Into.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Synthetic-to-Real Transfer with Frozen DINOv3 Features</Title>
-    <ExtractedTags>Computer Vision, Synthetic Data Generation, Dino, Editor's Picks, Machine Learning</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/synthetic-to-real-transfer-with-frozen-dinov3-features/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Training models on procedurally generated datasets for card detection and segmentation&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/synthetic-to-real-transfer-with-frozen-dinov3-features/&quot;&gt;Synthetic-to-Real Transfer with Frozen DINOv3 Features&lt;/a&gt; appeared first on &lt;a href=&quot;https://tow</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Skill or MCP Server? Ask What Stops the LLM From Disobeying</Title>
-    <ExtractedTags>Agentic AI, Ai Engineering, LLM Agents, Model Context Protocol, mcp, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Towards Spec-Driven Test Automation, Part 4&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/&quot;&gt;Skill or MCP Server? Ask What Stops the LLM From Disobeying&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>The Hidden Cost of LLM Routing: Why Switching Models Costs More</Title>
-    <ExtractedTags>Large Language Models, Mlops, LLM Inference, Routing, LLM Optimization, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/the-hidden-cost-of-llm-routing-why-switching-models-costs-more/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;I tested LLM routing to understand why switching models mid-session can erase the savings promised by cheaper inference&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-hidden-cost-of-llm-routing-why-switching-models-costs-more/&quot;&gt;The Hidden Cost of LLM Routing: Why Switching Models Cos</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones</Title>
-    <ExtractedTags>Agentic AI, AI Agents, Llm Evaluation, Ai Engineering, Optimization, Data Science</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Turn scattered requirements into deployable agents&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/&quot;&gt;What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones&lt;/a&gt; appeared first on &lt;a href=&quot;https://t</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>New Relic Blog</Source>
     <Title>Datadog vs. Grafana: Comparing Two Paths to Observability (2026)</Title>
     <ExtractedTags>DevOps</ExtractedTags>
@@ -496,13 +452,6 @@
     <ExtractedTags>DevOps</ExtractedTags>
     <ReferenceURL>https://newrelic.com/blog/observability/datadog-vs-dynatrace</ReferenceURL>
     <SummaryPayload>Comparing Datadog and Dynatrace on architecture, deployment, AI-driven root cause analysis, and pricing — plus where a unified alternative fits in.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>Unify agent management and telemetry pipelines with New Relic Control</Title>
-    <ExtractedTags>Consolidate Observability Platform, Drive Developer Productivity, Infrastructure Monitoring, OpenTelemetry, System Resilience, Integrations, Instrumentation, DevOps</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/new-relic-control-ga</ReferenceURL>
-    <SummaryPayload>Unify agent lifecycle management and telemetry pipeline optimization at scale with New Relic Control. Automate deployments and reduce cloud spend.</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Istio Blog</Source>
