@@ -138866,4 +138866,164 @@ Abstract: Machine learning is widely regarded as a promising application in whic
     <SummaryPayload>arXiv:2610.32215v2 Announce Type: replace-cross 
 Abstract: The growing computational power of modern GPU data centers has let a few industrial giants train and deploy large language models (LLMs) on massive amounts of data. Yet the sheer scale of these models and their training data makes centralize</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How Revinate accelerated API adoption with Amazon API Gateway</Title>
+    <ExtractedTags>Amazon API Gateway, Customer Solutions, Intermediate (200), Travel and Hospitality</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/</ReferenceURL>
+    <SummaryPayload>Accelerating API adoption while reducing operational overhead is a challenge that every growing organization faces. For Revinate, a hospitality provider serving over 12,500 hotels worldwide and powering more than 1.25 billion guest profiles, Amazon API Gateway became the foundation of their solution</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, AWS Well-Architected, Customer Solutions, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/</ReferenceURL>
+    <SummaryPayload>Smarsh used the AWS Well-Architected Framework's Agentic AI Lens to review its first agentic workload. Because the lens is not yet selectable in the console, the team encoded it as a Claude skill that assessed all 150 best practices against the workload's GitHub repository and produced an evidence-b</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building an Agentic AI Platform on Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that ga</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Distributed training with Ray Train DLCs and EFA on EKS</Title>
+    <ExtractedTags>Amazon Elastic Kubernetes Service, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/</ReferenceURL>
+    <SummaryPayload>The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as pu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3</Title>
+    <ExtractedTags>Amazon Nova, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/</ReferenceURL>
+    <SummaryPayload>As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design</Title>
+    <ExtractedTags>ML Applications, Production Engineering</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;This post describes the next generation of Meta Andromeda, Meta&amp;#8217;s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Delivering controlled and concentrated context</Title>
+    <ExtractedTags>release</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/28/delivering-controlled-and-concentrated-context/</ReferenceURL>
+    <SummaryPayload>Check out the new features and capabilities now available in Stack Internal and Stack Internal Community. Try Stack Internal for free by visiting stackinternal.com.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon</Title>
+    <ExtractedTags>Machine Learning, Platforms, Batch Processing, MLOps, Event Driven Architecture, Streaming, Real Time, Transformer models, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding staleness from nearly t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability</Title>
+    <ExtractedTags>Open Source, Metrics, Site Reliability Engineering, Prometheus, Observability, Transcripts, QCon London 2026, Distributed Tracing, Telemetry, Architecture &amp; Design, Development, DevOps, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/en/mediumimage/colin-douch-medium-1791450600829.jpeg&quot; /&gt;&lt;p&gt;Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild</Title>
+    <ExtractedTags>Security Vulnerabilities, Windows, .NET, Microsoft, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/microsoft-october-2026-patch/en/headerimage/microsoft-october-patch-1793129871505.jpeg&quot; /&gt;&lt;p&gt;Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited i</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Chrome Opens Trial for the Email Verification API: Letting Sites Verify Without Sending Emails</Title>
+    <ExtractedTags>Web Development, JavaScript, TypeScript, Chrome, Email, Google, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/chrome-email-verification/en/headerimage/generatedHeaderImage-1793091215457.jpg&quot; /&gt;&lt;p&gt;Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Building an Offline-First AI Coding Tutor for Low-End Android Phones</Title>
+    <ExtractedTags>Mobile-first in Africa, Mobile, WebAssembly, Africa, Android, Development, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/building-offline-first-android-app-low-end-devices/en/headerimage/building-offline-first-android-app-low-end-devices-header-1792571789716.jpg&quot; /&gt;&lt;p&gt;This article is about engineering an offline-first app for low-end devices based on our experience in  Nigeria</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Opens Quicksilver to Customers as Workers KV Instant, Inside a 1 MB Envelope</Title>
+    <ExtractedTags>Cloud, Cloudflare, Performance, Database Design, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Cloudflare has put Quicksilver, the internal key-value store behind nearly every request it serves, into private beta as a Workers KV mode. Reads resolve in 1.62 ms at p99 against 287 ms for classic KV. The constraints d</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Fragments: October 28</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/fragments/2026-10-28.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Andrej Karpathy sees &lt;a href=&quot;https://x.com/karpathy/status/2109361546505966046&quot;&gt;a widening gap&lt;/a&gt; in how people see LLM capabilities.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of profession</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Make AI Work for End-to-End Business Processes</Title>
+    <ExtractedTags>Artificial Intelligence, AI Agents, Agentic Ai, Product Development, Ai Strategy, Product Management</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;From simplifying workflows to connecting knowledge and rules, coordinating AI agents, and delivering measurable business results.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/&quot;&gt;How to Make AI Work for End-to-End Business Processes&lt;/</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Where a Cell Sits Matters More Than How Many There Are</Title>
+    <ExtractedTags>Neuroscience, Statistical Analysis, Spatial Analysis, Spatial Data, Statistical Modeling, Bayesian Statistics</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/where-a-cell-sits-matters-more-than-how-many-there-are/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Using spatstat raster layers and point process models to ask how neurons, astrocytes and microglia sit relative to each other&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/where-a-cell-sits-matters-more-than-how-many-there-are/&quot;&gt;Where a Cell Sits Matters More Than How Many There Are&lt;/a&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Building and Visualising Kolmogorov–Arnold Networks</Title>
+    <ExtractedTags>Machine Learning, Explainable Ai, Kan, Symbolic Regression, Editor's Picks, Kolmogorov Arnold Network</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/building-and-visualising-kolmogorovarnold-networks/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Exploring what happens when neural networks learn functions instead of weights.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/building-and-visualising-kolmogorovarnold-networks/&quot;&gt;Building and Visualising Kolmogorov–Arnold Networks&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascienc</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Your RAG Pipeline Is Missing a 1994 Algorithm</Title>
+    <ExtractedTags>Large Language Models, Information Retrieval, Embeddings, NLP, Editor's Picks, Rag</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Embeddings know that &amp;quot;broken&amp;quot; means &amp;quot;defective&amp;quot;. They may not notice that ZX-4821 is not ZX-4812.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/&quot;&gt;Your RAG Pipeline Is Missing a 1994 Algorithm&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Turo + New Relic: Turn AI code volume into production reliability</Title>
+    <ExtractedTags>AI Monitoring, Alerting, Cloud, Cloud Monitoring, Incident response, Kubernetes Monitoring, Developer Relations</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/ai/turo-new-relic-turn-ai-code-volume-into-production-reliability</ReferenceURL>
+    <SummaryPayload>See how Turo uses the New Relic MCP server to give AI agents live production context, slash incident triage to 60 seconds, and scale releases safely.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Optimize your NRQL with Macros!</Title>
+    <ExtractedTags>Drive Developer Productivity, Product News</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/news/optimize-your-nrql-with-macros</ReferenceURL>
+    <SummaryPayload>Parse, transform, and analyse your data with NRQL Macros</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Track your Black October vulnerabilities from visibility to validated patch</Title>
+    <ExtractedTags>APM, Security RX, PHP, NodeJS, Python, Expert Observability, Open Source</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/security/black-october-cves-new-relic</ReferenceURL>
+    <SummaryPayload>PHP2Shell and Node2Shell hit the runtimes under your apps. Here's how New Relic users can find exposed services and confirm the fix is running everywhere.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>New Relic at GitHub Universe 2026: Bringing real-time observability to AI code velocity</Title>
+    <ExtractedTags>Partnerships, Integrations</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/news/github-universe-2026</ReferenceURL>
+    <SummaryPayload>Discover New Relic's new GitHub Copilot and MCP integrations for real-time AI code observability, change tracking, and production reliability.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
