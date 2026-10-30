@@ -139026,4 +139026,189 @@ Abstract: The growing computational power of modern GPU data centers has let a f
     <ReferenceURL>https://newrelic.com/blog/news/github-universe-2026</ReferenceURL>
     <SummaryPayload>Discover New Relic's new GitHub Copilot and MCP integrations for real-time AI code observability, change tracking, and production reliability.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How the UK Amazon Quick User Group grew in 2026</Title>
+    <ExtractedTags>Amazon Quick Suite, Intermediate (200), Uncategorized</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/</ReferenceURL>
+    <SummaryPayload>The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building intent-driven UI testing with Amazon Nova Act</Title>
+    <ExtractedTags>Amazon Nova, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/</ReferenceURL>
+    <SummaryPayload>Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a repeatable PHP-to-Java migration engine with Kiro</Title>
+    <ExtractedTags>Advanced (300), AWS Transform, Kiro, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/</ReferenceURL>
+    <SummaryPayload>Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs</Title>
+    <ExtractedTags>Advanced (300), Amazon SageMaker AI, AWS Batch, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/</ReferenceURL>
+    <SummaryPayload>AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/</ReferenceURL>
+    <SummaryPayload>MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress ma</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS</Title>
+    <ExtractedTags>Advanced (300), Amazon Elastic Kubernetes Service, Amazon SageMaker HyperPod, Announcements</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/</ReferenceURL>
+    <SummaryPayload>NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</Title>
+    <ExtractedTags>Advanced (300), Amazon EC2, Automotive, Customer Solutions, Graviton</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/</ReferenceURL>
+    <SummaryPayload>Learn how BMW Group migrated its connected vehicle platform from x86 to AWS Graviton. Using Karpenter, multi-architecture container builds, and Graviton-based CI/CD runners, the team moved workloads without disruption, cutting NGINX ingress CPU by about 57 percent and delivering about 40 percent bet</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How boAt delivers personalized fitness coaching with Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Learn how boAt built its AI Coach feature on Amazon Bedrock and AWS Lambda to deliver personalized, real-time fitness coaching to millions of smartwatch users across India, and the design choices that made the solution scalable and cost-effective.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale</Title>
+    <ExtractedTags>AI Research, ML Applications, Security &amp; Privacy</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Over the last year we&amp;#8217;ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we&amp;#8217;re sharing the results and positive impact we&amp;#8217;ve seen with Catching JiTTests deployed into producti</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>The reports of Stack Overflow's death are greatly exaggerated</Title>
+    <ExtractedTags>community</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/</ReferenceURL>
+    <SummaryPayload>I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the knowledge—and the company—behind it.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>A JSON schema Is not an AI governance layer</Title>
+    <ExtractedTags>cc-by-sa, ai, governance, se-tech, se-stackoverflow</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/10/28/a-json-schema-is-not-an-ai-governance-layer/</ReferenceURL>
+    <SummaryPayload>The AI governance argument is happening one layer above the code that actually stops your agent.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Bliki: LLM Voice</Title>
+    <ExtractedTags>bliki</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/bliki/LLM-Voice.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Sometimes when I read a post, I get the growing feeling that I'm reading
+  the output of an LLM. I can't necessarily define why, although there are the common
+  tells (it's not the em-dashes, it's the load-bearing tapestries). As I
+  do this my desire to read on atrophies, sometimes to the point</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Why are good developers so wary of agentic development?</Title>
+    <ExtractedTags>rachels-ramblings</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/rachels-ramblings/good-devs-wary.html</ReferenceURL>
+    <SummaryPayload>&lt;p class=&quot;precis&quot;&gt;&lt;b&gt;TL;DR&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Good developers’ caution about agentic development comes from knowing that built isn’t the same as working in production.&lt;/i&gt;&lt;/p&gt;
+&lt;img src=&quot;https://martinfowler.com/rachels-ramblings/card.png&quot; /&gt;&lt;p&gt;I’ve been surprised by how many excellent developers have been</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Adopts DPoP to Strengthen OAuth 2.0 Against Token Theft and Replay Attacks</Title>
+    <ExtractedTags>Cloud, OAuth, Cloud Security, Google, Cryptography, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-dpop-oauth2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Google's OAuth Platform has recently introduces support for Demonstrating Proof-of-Possession (DPoP), an OAuth 2.0 security mechanism designed to mitigate token theft and replay attacks.&lt;/p&gt; &lt;i&gt;By Sergio De Simone&lt;/i&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Bug0 Releases QA Agent to Automate Regression Testing With Cached Playwright Replays</Title>
+    <ExtractedTags>Agents, Regression Testing, AI Coding, AI, ML &amp; Data Engineering, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/en/headerimage/generatedHeaderImage-1793286673185.jpg&quot; /&gt;&lt;p&gt;QA Agent is a new source-available Playwright library for agentic browser regression testing. The agent associates test instructions expressed in natural language</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How to Make Artificial Intelligence More Environmentally Sustainable</Title>
+    <ExtractedTags>Large language models, GOTO Conference, Data, Green Software, IT, Sustainable Computing, Cloud Computing, AI, ML &amp; Data Engineering, Culture &amp; Methods, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/AI-environmentally-sustainable/en/headerimage/header-1793174464846.jpg&quot; /&gt;&lt;p&gt;IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere</Title>
+    <ExtractedTags>Open Source, QCon AI New York 2026, Agents, QCon Software Development Conference, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/en/headerimage/qcon-ai-newyork-2026-pc-picks-1793192613417.jpg&quot; /&gt;&lt;p&gt;Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That</Title>
+    <ExtractedTags>Code Reviews, Anthropic, AI, ML &amp; Data Engineering, Culture &amp; Methods, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/anthropic-code-review/en/headerimage/generatedHeaderImage-1792959100117.jpg&quot; /&gt;&lt;p&gt;Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the co</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Datadog Builds a Specialist AI Model for SRE Investigations</Title>
+    <ExtractedTags>Site Reliability Engineering, AI Assisted Coding, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/datadog-scout-sre-model/en/headerimage/generatedHeaderImage-1793038066919.jpg&quot; /&gt;&lt;p&gt;Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an al</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Introduces Web Search API for AI Applications</Title>
+    <ExtractedTags>Search Engine, Cloud, Cloudflare, Agents, API, Cloud Computing, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cloudflare-web-search-api/en/headerimage/generatedHeaderImage-1791616850849.jpg&quot; /&gt;&lt;p&gt;Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access contro</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Kubernetes Blog</Source>
+    <Title>From Working Group to SIG Architecture: spotlight on AI Conformance</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;In this SIG Architecture spotlight we talked with &lt;a href=&quot;https://github.com/janetkuo&quot;&gt;Janet Kuo&lt;/a&gt; (Google)
+and &lt;a href=&quot;https://github.com/terrytangyuan&quot;&gt;Yuan Tang&lt;/a&gt; (Red Hat) about the journey of AI Conformance in
+Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/communit</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>When Labels Say No, But Embeddings Say Yes</Title>
+    <ExtractedTags>Computer Vision, Machine Learning, Transformer, Similarity Search, Editor's Picks, Embeddings</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Why traditional retrieval metrics miss meaningful similarities&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/&quot;&gt;When Labels Say No, But Embeddings Say Yes&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Difference-in-Differences vs Lagged-Outcome Regression</Title>
+    <ExtractedTags>Data Science, Product Analytics, Difference In Differences, Editor's Picks, Product Management, Simulation</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A simulation study and a pre-period check for choosing the right design for self-selected treatments in product analytics.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression/&quot;&gt;Difference-in-Differences vs Lagged-Outcome Regression&lt;/a&gt; ap</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Is the #1 AI Model Really #1?</Title>
+    <ExtractedTags>Large Language Models, Llm Evaluation, Benchmark, Statisitcs, Machine Learning</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/is-the-1-ai-model-really-1/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about three times in ten.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/is-the-1-ai-model-really-1/&quot;&gt;Is the #1 AI Model Rea</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>What Is Harness Engineering? A Hands-On Introduction</Title>
+    <ExtractedTags>Agentic AI, Agentic Workflows, AI Agents, harness, loop engineering, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Learn three essential primitives of harness engineering to future-proof your career&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/&quot;&gt;What Is Harness Engineering? A Hands-On Introduction&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdata</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
