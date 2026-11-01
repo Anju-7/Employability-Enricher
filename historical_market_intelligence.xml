@@ -143600,4 +143600,70 @@ Abstract: A long-lived assistant that brings up memories without being asked mus
     <SummaryPayload>arXiv:2610.35229v2 Announce Type: replace-cross 
 Abstract: Effective video agents must learn not only how to answer, but also where to look next. Transferring this capability to smaller models is challenging because each observation serves two purposes: supporting an answer and guiding the search fo</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption</Title>
+    <ExtractedTags>Cloudflare, Quantum Computing, Security, Encryption, Cloud Computing, Development, Architecture &amp; Design, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg&quot; /&gt;&lt;p&gt;Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements</Title>
+    <ExtractedTags>Operating Systems, Virtualization, Security, GPU, OpenBSD, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/openbsd-8-released/en/headerimage/openbsd-8-released-1793464400707.jpeg&quot; /&gt;&lt;p&gt;OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, includi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI</Title>
+    <ExtractedTags>Spring Web Services, Java, Spring AI, Spring Framework, Spring Modulith, Spring Batch, Spring Integration, GraphQL, Spring Data, AMQP, Spring Boot, Spring Cloud, Spring Security, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/en/headerimage/spring-news-roundup-image-1793452938585.jpg&quot; /&gt;&lt;p&gt;There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Sp</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Kubernetes Confidential Containers Get Fortanix Attestation and Key Management</Title>
+    <ExtractedTags>Containers, Application Security, Cloud Native Computing Foundation, Kubernetes, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/k8s-confidential-containers/en/headerimage/header-1793049721702.jpeg&quot; /&gt;&lt;p&gt;Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced</Title>
+    <ExtractedTags>Cloud, Infrastructure as Code, Azure, Developer Experience, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/localstack-azure-preview/en/headerimage/generatedHeaderImage-1793037893055.jpg&quot; /&gt;&lt;p&gt;LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its o</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs</Title>
+    <ExtractedTags>Security Vulnerabilities, Gemini, Agents, DevSecOps, Google, AI Security, Information Security, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-pagebreak-security-agent/en/headerimage/generatedHeaderImage-1791008728252.jpg&quot; /&gt;&lt;p&gt;According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Build Bug-Free Applications with Claude Code</Title>
+    <ExtractedTags>LLM Applications, Testing, Llm, Ai Agent, Claude Code, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Use E2E tests to minimize bugs&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/&quot;&gt;How to Build Bug-Free Applications with Claude Code&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>We Taught AI to Answer Questions. Who Taught It to Change Its Mind?</Title>
+    <ExtractedTags>Artificial Intelligence, Large Language Models, Machine Learning, Python, Agentic Ai, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;When new evidence kills one conclusion, do the decisions built on it change too? I tested six update strategies, then a local model.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/&quot;&gt;We Taught AI to Answer Questions. Who Ta</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.</Title>
+    <ExtractedTags>Agentic AI, Reinforcement Learning, Large Language Models, AI Agents, Editor's Picks, Llm Evaluation</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/&quot;&gt;I</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
