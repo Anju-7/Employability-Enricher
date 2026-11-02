@@ -1,5 +1,33 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-11-01" record_count="79" status="SUCCESS">
+<MarketIngestion date="2026-11-02" record_count="64" status="SUCCESS">
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</Title>
+    <ExtractedTags>Advanced (300), Amazon EC2, Automotive, Customer Solutions, Graviton</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/</ReferenceURL>
+    <SummaryPayload>Learn how BMW Group migrated its connected vehicle platform from x86 to AWS Graviton. Using Karpenter, multi-architecture container builds, and Graviton-based CI/CD runners, the team moved workloads without disruption, cutting NGINX ingress CPU by about 57 percent and delivering about 40 percent bet</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How boAt delivers personalized fitness coaching with Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Learn how boAt built its AI Coach feature on Amazon Bedrock and AWS Lambda to deliver personalized, real-time fitness coaching to millions of smartwatch users across India, and the design choices that made the solution scalable and cost-effective.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How Revinate accelerated API adoption with Amazon API Gateway</Title>
+    <ExtractedTags>Amazon API Gateway, Customer Solutions, Intermediate (200), Travel and Hospitality</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/</ReferenceURL>
+    <SummaryPayload>Accelerating API adoption while reducing operational overhead is a challenge that every growing organization faces. For Revinate, a hospitality provider serving over 12,500 hotels worldwide and powering more than 1.25 billion guest profiles, Amazon API Gateway became the foundation of their solution</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, AWS Well-Architected, Customer Solutions, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/</ReferenceURL>
+    <SummaryPayload>Smarsh used the AWS Well-Architected Framework's Agentic AI Lens to review its first agentic workload. Because the lens is not yet selectable in the console, the team encoded it as a Claude skill that assessed all 150 best practices against the workload's GitHub repository and produced an evidence-b</SummaryPayload>
+  </TrendItem>
   <TrendItem>
     <Source>AWS Machine Learning</Source>
     <Title>Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams</Title>
@@ -92,83 +120,6 @@
     <SummaryPayload>As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service</Title>
-    <ExtractedTags>Amazon Connect, Announcements, Artificial Intelligence</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/</ReferenceURL>
-    <SummaryPayload>AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.&amp;nbsp;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Announcing SOCI-indexed images for faster SageMaker AI jobs</Title>
-    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Announcements</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/</ReferenceURL>
-    <SummaryPayload>Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the benchmarks and how to ado</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Fix evaluation bias to unlock better models on Amazon Bedrock</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/</ReferenceURL>
-    <SummaryPayload>Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting c</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Exowatt beats frontier models on accuracy with SageMaker serverless model customization</Title>
-    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/</ReferenceURL>
-    <SummaryPayload>In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</Title>
-    <ExtractedTags>Advanced (300), Amazon EC2, Automotive, Customer Solutions, Graviton</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/</ReferenceURL>
-    <SummaryPayload>Learn how BMW Group migrated its connected vehicle platform from x86 to AWS Graviton. Using Karpenter, multi-architecture container builds, and Graviton-based CI/CD runners, the team moved workloads without disruption, cutting NGINX ingress CPU by about 57 percent and delivering about 40 percent bet</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How boAt delivers personalized fitness coaching with Amazon Bedrock</Title>
-    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/</ReferenceURL>
-    <SummaryPayload>Learn how boAt built its AI Coach feature on Amazon Bedrock and AWS Lambda to deliver personalized, real-time fitness coaching to millions of smartwatch users across India, and the design choices that made the solution scalable and cost-effective.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Revinate accelerated API adoption with Amazon API Gateway</Title>
-    <ExtractedTags>Amazon API Gateway, Customer Solutions, Intermediate (200), Travel and Hospitality</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/</ReferenceURL>
-    <SummaryPayload>Accelerating API adoption while reducing operational overhead is a challenge that every growing organization faces. For Revinate, a hospitality provider serving over 12,500 hotels worldwide and powering more than 1.25 billion guest profiles, Amazon API Gateway became the foundation of their solution</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens</Title>
-    <ExtractedTags>Amazon Bedrock AgentCore, AWS Well-Architected, Customer Solutions, Intermediate (200)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/</ReferenceURL>
-    <SummaryPayload>Smarsh used the AWS Well-Architected Framework's Agentic AI Lens to review its first agentic workload. Because the lens is not yet selectable in the console, the team encoded it as a Claude skill that assessed all 150 best practices against the workload's GitHub repository and produced an evidence-b</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Publishing LMS courses with a Kiro SCORM pipeline</Title>
-    <ExtractedTags>Advanced (300), Kiro, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/</ReferenceURL>
-    <SummaryPayload>See how to use Kiro, an agentic AI, to automate converting raw training material into compliant SCORM packages that are ready to upload to a learning management system (LMS).</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Vessel-specific voyage optimization with machine learning: Manta on AWS</Title>
-    <ExtractedTags>Amazon EC2, Customer Solutions, Foundational (100), Graviton</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/</ReferenceURL>
-    <SummaryPayload>Manta Marine Technologies closes the gap between seemingly identical ships by training machine learning models on each vessel's own operational history. Learn how Manta delivers vessel-specific voyage optimization on AWS to help shipowners reduce fuel consumption and improve voyage efficiency.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves</Title>
-    <ExtractedTags>Advanced (300), Amazon EC2, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/</ReferenceURL>
-    <SummaryPayload>Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond blockchain</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>Meta Engineering</Source>
     <Title>Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale</Title>
     <ExtractedTags>AI Research, ML Applications, Security &amp; Privacy</ExtractedTags>
@@ -181,20 +132,6 @@
     <ExtractedTags>ML Applications, Production Engineering</ExtractedTags>
     <ReferenceURL>https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;This post describes the next generation of Meta Andromeda, Meta&amp;#8217;s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Meta Engineering</Source>
-    <Title>PrivacyLib: Privacy Controls at the Data Access Boundary</Title>
-    <ExtractedTags>AI Research, ML Applications, Security &amp; Privacy</ExtractedTags>
-    <ReferenceURL>https://engineering.fb.com/2026/10/27/security/privacylib/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib.  A privacy requirement must hold as data moves through Meta&amp;#8217;s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separa</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Meta Engineering</Source>
-    <Title>Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape</Title>
-    <ExtractedTags>Culture, DevInfra</ExtractedTags>
-    <ReferenceURL>https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;The 2026 Python Typing Survey received 1,794 responses.  Type hint use changed little across three years, but checker selection changed sharply.  Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficult</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Stack Overflow Blog</Source>
@@ -225,11 +162,18 @@
     <SummaryPayload>Check out the new features and capabilities now available in Stack Internal and Stack Internal Community. Try Stack Internal for free by visiting stackinternal.com.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>Elevators, toasters, and the birth of Java</Title>
-    <ExtractedTags>podcast, se-tech, se-stackoverflow, java</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/</ReferenceURL>
-    <SummaryPayload>Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of garbag</SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved</Title>
+    <ExtractedTags>Cloud, Capacity Planning, Amazon Web Services, AWS, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-capacity-sold-out/en/headerimage/generatedHeaderImage-1793124716899.jpg&quot; /&gt;&lt;p&gt;Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers</Title>
+    <ExtractedTags>Open Source, Cloud, S3, Data Storage, Data Transfer Objects, Go Language, AWS, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-s3-file-transfer/en/headerimage/generatedHeaderImage-1792218946629.jpg&quot; /&gt;&lt;p&gt;AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Availa</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
@@ -304,7 +248,7 @@
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Article: InfoQ AI, ML and Data Engineering Trends Report - 2026</Title>
-    <ExtractedTags>Model Context Protocol (MCP), Large language models, InfoQ Trends Report, Artificial Intelligence, Agent2Agent, AI coding agents, InfoQ Trends Report 2026, Robotics, AI, ML &amp; Data Engineering, article</ExtractedTags>
+    <ExtractedTags>Large language models, Model Context Protocol (MCP), InfoQ Trends Report, Artificial Intelligence, Agent2Agent, AI coding agents, InfoQ Trends Report 2026, Robotics, AI, ML &amp; Data Engineering, article</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/ai-ml-data-engineering-trends-2026/en/headerimage/ai-ml-de-graph-2026-1793191771570.jpg&quot; /&gt;&lt;p&gt;This InfoQ Trends Report offers readers a comprehensive overview of emerging trends and technologies in the areas of AI, ML, and Data Engineering. This report summar</SummaryPayload>
   </TrendItem>
@@ -321,37 +265,6 @@
     <ExtractedTags>Cloud, Azure, Software Development, Culture &amp; Methods, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/ade-dev-box-retirement/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/ade-dev-box-retirement/en/headerimage/generatedHeaderImage-1792499241111.jpg&quot; /&gt;&lt;p&gt;Azure Deployment Environments retires on February 22, 2027 and Microsoft names no successor, telling teams to use Bicep or ARM templates directly. Microsoft Dev Box follows</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Google Adopts DPoP to Strengthen OAuth 2.0 against Token Theft and Replay Attacks</Title>
-    <ExtractedTags>Cloud, OAuth, Cloud Security, Google, Cryptography, Architecture &amp; Design, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/google-dpop-oauth2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Google's OAuth Platform has recently introduces support for Demonstrating Proof-of-Possession (DPoP), an OAuth 2.0 security mechanism designed to mitigate token theft and replay attacks.&lt;/p&gt; &lt;i&gt;By Sergio De Simone&lt;/i&gt;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Bug0 Releases QA Agent to Automate Regression Testing with Cached Playwright Replays</Title>
-    <ExtractedTags>Agents, Regression Testing, AI Coding, AI, ML &amp; Data Engineering, Development, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/en/headerimage/generatedHeaderImage-1793286673185.jpg&quot; /&gt;&lt;p&gt;QA Agent is a new source-available Playwright library for agentic browser regression testing. The agent associates test instructions expressed in natural language</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>From Working Group to SIG Architecture: spotlight on AI Conformance</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;In this SIG Architecture spotlight we talked with &lt;a href=&quot;https://github.com/janetkuo&quot;&gt;Janet Kuo&lt;/a&gt; (Google)
-and &lt;a href=&quot;https://github.com/terrytangyuan&quot;&gt;Yuan Tang&lt;/a&gt; (TensorScale AI) about the journey of AI Conformance in
-Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>Announcing the Workload Conformance Working Group</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;We are excited to announce that the Kubernetes community now has a &lt;a href=&quot;https://www.kubernetes.dev/community/community-groups/wg/workload-conformance/&quot;&gt;Workload Conformance Working Group&lt;/a&gt;.
-The working group is writing a shared standard for how &lt;a href=&quot;https://kubernetes.io/docs/concepts/w</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Martin Fowler</Source>
@@ -380,6 +293,30 @@ The working group is writing a shared standard for how &lt;a href=&quot;https://
 
 &lt;blockquote&gt;
   &lt;p&gt;The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of profession</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Large Language Models, Context Engineering, LLM Engineering, Editor's Picks, Agentic Ai, Ai Product Management</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;The Enterprise Context Layer: A Practitioner's </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Fix the Image, Not the Prompt</Title>
+    <ExtractedTags>Computer Vision, Multimodal, Prompt Engineering, Llm Evaluation, Benchmark</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/fix-the-image-not-the-prompt/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Vision models often fail before they even start reasoning. A few well-placed labels on the image fix more than any prompt tweak.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/fix-the-image-not-the-prompt/&quot;&gt;Fix the Image, Not the Prompt&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatas</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Neural Network Learned to Read Digits From Pure Noise</Title>
+    <ExtractedTags>Deep Learning, Knowledge Distillation, Machine Learning, Artificial Intelligence, Neural Networks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A small NumPy reproduction of subliminal learning, and a short argument for why it works&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/&quot;&gt;A Neural Network Learned to Read Digits From Pure Noise&lt;/a&gt; appeared first on &lt;a href=&quot;https:/</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -502,36 +439,13 @@ The working group is writing a shared standard for how &lt;a href=&quot;https://
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/&quot;&gt;Your RAG Pipeline Is Missing a 1994 Algorithm&lt;/a&gt; appeared first on &lt;a href</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>An AI Agent Can Spot a Mistake and Still Not Fix It</Title>
-    <ExtractedTags>Agentic AI, AI Agents, Playwright, Llm Evaluation, LLM Agents, Ai Safety</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;I replayed correct model decisions through four deliberately broken browser actions, and a simple page check missed half of the wrong clicks, which shows that noticing a fault and recovering from it are different skills.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-broke-a-browser-ag</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Who Watches the AI?</Title>
-    <ExtractedTags>Agentic AI, AI, Agentic Ai, Ai Governance, Ai Alignment And Safety, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/who-watches-the-ai/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;A separation of powers for control of autonomous agents&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/who-watches-the-ai/&quot;&gt;Who Watches the AI?&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter</Title>
-    <ExtractedTags>Artificial Intelligence, Generative Ai, Data Science Careers, Data Analytics, Editor's Picks, Career Advice</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-more-valuable-as-ai-gets-smarter/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;A framework for staying relevant in the age of artificial intelligence&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-more-valuable-as-ai-gets-smarter/&quot;&gt;In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter&lt;/a&gt; appea</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Developers Felt 20% Faster With AI. They Were 19% Slower.</Title>
-    <ExtractedTags>LLM Applications, Artificial Intelligence, AI, Llm, AI coding assistants, Programming</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;And that’s not even the worrying part.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/&quot;&gt;Developers Felt 20% Faster With AI. They Were 19% Slower.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.</SummaryPayload>
+    <Source>Kubernetes Blog</Source>
+    <Title>From Working Group to SIG Architecture: spotlight on AI Conformance</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;In this SIG Architecture spotlight we talked with &lt;a href=&quot;https://github.com/janetkuo&quot;&gt;Janet Kuo&lt;/a&gt; (Google)
+and &lt;a href=&quot;https://github.com/terrytangyuan&quot;&gt;Yuan Tang&lt;/a&gt; (TensorScale AI) about the journey of AI Conformance in
+Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>New Relic Blog</Source>
@@ -560,26 +474,5 @@ The working group is writing a shared standard for how &lt;a href=&quot;https://
     <ExtractedTags>Partnerships, Integrations</ExtractedTags>
     <ReferenceURL>https://newrelic.com/blog/news/github-universe-2026</ReferenceURL>
     <SummaryPayload>Discover New Relic's new GitHub Copilot and MCP integrations for real-time AI code observability, change tracking, and production reliability.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>Do You Need Forward Deployed Engineers? 5 Signals from New Relic Now</Title>
-    <ExtractedTags>Operational Efficiency, Drive Developer Productivity, AI Monitoring, AI Assistant</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/ai/do-you-need-forward-deployed-engineers</ReferenceURL>
-    <SummaryPayload>Discover 5 key signals on forward deployed engineers, AI agents in production, and observability insights from New Relic Now and Anthropic.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>Unified observability for Oracle Cloud Infrastructure (OCI) - GA</Title>
-    <ExtractedTags>Cloud, Cloud Monitoring, Consolidate Observability Platform, Dashboards, Improve Operational Efficiency, Improve Reliability, Incident Management, Infrastructure, Infrastructure Monitoring, Integrations, Observability, Operational Efficiency, System Resilience, DevOps</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/unified-observability-for-oracle-cloud-infrastructure-oci-ga</ReferenceURL>
-    <SummaryPayload>Monitor 40+ Oracle Cloud Infrastructure services with automated ORM onboarding, out-of-the-box golden metric dashboards, and real-time anomaly detection.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>Reduce MTTR: Accelerate Cloud Incident Triage with New Relic Infrastructure 360</Title>
-    <ExtractedTags>Cloud Monitoring, Kubernetes Monitoring, Change Tracking, Operational Efficiency, Consolidate Observability Platform, Drive Developer Productivity</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/new-relic-infrastructure-360-pp</ReferenceURL>
-    <SummaryPayload>Discover how New Relic Infrastructure 360 unifies cloud resource discovery, app-infra topology, and config change differences to eliminate blind spots and reduce MTTR.</SummaryPayload>
   </TrendItem>
 </MarketIngestion>

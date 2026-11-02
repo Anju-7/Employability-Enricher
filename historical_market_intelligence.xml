@@ -143666,4 +143666,42 @@ Abstract: Effective video agents must learn not only how to answer, but also whe
     <SummaryPayload>&lt;p&gt;A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/&quot;&gt;I</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved</Title>
+    <ExtractedTags>Cloud, Capacity Planning, Amazon Web Services, AWS, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-capacity-sold-out/en/headerimage/generatedHeaderImage-1793124716899.jpg&quot; /&gt;&lt;p&gt;Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers</Title>
+    <ExtractedTags>Open Source, Cloud, S3, Data Storage, Data Transfer Objects, Go Language, AWS, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-s3-file-transfer/en/headerimage/generatedHeaderImage-1792218946629.jpg&quot; /&gt;&lt;p&gt;AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Availa</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns</Title>
+    <ExtractedTags>Large Language Models, Context Engineering, LLM Engineering, Editor's Picks, Agentic Ai, Ai Product Management</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/&quot;&gt;The Enterprise Context Layer: A Practitioner's</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Fix the Image, Not the Prompt</Title>
+    <ExtractedTags>Computer Vision, Multimodal, Prompt Engineering, Llm Evaluation, Benchmark</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/fix-the-image-not-the-prompt/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Vision models often fail before they even start reasoning. A few well-placed labels on the image fix more than any prompt tweak.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/fix-the-image-not-the-prompt/&quot;&gt;Fix the Image, Not the Prompt&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatas</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Neural Network Learned to Read Digits From Pure Noise</Title>
+    <ExtractedTags>Deep Learning, Knowledge Distillation, Machine Learning, Artificial Intelligence, Neural Networks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A small NumPy reproduction of subliminal learning, and a short argument for why it works&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/&quot;&gt;A Neural Network Learned to Read Digits From Pure Noise&lt;/a&gt; appeared first on &lt;a href=&quot;https:/</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
