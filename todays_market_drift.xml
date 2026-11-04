@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-11-03" record_count="358" status="SUCCESS">
+<MarketIngestion date="2026-11-04" record_count="354" status="SUCCESS">
   <TrendItem>
     <Source>AWS Architecture</Source>
     <Title>How to run a DR readiness engagement</Title>
@@ -29,18 +29,46 @@
     <SummaryPayload>Keeping a large Amazon EC2 fleet continuously recoverable with AWS Elastic Disaster Recovery is a lifecycle challenge. This post shows how to automate the full DRS agent lifecycle (install, heal, and offboard) using AWS Systems Manager Automation and Amazon EventBridge, driven by a single EC2 tag an</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</Title>
-    <ExtractedTags>Advanced (300), Amazon EC2, Automotive, Customer Solutions, Graviton</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/</ReferenceURL>
-    <SummaryPayload>Learn how BMW Group migrated its connected vehicle platform from x86 to AWS Graviton. Using Karpenter, multi-architecture container builds, and Graviton-based CI/CD runners, the team moved workloads without disruption, cutting NGINX ingress CPU by about 57 percent and delivering about 40 percent bet</SummaryPayload>
+    <Source>AWS Machine Learning</Source>
+    <Title>Bring structured and unstructured data together with Amazon Quick</Title>
+    <ExtractedTags>Amazon Quick Suite, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/</ReferenceURL>
+    <SummaryPayload>Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How boAt delivers personalized fitness coaching with Amazon Bedrock</Title>
-    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/</ReferenceURL>
-    <SummaryPayload>Learn how boAt built its AI Coach feature on Amazon Bedrock and AWS Lambda to deliver personalized, real-time fitness coaching to millions of smartwatch users across India, and the design choices that made the solution scalable and cost-effective.</SummaryPayload>
+    <Source>AWS Machine Learning</Source>
+    <Title>ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</ReferenceURL>
+    <SummaryPayload>Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user's identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or cust</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Bedrock AgentCore, Customer Solutions, Expert (400)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/</ReferenceURL>
+    <SummaryPayload>Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building ultra-low-latency voice AI applications on AWS</Title>
+    <ExtractedTags>Advanced (300), Amazon Connect, Amazon SageMaker AI, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/</ReferenceURL>
+    <SummaryPayload>Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Introducing India-based inference for Kimi K3 on Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language documents with Kimi K3.</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>AWS Machine Learning</Source>
@@ -99,62 +127,18 @@
     <SummaryPayload>The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restriction</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>How the UK Amazon Quick User Group grew in 2026</Title>
-    <ExtractedTags>Amazon Quick Suite, Intermediate (200), Uncategorized</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/</ReferenceURL>
-    <SummaryPayload>The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Building intent-driven UI testing with Amazon Nova Act</Title>
-    <ExtractedTags>Amazon Nova, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/</ReferenceURL>
-    <SummaryPayload>Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-t</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Build a repeatable PHP-to-Java migration engine with Kiro</Title>
-    <ExtractedTags>Advanced (300), AWS Transform, Kiro, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/</ReferenceURL>
-    <SummaryPayload>Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies t</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs</Title>
-    <ExtractedTags>Advanced (300), Amazon SageMaker AI, AWS Batch, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/</ReferenceURL>
-    <SummaryPayload>AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/</ReferenceURL>
-    <SummaryPayload>MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress ma</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS</Title>
-    <ExtractedTags>Advanced (300), Amazon Elastic Kubernetes Service, Amazon SageMaker HyperPod, Announcements</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/</ReferenceURL>
-    <SummaryPayload>NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>Meta Engineering</Source>
-    <Title>Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale</Title>
-    <ExtractedTags>AI Research, ML Applications, Security &amp; Privacy</ExtractedTags>
-    <ReferenceURL>https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Over the last year we&amp;#8217;ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we&amp;#8217;re sharing the results and positive impact we&amp;#8217;ve seen with Catching JiTTests deployed into producti</SummaryPayload>
+    <Title>F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale</Title>
+    <ExtractedTags>ML Applications, Production Engineering</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Facebook Feature Framework (F3) is Meta&amp;#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020.  F3 reduced execution computational </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>From Working Group to SIG Architecture: spotlight on AI Conformance</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;In this SIG Architecture spotlight we talked with &lt;a href=&quot;https://github.com/janetkuo&quot;&gt;Janet Kuo&lt;/a&gt; (Google)
-and &lt;a href=&quot;https://github.com/terrytangyuan&quot;&gt;Yuan Tang&lt;/a&gt; (TensorScale AI) about the journey of AI Conformance in
-Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</SummaryPayload>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Oh, your agents need OAuth2, too</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai, oauth2</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/</ReferenceURL>
+    <SummaryPayload>Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic era, the security necessity of giving autonomous AI agents their own distinct identities, and how AI coding tools</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Stack Overflow Blog</Source>
@@ -164,48 +148,51 @@ Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</S
     <SummaryPayload>Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like cattle instead of pets, shifting the paradigm of system specifications to accommodate the rapid influx of AI-generat</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>The reports of Stack Overflow's death are greatly exaggerated</Title>
-    <ExtractedTags>community</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/</ReferenceURL>
-    <SummaryPayload>I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the knowledge—and the company—behind it.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Martin Fowler</Source>
-    <Title>Bliki: LLM Voice</Title>
-    <ExtractedTags>bliki</ExtractedTags>
-    <ReferenceURL>https://martinfowler.com/bliki/LLM-Voice.html</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Sometimes when I read a post, I get the growing feeling that I'm reading
-  the output of an LLM. I can't necessarily define why, although there are the common
-  tells (it's not the em-dashes, it's the load-bearing tapestries). As I
-  do this my desire to read on atrophies, sometimes to the point </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Martin Fowler</Source>
-    <Title>Why are good developers so wary of agentic development?</Title>
-    <ExtractedTags>rachels-ramblings</ExtractedTags>
-    <ReferenceURL>https://martinfowler.com/rachels-ramblings/good-devs-wary.html</ReferenceURL>
-    <SummaryPayload>&lt;p class=&quot;precis&quot;&gt;&lt;b&gt;TL;DR&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Good developers’ caution about agentic development comes from knowing that built isn’t the same as working in production.&lt;/i&gt;&lt;/p&gt;
-&lt;img src=&quot;https://martinfowler.com/rachels-ramblings/card.png&quot; /&gt;&lt;p&gt;I’ve been surprised by how many excellent developers have been </SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device</Title>
+    <ExtractedTags>Mobile, iOS, Open Source, AI coding agents, C++, Edge Computing, TensorFlow, Android, GPU, Google, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/litert-tensor-api/en/headerimage/litert-tensor-api-1793729374644.jpeg&quot; /&gt;&lt;p&gt;Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device executio</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
-    <Title>Google and Meta Open-source TorchTPU to Bring Native PyTorch Support to Google TPUs</Title>
+    <Title>Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults</Title>
+    <ExtractedTags>Web Development, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/vite-5-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/vite-5-release/en/headerimage/generatedHeaderImage-1793723335877.jpg&quot; /&gt;&lt;p&gt;Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and v</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>LinkedIn Uses OpenTelemetry to Trace the Member Journey from Tap to Backend</Title>
+    <ExtractedTags>User Experience, LinkedIn, OpenTelemetry, Observability, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/linkedin-opentelemetry-journey/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/linkedin-opentelemetry-journey/en/headerimage/generatedHeaderImage-1793095474316.jpg&quot; /&gt;&lt;p&gt;LinkedIn has built an OpenTelemetry-based telemetry platform that connects what members do in its iOS, Android, and web applications with the backend services proce</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Beyond the Harness: Canvas for AI Agents</Title>
+    <ExtractedTags>Metrics, Agents, QCon AI Boston 2026, Leadership, Context Engineering, Evolutionary Architecture, Transcripts, AI Harness, Architecture, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/canvas-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/canvas-ai-agents/en/mediumimage/nimisha-asthagiri-medium-1792655073821.jpg&quot; /&gt;&lt;p&gt;Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides age</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac</Title>
+    <ExtractedTags>LangChain4j, Quarkus, Java, Eclipse JNoSQL, JobRunr, JReleaser, JBang, Gradle, JDK 28, Endive, Hibernate Reactive, TornadoVM, Hibernate ORM, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/java-news-roundup-oct26-2026/en/headerimage/java-news-roundup-image-1793638258393.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser an</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google and Meta Open-Source TorchTPU to Bring Native PyTorch Support to Google TPUs</Title>
     <ExtractedTags>Agents, Open Source, Large language models, Facebook, GPU, Google, PyTorch, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu/en/headerimage/torchtpu-1793636927771.jpeg&quot; /&gt;&lt;p&gt;TorchTPU is an open-source project developed by Google in collaboration with Meta that provides a native PyTorch backend for Google TPUs. It enables PyTorch workloads to execute</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
-    <Title>Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac</Title>
-    <ExtractedTags>LangChain4j, Java, Quarkus, JobRunr, Eclipse JNoSQL, JReleaser, Gradle, JBang, Endive, JDK 28, Hibernate Reactive, TornadoVM, Hibernate ORM, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/java-news-roundup-oct26-2026/en/headerimage/java-news-roundup-image-1793638258393.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser an</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
     <Title>Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools</Title>
-    <ExtractedTags>gRPC, Model Context Protocol (MCP), Agents, Service Discovery, REST, Thrift, Microservices, API Gateway, Infrastructure, Distributed Systems, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ExtractedTags>gRPC, Model Context Protocol (MCP), Service Discovery, Agents, REST, Thrift, Microservices, API Gateway, Infrastructure, Distributed Systems, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Uber has built an MCP Gateway to standardize how AI agents discover and invoke internal services across more than 800 MCP servers and 5,000 tools. The gateway separates tool registration from runtime execution and includ</SummaryPayload>
   </TrendItem>
@@ -240,14 +227,14 @@ Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</S
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers</Title>
-    <ExtractedTags>Open Source, Cloud, S3, Go Language, AWS, Data Storage, Data Transfer Objects, DevOps, Development, news</ExtractedTags>
+    <ExtractedTags>Cloud, Open Source, S3, Go Language, AWS, Data Storage, Data Transfer Objects, DevOps, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-s3-file-transfer/en/headerimage/generatedHeaderImage-1792218946629.jpg&quot; /&gt;&lt;p&gt;AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Availa</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta without Attribute-Based Encryption</Title>
-    <ExtractedTags>Cloudflare, Security, Encryption, Quantum Computing, Cloud Computing, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Cloudflare, Encryption, Security, Quantum Computing, Cloud Computing, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg&quot; /&gt;&lt;p&gt;Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encr</SummaryPayload>
   </TrendItem>
@@ -261,37 +248,41 @@ Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</S
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI</Title>
-    <ExtractedTags>Spring Modulith, Spring Framework, Spring Security, Spring Batch, Spring Integration, Spring AI, Java, Spring Boot, GraphQL, AMQP, Spring Web Services, Spring Data, Spring Cloud, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Spring Modulith, Spring Framework, Spring Security, Spring Batch, Spring Integration, Java, Spring AI, Spring Boot, GraphQL, AMQP, Spring Web Services, Spring Data, Spring Cloud, Development, Architecture &amp; Design, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/en/headerimage/spring-news-roundup-image-1793452938585.jpg&quot; /&gt;&lt;p&gt;There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Sp</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Kubernetes Confidential Containers Get Fortanix Attestation and Key Management</Title>
-    <ExtractedTags>Application Security, Kubernetes, Containers, Cloud Native Computing Foundation, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/k8s-confidential-containers/en/headerimage/header-1793049721702.jpeg&quot; /&gt;&lt;p&gt;Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>AI Will Do Your Job. That Should Be Good News.</Title>
+    <ExtractedTags>Artificial Intelligence, AI Adoption, Automation, Editor's Picks, Economy, Career Advice</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The case for paying people to play when machines do the work&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/&quot;&gt;AI Will Do Your Job. That Should Be Good News.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced</Title>
-    <ExtractedTags>Developer Experience, Cloud, Azure, Infrastructure as Code, DevOps, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/localstack-azure-preview/en/headerimage/generatedHeaderImage-1793037893055.jpg&quot; /&gt;&lt;p&gt;LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its o</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>A Good Shooter or Just a Good Shot Selector? Using Python to Find Out</Title>
+    <ExtractedTags>Data Science, Python, Basketball Analytics, Logistic Regression, Machine Learning, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-selector-using-python-to-find-out/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;In basketball, field-goal percentage tells us how often a player makes a shot. But what about the shots’ difficulty? Let's use Python and machine learning to separate shot selection from shot making.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-select</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs</Title>
-    <ExtractedTags>Gemini, Agents, AI Security, Security Vulnerabilities, Information Security, DevSecOps, Google, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/10/google-pagebreak-security-agent/en/headerimage/generatedHeaderImage-1791008728252.jpg&quot; /&gt;&lt;p&gt;According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering </SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Your Agent Works in the Demo. Now Make It Survive Monday.</Title>
+    <ExtractedTags>Agentic AI, Artifical Intelligence, AI Agents, Llm, harness, Context Engineering</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The demo is the easy part&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/&quot;&gt;Your Agent Works in the Demo. Now Make It Survive Monday.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents</Title>
-    <ExtractedTags>Model Context Protocol (MCP), Agents, Orchestration, Large language models, API Gateway, Model Inference, Data Catalog, Low Latency, Agentic AI Architecture, AI Architecture, AI, ML &amp; Data Engineering, Architecture &amp; Design, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product selections current, whi</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Three Techniques to Understand Your Codebase When Coding Agents Write the Code</Title>
+    <ExtractedTags>Programming, LLM Agents, Claude Code, Editor's Picks, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/&quot;&gt;Three Techn</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -404,38 +395,6 @@ Kubernetes, from the initial &lt;a href=&quot;https://github.com/kubernetes/c</S
     <ReferenceURL>https://towardsdatascience.com/claude-code-mods-custom-hooks-to-fix-my-biggest-ai-coding-frustrations/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;How I built four Claude Code mods to protect API keys, track plan progress, catch untested code, and monitor context usage — with 135 passing tests and up to 100× less overhead than traditional hooks — and why they can outperform traditional hooks.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascie</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>When Labels Say No, But Embeddings Say Yes</Title>
-    <ExtractedTags>Computer Vision, Machine Learning, Transformer, Similarity Search, Editor's Picks, Embeddings</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Why traditional retrieval metrics miss meaningful similarities&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/&quot;&gt;When Labels Say No, But Embeddings Say Yes&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Difference-in-Differences vs Lagged-Outcome Regression</Title>
-    <ExtractedTags>Data Science, Product Analytics, Difference In Differences, Editor's Picks, Product Management, Simulation</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;A simulation study and a pre-period check for choosing the right design for self-selected treatments in product analytics.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression/&quot;&gt;Difference-in-Differences vs Lagged-Outcome Regression&lt;/a&gt; ap</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Is the #1 AI Model Really #1?</Title>
-    <ExtractedTags>Large Language Models, Llm Evaluation, Benchmark, Statisitcs, Machine Learning</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/is-the-1-ai-model-really-1/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about three times in ten.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/is-the-1-ai-model-really-1/&quot;&gt;Is the #1 AI Model Rea</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>What Is Harness Engineering? A Hands-On Introduction</Title>
-    <ExtractedTags>Agentic AI, Agentic Workflows, AI Agents, harness, loop engineering, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Learn three essential primitives of harness engineering to future-proof your career&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/&quot;&gt;What Is Harness Engineering? A Hands-On Introduction&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdata</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>ArXiv AI</Source>
@@ -2815,16 +2774,23 @@ Abstract: Early prediction of ICU organ dysfunction events supports timely clini
   </TrendItem>
   <TrendItem>
     <Source>New Relic Blog</Source>
+    <Title>Datadog Pricing Explained: What Drives the Bill and How to Avoid Surprises</Title>
+    <ExtractedTags>DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/datadog-pricing</ReferenceURL>
+    <SummaryPayload>Datadog charges separately for hosts, logs, and custom metrics, and the bill can grow fast. See how the pricing model works and what to check before you sign.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Datadog vs. New Relic Pricing: What Actually Drives Your Bill</Title>
+    <ExtractedTags>DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/datadog-vs-new-relic-pricing</ReferenceURL>
+    <SummaryPayload>Compare how Datadog and New Relic actually price observability — data, hosts, and users — so you can size your real cost before you commit.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
     <Title>The 2026 Observability Forecast: India Edition</Title>
     <ExtractedTags>General Tech</ExtractedTags>
     <ReferenceURL>https://newrelic.com/blog/observability/the-observability-forecast-2026-india</ReferenceURL>
     <SummaryPayload>New Relic partnered with Enterprise Technology Research (ETR) to survey 2,575 IT and engineering leaders and practitioners worldwide. 500 of these are based in India, 20% of the global sample and the second largest single-country cut in the study.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>New Relic Blog</Source>
-    <Title>Turo + New Relic: Turn AI code volume into production reliability</Title>
-    <ExtractedTags>AI Monitoring, Alerting, Cloud, Cloud Monitoring, Incident response, Kubernetes Monitoring, Developer Relations</ExtractedTags>
-    <ReferenceURL>https://newrelic.com/blog/ai/turo-new-relic-turn-ai-code-volume-into-production-reliability</ReferenceURL>
-    <SummaryPayload>See how Turo uses the New Relic MCP server to give AI agents live production context, slash incident triage to 60 seconds, and scale releases safely.</SummaryPayload>
   </TrendItem>
 </MarketIngestion>

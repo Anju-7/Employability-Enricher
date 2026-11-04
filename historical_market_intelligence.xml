@@ -145873,4 +145873,134 @@ Abstract: Large language model (LLM) pipelines can turn visitor reviews into str
     <ReferenceURL>https://newrelic.com/blog/observability/the-observability-forecast-2026-india</ReferenceURL>
     <SummaryPayload>New Relic partnered with Enterprise Technology Research (ETR) to survey 2,575 IT and engineering leaders and practitioners worldwide. 500 of these are based in India, 20% of the global sample and the second largest single-country cut in the study.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Bring structured and unstructured data together with Amazon Quick</Title>
+    <ExtractedTags>Amazon Quick Suite, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/</ReferenceURL>
+    <SummaryPayload>Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</ReferenceURL>
+    <SummaryPayload>Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user's identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or cust</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Bedrock AgentCore, Customer Solutions, Expert (400)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/</ReferenceURL>
+    <SummaryPayload>Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egr</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building ultra-low-latency voice AI applications on AWS</Title>
+    <ExtractedTags>Advanced (300), Amazon Connect, Amazon SageMaker AI, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/</ReferenceURL>
+    <SummaryPayload>Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Introducing India-based inference for Kimi K3 on Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language documents with Kimi K3.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale</Title>
+    <ExtractedTags>ML Applications, Production Engineering</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Facebook Feature Framework (F3) is Meta&amp;#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020.  F3 reduced execution computational</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Oh, your agents need OAuth2, too</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai, oauth2</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/</ReferenceURL>
+    <SummaryPayload>Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic era, the security necessity of giving autonomous AI agents their own distinct identities, and how AI coding tools</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device</Title>
+    <ExtractedTags>Mobile, iOS, Open Source, AI coding agents, C++, Edge Computing, TensorFlow, Android, GPU, Google, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/litert-tensor-api/en/headerimage/litert-tensor-api-1793729374644.jpeg&quot; /&gt;&lt;p&gt;Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device executio</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults</Title>
+    <ExtractedTags>Web Development, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/vite-5-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/vite-5-release/en/headerimage/generatedHeaderImage-1793723335877.jpg&quot; /&gt;&lt;p&gt;Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and v</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>LinkedIn Uses OpenTelemetry to Trace the Member Journey from Tap to Backend</Title>
+    <ExtractedTags>User Experience, LinkedIn, OpenTelemetry, Observability, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/linkedin-opentelemetry-journey/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/linkedin-opentelemetry-journey/en/headerimage/generatedHeaderImage-1793095474316.jpg&quot; /&gt;&lt;p&gt;LinkedIn has built an OpenTelemetry-based telemetry platform that connects what members do in its iOS, Android, and web applications with the backend services proce</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Beyond the Harness: Canvas for AI Agents</Title>
+    <ExtractedTags>Metrics, Agents, QCon AI Boston 2026, Leadership, Context Engineering, Evolutionary Architecture, Transcripts, AI Harness, Architecture, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/canvas-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/canvas-ai-agents/en/mediumimage/nimisha-asthagiri-medium-1792655073821.jpg&quot; /&gt;&lt;p&gt;Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides age</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>AI Will Do Your Job. That Should Be Good News.</Title>
+    <ExtractedTags>Artificial Intelligence, AI Adoption, Automation, Editor's Picks, Economy, Career Advice</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The case for paying people to play when machines do the work&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/&quot;&gt;AI Will Do Your Job. That Should Be Good News.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Good Shooter or Just a Good Shot Selector? Using Python to Find Out</Title>
+    <ExtractedTags>Data Science, Python, Basketball Analytics, Logistic Regression, Machine Learning, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-selector-using-python-to-find-out/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;In basketball, field-goal percentage tells us how often a player makes a shot. But what about the shots’ difficulty? Let's use Python and machine learning to separate shot selection from shot making.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-select</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Your Agent Works in the Demo. Now Make It Survive Monday.</Title>
+    <ExtractedTags>Agentic AI, Artifical Intelligence, AI Agents, Llm, harness, Context Engineering</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;The demo is the easy part&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/&quot;&gt;Your Agent Works in the Demo. Now Make It Survive Monday.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Three Techniques to Understand Your Codebase When Coding Agents Write the Code</Title>
+    <ExtractedTags>Programming, LLM Agents, Claude Code, Editor's Picks, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/&quot;&gt;Three Techn</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Datadog Pricing Explained: What Drives the Bill and How to Avoid Surprises</Title>
+    <ExtractedTags>DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/datadog-pricing</ReferenceURL>
+    <SummaryPayload>Datadog charges separately for hosts, logs, and custom metrics, and the bill can grow fast. See how the pricing model works and what to check before you sign.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Datadog vs. New Relic Pricing: What Actually Drives Your Bill</Title>
+    <ExtractedTags>DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/datadog-vs-new-relic-pricing</ReferenceURL>
+    <SummaryPayload>Compare how Datadog and New Relic actually price observability — data, hosts, and users — so you can size your real cost before you commit.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
