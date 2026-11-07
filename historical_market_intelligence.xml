@@ -155743,4 +155743,203 @@ Abstract: A language model that learns a new fact by fine-tuning can repeat it b
     <SummaryPayload>arXiv:2611.01993v3 Announce Type: replace-cross 
 Abstract: When an image classifier decides, we can usually only estimate why. For quantum and all-optical classifiers that act linearly on amplitude-encoded pictures up to the measurement, with no trained classical network before or after them, each c</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints</Title>
+    <ExtractedTags>Amazon SageMaker AI, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</ReferenceURL>
+    <SummaryPayload>Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Taxonomy of agentic primitives in Amazon Quick</Title>
+    <ExtractedTags>Amazon Quick Suite, Intermediate (200), Thought Leadership</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</ReferenceURL>
+    <SummaryPayload>As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on — triggers, agents, capabilities, and learned context — found by decomposing agentic work into four</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Serverless MCP server for AI agent data lake access on Amazon ECS Fargate</Title>
+    <ExtractedTags>Amazon Elastic Container Service, AWS Fargate, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</ReferenceURL>
+    <SummaryPayload>Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</ReferenceURL>
+    <SummaryPayload>In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</ReferenceURL>
+    <SummaryPayload>An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta Cross App Access an</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on li</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Bedrock AgentCore, Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/</ReferenceURL>
+    <SummaryPayload>Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Welcome to life in the chip age</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/</ReferenceURL>
+    <SummaryPayload>Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly shifting</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Yelp Combines Native and Server-Driven UI for Its AI Assistant</Title>
+    <ExtractedTags>Mobile Development, ChatBots, AI Architecture, Event Driven Architecture, Cross Platform, Large language models, Server-side rendering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform</Title>
+    <ExtractedTags>GitLab, AI coding agents, Model Context Protocol (MCP), Agents, Agentic Development Lifecycle, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/en/headerimage/generatedHeaderImage-1793095997884.jpg&quot; /&gt;&lt;p&gt;GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class</Title>
+    <ExtractedTags>JavaScript, Web Development, Svelte, TypeScript, Vue.js, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/typescript-7-1-beta/en/headerimage/generatedHeaderImage-1793901816316.jpg&quot; /&gt;&lt;p&gt;TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change</Title>
+    <ExtractedTags>Strategy, Sociotechnical Architecture, Leadership, Architecture, Transcripts, Staff Plus, Management, Culture, QCon London 2026, Culture &amp; Methods, Architecture &amp; Design, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/sociotechnical-staff-engineer-architecture/en/mediumimage/medium-1792066457983.jpg&quot; /&gt;&lt;p&gt;Vanessa Formicola shares how technical leaders can move beyond &quot;wishful architecture&quot; by practicing holistic socio-technical engineering. She discusses why engineeri</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>AWS Ships Continuum for Code Vulnerabilities</Title>
+    <ExtractedTags>Cloud, Security, Architecture &amp; Design, Development, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-continuum-ga/en/headerimage/generatedHeaderImage-1792886107294.jpg&quot; /&gt;&lt;p&gt;AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as p</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication</Title>
+    <ExtractedTags>OAuth, Architecture, Identity Management, Single Sign-On, Java, Architecture &amp; Design, Development, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/identity-as-architecture/en/headerimage/identity-as-architecture-header-1793629959196.jpg&quot; /&gt;&lt;p&gt;The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an archite</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Vault Fork OpenBao Adds External Keys and Quantum-Ready TLS</Title>
+    <ExtractedTags>Hashicorp, Cloud Security, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/vault-fork-openbao-27/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/vault-fork-openbao-27/en/headerimage/generatedHeaderImage-1793734932785.jpg&quot; /&gt;&lt;p&gt;OpenBao has released version 2.7, adding read scaling for PostgreSQL-backed deployments, support for external hardware security module (HSM) and key management service (KMS)</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitHub Actions Lockfiles Reach GA to Secure Workflow Dependencies</Title>
+    <ExtractedTags>github, GitHub Actions, Dependency Management, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/github-actions-lockfiles-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/github-actions-lockfiles-ga/en/headerimage/generatedHeaderImage-1793888107988.jpg&quot; /&gt;&lt;p&gt;GitHub has made workflow dependency lockfiles for GitHub Actions generally available on October 28, 2026, two weeks after the feature entered public preview. Workflows</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads</Title>
+    <ExtractedTags>Information Security, AI Security, Model Context Protocol (MCP), Containers, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/ai-credentials-isolation/en/headerimage/generatedHeaderImage-1793853184587.jpg&quot; /&gt;&lt;p&gt;Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hype</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Measure AI Adoption, Performance, and ROI With 12 KPIs</Title>
+    <ExtractedTags>Artificial Intelligence, Ai Transformation, AI Adoption, Ai Product Management, Kpi, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Includes a worked example with 50 users and $110,000 in first-year cost, plus baselines, targets, and ownership rules for every AI initiative.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/&quot;&gt;How to Measure AI Adoption, Performa</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Manage Python Environments with uv Instead of venv and pip</Title>
+    <ExtractedTags>Programming, Python, Venv, uv, Editor's Picks, Code Sharing</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-manage-python-environments-with-uv-instead-of-venv-and-pip/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A side-by-side walkthrough of venv plus pip and uv init, uv add, uv run, and uv sync, with a lockfile that recreates the project on another machine.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-manage-python-environments-with-uv-instead-of-venv-and-pip/&quot;&gt;How to Manage Python Env</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Build Your First Multi-Tool AI Agent with Ollama and Python</Title>
+    <ExtractedTags>Agentic Workflows, AI Agents, LLM Agents, Llm Applications, Agentic Ai, Ollama</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets stuck.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Give Your Python AI Agent Persistent Memory with One JSON File</Title>
+    <ExtractedTags>Agentic AI, Ai Agent, Agentic Ai, Editor's Picks, Python, Json</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/&quot;&gt;Give Your Python AI Ag</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Monitor VMware vSphere Kubernetes Service (VKS) Clusters with New Relic</Title>
+    <ExtractedTags>Integrations, Kubernetes Monitoring</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/vmware-vsphere-kubernetes-service-monitoring</ReferenceURL>
+    <SummaryPayload>New Relic is validated on VMware vSphere Kubernetes Service (VKS). See how platform teams on VCF monitor clusters, pods, and apps in one place.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Istio Blog</Source>
+    <Title>ISTIO-SECURITY-2026-009</Title>
+    <ExtractedTags>CVE</ExtractedTags>
+    <ReferenceURL>https://istio.io/latest/news/security/istio-security-2026-009/</ReferenceURL>
+    <SummaryPayload>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th colspan=&quot;2&quot;&gt;Disclosure Details&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;CVE(s)&lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;CVSS Impact Score&lt;/td&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Istio Blog</Source>
+    <Title>Announcing Istio 1.31.4</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://istio.io/latest/news/releases/1.31.x/announcing-1.31.4/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;This release contains security fixes. This release note describes what&amp;rsquo;s different between Istio 1.31.3 and 1.31.4.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Istio Blog</Source>
+    <Title>Announcing Istio 1.30.8</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://istio.io/latest/news/releases/1.30.x/announcing-1.30.8/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;This release contains security fixes. This release note describes what&amp;rsquo;s different between Istio 1.30.7 and 1.30.8.&lt;/p&gt;</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
