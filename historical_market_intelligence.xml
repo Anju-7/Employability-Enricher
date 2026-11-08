@@ -155942,4 +155942,41 @@ Abstract: When an image classifier decides, we can usually only estimate why. Fo
     <ReferenceURL>https://istio.io/latest/news/releases/1.30.x/announcing-1.30.8/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;This release contains security fixes. This release note describes what&amp;rsquo;s different between Istio 1.30.7 and 1.30.8.&lt;/p&gt;</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes</Title>
+    <ExtractedTags>Feature Toggle, Android, Mobile, Runtime Analytics, Testing, iOS, Static Analysis, Continuous Improvement, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grab-ai-generated-code-safety/en/headerimage/momentic-postgres-clickhouse-1794048104353.jpeg&quot; /&gt;&lt;p&gt;The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities f</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL</Title>
+    <ExtractedTags>vector databases, Database, Open Source, Relational Databases, Postgres, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg&quot; /&gt;&lt;p&gt;Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets</Title>
+    <ExtractedTags>Web Development, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/bumpy-changesets-alternative/en/headerimage/generatedHeaderImage-1793973539308.jpg&quot; /&gt;&lt;p&gt;Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval</Title>
+    <ExtractedTags>Large Language Model, Artifical Intellegence, Data Science, Time Series, Editor's Picks, Foundation Models</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;All four time-series foundation models scale, patch, and predict quantiles; the real split is how series share information.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/&quot;&gt;Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Ev</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Prioritize Product Feedback by Revenue at Risk</Title>
+    <ExtractedTags>Product Management, Ai Product Management, Revenue Analysis, Editor's Picks, Data Sciecne</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Bellwether joins support tickets, store reviews, sales calls, and NPS to CRM accounts, then stress-tests the ranking on 6,693 synthetic signals.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/&quot;&gt;How to Prioritize Product Feedback by Re</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
