@@ -155979,4 +155979,41 @@ Abstract: When an image classifier decides, we can usually only estimate why. Fo
     <SummaryPayload>&lt;p&gt;Bellwether joins support tickets, store reviews, sales calls, and NPS to CRM accounts, then stress-tests the ranking on 6,693 synthetic signals.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/&quot;&gt;How to Prioritize Product Feedback by Re</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Entire's Git Forge Rethinks Git Collaboration for Coding Agents</Title>
+    <ExtractedTags>GitLab, AI coding agents, Source Control, github, Large language models, git, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/entire-git-forge-coding-agents/en/headerimage/entire-git-forge-agents-1794134163813.jpeg&quot; /&gt;&lt;p&gt;Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software developmen</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal</Title>
+    <ExtractedTags>Hardware, Cloud, Google Cloud, Cloud Computing, Infrastructure, VMWare, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-cloud-self-managed-vmware/en/headerimage/generatedHeaderImage-1793604325753.jpg&quot; /&gt;&lt;p&gt;Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across E</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Scales D1 Control Plane to Millions of Databases</Title>
+    <ExtractedTags>Cloud, Cloudflare, Relational Databases, Serverless, Performance &amp; Scalability, SQLite, Postgres, Edge Computing, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/cloudflare-d1-control-plane/en/headerimage/generatedHeaderImage-1792577891694.jpg&quot; /&gt;&lt;p&gt;In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottl</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Build Multi-Agent Systems with the OpenAI Agents SDK</Title>
+    <ExtractedTags>Agentic AI, Multi Agent Systems, OpenAI Agents SDK, Editor's Picks, AI Agents, Python</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/&quot;&gt;How to Build Multi-Agent Syste</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Change One Monty Hall Rule and Five LLMs Still Say Switch</Title>
+    <ExtractedTags>Large Language Models, Probability, Bayesian Statistics, Machine Learning, Monty Hall Problem, Llm</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/&quot;&gt;Change One Monty Hall Rule and Five LLMs Still Sa</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>

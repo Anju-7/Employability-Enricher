@@ -1,5 +1,19 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-11-08" record_count="69" status="SUCCESS">
+<MarketIngestion date="2026-11-09" record_count="60" status="SUCCESS">
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How OrderServ achieved up to 64% cost savings with multi-tenant ECS</Title>
+    <ExtractedTags>Advanced (300), Amazon Elastic Container Service, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/</ReferenceURL>
+    <SummaryPayload>See how Cognizant and AWS Professional Services transformed the OrderServ food-ordering platform into a multi-tenant SaaS offering on shared Amazon ECS, cutting compute costs up to 64%, reducing scaling time from minutes to seconds, and lowering authentication costs by 80%.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How TUI scales threat modeling for 100+ teams with Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Learn how TUI, the world's leading tourism group, built an AI-powered threat modeling system on Amazon Bedrock and Amazon Bedrock AgentCore to scale security assessments across more than 100 product teams, cutting threat modeling time by up to 70% while applying security standards consistently.</SummaryPayload>
+  </TrendItem>
   <TrendItem>
     <Source>AWS Machine Learning</Source>
     <Title>SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints</Title>
@@ -106,62 +120,6 @@
     <SummaryPayload>U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divis</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Bring structured and unstructured data together with Amazon Quick</Title>
-    <ExtractedTags>Amazon Quick Suite, Intermediate (200), Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/</ReferenceURL>
-    <SummaryPayload>Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</ReferenceURL>
-    <SummaryPayload>Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user's identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or cust</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search</Title>
-    <ExtractedTags>Amazon Bedrock, Amazon Bedrock AgentCore, Customer Solutions, Expert (400)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/</ReferenceURL>
-    <SummaryPayload>Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egr</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/</ReferenceURL>
-    <SummaryPayload>Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Building ultra-low-latency voice AI applications on AWS</Title>
-    <ExtractedTags>Advanced (300), Amazon Connect, Amazon SageMaker AI, Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/</ReferenceURL>
-    <SummaryPayload>Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How OrderServ achieved up to 64% cost savings with multi-tenant ECS</Title>
-    <ExtractedTags>Advanced (300), Amazon Elastic Container Service, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/</ReferenceURL>
-    <SummaryPayload>See how Cognizant and AWS Professional Services transformed the OrderServ food-ordering platform into a multi-tenant SaaS offering on shared Amazon ECS, cutting compute costs up to 64%, reducing scaling time from minutes to seconds, and lowering authentication costs by 80%.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How TUI scales threat modeling for 100+ teams with Amazon Bedrock</Title>
-    <ExtractedTags>Amazon Bedrock, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/</ReferenceURL>
-    <SummaryPayload>Learn how TUI, the world's leading tourism group, built an AI-powered threat modeling system on Amazon Bedrock and Amazon Bedrock AgentCore to scale security assessments across more than 100 product teams, cutting threat modeling time by up to 70% while applying security standards consistently.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Meta Engineering</Source>
-    <Title>F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale</Title>
-    <ExtractedTags>ML Applications, Production Engineering</ExtractedTags>
-    <ReferenceURL>https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Facebook Feature Framework (F3) is Meta&amp;#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020.  F3 reduced execution computational </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>Stack Overflow Blog</Source>
     <Title>Welcome to life in the chip age</Title>
     <ExtractedTags>podcast, se-tech, se-stackoverflow</ExtractedTags>
@@ -183,11 +141,109 @@
     <SummaryPayload>CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>Oh, your agents need OAuth2, too</Title>
-    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai, oauth2</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/</ReferenceURL>
-    <SummaryPayload>Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic era, the security necessity of giving autonomous AI agents their own distinct identities, and how AI coding tools</SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>Entire's Git Forge Rethinks Git Collaboration for Coding Agents</Title>
+    <ExtractedTags>GitLab, AI coding agents, Source Control, github, Large language models, git, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/entire-git-forge-coding-agents/en/headerimage/entire-git-forge-agents-1794134163813.jpeg&quot; /&gt;&lt;p&gt;Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software developmen</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal</Title>
+    <ExtractedTags>Hardware, Cloud, Google Cloud, Cloud Computing, Infrastructure, VMWare, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-cloud-self-managed-vmware/en/headerimage/generatedHeaderImage-1793604325753.jpg&quot; /&gt;&lt;p&gt;Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across E</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Scales D1 Control Plane to Millions of Databases</Title>
+    <ExtractedTags>Cloud, Cloudflare, Relational Databases, Serverless, Performance &amp; Scalability, SQLite, Postgres, Edge Computing, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/cloudflare-d1-control-plane/en/headerimage/generatedHeaderImage-1792577891694.jpg&quot; /&gt;&lt;p&gt;In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottl</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes</Title>
+    <ExtractedTags>Static Analysis, iOS, Runtime Analytics, Feature Toggle, Continuous Improvement, Android, Mobile, Testing, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grab-ai-generated-code-safety/en/headerimage/momentic-postgres-clickhouse-1794048104353.jpeg&quot; /&gt;&lt;p&gt;The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities f</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL</Title>
+    <ExtractedTags>Database, Relational Databases, vector databases, Open Source, Postgres, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg&quot; /&gt;&lt;p&gt;Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Varlock Releases Bumpy: a File-Based Versioning Alternative to Changesets</Title>
+    <ExtractedTags>Web Development, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/bumpy-changesets-alternative/en/headerimage/generatedHeaderImage-1793973539308.jpg&quot; /&gt;&lt;p&gt;Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Yelp Combines Native and Server-Driven UI for its AI Assistant</Title>
+    <ExtractedTags>Mobile Development, ChatBots, AI Architecture, Cross Platform, Event Driven Architecture, Large language models, Server-side rendering, Architecture &amp; Design, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform</Title>
+    <ExtractedTags>GitLab, AI coding agents, Model Context Protocol (MCP), Agents, Agentic Development Lifecycle, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/en/headerimage/generatedHeaderImage-1793095997884.jpg&quot; /&gt;&lt;p&gt;GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class</Title>
+    <ExtractedTags>JavaScript, Web Development, Svelte, TypeScript, Vue.js, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/typescript-7-1-beta/en/headerimage/generatedHeaderImage-1793901816316.jpg&quot; /&gt;&lt;p&gt;TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change</Title>
+    <ExtractedTags>Strategy, Sociotechnical Architecture, Leadership, Architecture, Transcripts, Staff Plus, Management, Culture, QCon London 2026, Culture &amp; Methods, Architecture &amp; Design, Development, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/sociotechnical-staff-engineer-architecture/en/mediumimage/medium-1792066457983.jpg&quot; /&gt;&lt;p&gt;Vanessa Formicola shares how technical leaders can move beyond &quot;wishful architecture&quot; by practicing holistic socio-technical engineering. She discusses why engineeri</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>AWS Ships Continuum for Code Vulnerabilities</Title>
+    <ExtractedTags>Cloud, Security, Architecture &amp; Design, Development, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-continuum-ga/en/headerimage/generatedHeaderImage-1792886107294.jpg&quot; /&gt;&lt;p&gt;AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as p</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication</Title>
+    <ExtractedTags>OAuth, Architecture, Single Sign-On, Identity Management, Java, Architecture &amp; Design, Development, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/identity-as-architecture/en/headerimage/identity-as-architecture-header-1793629959196.jpg&quot; /&gt;&lt;p&gt;The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an archite</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Vault Fork OpenBao Adds External Keys and Quantum-Ready TLS</Title>
+    <ExtractedTags>Hashicorp, Cloud Security, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/vault-fork-openbao-27/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/vault-fork-openbao-27/en/headerimage/generatedHeaderImage-1793734932785.jpg&quot; /&gt;&lt;p&gt;OpenBao has released version 2.7, adding read scaling for PostgreSQL-backed deployments, support for external hardware security module (HSM) and key management service (KMS)</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>GitHub Actions Lockfiles Reach GA to Secure Workflow Dependencies</Title>
+    <ExtractedTags>github, GitHub Actions, Dependency Management, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/github-actions-lockfiles-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/github-actions-lockfiles-ga/en/headerimage/generatedHeaderImage-1793888107988.jpg&quot; /&gt;&lt;p&gt;GitHub has made workflow dependency lockfiles for GitHub Actions generally available on October 28, 2026, two weeks after the feature entered public preview. Workflows</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Edera's Object Capability Bounded Authority Promises to Isolate Credentials from AI Agent Workloads</Title>
+    <ExtractedTags>AI Security, Information Security, Model Context Protocol (MCP), Containers, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/ai-credentials-isolation/en/headerimage/generatedHeaderImage-1793853184587.jpg&quot; /&gt;&lt;p&gt;Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hype</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Martin Fowler</Source>
@@ -200,109 +256,20 @@
      challenge. They m</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes</Title>
-    <ExtractedTags>Feature Toggle, Android, Mobile, Runtime Analytics, Testing, iOS, Static Analysis, Continuous Improvement, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grab-ai-generated-code-safety/en/headerimage/momentic-postgres-clickhouse-1794048104353.jpeg&quot; /&gt;&lt;p&gt;The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities f</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>How to Build Multi-Agent Systems with the OpenAI Agents SDK</Title>
+    <ExtractedTags>Agentic AI, Multi Agent Systems, OpenAI Agents SDK, Editor's Picks, AI Agents, Python</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/&quot;&gt;How to Build Multi-Agent Syste</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL</Title>
-    <ExtractedTags>vector databases, Database, Open Source, Relational Databases, Postgres, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg&quot; /&gt;&lt;p&gt;Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets</Title>
-    <ExtractedTags>Web Development, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/bumpy-changesets-alternative/en/headerimage/generatedHeaderImage-1793973539308.jpg&quot; /&gt;&lt;p&gt;Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Yelp Combines Native and Server-Driven UI for Its AI Assistant</Title>
-    <ExtractedTags>Cross Platform, Event Driven Architecture, Mobile Development, AI Architecture, ChatBots, Large language models, Server-side rendering, Architecture &amp; Design, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform</Title>
-    <ExtractedTags>Model Context Protocol (MCP), Agents, AI coding agents, GitLab, Agentic Development Lifecycle, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/en/headerimage/generatedHeaderImage-1793095997884.jpg&quot; /&gt;&lt;p&gt;GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class</Title>
-    <ExtractedTags>Web Development, Vue.js, TypeScript, Svelte, JavaScript, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/typescript-7-1-beta/en/headerimage/generatedHeaderImage-1793901816316.jpg&quot; /&gt;&lt;p&gt;TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vu</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change</Title>
-    <ExtractedTags>Culture, Transcripts, Staff Plus, Strategy, Architecture, Sociotechnical Architecture, Leadership, Management, QCon London 2026, Culture &amp; Methods, Development, Architecture &amp; Design, presentation</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/sociotechnical-staff-engineer-architecture/en/mediumimage/medium-1792066457983.jpg&quot; /&gt;&lt;p&gt;Vanessa Formicola shares how technical leaders can move beyond &quot;wishful architecture&quot; by practicing holistic socio-technical engineering. She discusses why engineeri</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>AWS Ships Continuum for Code Vulnerabilities</Title>
-    <ExtractedTags>Security, Cloud, Development, Architecture &amp; Design, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-continuum-ga/en/headerimage/generatedHeaderImage-1792886107294.jpg&quot; /&gt;&lt;p&gt;AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as p</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication</Title>
-    <ExtractedTags>Java, Single Sign-On, Architecture, OAuth, Identity Management, Development, Architecture &amp; Design, article</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/identity-as-architecture/en/headerimage/identity-as-architecture-header-1793629959196.jpg&quot; /&gt;&lt;p&gt;The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an archite</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Vault Fork OpenBao Adds External Keys and Quantum-Ready TLS</Title>
-    <ExtractedTags>Cloud Security, Hashicorp, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/vault-fork-openbao-27/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/vault-fork-openbao-27/en/headerimage/generatedHeaderImage-1793734932785.jpg&quot; /&gt;&lt;p&gt;OpenBao has released version 2.7, adding read scaling for PostgreSQL-backed deployments, support for external hardware security module (HSM) and key management service (KMS)</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>GitHub Actions Lockfiles Reach GA to Secure Workflow Dependencies</Title>
-    <ExtractedTags>github, Dependency Management, GitHub Actions, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/github-actions-lockfiles-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/github-actions-lockfiles-ga/en/headerimage/generatedHeaderImage-1793888107988.jpg&quot; /&gt;&lt;p&gt;GitHub has made workflow dependency lockfiles for GitHub Actions generally available on October 28, 2026, two weeks after the feature entered public preview. Workflows</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Edera's Object Capability Bounded Authority Promises to Isolate Credentials from AI Agent Workloads</Title>
-    <ExtractedTags>Information Security, Model Context Protocol (MCP), AI Security, Containers, Development, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/ai-credentials-isolation/en/headerimage/generatedHeaderImage-1793853184587.jpg&quot; /&gt;&lt;p&gt;Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hype</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Google Cloud API Gateway Introduces Streaming Support for Real-Time and AI-Powered Applications</Title>
-    <ExtractedTags>API Gateway, Streaming, Google, Agents, Google Cloud, Large language models, Cloud, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/gcp-api-gateway-streaming/en/headerimage/google-adk-java-1-0-1793893770890.jpeg&quot; /&gt;&lt;p&gt;Google has announced the public preview of streaming support for API Gateway, extending its traditional request-response model to support applications requiring real-tim</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Leapwork Play Reaches GA with Governance for Playwright Tests</Title>
-    <ExtractedTags>Automated testing, Continuous Delivery, Continuous Integration, Development, Architecture &amp; Design, DevOps, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/leapwork-play-playwright/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/leapwork-play-playwright/en/headerimage/header-1793826326573.jpeg&quot; /&gt;&lt;p&gt;Leapwork Play adds requirement traceability and approval workflows around portable Playwright tests. Full governance and audit capabilities require an enterprise package.&lt;/p&gt; &lt;i&gt;By Ma</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Building a Culture for a Kubernetes-Based Platform in a Bank</Title>
-    <ExtractedTags>Culture, Platform Engineering, Regulation, Platforms, Kubernetes, Open Source, Open Banking, Culture Change, Community, learning, Continuous Improvement, Culture &amp; Methods, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/culture-kubernetes-bank/en/headerimage/generatedHeaderImage-1793781033508.jpg&quot; /&gt;&lt;p&gt;In banking, open source can earn trust by running real workloads, as Marcy Paramonova and Stéphane Cusin explained in their talk Building Cloud Native Culture in a Bank at</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Change One Monty Hall Rule and Five LLMs Still Say Switch</Title>
+    <ExtractedTags>Large Language Models, Probability, Bayesian Statistics, Machine Learning, Monty Hall Problem, Llm</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/&quot;&gt;Change One Monty Hall Rule and Five LLMs Still Sa</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -415,38 +382,6 @@
     <ReferenceURL>https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-time-series-prediction/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;Introducing CoQS-LSTM, a Coherent Quantum Long Short-Term Memory Architecture&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-time-series-prediction/&quot;&gt;Beyond Classical: A Quantum Approach to Time-Series Prediction&lt;/a&gt; appeared first on &lt;a href=&quot;https</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>AI Will Do Your Job. That Should Be Good News.</Title>
-    <ExtractedTags>Artificial Intelligence, AI Adoption, Automation, Editor's Picks, Economy, Career Advice</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;The case for paying people to play when machines do the work&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/&quot;&gt;AI Will Do Your Job. That Should Be Good News.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>A Good Shooter or Just a Good Shot Selector? Using Python to Find Out</Title>
-    <ExtractedTags>Data Science, Python, Basketball Analytics, Logistic Regression, Machine Learning, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-selector-using-python-to-find-out/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;In basketball, field-goal percentage tells us how often a player makes a shot. But what about the shots’ difficulty? Let's use Python and machine learning to separate shot selection from shot making.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-select</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Your Agent Works in the Demo. Now Make It Survive Monday.</Title>
-    <ExtractedTags>Agentic AI, Artifical Intelligence, AI Agents, Llm, harness, Context Engineering</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;The demo is the easy part&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/&quot;&gt;Your Agent Works in the Demo. Now Make It Survive Monday.&lt;/a&gt; appeared first on &lt;a href=&quot;https://towardsdatascience.com&quot;&gt;Towards Data Science&lt;/a&gt;.&lt;/p&gt;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Three Techniques to Understand Your Codebase When Coding Agents Write the Code</Title>
-    <ExtractedTags>Programming, LLM Agents, Claude Code, Editor's Picks, AI coding assistants</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/&quot;&gt;Three Techn</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>New Relic Blog</Source>
