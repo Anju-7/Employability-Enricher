@@ -156215,4 +156215,171 @@ We would like to thank the Release Managers for this release, &lt;strong&gt;Jack
 from subsequent requests, and the &lt;code&gt;initial_resource_versions&lt;/code&gt; map sent on reconnect is released
 before response</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Introducing Kimi K3.1 Pro on Amazon Bedrock</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Foundational (100)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</ReferenceURL>
+    <SummaryPayload>The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every findi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Announcements</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</ReferenceURL>
+    <SummaryPayload>When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matte</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Bedrock AgentCore, Customer Solutions, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/</ReferenceURL>
+    <SummaryPayload>Learn how Trovata built autonomous treasury agents on Amazon Bedrock and Amazon Bedrock AgentCore, using an RBAC-secured architecture for bank-branded AI deployment and agentic workflows that move corporate treasury from manual operations to real-time decision-making at enterprise scale.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Tata Consultancy Services (TCS) built an agentic test orchestrator on Amazon Bedrock AgentCore that turns requirements into executable, governed tests for its Banking, Financial Services, and Insurance (BFSI) clients. Learn how specialized agents, per-tenant isolation, and workload-aware execution c</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Amazon Bedrock tokenomics data lake</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/</ReferenceURL>
+    <SummaryPayload>Running Amazon Bedrock across many accounts shows you the bill but not what happened inside each call. This post builds a centralized observability data lake that aggregates Bedrock invocation logs from every linked account into one queryable table, so you can see prompts, token counts, model choice</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Self-service regional failover with Amazon Application Recovery Controller Region Switch and centralized ingress controls</Title>
+    <ExtractedTags>Advanced (300), Amazon Application Recovery Controller (ARC), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/self-service-regional-failover-with-amazon-application-recovery-controller-region-switch-and-centralized-ingress-controls/</ReferenceURL>
+    <SummaryPayload>Application teams in regulated enterprises can execute self-service regional failover with Amazon Application Recovery Controller (ARC) Region Switch, even behind centrally managed ingress proxy fleets. Learn how Transit Gateway peering, Route 53 Private Hosted Zones, and VPC Lattice preserve securi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations</Title>
+    <ExtractedTags>ML Applications</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Your algorithm is a suite of AI-powered tools that makes Facebook recommendations more transparent and steerable, with a single editable view of the interests that shape Feed and Reels. We’re sharing how Your algorithm turns people’s natural language preferences into responsive recommendations, a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Meta Engineering</Source>
+    <Title>How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale</Title>
+    <ExtractedTags>DevInfra, ML Applications, Open Source, Production Engineering</ExtractedTags>
+    <ReferenceURL>https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&amp;#8217;s productive programming model.  TLX introduces explicit warp-group and cluster-level orchestration, letting developers adopt new hardware capabilities without</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Customer support is the gnarliest AI problem</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/</ReferenceURL>
+    <SummaryPayload>Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations helps engineers balance latency against accuracy, and the ways in which AI coding tools demand an even higher le</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Fragments: November 10</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/fragments/2026-11-10.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;It’s that time of the year when the &lt;a href=&quot;https://www.thoughtworks.com/radar&quot;&gt;November Thoughtworks Technology Radar&lt;/a&gt; appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled together a summary of what’s popped up in the last six</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Long-horizon agents and durable execution</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/articles/durable-execution-agents.html</ReferenceURL>
+    <SummaryPayload>&lt;div class=&quot;img-link&quot;&gt;&lt;a href=&quot;https://martinfowler.com/articles/durable-execution-agents.html&quot;&gt;&lt;img src=&quot;https://martinfowler.com/articles/durable-execution-agents/card.png&quot; width=&quot;350px&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Long-horizon agents can automate complex tasks that take days or weeks
+     to complete and in</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Makes Basin Serverless Analytics Generally Available</Title>
+    <ExtractedTags>Cloud, Cloudflare, SQL, Data Analytics, Apache Iceberg, Data Portability, Architecture &amp; Design, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/cloudflare-basin-analytics/en/headerimage/generatedHeaderImage-1792696674786.jpg&quot; /&gt;&lt;p&gt;Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Finds that Technical Debt Can Derail Coding Agents Through &quot;Agent Distraction&quot;</Title>
+    <ExtractedTags>AI coding agents, Technical Debt, Google, Large language models, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-agent-distraction/en/headerimage/google-agetn-distraction-1794330388187.jpeg&quot; /&gt;&lt;p&gt;In a recent article, Google senior staff software engineer Sam Saccone and senior staff data scientist Madhuri Garikapati highlighted the cost of agent distraction,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Pinterest and Intel Take Open-Source Profiling to Internet Scale</Title>
+    <ExtractedTags>Code Generation, Open Source, Profilers, Code Profiler, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/pinterest-intel-profiling/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/pinterest-intel-profiling/en/headerimage/generatedHeaderImage-1793692423906.jpg&quot; /&gt;&lt;p&gt;Pinterest has partnered with Intel to extend gProfiler, an open-source continuous profiler that provides production performance visibility across an internet-scale fleet</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience</Title>
+    <ExtractedTags>Machine Learning, Resilience, QCon AI Boston 2026, Model Context Protocol (MCP), Transcripts, Batch Processing, Large language models, Agents, AI Cost Optimisation, Architecture &amp; Design, Development, AI, ML &amp; Data Engineering, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/scaling-multi-agent-llm-batch/en/mediumimage/AdityaMulik-medium-1793278766506.jpeg&quot; /&gt;&lt;p&gt;Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling p</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: LLM Reliability Layers Under Test: Accuracy, Yield, and the Limits of Verification</Title>
+    <ExtractedTags>Machine Learning, AI Architecture, Reliability, InfoQ Certification Program, Verification, Software Engineering, AI Engineering Certification, Large language models, AI, ML &amp; Data Engineering, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/llm-reliability-layers-limits-accuracy/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/llm-reliability-layers-limits-accuracy/en/headerimage/llm-reliability-layers-limits-accuracy-header-1793873839325.jpg&quot; /&gt;&lt;p&gt;Verification layers sort outputs by trust rather than fixing errors. In a benchmark of six reliability layers, voting and self-correcti</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Cloud Spend Caps Reach General Availability with API and Monthly Resets</Title>
+    <ExtractedTags>Cloud, Google Cloud Platform, Cost Optimization, Google Cloud, Cloud Computing, FinOps, Architecture &amp; Design, Development, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/google-cloud-spend-caps/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-cloud-spend-caps/en/headerimage/generatedHeaderImage-1793609514337.jpg&quot; /&gt;&lt;p&gt;Google Cloud has made spend caps on Cloud Billing Budgets generally available, pausing new usage of a service in a project once a monthly budget is hit, without deleting r</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Effect 4.0 Ships: Dependency-Free Rewrite with 5x Smaller Bundles and Long-Term Support</Title>
+    <ExtractedTags>JavaScript, Web Development, TypeScript, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/effect-4-0-release/en/headerimage/generatedHeaderImage-1794245718049.jpg&quot; /&gt;&lt;p&gt;Effect 4.0, a TypeScript framework for typed errors and structured concurrency, was released on 30 September 2026 with a rewritten fiber runtime. The team reports a bundle size</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Scikit-Learn Matched or Beat Jev's Calibration on BANKING77</Title>
+    <ExtractedTags>LLM Applications, Jev, Llm Applications, Model Calibration, Editor's Picks, Llm</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/scikit-learn-matched-or-beat-jevs-calibration-on-banking77/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Jev needs no training and at most three examples per intent; the open rebuild needs labels. Both still fall into the none-of-the-above trap.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/scikit-learn-matched-or-beat-jevs-calibration-on-banking77/&quot;&gt;Scikit-Learn Matched or Beat Jev's Cali</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Testing, Test Automation, Editor's Picks, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A software tester ran six testing skills on Haiku, Sonnet, and Opus; pushy descriptions added only 5 points, and near-miss requests never fired a skill.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/&quot;&gt;A Session-Start Hoo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Validate LLM Output in a DuckDB and dbt Pipeline</Title>
+    <ExtractedTags>Large Language Models, Llmops, Dbt, Duckdb, Llm Evaluation, Llm</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A Gemini Flash-Lite step pulls skills, seniority, and Nigeria eligibility from 18 RemoteOK postings, with Python checks and dbt tests guarding every answer.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/&quot;&gt;How to Validate LLM Output</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff</Title>
+    <ExtractedTags>Agentic AI, Github Copilot, Software Engineering, LLM Agents, Editor's Picks, AI coding assistants</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A guard on negative enrollment days looked correct while the function it called overbilled a customer 11 days, and an invariant test would have caught it.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/&quot;&gt;Copilot Caught 8</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
