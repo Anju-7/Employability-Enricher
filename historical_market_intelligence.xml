@@ -156570,4 +156570,193 @@ before response</SummaryPayload>
     <SummaryPayload>&lt;p&gt;Trained on six PathMNIST tissues with a small KEEP adapter, it handled added labels without retraining, though a linear classifier hit 88% on familiar ones.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-jev-of-all-trades-build-and-train-a-jev-style-decision-model-from-scratch/&quot;&gt;A Jev</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Modular regression testing framework built on AWS for large-scale systems</Title>
+    <ExtractedTags>Expert (400), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/modular-regression-testing-framework-built-on-aws-for-large-scale-systems/</ReferenceURL>
+    <SummaryPayload>Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a sample of production traffic against new code and automatically gates deployments on the fraction of</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Scale distributed AI workloads with Ray and Anyscale on Amazon EC2</Title>
+    <ExtractedTags>Amazon EC2, Intermediate (200), Thought Leadership</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/scale-distributed-ai-workloads-with-ray-and-anyscale-on-amazon-ec2/</ReferenceURL>
+    <SummaryPayload>Building multimodal AI/ML pipelines on Amazon EC2 means scaling distributed compute, controlling costs across stages, and keeping up with new models and hardware. This post shows how the Ray-powered Anyscale application on AWS helps you deploy Ray across three compute options and scale from prototyp</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Inside an enterprise AI agent: A governed, observable loop architecture</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/inside-an-enterprise-ai-agent-a-governed-observable-loop-architecture/</ReferenceURL>
+    <SummaryPayload>This post lays out a five-layer reference architecture for governed, observable enterprise AI agents on AWS: an API gateway, a five-phase agent runtime, a knowledge and state tier, platform services, and a cross-cutting trust and control framework. Each layer maps to managed AWS services, with the d</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Deploy frontier AI models on AWS Trainium with SGLang-Neuron</Title>
+    <ExtractedTags>Advanced (300), Amazon EC2, Announcements, AWS Trainium</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/</ReferenceURL>
+    <SummaryPayload>SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Four Amazon Bedrock inference choices that affect cost</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Best Practices</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/</ReferenceURL>
+    <SummaryPayload>Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, AWS Budgets, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/</ReferenceURL>
+    <SummaryPayload>Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Optimizing cost per task and proving agent ROI on Amazon Bedrock</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/</ReferenceURL>
+    <SummaryPayload>Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Building a self-service LLM gateway with Amazon Bedrock and LiteLLM</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/</ReferenceURL>
+    <SummaryPayload>Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Run agents securely and efficiently with the next generation AgentCore runtime</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Announcements, Foundational (100)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/</ReferenceURL>
+    <SummaryPayload>AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent</Title>
+    <ExtractedTags>Amazon Bedrock, Amazon Bedrock Knowledge Bases, Intermediate (200), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/</ReferenceURL>
+    <SummaryPayload>The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Build composable, interoperable multi-agent systems with A2A on AWS</Title>
+    <ExtractedTags>Advanced (300), Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/</ReferenceURL>
+    <SummaryPayload>Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Amazon Bedrock Knowledge Bases, Technical How-to</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/</ReferenceURL>
+    <SummaryPayload>Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control. A request interceptor injects verified identity, Policy in AgentCore validates it independently, and a resource-based policy restrict</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>From prototype to production: Engineering agents with Agent DLC</Title>
+    <ExtractedTags>Amazon Bedrock AgentCore, Best Practices, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/</ReferenceURL>
+    <SummaryPayload>Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycl</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>How do you hire a human? Q&amp;A with Tom Harvey, Stack Overflow technical recruiter</Title>
+    <ExtractedTags>qa, developer-story, developer-hiring, se-tech, se-stackoverflow</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/</ReferenceURL>
+    <SummaryPayload>Everybody&amp;#x27;s resume is perfect now, so how do you find the perfect teammate?</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Martin Fowler</Source>
+    <Title>Bliki: Generated Glossary</Title>
+    <ExtractedTags>bliki</ExtractedTags>
+    <ReferenceURL>https://martinfowler.com/bliki/GeneratedGlossary.html</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;When we use LLMs in a specialized domain, such as the operations of any
+  reasonably-large organization, there is a lot of specialized vocabulary. Such
+  words and specialized meanings will be foreign to an LLM because they aren't
+  in its training set, making it harder for the LLM to be effectiv</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Technical Debt is Social; it is the Price of Learning by Doing</Title>
+    <ExtractedTags>Technical Debt, GOTO Conference, Sociotechnical Architecture, Artificial Intelligence, Software Engineering, Collaboration, Agentic Development Lifecycle, learning, Culture &amp; Methods, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/tech-debt-learning-doing/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/tech-debt-learning-doing/en/headerimage/header-1794404225270.jpg&quot; /&gt;&lt;p&gt;Technical debt is not necessarily a sign of poor engineering. It can be the price of learning through software in use. As AI accelerates code production beyond our capacity to understa</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector</Title>
+    <ExtractedTags>Transcripts, AI Interpretability, Responsibility, Agents, Governance, QCon AI Boston 2026, AI Architecture, Large language models, Explainable AI, Development, Architecture &amp; Design, AI, ML &amp; Data Engineering, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/explainable-ai-llm-agent-decisions/en/mediumimage/HannesHapke-medium-1793278895069.jpeg&quot; /&gt;&lt;p&gt;Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Azure Logic Apps Standard Gets a Local CLI in Preview</Title>
+    <ExtractedTags>Azure, Agents, CLI, Visual Studio Code, Low Code, Cloud, LogicApps, Development, Architecture &amp; Design, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/logic-apps-local-cli/en/headerimage/generatedHeaderImage-1793791837422.jpg&quot; /&gt;&lt;p&gt;Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector managem</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs</Title>
+    <ExtractedTags>Python, Artificial Intelligence, Google Cloud, Hardware, Large language models, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/google-tpu-sync/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-tpu-sync/en/headerimage/generatedHeaderImage-1794402814105.jpg&quot; /&gt;&lt;p&gt;Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network.&lt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Author Q+A: finprim is a Case for One Financial Validation Library in TypeScript</Title>
+    <ExtractedTags>Web Development, TypeScript, Validation, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/finprim-validation-qanda/en/headerimage/generatedHeaderImage-1793961374899.jpg&quot; /&gt;&lt;p&gt;finprim is an MIT-licensed TypeScript library that offers IBAN, BIC, card, sort code, VAT, routing number and loan functions through one API with no runtime dependencies.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>LinkedIn Replaces Argo CD with a Custom GitOps Engine for Kubernetes Deployments</Title>
+    <ExtractedTags>Argo CD, Continuous Deployment, Kubernetes, LinkedIn, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/kubernetes-argocd-linkedin/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/kubernetes-argocd-linkedin/en/headerimage/generatedHeaderImage-1794414453878.jpg&quot; /&gt;&lt;p&gt;In a recent post, LinkedIn revealed it has replaced Argo CD with its own GitOps engine. This new system deploys applications across over 250 Kubernetes clusters. It sup</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M</Title>
+    <ExtractedTags>Large Language Models, Information Retrieval, Rag, Llm, Embeddings, Llm Evaluation</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/rag-retrieval-lost-40-points-when-distracting-passages-grew-to-268m/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A reproducible test of BM25, embeddings, and parent documents shows why author-written evals overrate search, and why answer position in context matters.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/rag-retrieval-lost-40-points-when-distracting-passages-grew-to-268m/&quot;&gt;RAG Retrieval Los</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>I Mutation-Tested 50 Python Libraries. Tests in the Young Ones Missed 41% of Planted Faults.</Title>
+    <ExtractedTags>Agentic AI, Software Testing, AI Agents, LLM Engineering, Quality Assessment, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/i-mutation-tested-50-python-libraries-tests-in-the-young-ones-missed-41-of-planted-faults/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Across 2,312 planted faults the study also surfaced four real library problems, from a Windows data-loss bug to README examples that do not work as written.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-mutation-tested-50-python-libraries-tests-in-the-young-ones-missed-41-of-planted-f</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Soft-Label MNIST Testbed for Human vs. Model Confidence</Title>
+    <ExtractedTags>Machine Learning, Mnist, Uncertainty Quantification, Computer Vision, Uncertainty Estimation, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-soft-label-mnist-testbed-for-human-vs-model-confidence/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Annotators marked each MNIST and Mukhoti digit yes, no, or unsure, producing image-level soft labels and uncertainty scores.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-soft-label-mnist-testbed-for-human-vs-model-confidence/&quot;&gt;A Soft-Label MNIST Testbed for Human vs. Model Confidence</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Read Cross Pair Correlation in R Without Fake Repulsion (Part 3)</Title>
+    <ExtractedTags>Data Science, Spatial Analysis, Neuroscience, Bayesian Statistics, R Programming, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-read-cross-pair-correlation-in-r-without-fake-repulsion-part-3/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A simulated scar and data from 31 animals after ischemia show how an inhomogeneous estimator, random labelling, and brms separate tissue loss from real interaction.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-read-cross-pair-correlation-in-r-without-fake-repulsion-part-3/&quot;&gt;How</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>

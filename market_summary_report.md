@@ -1,18 +1,18 @@
 # Market Intelligence Consolidation Report
-*Generated: 2026-11-12T05:47:04.630280*
+*Generated: 2026-11-13T05:05:16.645759*
 
-**Total Tracked Trends:** 19658
+**Total Tracked Trends:** 19684
 
 ## Top Sources
 - **ArXiv AI**: 9630 articles
 - **ArXiv LG**: 7434 articles
 - **ArXiv ML**: 1480 articles
-- **InfoQ**: 361 articles
-- **AWS Machine Learning**: 244 articles
-- **Towards Data Science**: 223 articles
-- **Stack Overflow Blog**: 57 articles
+- **InfoQ**: 367 articles
+- **AWS Machine Learning**: 255 articles
+- **Towards Data Science**: 227 articles
+- **Stack Overflow Blog**: 58 articles
 - **New Relic Blog**: 57 articles
-- **AWS Architecture**: 50 articles
+- **AWS Architecture**: 53 articles
 - **Netflix Tech Blog**: 29 articles
 
 ## Top Extracted Tags
