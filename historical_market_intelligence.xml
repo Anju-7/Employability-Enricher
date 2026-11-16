@@ -160972,4 +160972,41 @@ Abstract: Ambient artificial intelligence (AI) scribes have moved rapidly from e
     <SummaryPayload>&lt;p&gt;Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/&quot;&gt;Data From 100+ AI Agents</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle</Title>
+    <ExtractedTags>Security, Agents, AI Security, Uber, Architecture &amp; Design, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/uber-secure-ai-framework/en/headerimage/uber-open-search-semantic-1794769460527.jpeg&quot; /&gt;&lt;p&gt;In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over externa</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Anthropic Outlines its AI-Powered Code Review Process for Claude Code</Title>
+    <ExtractedTags>Claude, Code Reviews, Agents, AI coding agents, Anthropic, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/claude-code-review/en/headerimage/generatedHeaderImage-1794735663601.jpg&quot; /&gt;&lt;p&gt;Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated v</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Cloudflare Introduces Private Origins for Application Services</Title>
+    <ExtractedTags>CDN, Network Security, Cloudflare, Cloud, Application Security, Architecture &amp; Design, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/cloudflare-private-origins/en/headerimage/generatedHeaderImage-1793395278236.jpg&quot; /&gt;&lt;p&gt;Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>A Practitioner's Guide to 6 Agentic GraphRAG Patterns</Title>
+    <ExtractedTags>Large Language Models, Agentic GraphRAG, Graphrag, Llm, Rag, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;How autonomous agents turn static knowledge graphs into living Context Graphs that remember decisions, user intent, and operational history&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/&quot;&gt;A Practitioner's Guide to 6 Agentic GraphRAG P</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Computing Effective Dimension for Quantum ML Models in PyTorch</Title>
+    <ExtractedTags>Machine Learning, Quantum Machine Learning, Quantum Computing, Statistics, Deep Learning, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/computing-effective-dimension-for-quantum-ml-models-in-pytorch/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Local and global variants, Fisher estimation, epsilon-ball sampling, and log-space stability, with PennyLane code and a time-series experiment.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/computing-effective-dimension-for-quantum-ml-models-in-pytorch/&quot;&gt;Computing Effective Dimension fo</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
