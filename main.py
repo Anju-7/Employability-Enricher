@@ -6,6 +6,7 @@ import ssl
 import nltk
 import numpy as np
 import pypdf
+import requests
 import torch
 import torch.nn as nn
 from dotenv import load_dotenv
@@ -13,10 +14,12 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer, util
 
-# Secure environment variables
+# ==========================================
+# 1. ENVIRONMENT & SSL / NLTK SETUP
+# ==========================================
 load_dotenv()
 
-# Bypass SSL issues for NLTK
+# Bypass SSL certificate verification for NLTK package downloads
 try:
     _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
@@ -24,12 +27,13 @@ except AttributeError:
 else:
     ssl._create_default_https_context = _create_unverified_https_context
 
+# Ensure required NLTK resources are available
 nltk.download("punkt", quiet=True)
 nltk.download("punkt_tab", quiet=True)
 nltk.download("stopwords", quiet=True)
 
-
-app = FastAPI()
+# Initialize FastAPI application
+app = FastAPI(title="Employability Enricher MLOps Engine")
 
 app.add_middleware(
     CORSMiddleware,
@@ -45,7 +49,9 @@ KEYWORD_METADATA_PATH = os.path.join(BASE_DIR, "keyword_metadata.json")
 WEIGHTS_PATH = os.path.join(BASE_DIR, "deep_scorer_weights.pth")
 
 
-# Deep Scorer Definition
+# ==========================================
+# 2. DEEP LEARNING MODEL ARCHITECTURE
+# ==========================================
 class EmployabilityDeepScorer(nn.Module):
     def __init__(self, input_dim=384, hidden_dim=128):
         super(EmployabilityDeepScorer, self).__init__()
@@ -73,6 +79,8 @@ class EmployabilityDeepScorer(nn.Module):
         return self.fusion_network(fused_context)
 
 
+# Load Transformer Embedder and PyTorch Scorer Model
+print("[*] Loading SentenceTransformer Engine...")
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 deep_model = EmployabilityDeepScorer(input_dim=384, hidden_dim=128)
 
@@ -82,15 +90,15 @@ if os.path.exists(WEIGHTS_PATH):
             torch.load(WEIGHTS_PATH, map_location=torch.device("cpu"))
         )
         deep_model.eval()
-        print(f"[+] Loaded weights from {WEIGHTS_PATH}")
+        print(f"[+] Loaded deep scorer weights from: {WEIGHTS_PATH}")
     except Exception as e:
-        print(f"[!] Warning loading PyTorch weights: {e}")
+        print(f"[!] Warning: Failed to load PyTorch weights: {e}")
+else:
+    print(f"[!] Warning: PyTorch weights file not found at {WEIGHTS_PATH}")
 
 
 def load_keyword_db():
-    if os.path.exists(KEYWORD_VECTORS_PATH) and os.path.exists(
-        KEYWORD_METADATA_PATH
-    ):
+    if os.path.exists(KEYWORD_VECTORS_PATH) and os.path.exists(KEYWORD_METADATA_PATH):
         vectors = np.load(KEYWORD_VECTORS_PATH)
         with open(KEYWORD_METADATA_PATH, "r", encoding="utf-8") as f:
             meta = json.load(f)
@@ -98,10 +106,17 @@ def load_keyword_db():
     return None, [], None
 
 
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+
+
+# ==========================================
+# 3. FASTAPI RESUME INFERENCE ROUTE
+# ==========================================
 @app.post("/api/analyze-resume")
 async def analyze_resume(file: UploadFile = File(...)):
-    print(f"\n---> Text Processing Resume Stream: {file.filename}")
+    print(f"\n---> Processing Resume Stream: {file.filename}")
 
+    # Step 1: Safely read bytes and parse text from PDF
     try:
         contents = await file.read()
         reader = pypdf.PdfReader(io.BytesIO(contents))
@@ -111,21 +126,28 @@ async def analyze_resume(file: UploadFile = File(...)):
         raw_text = " ".join(extracted_pages)
 
         if not raw_text.strip():
+            print("[!] Empty PDF content extracted.")
             return {
                 "status": "ERROR",
                 "score": 0,
+                "alignmentScore": 0,
+                "overall_score": 0,
                 "message": "Empty PDF content.",
             }
     except Exception as err:
+        print(f"[!] PDF Parsing Error: {err}")
         return {
             "status": "ERROR",
             "score": 0,
+            "alignmentScore": 0,
+            "overall_score": 0,
             "message": f"PDF parse error: {str(err)}",
         }
 
-    # Clean text
+    # Step 2: Clean and tokenize into sentences
     clean_text = re.sub(r"\s+", " ", raw_text).strip()
     sentences = nltk.sent_tokenize(clean_text)
+    print(f"[+] Parsed {len(sentences)} sentence chunks from resume.")
 
     keyword_vectors, keywords, importance_weights = load_keyword_db()
 
@@ -134,10 +156,8 @@ async def analyze_resume(file: UploadFile = File(...)):
     feature_scores = {}
 
     if keyword_vectors is not None and len(keywords) > 0:
-        # Encode individual sentences rather than entire document blob
-        sentence_embeddings = embedder.encode(
-            sentences, convert_to_numpy=True
-        )
+        # Sentence-level embedding computation
+        sentence_embeddings = embedder.encode(sentences, convert_to_numpy=True)
 
         match_scores = []
         total_weight = np.sum(importance_weights)
@@ -146,19 +166,17 @@ async def analyze_resume(file: UploadFile = File(...)):
             kw_vec = keyword_vectors[idx]
             weight = importance_weights[idx]
 
-            # 1. Exact string search
+            # Exact keyword string search
             pattern = re.compile(rf"\b{re.escape(kw)}\b", re.IGNORECASE)
             has_exact = bool(pattern.search(clean_text))
 
-            # 2. Maximum sentence semantic match score
-            sentence_sims = util.cos_sim(kw_vec, sentence_embeddings)[
-                0
-            ].numpy()
+            # Max sentence semantic similarity match score
+            sentence_sims = util.cos_sim(kw_vec, sentence_embeddings)[0].numpy()
             max_semantic_score = (
                 float(np.max(sentence_sims)) if len(sentence_sims) > 0 else 0.0
             )
 
-            # Combined match score (100% if exact word found, else max sentence similarity)
+            # Assign score (1.0 for exact term found, otherwise max sentence match)
             if has_exact:
                 effective_score = 1.0
             else:
@@ -172,22 +190,20 @@ async def analyze_resume(file: UploadFile = File(...)):
             else:
                 detected_gaps.append(kw)
 
-        # Calibrated Score Calculation based on keyword density & alignment
+        # Calculate calibrated density ratio (bounded between 30% and 98%)
         raw_ratio = sum(match_scores) / total_weight if total_weight > 0 else 0
-        overall_score = round(min(98.0, max(25.0, raw_ratio * 100)), 1)
+        overall_score = round(min(98.0, max(30.0, raw_ratio * 100)), 1)
     else:
         overall_score = 75.0
-        verified_skills = ["Python", "FastAPI"]
-        detected_gaps = ["Kubernetes", "Docker"]
+        verified_skills = ["Python", "FastAPI", "API Design"]
+        detected_gaps = ["Kubernetes", "MLOps", "Docker"]
 
-    # Deep Model Blend
+    # Step 3: Blend PyTorch Deep Scorer predictions if weights exist
     if os.path.exists(WEIGHTS_PATH) and keyword_vectors is not None:
         try:
             with torch.no_grad():
                 res_vec = embedder.encode(clean_text, convert_to_numpy=True)
-                res_tensor = (
-                    torch.from_numpy(res_vec).unsqueeze(0).float()
-                )
+                res_tensor = torch.from_numpy(res_vec).unsqueeze(0).float()
                 dummy_drift = (
                     torch.from_numpy(keyword_vectors.mean(axis=0))
                     .unsqueeze(0)
@@ -195,20 +211,29 @@ async def analyze_resume(file: UploadFile = File(...)):
                 )
                 deep_out = deep_model(res_tensor, dummy_drift, dummy_drift)
                 deep_score = round(float(deep_out.item() * 100), 1)
+
+                # 60% NLTK/Sentence Vector Match + 40% PyTorch Neural Weights
                 overall_score = round((overall_score * 0.6) + (deep_score * 0.4), 1)
+                print(f"[+] Blended PyTorch Deep Score: {deep_score}% -> Overall: {overall_score}%")
         except Exception as e:
-            print(f"[!] Deep scoring error: {e}")
+            print(f"[!] Deep scoring evaluation error: {e}")
 
-    recommendations = [
-        {
-            "skill": gap,
-            "title": f"Mastering {gap} for MLOps & Production",
-            "searchUrl": f"https://www.youtube.com/results?search_query={gap.replace(' ', '+')}+tutorial",
-            "thumbnail": "https://img.youtube.com/vi/s3JldKoA0zw/hqdefault.jpg",
-        }
-        for gap in detected_gaps[:3]
-    ]
+    # Step 4: Generate YouTube remediation paths for skill gaps
+    recommendations = []
+    target_gaps = detected_gaps[:3] if detected_gaps else ["MLOps", "Cloud Native"]
 
+    for gap in target_gaps:
+        recommendations.append(
+            {
+                "skill": gap,
+                "title": f"Mastering {gap} for MLOps & Production",
+                "videoId": "",
+                "searchUrl": f"https://www.youtube.com/results?search_query={gap.replace(' ', '+')}+tutorial",
+                "thumbnail": "https://img.youtube.com/vi/s3JldKoA0zw/hqdefault.jpg",
+            }
+        )
+
+    # Multi-Key payload ensures dashboard UI compatibility
     return {
         "status": "SUCCESS",
         "score": overall_score,
@@ -216,8 +241,8 @@ async def analyze_resume(file: UploadFile = File(...)):
         "alignmentScore": overall_score,
         "overallAlignment": overall_score,
         "sentences_parsed": len(sentences),
-        "exactMatches": verified_skills,
-        "gaps": detected_gaps,
+        "exactMatches": verified_skills[:8],
+        "gaps": detected_gaps[:4],
         "featureScores": feature_scores,
         "recommendations": recommendations,
     }
