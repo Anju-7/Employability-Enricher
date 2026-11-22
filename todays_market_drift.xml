@@ -1,5 +1,68 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-11-21" record_count="80" status="SUCCESS">
+<MarketIngestion date="2026-11-22" record_count="76" status="SUCCESS">
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How Bee implemented Zero Operator Access for personal AI on AWS</Title>
+    <ExtractedTags>Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/</ReferenceURL>
+    <SummaryPayload>Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS</Title>
+    <ExtractedTags>Advanced (300), Amazon EC2 Mac Instances, Compute, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/</ReferenceURL>
+    <SummaryPayload>Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and a</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How Country Road Group built a pattern-driven integration solution on AWS</Title>
+    <ExtractedTags>Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/</ReferenceURL>
+    <SummaryPayload>Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own mid</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda</Title>
+    <ExtractedTags>Advanced (300), AWS Lambda, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/aderant-modernizes-analytics-data-pipeline-with-apache-iceberg-and-aws-lambda/</ReferenceURL>
+    <SummaryPayload>Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven medallion architecture that processes change data capture events in single-digit seconds for 700 tenants, wi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How United Airlines streams database changes to Apache Iceberg with Amazon Data Firehose</Title>
+    <ExtractedTags>Amazon Data Firehose, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-united-airlines-streams-database-changes-to-apache-iceberg-with-amazon-data-firehose/</ReferenceURL>
+    <SummaryPayload>United Airlines built a near-real-time change data capture pipeline that replicates reference data from Amazon Aurora MySQL to open Apache Iceberg tables using AWS DMS, Amazon Kinesis Data Streams, and Amazon Data Firehose. This post shows how to reproduce the serverless, multi-engine analytics patt</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Resilience testing your agents on Amazon Bedrock AgentCore</Title>
+    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, AWS Fault Injection Service (FIS), Best Practices</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/resilience-testing-your-agents-on-amazon-bedrock-agentcore/</ReferenceURL>
+    <SummaryPayload>When an AI agent's tools fail or return corrupted data, does it fail safe or confidently fabricate an answer? Learn how to inject tool-level faults (cancelled calls, corrupted responses, stripped fields) into a Strands agent on Amazon Bedrock AgentCore using AWS Fault Injection Service, and build th</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>Block DNS threats with Infoblox rules in Amazon Route 53 Resolver DNS Firewall</Title>
+    <ExtractedTags>Amazon Route 53, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/block-dns-threats-with-infoblox-rules-in-amazon-route-53-resolver-dns-firewall/</ReferenceURL>
+    <SummaryPayload>Infoblox Threat Defense is now available in preview in Amazon Route 53 Resolver DNS Firewall, providing partner-managed DNS threat intelligence. Learn how to add an Infoblox managed rule to a rule group, test it in alert mode, monitor matches, and move to blocking.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How Rakbank built centralized observability at scale with Amazon OpenSearch Service</Title>
+    <ExtractedTags>Advanced (300), Amazon OpenSearch Service, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service/</ReferenceURL>
+    <SummaryPayload>Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using hot/UltraWarm/cold tiering and Amazon S3 archival for 7-year compliance retention and ~55% cost savings over an all-</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Meta ads is now available in AWS Quick</Title>
+    <ExtractedTags>Announcements, AWS Quick, Foundational (100)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</ReferenceURL>
+    <SummaryPayload>AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, </SummaryPayload>
+  </TrendItem>
   <TrendItem>
     <Source>AWS Machine Learning</Source>
     <Title>New in AWS Quick: More capable flows, an updated web experience, and agents that work together</Title>
@@ -134,76 +197,6 @@
     <SummaryPayload>Cross-Region inference routing in Amazon SageMaker AI gives your application one invocation path across the endpoints and inference components you already run, in one or more AWS Regions and AWS accounts. The router prefers its own Region and shifts new requests to another destination only when the </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Best Practices</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/</ReferenceURL>
-    <SummaryPayload>Learn how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call. Added as a gateway interceptor, Skyflow de-identifies data before any tool, model, or log sees it, and restores it for authorized callers, with no change to your agent code.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Bee implemented Zero Operator Access for personal AI on AWS</Title>
-    <ExtractedTags>Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/</ReferenceURL>
-    <SummaryPayload>Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS</Title>
-    <ExtractedTags>Advanced (300), Amazon EC2 Mac Instances, Compute, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/</ReferenceURL>
-    <SummaryPayload>Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and a</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Country Road Group built a pattern-driven integration solution on AWS</Title>
-    <ExtractedTags>Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/</ReferenceURL>
-    <SummaryPayload>Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own mid</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda</Title>
-    <ExtractedTags>Advanced (300), AWS Lambda, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/aderant-modernizes-analytics-data-pipeline-with-apache-iceberg-and-aws-lambda/</ReferenceURL>
-    <SummaryPayload>Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven medallion architecture that processes change data capture events in single-digit seconds for 700 tenants, wi</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How United Airlines streams database changes to Apache Iceberg with Amazon Data Firehose</Title>
-    <ExtractedTags>Amazon Data Firehose, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-united-airlines-streams-database-changes-to-apache-iceberg-with-amazon-data-firehose/</ReferenceURL>
-    <SummaryPayload>United Airlines built a near-real-time change data capture pipeline that replicates reference data from Amazon Aurora MySQL to open Apache Iceberg tables using AWS DMS, Amazon Kinesis Data Streams, and Amazon Data Firehose. This post shows how to reproduce the serverless, multi-engine analytics patt</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Resilience testing your agents on Amazon Bedrock AgentCore</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, AWS Fault Injection Service (FIS), Best Practices</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/resilience-testing-your-agents-on-amazon-bedrock-agentcore/</ReferenceURL>
-    <SummaryPayload>When an AI agent's tools fail or return corrupted data, does it fail safe or confidently fabricate an answer? Learn how to inject tool-level faults (cancelled calls, corrupted responses, stripped fields) into a Strands agent on Amazon Bedrock AgentCore using AWS Fault Injection Service, and build th</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Block DNS threats with Infoblox rules in Amazon Route 53 Resolver DNS Firewall</Title>
-    <ExtractedTags>Amazon Route 53, Announcements, Intermediate (200)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/block-dns-threats-with-infoblox-rules-in-amazon-route-53-resolver-dns-firewall/</ReferenceURL>
-    <SummaryPayload>Infoblox Threat Defense is now available in preview in Amazon Route 53 Resolver DNS Firewall, providing partner-managed DNS threat intelligence. Learn how to add an Infoblox managed rule to a rule group, test it in alert mode, monitor matches, and move to blocking.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Rakbank built centralized observability at scale with Amazon OpenSearch Service</Title>
-    <ExtractedTags>Advanced (300), Amazon OpenSearch Service, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service/</ReferenceURL>
-    <SummaryPayload>Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using hot/UltraWarm/cold tiering and Amazon S3 archival for 7-year compliance retention and ~55% cost savings over an all-</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Announcing updates to the AWS Well-Architected Framework</Title>
-    <ExtractedTags>Announcements, AWS Well-Architected Framework, Foundational (100)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/</ReferenceURL>
-    <SummaryPayload>Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>Meta Engineering</Source>
     <Title>How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models</Title>
     <ExtractedTags>DevInfra, ML Applications</ExtractedTags>
@@ -216,6 +209,13 @@
     <ExtractedTags>DevInfra, ML Applications</ExtractedTags>
     <ReferenceURL>https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a templ</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Netflix Tech Blog</Source>
+    <Title>Engineering AI Discover</Title>
+    <ExtractedTags>ai-agent, artificial-intelligence, harness-engineering, recommendation-system, llm</ExtractedTags>
+    <ReferenceURL>https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;&lt;em&gt;The challenges and decisions behind AI Discover’s intelligence layer&lt;/em&gt;&lt;/p&gt;&lt;p&gt;By &lt;a href=&quot;https://www.linkedin.com/in/varun-khaitan/&quot;&gt;Varun Khaitan&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/peng-ren-49b88369/&quot;&gt;Peng Ren&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/thegarytang/&quot;&gt;Gary Tang&lt;/a&gt;, &lt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Stack Overflow Blog</Source>
@@ -244,13 +244,6 @@
     <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai, video-games, game-development, game-developer</ExtractedTags>
     <ReferenceURL>https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/</ReferenceURL>
     <SummaryPayload>Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the mod-friendly architecture that turned Doom into a cultural phenomenon, and why the raw creative problem-solving of Q</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Netflix Tech Blog</Source>
-    <Title>Engineering AI Discover</Title>
-    <ExtractedTags>ai-agent, artificial-intelligence, harness-engineering, recommendation-system, llm</ExtractedTags>
-    <ReferenceURL>https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;&lt;em&gt;The challenges and decisions behind AI Discover’s intelligence layer&lt;/em&gt;&lt;/p&gt;&lt;p&gt;By &lt;a href=&quot;https://www.linkedin.com/in/varun-khaitan/&quot;&gt;Varun Khaitan&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/peng-ren-49b88369/&quot;&gt;Peng Ren&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/thegarytang/&quot;&gt;Gary Tang&lt;/a&gt;, &lt;</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Martin Fowler</Source>
@@ -284,108 +277,124 @@
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
+    <Title>Grafana 13.3 Adds Shared Dashboard Variables and Notebooks</Title>
+    <ExtractedTags>Observability, Monitoring Tools, Monitoring, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grafana-13-3-shared-variables/en/headerimage/header-1795209346746.jpeg&quot; /&gt;&lt;p&gt;Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-m</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Scaling Tech by Aligning Humans</Title>
+    <ExtractedTags>QCon San Francisco 2026, Software Development, AI coding agents, Culture &amp; Methods, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/scalling-tech-humans/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/scalling-tech-humans/en/headerimage/generatedHeaderImage-1795181753113.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy.&lt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug</Title>
+    <ExtractedTags>Networking, Linux, TCP, Site Reliability Engineering, Kubernetes, Google Cloud, Infrastructure, DevOps, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/gke-kernel-network-bug/en/headerimage/generatedHeaderImage-1794082671635.jpg&quot; /&gt;&lt;p&gt;Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
     <Title>Meta TLX, a Native GPU Compiler Extension Supporting Advanced Hardware Capabilities</Title>
-    <ExtractedTags>GPU, Large language models, PyTorch, Facebook, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ExtractedTags>Large language models, Facebook, PyTorch, GPU, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/en/headerimage/meta-java-kotlin-port-1795195032767.jpeg&quot; /&gt;&lt;p&gt;Meta developed Triton Low-Level Extensions (TLX), designed to bridge the gap between high-level GPU programming abstractions and the low-level execution control req</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS</Title>
-    <ExtractedTags>GarbageCollection, Optimization, Caching, Performance Tuning, Concurrency, Distributed Systems, Memory, Uber, Go Language, Low Latency, Hybrid Work, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>GarbageCollection, Performance Tuning, Low Latency, Hybrid Work, Optimization, Go Language, Memory, Distributed Systems, Uber, Concurrency, Caching, Development, Architecture &amp; Design, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100 microseconds. The hyb</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale</Title>
-    <ExtractedTags>Containers, AI coding agents, AIOps, Kubernetes, Cloud Native Computing Foundation, DevOps, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ExtractedTags>Containers, AIOps, Cloud Native Computing Foundation, Kubernetes, AI coding agents, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-substrate-gvisor-cncf/en/headerimage/generatedHeaderImage-1794408775099.jpg&quot; /&gt;&lt;p&gt;Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infra</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise</Title>
-    <ExtractedTags>Digital Transformation, Cloud Computing, Leadership, Enterprise Architecture, Transcripts, Platform Engineering, QCon London 2026, Edge Computing, DevOps, Architecture &amp; Design, Culture &amp; Methods, presentation</ExtractedTags>
+    <ExtractedTags>Enterprise Architecture, Digital Transformation, Transcripts, Platform Engineering, Cloud Computing, Edge Computing, QCon London 2026, Leadership, DevOps, Architecture &amp; Design, Culture &amp; Methods, presentation</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/presentations/tesco-enterprise-tech-transformation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/tesco-enterprise-tech-transformation/en/mediumimage/JayeshBhayani-medium-1792654742095.jpg&quot; /&gt;&lt;p&gt;Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how align</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>QCon San Francisco 2026: The Future of Apache Iceberg</Title>
-    <ExtractedTags>Data Analytics, Open Source, Apache Iceberg, Apache Spark, Data Lake, QCon San Francisco 2026, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Data Analytics, QCon San Francisco 2026, Apache Iceberg, Apache Spark, Data Lake, Open Source, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/iceberg-v4-metadata/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/iceberg-v4-metadata/en/headerimage/generatedHeaderImage-1795116071082.jpg&quot; /&gt;&lt;p&gt;Apache Iceberg V4 proposes a redesign of table metadata to improve scalability and support more frequent writes, alongside new capabilities for data management and schema evol</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Article: Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover</Title>
-    <ExtractedTags>Routing, Cloud, Architecture, Cloud Computing, Observability, Site Reliability Engineering, DevOps, Development, Architecture &amp; Design, article</ExtractedTags>
+    <ExtractedTags>Routing, Observability, Site Reliability Engineering, Cloud Computing, Architecture, Cloud, DevOps, Development, Architecture &amp; Design, article</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/articles/observability-control-plane-failover/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/observability-control-plane-failover/en/headerimage/header-1795002929606.jpg&quot; /&gt;&lt;p&gt;Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated </SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>AWS Releases a Free Local Emulator of AWS Built Entirely by Agents</Title>
-    <ExtractedTags>Cloud, Developer Experience, Amazon Web Services, Testing, AWS, Agents, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ExtractedTags>Agents, Amazon Web Services, AWS, Testing, Cloud, Developer Experience, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-emulator-local-testing/en/headerimage/generatedHeaderImage-1795086946449.jpg&quot; /&gt;&lt;p&gt;AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops o</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Presentation: AI-Assisted Software Delivery: From Code to Production</Title>
-    <ExtractedTags>Automated testing, InfoQ Live - November 2026, Quality, Productivity, AI coding agents, Code Reviews, Architecture, Continuous Delivery, DevSecOps, Transcripts, Governance, Reliability, DevOps, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ExtractedTags>Automated testing, InfoQ Live - November 2026, Code Reviews, Transcripts, DevSecOps, Governance, Reliability, Productivity, Architecture, Continuous Delivery, Quality, AI coding agents, DevOps, Development, Architecture &amp; Design, presentation</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/presentations/ai-assisted-software-delivery/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/ai-assisted-software-delivery/en/mediumimage/infoq-live-medium-1795097572325.jpg&quot; /&gt;&lt;p&gt;The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strateg</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer</Title>
-    <ExtractedTags>Artificial Intelligence, QCon Software Development Conference, Software Development, QCon San Francisco 2026, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ExtractedTags>QCon San Francisco 2026, Artificial Intelligence, Software Development, QCon Software Development Conference, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/ai-staff-engineer/en/headerimage/generatedHeaderImage-1795089716434.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer </SummaryPayload>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/ai-staff-engineer/en/headerimage/generatedHeaderImage-1795089716434.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Jordan Cutler, senior staff engineer and web platform tech lead at Pinterest, presented how the role of a staff engineer changes when every engineer </SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>.NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components</Title>
-    <ExtractedTags>.NET, .NET 11, .NET 10, .NET 9, Development, news</ExtractedTags>
+    <ExtractedTags>.NET, .NET 9, .NET 11, .NET 10, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refresh. Blazor gains a C</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens</Title>
-    <ExtractedTags>GOTO Conference, Measurement, Large language models, Artificial Intelligence, Clean Code, Metrics, AI coding agents, Code Quality, AI Cost Optimisation, Agentic Development Lifecycle, Refactoring, Feedback, Development, Culture &amp; Methods, news</ExtractedTags>
+    <ExtractedTags>Large language models, GOTO Conference, Measurement, Refactoring, Metrics, Feedback, Agentic Development Lifecycle, Artificial Intelligence, AI Cost Optimisation, Clean Code, Code Quality, AI coding agents, Culture &amp; Methods, Development, news</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/news/2026/11/healthy-code-AI-tokens/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/healthy-code-AI-tokens/en/headerimage/header-1794837764807.jpg&quot; /&gt;&lt;p&gt;Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows.  Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping co</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>InfoQ</Source>
     <Title>Presentation: RIIIR: Rewrite It In *Idiomatic* Rust (with AI)</Title>
-    <ExtractedTags>Memory Safety, Machine Learning, Rust, QCon AI Boston 2026, AI coding agents, Model Context Protocol (MCP), Architecture, Transcripts, Extensibility, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ExtractedTags>Memory Safety, Model Context Protocol (MCP), Rust, Machine Learning, Extensibility, Transcripts, Architecture, QCon AI Boston 2026, AI coding agents, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
     <ReferenceURL>https://www.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
     <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/en/mediumimage/NikoMatsakis-medium-1793279155828.jpeg&quot; /&gt;&lt;p&gt;Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He dis</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>NetWasm 0.10 Speeds Up C# on WebAssembly, Now Faster Than Mono AOT</Title>
-    <ExtractedTags>.NET, WebAssembly, Mono, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/NetWasm-0-10-Faster/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/NetWasm-0-10-Faster/en/headerimage/header-1794869319776.jpg&quot; /&gt;&lt;p&gt;Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 be</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>How to Learn Supply Chain Analytics in 2027 with Claude Code</Title>
+    <ExtractedTags>Data Science, Supply Chain Analytics, Supply Chain, Operations Research, Career Advice, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/&quot;&gt;How to Learn Supply Chain</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework</Title>
-    <ExtractedTags>Rust, Native Apps, Performance, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/en/headerimage/generatedHeaderImage-1795054565892.jpg&quot; /&gt;&lt;p&gt;Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project elim</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn</Title>
-    <ExtractedTags>Performance Tuning, Distributed Systems, Apache Spark, Apache Flink, Fault Tolerance, Algorithms, Compression, LinkedIn, Big Data Infrastructure, Big Data, Event Driven Architecture, Cloud Architecture, Apache, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs b</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>Censored vs. Truncated Regression in Python, Explained</Title>
+    <ExtractedTags>Statistics, Data Science, Python, Machine Learning, Editor's Picks, Regression</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/&quot;&gt;Censored vs. Truncated Regression </SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -516,38 +525,6 @@
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-design-mcp-servers-that-leave-orchestration-to-the-host/&quot;&gt;How to Design MCP </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th</Title>
-    <ExtractedTags>Large Language Models, Probability, Cognitive Bias, Statistics, Data Science, Llm</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/after-10-heads-in-a-row-small-llms-bet-up-to-82-on-an-11th/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Telling eight base and instruction-tuned open models that the coin is fair and the flips are independent trims their streak bias by only a few points.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/after-10-heads-in-a-row-small-llms-bet-up-to-82-on-an-11th/&quot;&gt;After 10 Heads in a Row, Smal</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Why Human in the Loop AI Oversight Fails and How to Fix It</Title>
-    <ExtractedTags>Artificial Intelligence, Human In The Loop, Ai Governance, Data Product, Cognitive Bias, Editor's Picks</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/why-human-in-the-loop-ai-oversight-fails-and-how-to-fix-it/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Kahneman's System 1 and System 2, plus the ODPS, ODCS, and Ossie standards, show how to wake reviewers up only when a check fails.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/why-human-in-the-loop-ai-oversight-fails-and-how-to-fix-it/&quot;&gt;Why Human in the Loop AI Oversight Fails and How </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>How to Avoid AI Replacement as an Analytics Professional in 2027</Title>
-    <ExtractedTags>Career Advice, Careers, Data Science, Analytics, Editor's Picks, Artificial Intelligence</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/how-to-avoid-ai-replacement-as-an-analytics-professional-in-2027/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Lessons from manufacturing and logistics projects: follow data from input to output, then turn vague requests into deterministic tools teams trust.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-avoid-ai-replacement-as-an-analytics-professional-in-2027/&quot;&gt;How to Avoid AI Replacemen</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Local LLMs Handle Textbook RAG but Fail on New Research Papers</Title>
-    <ExtractedTags>Large Language Model, RAG, Large Language Models, RAG (Retrieval Augmented Generation), Local LLM Inference</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/local-llms-handle-textbook-rag-but-fail-on-new-research-papers/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Five setups, one blind grading pack: textbook scores ran 12 to 20 of 20, but a paper published this year dropped them to 0 to 9 of 15.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/local-llms-handle-textbook-rag-but-fail-on-new-research-papers/&quot;&gt;Local LLMs Handle Textbook RAG but Fail o</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
     <Source>New Relic Blog</Source>
     <Title>8 Best SNMP Monitoring Tools for IT and DevOps Teams in 2026</Title>
     <ExtractedTags>DevOps</ExtractedTags>
@@ -581,16 +558,5 @@
     <ExtractedTags>Integrations, AI Monitoring, OpenTelemetry, Azure, Distributed Tracing, Partnerships</ExtractedTags>
     <ReferenceURL>https://newrelic.com/blog/ai/new-relic-observability-for-microsoft-foundry</ReferenceURL>
     <SummaryPayload>Bring traces, metrics, and logs from Microsoft Foundry AI agents and models into New Relic using OpenTelemetry, Azure Monitor, and APM agents.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>Scheduling the removal of the kube-proxy IPVS backend</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/11/16/ipvs-removal/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;The &lt;code&gt;ipvs&lt;/code&gt; backend for kube-proxy was an experiment in providing a
-service proxy implementation with better performance than the
-&lt;code&gt;iptables&lt;/code&gt; backend. While it succeeded in that goal, the kernel IPVS
-API has turned out to be a bad match for the Kubernetes Services API,
-and the</SummaryPayload>
   </TrendItem>
 </MarketIngestion>

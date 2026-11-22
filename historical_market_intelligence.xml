@@ -172038,4 +172038,48 @@ Abstract: Vision-language-action (VLA) models adapt web-pretrained vision-langua
     <ReferenceURL>https://newrelic.com/blog/observability/saas-monitoring-tools</ReferenceURL>
     <SummaryPayload>Compare the best SaaS monitoring tools for teams running their own product, from New Relic to Datadog and Dynatrace, and what to look for as you scale.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Meta ads is now available in AWS Quick</Title>
+    <ExtractedTags>Announcements, AWS Quick, Foundational (100)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</ReferenceURL>
+    <SummaryPayload>AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks,</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Grafana 13.3 Adds Shared Dashboard Variables and Notebooks</Title>
+    <ExtractedTags>Observability, Monitoring Tools, Monitoring, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grafana-13-3-shared-variables/en/headerimage/header-1795209346746.jpeg&quot; /&gt;&lt;p&gt;Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-m</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Scaling Tech by Aligning Humans</Title>
+    <ExtractedTags>QCon San Francisco 2026, Software Development, AI coding agents, Culture &amp; Methods, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/scalling-tech-humans/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/scalling-tech-humans/en/headerimage/generatedHeaderImage-1795181753113.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy.&lt;</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug</Title>
+    <ExtractedTags>Networking, Linux, TCP, Site Reliability Engineering, Kubernetes, Google Cloud, Infrastructure, DevOps, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/gke-kernel-network-bug/en/headerimage/generatedHeaderImage-1794082671635.jpg&quot; /&gt;&lt;p&gt;Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Learn Supply Chain Analytics in 2027 with Claude Code</Title>
+    <ExtractedTags>Data Science, Supply Chain Analytics, Supply Chain, Operations Research, Career Advice, Agentic Ai</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/&quot;&gt;How to Learn Supply Chain</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Censored vs. Truncated Regression in Python, Explained</Title>
+    <ExtractedTags>Statistics, Data Science, Python, Machine Learning, Editor's Picks, Regression</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/&quot;&gt;Censored vs. Truncated Regression</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
