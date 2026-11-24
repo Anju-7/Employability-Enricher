@@ -176089,4 +176089,122 @@ Abstract: Long-term memory is essential for personalized agentic systems that in
     <SummaryPayload>arXiv:2611.25760v2 Announce Type: replace-cross 
 Abstract: Coding agents increasingly carry out long-horizon development tasks, autonomously planning and executing multi-step actions that span files, tools, and sessions. Because developers rarely follow each action, and agents resuming the work depe</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>AWS Machine Learning</Source>
+    <Title>Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls</Title>
+    <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/</ReferenceURL>
+    <SummaryPayload>Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data wh</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Agent swarms need more than a message board</Title>
+    <ExtractedTags>podcast, se-tech, se-stackoverflow, ai, agentic-ai</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/</ReferenceURL>
+    <SummaryPayload>Agent swarms are really distributed systems problems in disguise.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Kubernetes Blog</Source>
+    <Title>Kubernetes v1.38 Sneak Peek</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;As we get closer to the release date for Kubernetes v1.38, the project develops and matures,
+features may be deprecated, removed, or replaced with better ones for the project's overall health.
+This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the
+release te</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>AI Math Proofs Aren't Knowledge Until Someone Explains Them</Title>
+    <ExtractedTags>Artificial Intelligence, Philosophy Of Science, Mathematics, Math, Research</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/ai-math-proofs-arent-knowledge-until-someone-explains-them/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;From the Four Color Theorem to OpenAI's October 2026 claims, why computer-checked proofs still need people to explain, test, and extend them.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/ai-math-proofs-arent-knowledge-until-someone-explains-them/&quot;&gt;AI Math Proofs Aren't Knowledge Until</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words</Title>
+    <ExtractedTags>Large Language Models, Probability, Statistics, Data Science, Machine Learning, Llm</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/the-birthday-paradox-shows-small-llms-pick-from-about-6-of-40-words/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Ask the same question 300 times, count the repeats, and solve for N: a few lines of Python that work on any chatbot you can type into.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-birthday-paradox-shows-small-llms-pick-from-about-6-of-40-words/&quot;&gt;The Birthday Paradox Shows Small LLM</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>What a 90% Prompt Cache Hit Rate Hides About Attention Work</Title>
+    <ExtractedTags>Large Language Models, Prompt Caching, LLM Inference, Model Serving, Vllm, Llmops</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/what-a-90-prompt-cache-hit-rate-hides-about-attention-work/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Request hit rate, token reuse, and latency tell different stories; a 2026 preprint found lower 99th-percentile but higher median time to first token.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/what-a-90-prompt-cache-hit-rate-hides-about-attention-work/&quot;&gt;What a 90% Prompt Cache Hit Ra</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI</Title>
+    <ExtractedTags>Software Development Lifecycle, Code Reviews, OpenAI, QCon San Francisco 2026, Web Development, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/qcon-sf-openai-lessons/en/headerimage/generatedHeaderImage-1795453078651.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandbox</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Securing AI Agents in Production</Title>
+    <ExtractedTags>Agents, QCon San Francisco 2026, Eclipse, Digital Identity, AI Security, AI, ML &amp; Data Engineering, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/qcon-ai-agent-security/en/headerimage/header-1795213847070.jpeg&quot; /&gt;&lt;p&gt;At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for run</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures</Title>
+    <ExtractedTags>Swift, SwiftUI, Mobile, GUI, Runtime Analytics, iOS, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/en/headerimage/linkedin-view-agnostic-analytics-1795455502517.jpeg&quot; /&gt;&lt;p&gt;To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28</Title>
+    <ExtractedTags>GarbageCollection, Java, JDK 28, ZGC, JEP, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/jep-545-jdk-28/en/headerimage/generatedHeaderImage-1795265408975.jpg&quot; /&gt;&lt;p&gt;JEP 545, Faster Startup and Warmup with ZGC, has been integrated into JDK 28, moving heap memory preparation onto concurrent worker threads. ZGC now pre-touches memory as it expand</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j</Title>
+    <ExtractedTags>Open JDK, Helidon, Hibernate Reactive, Java, Java Operator SDK, JDK 28, Micrometer, LangChain4j, Azul Payara, BellSoft, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/java-news-roundup-nov16-2026/en/headerimage/java-news-roundup-image-1795447387323.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents</Title>
+    <ExtractedTags>QCon San Francisco 2026, AI coding agents, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/en/headerimage/netflix-header-1200x630-1795359626158.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Agoda Reduces API Code Review Time by 64% with Modular Architecture</Title>
+    <ExtractedTags>Spring, Spring Modulith, Event Driven Architecture, AI Assisted Coding, payment, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/agoda-modular-monolith-framework/en/headerimage/generatedHeaderImage-1793569078425.jpg&quot; /&gt;&lt;p&gt;Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript</Title>
+    <ExtractedTags>Large language models, Claude, Anthropic, Artificial Intelligence, Software Development, JavaScript, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/claude-code-mode/en/headerimage/generatedHeaderImage-1795090945761.jpg&quot; /&gt;&lt;p&gt;Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks re</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Podcast: Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu</Title>
+    <ExtractedTags>The InfoQ Podcast, Simulation, Software Testing, Architecture, Software Development, Architecture &amp; Design, podcast</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/podcasts/simulation-agents-actually-doing/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/simulation-agents-actually-doing/en/smallimage/infoq-podcast-500-1794910149760.jpg&quot; /&gt;&lt;p&gt;Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior respo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Govern Your Observability Spend So Your Teams Can Keep Building</Title>
+    <ExtractedTags>Alerts, Improve Operational Efficiency, Observability, Instrumentation</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/observability/govern-observability-spend</ReferenceURL>
+    <SummaryPayload>Spend is rising and that’s fine if you can see it coming. Learn the four stages of governing New Relic usage: Set Up, Control, Track, and Optimize.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
