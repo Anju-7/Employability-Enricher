@@ -1,8 +1,22 @@
 <?xml version="1.0" ?>
-<MarketIngestion date="2026-11-24" record_count="65" status="SUCCESS">
+<MarketIngestion date="2026-11-25" record_count="55" status="SUCCESS">
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>How Bee implemented Zero Operator Access for personal AI on AWS</Title>
+    <ExtractedTags>Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/</ReferenceURL>
+    <SummaryPayload>Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>AWS Architecture</Source>
+    <Title>AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS</Title>
+    <ExtractedTags>Advanced (300), Amazon EC2 Mac Instances, Compute, Customer Solutions</ExtractedTags>
+    <ReferenceURL>https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/</ReferenceURL>
+    <SummaryPayload>Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and a</SummaryPayload>
+  </TrendItem>
   <TrendItem>
     <Source>AWS Machine Learning</Source>
-    <Title>Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls</Title>
+    <Title>Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models</Title>
     <ExtractedTags>Amazon Bedrock, Announcements, Intermediate (200)</ExtractedTags>
     <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/</ReferenceURL>
     <SummaryPayload>Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data wh</SummaryPayload>
@@ -78,95 +92,25 @@
     <SummaryPayload>Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider and send your first r</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments</Title>
-    <ExtractedTags>Amazon Bedrock AgentCore, AWS Marketplace, Intermediate (200), Technical How-to</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/</ReferenceURL>
-    <SummaryPayload>Amazon Bedrock AgentCore payments now supports AWS Marketplace, so agents can discover and buy x402-enabled products, APIs, data, and content and pay in USD on the developer's AWS bill, with no stablecoin wallets or API keys. This post walks through a research agent that finds a tool, pays per reque</SummaryPayload>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Idempotency when you don't control the other end</Title>
+    <ExtractedTags>cc-by-sa, contributed, api, building-software</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/idempotency-when-you-don-t-control-the-other-end/</ReferenceURL>
+    <SummaryPayload/>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>How the BMW Group governs hundreds of agents across thousands of developers</Title>
-    <ExtractedTags>Automotive, Best Practices, Intermediate (200)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/</ReferenceURL>
-    <SummaryPayload>When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&amp;amp;D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.</SummaryPayload>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Prompt Injection Fixes Need Regression Tests</Title>
+    <ExtractedTags>cc-by-sa, contributed, ai, security</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/</ReferenceURL>
+    <SummaryPayload/>
   </TrendItem>
   <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Run your whole selling business in AWS Quick</Title>
-    <ExtractedTags>Announcements, AWS Quick, Foundational (100)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick/</ReferenceURL>
-    <SummaryPayload>Most sellers do not need another AI product to learn. They need the tools and information they already use brought together, so they can see what is happening in their business and act on it.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints</Title>
-    <ExtractedTags>Advanced (300), Amazon SageMaker AI, Announcements</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/</ReferenceURL>
-    <SummaryPayload>Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternativ</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Inside Amazon Connect Talent: The science of structured AI interviews</Title>
-    <ExtractedTags>Amazon Connect, Announcements, Generative AI</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/inside-amazon-connect-talent-the-science-of-structured-ai-interviews/</ReferenceURL>
-    <SummaryPayload>For organizations hiring hundreds or thousands of people, every interview presents the same challenge: How do you give candidates a consistent opportunity to demonstrate their skills while gathering the evidence needed to make informed hiring decisions?&amp;nbsp; Structured behavioral interviews offer a</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks</Title>
-    <ExtractedTags>Advanced (300), Amazon Bedrock AgentCore, Announcements</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/</ReferenceURL>
-    <SummaryPayload>Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or deny checks at define</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Amazon Polly launches voice cloning: A unique voice for your brand</Title>
-    <ExtractedTags>Amazon Polly, Announcements, Intermediate (200)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/</ReferenceURL>
-    <SummaryPayload>Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach</Title>
-    <ExtractedTags>Amazon Bedrock, Customer Solutions, Expert (400)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/</ReferenceURL>
-    <SummaryPayload>As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your own workloads.</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Machine Learning</Source>
-    <Title>From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League</Title>
-    <ExtractedTags>Amazon Bedrock AgentCore, Amazon SageMaker AI, Customer Solutions, Intermediate (200)</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/</ReferenceURL>
-    <SummaryPayload>Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Bee implemented Zero Operator Access for personal AI on AWS</Title>
-    <ExtractedTags>Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/</ReferenceURL>
-    <SummaryPayload>Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS</Title>
-    <ExtractedTags>Advanced (300), Amazon EC2 Mac Instances, Compute, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/</ReferenceURL>
-    <SummaryPayload>Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and a</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>How Country Road Group built a pattern-driven integration solution on AWS</Title>
-    <ExtractedTags>Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/</ReferenceURL>
-    <SummaryPayload>Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own mid</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>AWS Architecture</Source>
-    <Title>Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda</Title>
-    <ExtractedTags>Advanced (300), AWS Lambda, Customer Solutions</ExtractedTags>
-    <ReferenceURL>https://aws.amazon.com/blogs/architecture/aderant-modernizes-analytics-data-pipeline-with-apache-iceberg-and-aws-lambda/</ReferenceURL>
-    <SummaryPayload>Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven medallion architecture that processes change data capture events in single-digit seconds for 700 tenants, wi</SummaryPayload>
+    <Source>Stack Overflow Blog</Source>
+    <Title>A Reboot Is Still a Deployment</Title>
+    <ExtractedTags>contributed, cc-by-sa, running-software</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/a-reboot-is-still-a-deployment/</ReferenceURL>
+    <SummaryPayload/>
   </TrendItem>
   <TrendItem>
     <Source>Stack Overflow Blog</Source>
@@ -180,7 +124,7 @@
     <Title>Dispatches from O'Reilly: Inside a software factory</Title>
     <ExtractedTags>oreilly, building-software, ai, se-tech, se-stackoverflow</ExtractedTags>
     <ReferenceURL>https://stackoverflow.blog/2026/11/20/dispatches-from-o-reilly-inside-a-software-factory/</ReferenceURL>
-    <SummaryPayload>Go from vibe coding to generating clean, maintainable code</SummaryPayload>
+    <SummaryPayload>Go from vibe coding to generating clean, maintainable code.</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Stack Overflow Blog</Source>
@@ -190,11 +134,119 @@
     <SummaryPayload>Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to meet the unique demands of autonomous agents, and the critical importance of prioritizing functional safety as </SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Stack Overflow Blog</Source>
-    <Title>Chaos, then control: the maturity model most AI rollouts skip over</Title>
-    <ExtractedTags>leaders-of-code, podcast, business, ai, engineering-leadership</ExtractedTags>
-    <ReferenceURL>https://stackoverflow.blog/2026/11/19/chaos-then-control/</ReferenceURL>
-    <SummaryPayload>Every engineering org has rolled out AI coding tools by now, but far fewer have actually seen the outcomes they were hoping for.</SummaryPayload>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI</Title>
+    <ExtractedTags>Data, OpenAI, QCon San Francisco 2026, Spark, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/openai-spark-fleet/en/headerimage/generatedHeaderImage-1795548261270.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, bu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve</Title>
+    <ExtractedTags>AIOps, Cloud Native Computing Foundation, Kubernetes, Docker, Virtual Machines, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/cncf-vm-ai-workloads/en/headerimage/generatedHeaderImage-1794993904528.jpg&quot; /&gt;&lt;p&gt;New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>OpenAI Scales Git for Coding Agents with Pando</Title>
+    <ExtractedTags>OpenAI, Architecture, Distributed Systems, Git, Source Control, Version Control, AI Development, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/openai-git-pando/en/headerimage/openai-pando-header-1795331180238.jpeg&quot; /&gt;&lt;p&gt;OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower medi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Inferencing for Enterprises</Title>
+    <ExtractedTags>Enterprise Architecture, Large language models, Machine Learning, Transcripts, Sovereignty, QCon AI Boston 2026, GPU, Retrieval-Augmented Generation, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/enterprise-ai-inference-architecture-costs/en/mediumimage/dio-rettori-medium-1793800900455.jpeg&quot; /&gt;&lt;p&gt;Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports</Title>
+    <ExtractedTags>Large language models, Agentic AI Architecture, InfoQ Certification Program, Architecture, Fintech, AI Engineering Certification, AI, ML &amp; Data Engineering, Architecture &amp; Design, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/llm-agent-architecture-evals-grounding/en/headerimage/llm-agent-architecture-evals-grounding-header-1795173682566.jpg&quot; /&gt;&lt;p&gt;Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint show</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI</Title>
+    <ExtractedTags>Software Development Lifecycle, Code Reviews, OpenAI, QCon San Francisco 2026, Web Development, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/qcon-sf-openai-lessons/en/headerimage/generatedHeaderImage-1795453078651.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandbox</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Securing AI Agents in Production</Title>
+    <ExtractedTags>Agents, QCon San Francisco 2026, Eclipse, Digital Identity, AI Security, AI, ML &amp; Data Engineering, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/qcon-ai-agent-security/en/headerimage/header-1795213847070.jpeg&quot; /&gt;&lt;p&gt;At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for run</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures</Title>
+    <ExtractedTags>Swift, SwiftUI, Mobile, GUI, Runtime Analytics, iOS, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/en/headerimage/linkedin-view-agnostic-analytics-1795455502517.jpeg&quot; /&gt;&lt;p&gt;To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28</Title>
+    <ExtractedTags>GarbageCollection, Java, JDK 28, ZGC, JEP, DevOps, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/jep-545-jdk-28/en/headerimage/generatedHeaderImage-1795265408975.jpg&quot; /&gt;&lt;p&gt;JEP 545, Faster Startup and Warmup with ZGC, has been integrated into JDK 28, moving heap memory preparation onto concurrent worker threads. ZGC now pre-touches memory as it expand</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j</Title>
+    <ExtractedTags>Open JDK, Helidon, Hibernate Reactive, Java, Java Operator SDK, JDK 28, Micrometer, LangChain4j, Azul Payara, BellSoft, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/java-news-roundup-nov16-2026/en/headerimage/java-news-roundup-image-1795447387323.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; t</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents</Title>
+    <ExtractedTags>QCon San Francisco 2026, AI coding agents, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/en/headerimage/netflix-header-1200x630-1795359626158.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Agoda Reduces API Code Review Time by 64% with Modular Architecture</Title>
+    <ExtractedTags>Spring, Spring Modulith, Event Driven Architecture, payment, AI Assisted Coding, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/agoda-modular-monolith-framework/en/headerimage/generatedHeaderImage-1793569078425.jpg&quot; /&gt;&lt;p&gt;Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper </SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript</Title>
+    <ExtractedTags>Large language models, Claude, Anthropic, Software Development, Artificial Intelligence, JavaScript, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/claude-code-mode/en/headerimage/generatedHeaderImage-1795090945761.jpg&quot; /&gt;&lt;p&gt;Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks re</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Podcast: Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu</Title>
+    <ExtractedTags>The InfoQ Podcast, Simulation, Software Testing, Software Development, Architecture, Architecture &amp; Design, podcast</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/podcasts/simulation-agents-actually-doing/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/simulation-agents-actually-doing/en/smallimage/infoq-podcast-500-1794910149760.jpg&quot; /&gt;&lt;p&gt;Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior respo</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: The Harness Is the New Operating System</Title>
+    <ExtractedTags>Agents, QCon San Francisco 2026, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/harness-new-operating-system/en/headerimage/harness-header-1200x630-1795301479582.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model its</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Kubernetes Blog</Source>
+    <Title>Kubernetes v1.38 Sneak Peek</Title>
+    <ExtractedTags>General Tech</ExtractedTags>
+    <ReferenceURL>https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;As we get closer to the release date for Kubernetes v1.38, the project develops and matures,
+features may be deprecated, removed, or replaced with better ones for the project's overall health.
+This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the
+release te</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Martin Fowler</Source>
@@ -207,14 +259,28 @@
   &lt;p&gt;Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), th</SummaryPayload>
   </TrendItem>
   <TrendItem>
-    <Source>Kubernetes Blog</Source>
-    <Title>Kubernetes v1.38 Sneak Peek</Title>
-    <ExtractedTags>General Tech</ExtractedTags>
-    <ReferenceURL>https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;As we get closer to the release date for Kubernetes v1.38, the project develops and matures,
-features may be deprecated, removed, or replaced with better ones for the project's overall health.
-This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the
-release te</SummaryPayload>
+    <Source>Towards Data Science</Source>
+    <Title>I Built a Bayesian Neural Network From One Neuron and Football Shots</Title>
+    <ExtractedTags>Machine Learning, Bayesian, Bayesian Neural Network, Neural Networks, Football Analytics, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Gaussian weights, the reparameterisation trick, and Monte Carlo sampling turn a single sigmoid neuron into a Bayesian expected-goals model on StatsBomb data.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/&quot;&gt;I Built a Ba</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Plan Retries for Multi-Agent Workflows Before You Write Code</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Software Architecture, Multi-Agent Systems, Python, Error Handling</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A Mermaid blueprint, Python dataclasses, and a retryable flag decide when a failed agent tries again and when the task goes to a person.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/&quot;&gt;How to Plan Retries for Multi-Agen</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Calculate and Operationalize Customer Lifetime Value</Title>
+    <ExtractedTags>Data Science, Customer Lifetime Value, Data Analysis, Kpi, Editor's Picks, Business</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;For analysts and commercial leaders: how cohort churn, BTYD models, and behavioral segments turn CLV from a board-deck KPI into daily decisions.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/&quot;&gt;How to Calculate and Operationaliz</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>Towards Data Science</Source>
@@ -303,143 +369,6 @@ release te</SummaryPayload>
     <ReferenceURL>https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/</ReferenceURL>
     <SummaryPayload>&lt;p&gt;AI Agents for Beginners, Part three: strict Pydantic arguments, a tool allowlist, read-only SQLite, a step cap, and confirmed writes, all verified by five pytest tests in 0.68s.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/&quot;&gt;Five</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>The 0.95 Expectile Is Not the 95th Percentile</Title>
-    <ExtractedTags>Statistics, Decision Theory, Python, Forecasting, Data Science, Probability</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Exact uniform math and 100 synthetic Python runs show when to target 95% coverage and when asymmetric squared-error costs call for the expectile.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/&quot;&gt;The 0.95 Expectile Is Not the 95th Percentile&lt;/a</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>How to Run Claude Code and Other Coding Agents in the Cloud 24/7</Title>
-    <ExtractedTags>LLM Applications, Coding agent, LLM Agents, Cloud, Claude Code, AI coding assistants</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/&quot;&gt;How to Run Claude Code and Other Coding Agents in the Cloud 24/7&lt;/a&gt;</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>How to Oversee AI Agents at Scale With a Three-Tier Architecture</Title>
-    <ExtractedTags>Agentic AI, agent observability, Agent Architecture, Editor's Picks, AI Evaluation, AI Agents</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Separate runtime oversight from human review: an autonomous supervisor handles reversible fixes, while humans approve high-impact changes.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/&quot;&gt;How to Oversee AI Agents at Scale W</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>Towards Data Science</Source>
-    <Title>Analytics Engineering's Missing Layer Is Business Communication</Title>
-    <ExtractedTags>Product Management, Business Communication, Change Management, Editor's Picks, Business Analytics, Analytics Engineering</ExtractedTags>
-    <ReferenceURL>https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/</ReferenceURL>
-    <SummaryPayload>&lt;p&gt;Why grains, joins, filters, and tests need business translations, and how a four-step framework keeps stakeholders from misreading metric changes.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/&quot;&gt;Analytics Engineering's Missi</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI</Title>
-    <ExtractedTags>Software Development Lifecycle, Code Reviews, OpenAI, QCon San Francisco 2026, Web Development, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/qcon-sf-openai-lessons/en/headerimage/generatedHeaderImage-1795453078651.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandbox</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>QCon San Francisco 2026: Securing AI Agents in Production</Title>
-    <ExtractedTags>Agents, QCon San Francisco 2026, Eclipse, Digital Identity, AI Security, AI, ML &amp; Data Engineering, DevOps, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/qcon-ai-agent-security/en/headerimage/header-1795213847070.jpeg&quot; /&gt;&lt;p&gt;At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for run</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures</Title>
-    <ExtractedTags>Swift, SwiftUI, Mobile, GUI, Runtime Analytics, iOS, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/en/headerimage/linkedin-view-agnostic-analytics-1795455502517.jpeg&quot; /&gt;&lt;p&gt;To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28</Title>
-    <ExtractedTags>GarbageCollection, Java, JDK 28, ZGC, JEP, DevOps, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/jep-545-jdk-28/en/headerimage/generatedHeaderImage-1795265408975.jpg&quot; /&gt;&lt;p&gt;JEP 545, Faster Startup and Warmup with ZGC, has been integrated into JDK 28, moving heap memory preparation onto concurrent worker threads. ZGC now pre-touches memory as it expand</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j</Title>
-    <ExtractedTags>Open JDK, Helidon, Hibernate Reactive, Java, Java Operator SDK, JDK 28, Micrometer, LangChain4j, Azul Payara, BellSoft, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/java-news-roundup-nov16-2026/en/headerimage/java-news-roundup-image-1795447387323.jpg&quot; /&gt;&lt;p&gt;This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; t</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents</Title>
-    <ExtractedTags>QCon San Francisco 2026, AI coding agents, AI, ML &amp; Data Engineering, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/en/headerimage/netflix-header-1200x630-1795359626158.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Agoda Reduces API Code Review Time by 64% with Modular Architecture</Title>
-    <ExtractedTags>Spring, Spring Modulith, Event Driven Architecture, AI Assisted Coding, payment, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/agoda-modular-monolith-framework/en/headerimage/generatedHeaderImage-1793569078425.jpg&quot; /&gt;&lt;p&gt;Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper </SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript</Title>
-    <ExtractedTags>Large language models, Claude, Anthropic, Artificial Intelligence, Software Development, JavaScript, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/claude-code-mode/en/headerimage/generatedHeaderImage-1795090945761.jpg&quot; /&gt;&lt;p&gt;Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks re</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Podcast: Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu</Title>
-    <ExtractedTags>The InfoQ Podcast, Simulation, Software Testing, Architecture, Software Development, Architecture &amp; Design, podcast</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/podcasts/simulation-agents-actually-doing/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/podcasts/simulation-agents-actually-doing/en/smallimage/infoq-podcast-500-1794910149760.jpg&quot; /&gt;&lt;p&gt;Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior respo</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>QCon San Francisco 2026: The Harness Is the New Operating System</Title>
-    <ExtractedTags>Agents, QCon San Francisco 2026, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/harness-new-operating-system/en/headerimage/harness-header-1200x630-1795301479582.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model its</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls</Title>
-    <ExtractedTags>Postgres, Database, AI, ML &amp; Data Engineering, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/postgresql-19-released/en/headerimage/generatedHeaderImage-1795349035334.jpg&quot; /&gt;&lt;p&gt;The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The r</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Claude Code Has Been Leaking Secrets through its &quot;Don't Ask Again&quot; Feature</Title>
-    <ExtractedTags>Cloud Security, git, Claude, github, AI Security, AI coding agents, AI, ML &amp; Data Engineering, DevOps, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/claude-code-leaking-secrets/en/headerimage/linux-6-12-real-time-1795344939763.jpeg&quot; /&gt;&lt;p&gt;Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines t</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Google Announces Agent Compute Engine for Secure AI Agent Execution</Title>
-    <ExtractedTags>Agentic AI Architecture, Agents, Kubernetes, Google Cloud, Google, Cloud, AI Security, AI, ML &amp; Data Engineering, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg&quot; /&gt;&lt;p&gt;Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execu</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU</Title>
-    <ExtractedTags>Amazon Web Services, EC2, Serverless, AWS, Cloud, GPU, AWS Lambda, DevOps, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg&quot; /&gt;&lt;p&gt;AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU</SummaryPayload>
-  </TrendItem>
-  <TrendItem>
-    <Source>InfoQ</Source>
-    <Title>Grafana 13.3 Adds Shared Dashboard Variables and Notebooks</Title>
-    <ExtractedTags>Observability, Monitoring Tools, Monitoring, DevOps, Development, news</ExtractedTags>
-    <ReferenceURL>https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
-    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grafana-13-3-shared-variables/en/headerimage/header-1795209346746.jpeg&quot; /&gt;&lt;p&gt;Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-m</SummaryPayload>
   </TrendItem>
   <TrendItem>
     <Source>New Relic Blog</Source>

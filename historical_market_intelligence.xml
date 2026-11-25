@@ -176207,4 +176207,84 @@ release te</SummaryPayload>
     <ReferenceURL>https://newrelic.com/blog/observability/govern-observability-spend</ReferenceURL>
     <SummaryPayload>Spend is rising and that’s fine if you can see it coming. Learn the four stages of governing New Relic usage: Set Up, Control, Track, and Optimize.</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Idempotency when you don't control the other end</Title>
+    <ExtractedTags>cc-by-sa, contributed, api, building-software</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/idempotency-when-you-don-t-control-the-other-end/</ReferenceURL>
+    <SummaryPayload/>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>Prompt Injection Fixes Need Regression Tests</Title>
+    <ExtractedTags>cc-by-sa, contributed, ai, security</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/</ReferenceURL>
+    <SummaryPayload/>
+  </TrendItem>
+  <TrendItem>
+    <Source>Stack Overflow Blog</Source>
+    <Title>A Reboot Is Still a Deployment</Title>
+    <ExtractedTags>contributed, cc-by-sa, running-software</ExtractedTags>
+    <ReferenceURL>https://stackoverflow.blog/2026/11/24/a-reboot-is-still-a-deployment/</ReferenceURL>
+    <SummaryPayload/>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI</Title>
+    <ExtractedTags>Data, OpenAI, QCon San Francisco 2026, Spark, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/openai-spark-fleet/en/headerimage/generatedHeaderImage-1795548261270.jpg&quot; /&gt;&lt;p&gt;At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, bu</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve</Title>
+    <ExtractedTags>AIOps, Cloud Native Computing Foundation, Kubernetes, Docker, Virtual Machines, AI, ML &amp; Data Engineering, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/cncf-vm-ai-workloads/en/headerimage/generatedHeaderImage-1794993904528.jpg&quot; /&gt;&lt;p&gt;New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>OpenAI Scales Git for Coding Agents with Pando</Title>
+    <ExtractedTags>OpenAI, Architecture, Distributed Systems, Git, Source Control, Version Control, AI Development, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/openai-git-pando/en/headerimage/openai-pando-header-1795331180238.jpeg&quot; /&gt;&lt;p&gt;OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower medi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: Inferencing for Enterprises</Title>
+    <ExtractedTags>Enterprise Architecture, Large language models, Machine Learning, Transcripts, Sovereignty, QCon AI Boston 2026, GPU, Retrieval-Augmented Generation, AI, ML &amp; Data Engineering, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/enterprise-ai-inference-architecture-costs/en/mediumimage/dio-rettori-medium-1793800900455.jpeg&quot; /&gt;&lt;p&gt;Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedi</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports</Title>
+    <ExtractedTags>Large language models, Agentic AI Architecture, InfoQ Certification Program, Architecture, Fintech, AI Engineering Certification, AI, ML &amp; Data Engineering, Architecture &amp; Design, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/llm-agent-architecture-evals-grounding/en/headerimage/llm-agent-architecture-evals-grounding-header-1795173682566.jpg&quot; /&gt;&lt;p&gt;Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint show</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>I Built a Bayesian Neural Network From One Neuron and Football Shots</Title>
+    <ExtractedTags>Machine Learning, Bayesian, Bayesian Neural Network, Neural Networks, Football Analytics, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Gaussian weights, the reparameterisation trick, and Monte Carlo sampling turn a single sigmoid neuron into a Bayesian expected-goals model on StatsBomb data.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/&quot;&gt;I Built a Ba</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Plan Retries for Multi-Agent Workflows Before You Write Code</Title>
+    <ExtractedTags>Agentic AI, AI Agents, Software Architecture, Multi-Agent Systems, Python, Error Handling</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;A Mermaid blueprint, Python dataclasses, and a retryable flag decide when a failed agent tries again and when the task goes to a person.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/&quot;&gt;How to Plan Retries for Multi-Agen</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>How to Calculate and Operationalize Customer Lifetime Value</Title>
+    <ExtractedTags>Data Science, Customer Lifetime Value, Data Analysis, Kpi, Editor's Picks, Business</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;For analysts and commercial leaders: how cohort churn, BTYD models, and behavioral segments turn CLV from a board-deck KPI into daily decisions.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/&quot;&gt;How to Calculate and Operationaliz</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
