@@ -183946,4 +183946,76 @@ Abstract: Robot policies act in real time but fail without knowing why, whereas 
     <SummaryPayload>arXiv:2611.30209v2 Announce Type: replace-cross 
 Abstract: Pretrained robot policies decide what to do from camera images, yet some of the physics that decides whether their plans succeed is not visible. An object may look light but be 100 times heavier, and a weakened joint or a lagging controller</SummaryPayload>
   </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight</Title>
+    <ExtractedTags>PyTorch, AI Coding, Code Reviews, Open Source, Artificial Intelligence, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/uber-agent-spend-steady/en/headerimage/radar-header-1200x630-1795391031838.jpg&quot; /&gt;&lt;p&gt;PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk dif</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Netflix Builds Quasar to Measure the Blast Radius of Library API Changes</Title>
+    <ExtractedTags>API, Software Engineering, Dependency Management, Continuous Integration, Code Contracts, Netflix, Static Analysis, Model Context Protocol (MCP), S3, AI coding agents, Maintenance, Semantic Versioning, Development, Architecture &amp; Design, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API reference</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Grafana Begins Its Biggest UI Refresh Since Version 7</Title>
+    <ExtractedTags>Observability, Grafana, DevOps, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/grfana-ui-refresh/en/headerimage/generatedHeaderImage-1795008225435.jpg&quot; /&gt;&lt;p&gt;Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hie</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems</Title>
+    <ExtractedTags>Transcripts, Architecture, Distributed Systems, API, QCon London 2026, Low Latency, Observability, Performance, Microservices, Metrics, Caching, Development, Architecture &amp; Design, presentation</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/presentations/sub-100ms-latency-distributed-systems/en/mediumimage/saranya-vedagiri-medium-1793800504577.jpeg&quot; /&gt;&lt;p&gt;Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-ho</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Article: Engineering Reliable Telematics from Smartphone Sensors</Title>
+    <ExtractedTags>Edge Computing, Sensors, Mobile, Mobile Development, autonomous vehicles, Development, Architecture &amp; Design, article</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/en/headerimage/engineering-reliable-smartphone-sensor-telematics-header-1795176941366.jpg&quot; /&gt;&lt;p&gt;Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectiv</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>InfoQ</Source>
+    <Title>Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window</Title>
+    <ExtractedTags>Firefox, AI Harness, Web Development, Web Browser, Development, AI, ML &amp; Data Engineering, news</ExtractedTags>
+    <ReferenceURL>https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</ReferenceURL>
+    <SummaryPayload>&lt;img src=&quot;https://res.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/en/headerimage/generatedHeaderImage-1795716059601.jpg&quot; /&gt;&lt;p&gt;Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for us</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache.</Title>
+    <ExtractedTags>Large Language Models, Editor's Picks, Speculative Decoding, LLM Inference, Agentic Ai, Benchmarking</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/speculative-decoding-makes-tool-calls-faster-agents-need-a-cache/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;Benchmarks with Qwen3 and Llama on llama.cpp show a draft model sped up code, JSON, and tool calls up to 1.7x, while uncached agent loops ran 6% slower.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/speculative-decoding-makes-tool-calls-faster-agents-need-a-cache/&quot;&gt;Speculative Decoding</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>Towards Data Science</Source>
+    <Title>Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover</Title>
+    <ExtractedTags>Agentic AI, Ai Engineering, AI Agents, mcp, Tool Calling, Editor's Picks</ExtractedTags>
+    <ReferenceURL>https://towardsdatascience.com/code-mode-vs-tool-calling-benchmarks-find-a-16-tool-crossover/</ReferenceURL>
+    <SummaryPayload>&lt;p&gt;For agent builders with many MCP integrations, Code Mode was 120x cheaper and 18x faster on 100-item fan-outs but less reliable on single lookups.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://towardsdatascience.com/code-mode-vs-tool-calling-benchmarks-find-a-16-tool-crossover/&quot;&gt;Code Mode vs. Tool Calling Ben</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>Kubernetes Cost Optimization: Strategies and Tools to Cut Cloud Spend</Title>
+    <ExtractedTags>Kubernetes Monitoring, Cloud Optimizations</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/kubernetes-cost-optimization</ReferenceURL>
+    <SummaryPayload>Practical Kubernetes cost optimization strategies, including rightsizing and autoscaling, plus how to connect spend to the workloads actually driving it.</SummaryPayload>
+  </TrendItem>
+  <TrendItem>
+    <Source>New Relic Blog</Source>
+    <Title>What Is Cloud Cost Optimization? Strategies, Best Practices &amp; Tools</Title>
+    <ExtractedTags>Cloud Optimizations, DevOps</ExtractedTags>
+    <ReferenceURL>https://newrelic.com/blog/infrastructure-monitoring/what-is-cloud-cost-optimization</ReferenceURL>
+    <SummaryPayload>Cloud cost optimization is the practice of reducing cloud spend without sacrificing performance. Learn the key strategies, common pitfalls, and how observability makes optimization continuous — not a one-time fix.</SummaryPayload>
+  </TrendItem>
 </MarketIngestion>
